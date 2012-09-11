@@ -5,7 +5,7 @@ Localizations for BuildCraft
 
 ### en_US
 
-The en_US localization is not part of this repositories but instead part of the main code. Do not add a en_US.properties file.
+The en_US localization is not part of this repository but instead part of the main code. Do not add a en_US.properties file.
 
 ### Encoding
 
