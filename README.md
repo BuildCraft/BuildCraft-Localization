@@ -14,3 +14,7 @@ Files must be encoded in ISO 8859-1. UTF-8 will not work. Pull requests, submiss
 ### License
 
 The BuildCraft license applies.
+
+### Issues
+
+Errors in translation that you are somehow unable to make a pull request for, can be filed here. Missing localization support or code issues that affect localization should be filed in the main BuildCraft repository.
