@@ -1,0 +1,86 @@
+# et_EE
+# Translated by tambre
+# Contributions by krisavi, kajar9 
+# this translation is very old, please update !
+
+gui.building.resources=Ehitamis Ressursid
+gui.del=Del
+gui.filling.resources=Täitmis Ressursid
+gui.inventory=Seljakott
+gui.lock=Lukusta
+gui.needed=Vajatud
+gui.unlock=Ava Lukk
+gui.energy=Energia
+gui.currentOutput=Hetke Väljaminek
+gui.stored=Ladustatud
+gui.heat=Kuumus
+gui.assemblyRate=Energia Tase
+gui.assemblyCurrentRequired=Energia Vajalik
+gui.clickcraft=-Klikka valmistamiseks-
+
+item.bucketFuel.name=Kütuse Ämber
+item.bucketOil.name=Õli Ämber
+item.woodenGearItem.name=Puit Hammasratas
+item.stoneGearItem.name=Kivi Hammasratas
+item.ironGearItem.name=Raud Hammasratas
+item.goldGearItem.name=Kuld Hammasratas
+item.diamondGearItem.name=Teemant Hammasratas
+item.templateItem.name=Mustand
+item.wrenchItem.name=Mutrivõti
+item.pipeWaterproof.name=Toru Veekindel
+item.redPipeWire.name=Punane Toru Juhe
+item.bluePipeWire.name=Sinine Toru Juhe
+item.greenPipeWire.name=Roheline Toru Juhe
+item.yellowPipeWire.name=Kollane Toru Juhe
+item.blueprintItem.name=Kavand
+item.PipeItemsWood.name=Puidust Transpordi Toru
+item.PipeItemsCobblestone.name=Munakivist Transpordi Toru
+item.PipeItemsStone=Kivist Transpordi Toru
+item.PipeItemsIron.name=Rauast Transpordi Toru
+item.PipeItemsGold.name=Kullast Transpordi Toru
+item.PipeItemsDiamond.name=Teemantist Transpordi Toru
+item.PipeItemsObsidian.name=Obsidiaanist Transpordi Toru
+item.PipeItemsEmerald.name=Smaragdist Transpordi Toru
+item.PipeFluidsWood.name=Puidust Veekindel Toru
+item.PipeFluidsCobblestone.name=Munakivist Veekindel Toru
+item.PipeFluidsStone.name=Kivist Veekindel Toru
+item.PipeFluidsIron.name=Rauast Veekindel Toru
+item.PipeFluidsGold.name=Kullast Veekindel Toru
+item.PipeFluidsEmerald.name=Smaragdist Veekindel Toru
+item.PipePowerWood.name=Puidust Juhtiv Toru
+item.PipePowerStone.name=Kivist Juhtiv Toru
+item.PipePowerGold.name=Kullast Juhtiv Toru
+item.PipeItemsStripes.name=Triipudega Transpordi Toru
+item.PipeStructureCobblestone.name=Munakivi Struktuuri Toru
+item.PipeItemsVoid.name=Tühi Transpordi Toru
+item.PipeFluidsVoid.name=Tühi Veekindel Toru
+item.PipeItemsSandstone.name=Liivakivi Transpordi Toru
+item.PipeFluidsSandstone.name=Liivakivi Veekindel Toru
+item.Facade.name=Fassaad
+item.PipePlug.name=Toru Kork
+
+tile.architectBlock.name=Arhitekti Laud
+tile.assemblyTableBlock.name=Kokkupaneku Laud
+tile.assemblyWorkbenchBlock.name=Arendatud Kokkupaneku Laud
+tile.autoWorkbenchBlock.name=Automaatne Tööpink
+tile.blockFuel.name=Kütus
+tile.blockHopper.name=Lehter
+tile.blockOil.name=Õli
+tile.builderBlock.name=Ehitaja
+tile.engineIron.name=Sisepõlemis Mootor
+tile.engineStone.name=Aurumootor
+tile.engineWood.name=Punakivi Mootor
+tile.fillerBlock.name=Täitja
+tile.frameBlock.name=Raam
+tile.laserBlock.name=Laser
+tile.libraryBlock.name=Plaanide Raamatukogu
+tile.machineBlock.name=Kaevandus
+tile.markerBlock.name=Maamärk
+tile.miningWellBlock.name=Kaevandamis Kaev
+tile.pathMarkerBlock.name=Teetähis
+tile.plainPipeBlock.name=Kaevandamis Toru
+tile.pumpBlock.name=Pump
+tile.refineryBlock.name=Rafineerimistehas
+tile.spring.oil.name=Kütuse Allikas
+tile.spring.water.name=Vee Allikas
+tile.tankBlock.name=Paak

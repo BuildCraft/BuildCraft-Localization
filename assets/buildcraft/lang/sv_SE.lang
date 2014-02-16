@@ -1,0 +1,91 @@
+# sv_SE
+# Initially translated by Landrash
+# Fixes and updates by Hugsim
+# Fix by Maxnordlund
+# this translation is very old, contributor, please update !
+
+gui.building.resources=Byggmaterial 
+gui.del=Radera
+gui.filling.resources=Fyllningsmaterial 
+gui.inventory=Inventarie
+gui.lock=L\u00e5s
+gui.needed=Beh\u00f6vd
+gui.unlock=L\u00e5s upp
+gui.energy=Energi
+gui.currentOutput=Nuvarande utmatning
+gui.stored=Lagrad
+gui.heat=V\u00e4rme
+gui.assemblyRate=Energitakt
+gui.assemblyCurrentRequired=Energi som beh\u00f6s
+gui.clickcraft=-=Klicka f\u00f6 att skapa=-
+
+item.bucketFuel.name=Br\u00e4nslehink
+item.bucketOil.name=Oljehink
+item.woodenGearItem.name=Tr\u00e4kugghjul
+item.stoneGearItem.name=Stenkugghjul
+item.ironGearItem.name=J\u00e4rnkugghjul 
+item.goldGearItem.name=Guldkugghjul 
+item.diamondGearItem.name=Diamantkugghjul
+item.templateItem.name=Mall
+item.wrenchItem.name=Skiftnyckel
+item.pipeWaterproof.name=Vattenr\u00f6rst\u00e4tning
+item.redPipeWire.name=R\u00f6d R\u00f6rledning
+item.bluePipeWire.name=Bl\u00e5 R\u00f6rledning
+item.greenPipeWire.name=Gr\u00f6n R\u00f6rledning
+item.yellowPipeWire.name=Gul R\u00f6rledning
+item.blueprintItem.name=Ritning
+item.PipeItemsWood.name=Tr\u00e4transportr\u00f6r
+item.PipeItemsCobblestone.name=Kullerstenstransportr\u00f6r
+item.PipeItemsStone.name=Stentransportr\u00f6r
+item.pipeItemsQuartz.name=Kvartstransportr\u00f6r
+item.PipeItemsIron.name=J\u00e4rntransport\u00f6r
+item.PipeItemsGold.name=Guldtransportr\u00f6r
+item.PipeItemsDiamond.name=Diamanttransportr\u00f6r
+item.PipeItemsObsidian.name=Obsidiantransportr\u00f6r
+item.PipeItemsEmerald.name=Smaragdtransportr\u00f6r
+item.PipeFluidsWood.name=Vattent\u00e4tt Tr\u00e4r\u00f6r
+item.PipeFluidsCobblestone.name=Vattent\u00e4tt Kullerstensr\u00f6r
+item.PipeFluidsStone.name=Vattent\u00e4tt Stenr\u00f6r
+item.PipeFluidsIron.name=Vattent\u00e4tt J\u00e4rnr\u00f6r
+item.PipeFluidsGold.name=Vattent\u00e4tt Guldr\u00f6r
+item.PipeFluidsEmerald.name=Vattent\u00e4tt Smaragdr\u00f6r
+item.PipePowerWood.name=Konduktivt Tr\u00e4r\u00f6r
+item.PipePowerCobblestone.name=Konduktivt Kullerstensr\u00f6r
+item.PipePowerStone.name=Konduktivt Stenr\u00f6r
+item.PipePowerQuartz.name=Konduktivt Kvartsr\u00f6r
+item.PipePowerGold.name=Konduktivt Guldr\u00f6r
+item.PipePowerDiamond.name=Konduktivt Diamantr\u00f6r
+item.PipeItemsStripes.name=Randigt Transportr\u00f6r
+item.PipeStructureCobblestone.name=Kullerstensstrukturr\u00f6r
+item.PipeItemsVoid.name=Annulleringstransportr\u00f6r
+item.PipeFluidsVoid.name=Vattent\u00e4tt Annulleringstransportr\u00f6r
+item.PipeItemsSandstone.name=Sandstenstransportr\u00f6r
+item.PipeFluidsSandstone.name=Vattent\u00e4tt Sandstensr\u00f6r
+item.Facade.name=Fasad
+item.PipePlug.name=R\u00f6r Plugg
+
+tile.architectBlock.name=Arkitektbord
+tile.assemblyTableBlock.name=Monteringsb\u00e4nk
+tile.assemblyWorkbenchBlock.name=Avancerad Arbetsb\u00e4nk
+tile.autoWorkbenchBlock.name=Automatisk Arbetsb\u00e4nk
+tile.blockFuel.name=Br\u00e4nsle
+tile.blockHopper.name=R\u00e4nna
+tile.blockOil.name=Olja
+tile.builderBlock.name=Byggare
+tile.engineIron.name=F\u00f6rbr\u00e4nningsmotor
+tile.engineStone.name=Stirlingmotor
+tile.engineWood.name=R\u00f6dstensmotor
+tile.fillerBlock.name=Fyllare
+tile.frameBlock.name=Ram
+tile.laserBlock.name=Laser
+tile.libraryBlock.name=Ritningsbibliotek
+tile.machineBlock.name=Stenbrott
+tile.markerBlock.name=Landm\u00e4rke
+tile.miningWellBlock.name=Gruvborr 
+tile.pathMarkerBlock.name=V\u00e4gmark\u00f6r
+tile.plainPipeBlock.name=Gruvr\u00f6r
+tile.pumpBlock.name=Pump
+tile.refineryBlock.name=Raffinaderi
+tile.spring.oil.name=Oljek\u00e4lla
+tile.spring.water.name=Vattenk\u00e4lla
+tile.tankBlock.name=Tank

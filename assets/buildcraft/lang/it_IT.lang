@@ -1,0 +1,91 @@
+# it_IT
+# Basic translation by tambry 
+# Everything else by pazzoeo (including corrections)
+# Some corrections by LandKingdom
+# this translation is very old, please update !
+
+gui.building.resources=Materiali da costruzione
+gui.del=Canc.
+gui.filling.resources=Materiali per riempire
+gui.inventory=Inventario
+gui.lock=Blocca
+gui.needed=Necessari
+gui.unlock=Sblocca
+gui.energy=Energia
+gui.currentOutput=Output attuale
+gui.stored=Immagazzinato
+gui.heat=Calore
+gui.assemblyRate=Frequenza di energia
+gui.assemblyCurrentRequired=Energia richiesta
+gui.clickcraft=-Clicca per fabbricare-
+
+item.bucketFuel.name=Secchio di carburante
+item.bucketOil.name=Secchio di petrolio
+item.woodenGearItem.name=Ingranaggio di legno
+item.stoneGearItem.name=Ingranaggio di pietra
+item.ironGearItem.name=Ingranaggio di ferro
+item.goldGearItem.name=Ingranaggio d'oro
+item.diamondGearItem.name=Ingranaggio di diamante
+item.templateItem.name=Progetto
+item.wrenchItem.name=Chiave inglese
+item.pipeWaterproof.name=Modifica per liquidi
+item.redPipeWire.name=Filo rosso per tubi
+item.bluePipeWire.name=Filo blu per tubi
+item.greenPipeWire.name=Filo verde per tubi
+item.yellowPipeWire.name=Filo giallo per tubi
+item.blueprintItem.name=Progetto blu
+item.PipeItemsWood.name=Tubo di legno per oggetti
+item.PipeItemsCobblestone.name=Tubo di pietrisco per oggetti
+item.PipeItemsStone.name=Tubo di pietra per oggetti
+item.PipeItemsQuartz.name=Tubo di quarzo per oggetti
+item.PipeItemsIron.name=Tubo di ferro per oggetti
+item.PipeItemsGold.name=Tubo d'oro per oggetti
+item.PipeItemsDiamond.name=Tubo di diamanti per oggetti
+item.PipeItemsObsidian.name=Tubo d'ossidiana per oggetti
+item.PipeItemsEmerald.name=Tubo di smeraldo per oggetti
+item.PipeFluidsWood.name=Tubo di legno per liquidi
+item.PipeFluidsCobblestone.name=Tubo di pietrisco per liquidi
+item.PipeFluidsStone.name=Tubo di roccia per liquidi
+item.PipeFluidsIron.name=Tubo di ferro per liquidi
+item.PipeFluidsGold.name=Tubo d'oro per liquidi
+item.PipeFluidsEmerald.name=Tubo di smeraldo per liquidi
+item.PipePowerWood.name=Tubo di legno conduttore
+item.PipePowerCobblestone.name=Tubo di pietrisco conduttore
+item.PipePowerStone.name=Tubo di pietra conduttore
+item.PipePowerQuartz.name=Tubo di quarzo conduttore
+item.PipePowerGold.name=Tubo d'oro conduttore
+item.PipePowerDiamond.name=Tubo di diamante conduttore
+item.PipeItemsStripes.name=Tubo striato
+item.PipeStructureCobblestone.name=Impalcatura di pietrisco
+item.PipeItemsVoid.name=Tubo del nulla per oggetti
+item.PipeFluidsVoid.name=Tubo del nulla per liquidi
+item.PipeItemsSandstone.name=Tubo di arenaria per oggetti
+item.PipeFluidsSandstone.name=Tubo di arenaria per liquidi
+item.Facade.name=Facciata
+item.PipePlug.name=Tappo per tubi
+
+tile.architectBlock.name=Tavolo dell'architetto
+tile.assemblyTableBlock.name=Tavolo per l'assemblazione laser
+tile.assemblyWorkbenchBlock.name=Banco da lavoro automatico laser
+tile.autoWorkbenchBlock.name=Banco da lavoro automatico
+tile.blockFuel.name=Carburante
+tile.blockHopper.name=Canale di scarico
+tile.blockOil.name=Petrolio
+tile.builderBlock.name=Costruttore
+tile.engineIron.name=Motore a carburante
+tile.engineStone.name=Motore a vapore
+tile.engineWood.name=Motore a pietrarossa
+tile.fillerBlock.name=Riempitore
+tile.frameBlock.name=Tubo di cornice
+tile.laserBlock.name=Laser
+tile.libraryBlock.name=Libreria di progetti
+tile.machineBlock.name=Scavatrice
+tile.markerBlock.name=Delimitatore dell'area di lavoro
+tile.miningWellBlock.name=Scavatrice verticale
+tile.pathMarkerBlock.name=Delimitatore del percorso
+tile.plainPipeBlock.name=Tubo di scavatrice
+tile.pumpBlock.name=Pompa
+tile.refineryBlock.name=Raffinatore
+tile.spring.oil.name=Sorgente di petrolio
+tile.spring.water.name=Sorgente d'acqua
+tile.tankBlock.name=Tanica
