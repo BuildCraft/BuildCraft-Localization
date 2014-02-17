@@ -1,0 +1,24 @@
+# pt_BR
+# Translated by: Cassiobsk8
+# this translation is very old, contributor, please update !
+
+# language.parent=pt_PT 
+# parent language doesn't work with vanilla assets lang system
+
+gui.filling.resources=Recursos de Preenchimento
+gui.currentOutput=Saida Atual
+item.bucketOil=Balde de Petr�leo
+item.redPipeWire=Fio de Tubo Vermelho
+item.bluePipeWire=Fio de Tubo Azul
+item.greenPipeWire=Fio de Tubo Verde
+item.yellowPipeWire=Fio de Tubo Amarelo
+item.blueprintItem=Diagrama
+item.PipeItemsCobblestone=Tubo de Transporte de Pedregulho
+item.PipeFluidsCobblestone=Tubo de Pedregrulho � Prova de �gua
+item.PipeStructureCobblestone=Tubo de Estrutura de Pedregulho
+item.PipeItemsVoid=Tubo de Transporte do Void
+item.PipeFluidsVoid=Tubo do Void � Prova de �gua
+item.Facade=Fachada
+tile.miningWellBlock=Minerador
+tile.fillerBlock=preenchedor 
+tile.frameBlock=Frame
