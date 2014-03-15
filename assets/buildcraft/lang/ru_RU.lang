@@ -22,7 +22,7 @@ chat.pipe.power.iron.mode=Переключено на предел в %d МДж/
 
 # fillerpattern.clear=Очистка
 # fillerpattern.fill=Заполнение
-# fillerpattern.flatten=Flatten
+# fillerpattern.flatten=Выравнивание
 # fillerpattern.horizon=Горизонтально
 # fillerpattern.pyramid=Пирамида
 # fillerpattern.stairs=Лестница
