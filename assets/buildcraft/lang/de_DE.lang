@@ -1,5 +1,4 @@
-# de_DE
-# Translated by SirSengir, Keksynator and Vexatos
+# German lang file, tanslated by SirSengir, Keksynator and Vexatos
 
 chat.pipe.power.iron.mode=Gewechselt zu einem Limit von %d MJ/t
 
@@ -27,6 +26,8 @@ fillerpattern.horizon=Horizont
 fillerpattern.pyramid=Pyramide
 fillerpattern.stairs=Treppe
 fillerpattern.box=Box
+fillerpattern.cylinder=Zylinder
+fillerpattern.frame=Rahmen
 
 fluid.oil=Öl
 fluid.fuel=Benzin
@@ -127,6 +128,9 @@ item.redstone_pulsating_chipset.name=Pulsierender Schaltkreis
 item.redstone_quartz_chipset.name=Quarz-Schaltkreis
 item.redstone_comp_chipset.name=Redstone-Bindungs-Schaltkreis
 item.blueprintItem.name=Erweiterter Bauplan
+item.blueprint.unnamed=<unbenannt>
+item.blueprint.author=von
+item.blueprint.blank=Leer
 item.PipeItemsWood.name=Hölzernes Transportrohr
 item.PipeItemsCobblestone.name=Pflasterstein-Transportrohr
 item.PipeItemsStone.name=Steineres Transportrohr
@@ -161,7 +165,11 @@ item.PipeFluidsSandstone.name=Sandstein-Wasserrohr
 item.Facade.name=Fassade
 item.PipePlug.name=Rohrstöpsel
 
-itemGroup.buildcraft.machines=Buildcraft-Maschinen
+itemGroup.buildcraft.tier_1=Buildcraft-Maschinen Stufe 1
+itemGroup.buildcraft.tier_2=Buildcraft-Maschinen Stufe 2
+itemGroup.buildcraft.tier_3=Buildcraft-Maschinen Stufe 3
+itemGroup.buildcraft.tier_4=Buildcraft-Maschinen Stufe 4
+itemGroup.buildcraft.misc=Buildcraft Unkatergorisierte Maschinen
 itemGroup.buildcraft.facades=Buildcraft-Fassaden
 
 tile.architectBlock.name=Architekturtisch
@@ -225,3 +233,30 @@ tip.PipeItemsWood=Extraktionsrohr
 tip.PipePowerIron=Rohr mit auswählbarem Energielimit
 tip.PipePowerWood=Energie-Eingangsrohr
 tip.PipeStructureCobblestone=Rohr zur Unterstützung
+
+achievement.woodenGearAchievement=Ungehobelt
+achievement.woodenGearAchievement.desc=Fertige ein Holzzahnrad
+achievement.stoneGearAchievement=Hart wie Stein
+achievement.stoneGearAchievement.desc=Verarbeite ein Holzzahnrad in ein Steinzahnrad
+achievement.ironGearAchievement=Ist es rostfrei?
+achievement.ironGearAchievement.desc=Verarbeite ein Steinzahnrad in ein Eisenzahnrad
+achievement.goldGearAchievement=Güldene Technik
+achievement.goldGearAchievement.desc=Verarbeite ein Eisenzahnrad in ein Goldzahnrad
+achievement.diamondGearAchievement=Es glänzt so schön!
+achievement.diamondGearAchievement.desc=Verarbeite ein Goldzahnrad in ein Diamantzahnrad
+achievement.wrenchAchievement=Einfach draufschlagen!
+achievement.wrenchAchievement.desc=Fertige einen Schraubenschlüssel
+achievement.aLotOfCraftingAchievement=Fertigumgsmanie
+achievement.aLotOfCraftingAchievement.desc=Fertige eine Automatische Werkbank
+achievement.straightDownAchievement=Immer nur abwärts
+achievement.straightDownAchievement.desc=Fertige einen Minenbohrer
+achievement.chunkDestroyerAchievement=Zerstörer von Chunks
+achievement.chunkDestroyerAchievement.desc=Fertige einen Steinbruch
+achievement.fasterFillingAchievement=Schnelles Füllen
+achievement.fasterFillingAchievement.desc=Fertige einen Füller
+achievement.timeForSomeLogicAchievement=Wir brauchen mehr Logik
+achievement.timeForSomeLogicAchievement.desc=Fertige eine Montagewerkbank
+achievement.refineAndRedefineAchievement=Raffiniert
+achievement.refineAndRedefineAchievement.desc=Fertige eine Raffinerie
+achievement.tinglyLaserAchievement=Für die Wissenschaft!
+achievement.tinglyLaserAchievement.desc=Fertige einen Laser
