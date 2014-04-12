@@ -1,8 +1,4 @@
-# it_IT
-# Basic translation by tambry 
-# Everything else by pazzoeo (including corrections)
-# Some corrections by LandKingdom
-# Update and vanilla standard by TheVikingWarrior
+# Italian language file, basic translation by tambry, everything else by pazzoeo (including corrections), some corrections by LandKingdom, update and vanilla standard by TheVikingWarrior
 
 chat.pipe.power.iron.mode=Cambiato a un limite di %d MJ/t
 
@@ -30,6 +26,8 @@ fillerpattern.horizon=Orizontale
 fillerpattern.pyramid=Piramide
 fillerpattern.stairs=Scale
 fillerpattern.box=Scatola
+fillerpattern.cylinder=Cilindro
+fillerpattern.frame=Impalcatura
 
 fluid.oil=Petrolio
 fluid.fuel=Carburante
@@ -131,6 +129,9 @@ item.redstone_quartz_chipset.name=Circuito di Quarzo
 item.redstone_comp_chipset.name=Circuito di Pietrarossa Comp
 item.blueprintItem.name=Cianotipo
 item.PipeItemsWood.name=Tubo di Legno per Trasporto
+item.blueprint.unnamed=<senzanome>
+item.blueprint.author=di
+item.blueprint.blank=Vuoto
 item.PipeItemsCobblestone.name=Tubo di Pietrisco per Trasporto
 item.PipeItemsStone.name=Tubo di Pietra per Trasporto
 item.PipeItemsQuartz.name=Tubo di Quarzo per Trasporto
@@ -164,7 +165,11 @@ item.PipeFluidsSandstone.name=Tubo di Arenaria per Fluidi
 item.Facade.name=Facciata
 item.PipePlug.name=Tappo per Tubi
 
-itemGroup.buildcraft.machines=Buildcraft Macchinari
+itemGroup.buildcraft.tier_1=Buildcraft Macchinari di Livello 1
+itemGroup.buildcraft.tier_2=Buildcraft Macchinari di Livello 2
+itemGroup.buildcraft.tier_3=Buildcraft Macchinari di Livello 3
+itemGroup.buildcraft.tier_4=Buildcraft Macchinari di Livello 4
+itemGroup.buildcraft.misc=Buildcraft Macchinari Senza Cattegoria
 itemGroup.buildcraft.facades=Buildcraft Facciate
 
 tile.architectBlock.name=Tavolo dell'Architetto
@@ -228,3 +233,30 @@ tip.PipeItemsEmzuli=Tubo per estrazione controllato da Gate
 tip.PipePowerWood=Input per Energia
 tip.PipePowerIron=Tubo con limite selezionabile
 tip.PipeStructureCobblestone=Tubo per Supporto
+
+achievement.woodenGearAchievement=Un po' grezzo
+achievement.woodenGearAchievement.desc=Crea un ingranaggio di legno
+achievement.stoneGearAchievement=Duro come la pietra
+achievement.stoneGearAchievement.desc=Migliora un ingranaggio di legno ad uno di pietra
+achievement.ironGearAchievement=Ma è restente alla rugine?
+achievement.ironGearAchievement.desc=Migliora un ingranaggio di pietra ad uno di ferro
+achievement.goldGearAchievement=No, non è fatto di miele
+achievement.goldGearAchievement.desc=Migliora un ingranaggio di ferro ad uno d'oro
+achievement.diamondGearAchievement=Brilla!
+achievement.diamondGearAchievement.desc=Migliora un ingranaggio d'oro ad uno di diamante
+achievement.wrenchAchievement=Colpiscilo!
+achievement.wrenchAchievement.desc=Crea una chiave inglese
+achievement.aLotOfCraftingAchievement=Molta fabbricazione automatica
+achievement.aLotOfCraftingAchievement.desc=Crea un banco da lavoro automatico
+achievement.straightDownAchievement=Direttamente giù
+achievement.straightDownAchievement.desc=Crea una scavatrice verticale
+achievement.chunkDestroyerAchievement=Distruttore di chunk
+achievement.chunkDestroyerAchievement.desc=Crea una scavatrice
+achievement.fasterFillingAchievement=Riempindo velocemente
+achievement.fasterFillingAchievement.desc=Crea un riempitore
+achievement.timeForSomeLogicAchievement=Ora di un po' di logica
+achievement.timeForSomeLogicAchievement.desc=Crea un tavolo dell'assemblaggio
+achievement.refineAndRedefineAchievement=Raffina e and ridefinisci
+achievement.refineAndRedefineAchievement.desc=Crea una raffinatore
+achievement.tinglyLaserAchievement=Laser formicolanti
+achievement.tinglyLaserAchievement.desc=Crea un laser
