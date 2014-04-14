@@ -1,29 +1,113 @@
 # nl_NL
 # Translated by Raeon
 # Updated by Obbidobbi and more
-# this translation is very old, contributor, please update !
+# Based on master language file at commit 080b4ba
 
-gate.pipe.empty=Pijp leeg
-gate.pipe.containsEnergy=Bevat energie
-gate.pipe.containsLiquids=Bevat vloeistof
-gate.pipe.containsItems=Bevat voorwerpen
-gate.pipe.requestsEnergy=Energie nodig
-gate.pipe.tooMuchEnergy=Energieoverschot
+chat.pipe.power.iron.mode=Ingesteld op limiet van %d MJ/t
+
+color.black=Zwart
+color.blue=Blauw
+color.brown=Bruin
+color.cyan=Cyaan
+color.gray=Grijs
+color.green=Groen
+color.light.blue=Lichtblauw
+color.light.gray=Lichtgrijs
+color.lime=Lichtgroen
+color.magenta=Magenta
+color.orange=Oranje
+color.pink=Roze
+color.purple=Paars
+color.red=Rood
+color.white=Wit
+color.yellow=Geel
+
+fillerpattern.clear=Leeg
+fillerpattern.fill=Vol
+fillerpattern.flatten=Vlak
+fillerpattern.horizon=Horizon
+fillerpattern.pyramid=Piramide
+fillerpattern.stairs=Trappen
+fillerpattern.box=Doos
+fillerpattern.cylinder=Cilinder
+
+fluid.oil=Olie
+fluid.fuel=Brandstof
+
+gate.action.extraction=%s Extractieinstelling
+gate.action.pipe.item.color=Verf voorwerpen %s
+gate.action.machine.on=Aan
+gate.action.machine.off=Uit
+gate.action.machine.loop=Lus
+gate.action.pulsar.constant=Energiepulsar
+gate.action.pulsar.single=Enkele energiepuls
+gate.action.pipe.wire=%s Pijpkabel
+
+gate.expansion.fader=Redstone fader
+gate.expansion.pulsar=Autarchische pulsar
+gate.expansion.timer=Timer
+
+gate.logic.and=EN
+gate.logic.or=OF
+
+# (Assuming this is only used in the form <MATERIAL> <LOGIC> Gate)
+gate.material.iron=IJzeren
+gate.material.gold=Gouden
+gate.material.diamond=Diamanten
+
+gate.name=%s %s-poort
+gate.name.basic=Basale poort
+
+gate.trigger.engine.blue=Motor op blauw
+gate.trigger.engine.green=Motor op groen
+gate.trigger.engine.yellow=Motor op geel
+gate.trigger.engine.red=Motor op rood
+gate.trigger.fluid.empty=Tank leeg
+gate.trigger.fluid.contains=Vloeistof in tank
+gate.trigger.fluid.space=Ruimte voor vloeistof
+gate.trigger.fluid.full=Tank vol
+gate.trigger.fluidlevel.below=Bevat < %d%%
+gate.trigger.inventory.empty=Inventaris leeg
+gate.trigger.inventory.contains=Voorwerpen in inventaris
+gate.trigger.inventory.space=Ruimte vrij in inventaris
+gate.trigger.inventory.full=Inventaris vol
+gate.trigger.inventorylevel.below=Bevat < %d%%
+gate.trigger.machine.done=Werk klaar
+gate.trigger.machine.scheduled=Heeft werk
+gate.trigger.redstone.input.active=Redstonesignaal aan
+gate.trigger.redstone.input.inactive=Redstonesignaal uit
+gate.trigger.redstone.input.level=Redstoneniveau %d
+gate.trigger.pipe.empty=Pijp leeg
+gate.trigger.pipe.containsItems=Bevat voorwerpen
+gate.trigger.pipe.containsFluids=Bevat vloeistof
+gate.trigger.pipe.containsEnergy=Bevat energie
+gate.trigger.pipe.requestsEnergy=Energie nodig
+gate.trigger.pipe.tooMuchEnergy=Energieoverschot
+gate.trigger.pipe.wire.active=%s pijpkabel aan
+gate.trigger.pipe.wire.inactive=%s pijpkabel uit
+gate.trigger.timer=%s sec. timer
 
 gui.building.resources=Bouwmaterialen
-gui.del=Del
+gui.del=Weg
 gui.filling.resources=Opvulmaterialen
 gui.inventory=Inventaris
 gui.lock=Sluiten
+gui.needed=Nodig
 gui.unlock=Openen
 gui.energy=Energie
-gui.needed=Nodig
 gui.currentOutput=Huidige uitgang
 gui.stored=Opgeslagen
 gui.heat=Hitte
 gui.assemblyRate=Energie-inname
 gui.assemblyCurrentRequired=Energie vereist
 gui.clickcraft=-Klik om te maken-
+gui.pipes.emerald.blocking=Blokkerend
+gui.pipes.emerald.blocking.tip=Extractie wordt geblokkeerd als iets in het filter ontbreekt
+gui.pipes.emerald.nonblocking=Niet-blokkerend
+gui.pipes.emerald.nonblocking.tip=Extractie gaat verder met het volgende element als iets in het filter ontbreekt
+gui.pipes.emzuli.title=Opgeslagen instellingen
+gui.pipes.emzuli.paint=Verf voorwerpen %s
+gui.pipes.emzuli.nopaint=Verf voorwerpen niet
 
 item.bucketFuel.name=Emmer brandstof
 item.bucketOil.name=Emmer olie
@@ -39,6 +123,13 @@ item.redPipeWire.name=Rode pijpkabel
 item.bluePipeWire.name=Blauwe pijpkabel
 item.greenPipeWire.name=Groene pijpkabel
 item.yellowPipeWire.name=Gele pijpkabel
+item.redstone_red_chipset.name=Redstone chipset
+item.redstone_iron_chipset.name=IJzeren chipset
+item.redstone_gold_chipset.name=Gouden chipset
+item.redstone_diamond_chipset.name=Diamanten chipset
+item.redstone_pulsating_chipset.name=Pulserende chipset
+item.redstone_quartz_chipset.name=Kwartsen chipset
+item.redstone_comp_chipset.name=Redstone comp. chipset
 item.blueprintItem.name=Blauwdruk
 item.PipeItemsWood.name=Houten transportpijp
 item.PipeItemsCobblestone.name=Keistenen transportpijp
@@ -49,26 +140,33 @@ item.PipeItemsGold.name=Gouden transportpijp
 item.PipeItemsDiamond.name=Diamanten transportpijp
 item.PipeItemsObsidian.name=Obsidiaan transportpijp
 item.PipeItemsEmerald.name=Smaragden transportpijp
-item.PipeItemsStripes.name=Gestreepte transportpijp
-item.PipeItemsVoid.name=Vernietigingspijp
-item.PipeItemsSandstone.name=Zandstenen transportpijp
+item.PipeItemsLapis.name=Lazuli transportpijp
+item.PipeItemsDaizuli.name=Diazuli transportpijp
+item.PipeItemsEmzuli.name=Smazuli transportpijp
 item.PipeFluidsWood.name=Houten waterdichte pijp
 item.PipeFluidsCobblestone.name=Keistenen waterdichte pijp
 item.PipeFluidsStone.name=Stenen waterdichte pijp
 item.PipeFluidsIron.name=IJzeren waterdichte pijp
 item.PipeFluidsGold.name=Gouden waterdichte pijp
 item.PipeFluidsEmerald.name=Smaragden waterdichte pijp
-item.PipeFluidsVoid.name=Waterdichte vernietigingspijp
-item.PipeFluidsSandstone.name=Zandstenen waterdichte pijp
 item.PipePowerWood.name=Houten geleidende pijp
 item.PipePowerCobblestone.name=Keistenen geleidende pijp
 item.PipePowerStone.name=Stenen geleidende pijp
-item.PipePowerQuartz.name=Kwarts geleidende pijp
+item.PipePowerQuartz.name=Kwartsen geleidende pijp
+item.PipePowerIron.name=IJzeren geleidende pijp
 item.PipePowerGold.name=Gouden geleidende pijp
 item.PipePowerDiamond.name=Diamanten geleidende pijp
+item.PipeItemsStripes.name=Gestreepte transportpijp
 item.PipeStructureCobblestone.name=Keistenen structuurpijp
+item.PipeItemsVoid.name=Vernietigingspijp
+item.PipeFluidsVoid.name=Waterdichte vernietigingspijp
+item.PipeItemsSandstone.name=Zandstenen transportpijp
+item.PipeFluidsSandstone.name=Zandstenen waterdichte pijp
 item.Facade.name=Gevel
 item.PipePlug.name=Pijpstop
+
+itemGroup.buildcraft.machines=Buildcraft Machines
+itemGroup.buildcraft.facades=Buildcraft Gevels
 
 tile.architectBlock.name=Architectentafel
 tile.assemblyTableBlock.name=Assemblagetafel
@@ -83,7 +181,9 @@ tile.engineStone.name=Stirlingmotor
 tile.engineWood.name=Redstonemotor
 tile.fillerBlock.name=Vuller
 tile.filteredBufferBlock.name=Gefilterde buffer
+tile.floodGateBlock.name=Sluis
 tile.frameBlock.name=Frame
+tile.integrationTableBlock.name=Integratietafel
 tile.laserBlock.name=Laser
 tile.libraryBlock.name=Blauwdrukkenbibliotheek
 tile.machineBlock.name=Groeve
@@ -96,3 +196,36 @@ tile.refineryBlock.name=Raffinaderij
 tile.spring.oil.name=Oliebron
 tile.spring.water.name=Waterbron
 tile.tankBlock.name=Tank
+
+tip.gate.wires=§9§oCompatibele kabels:
+tip.gate.wires.redstone=Rood
+tip.gate.wires.iron=Rood, Blauw
+tip.gate.wires.gold=Rood, Blauw, Geel
+tip.gate.wires.diamond=Rood, Blauw, Geel, Groen
+tip.gate.expansions=§9§oGeïnstalleerde uitbreidingen:
+
+tip.PipeFluidsCobblestone=Basale pijp, 10 mB/t\nVerbindt niet met Stenen
+tip.PipeFluidsEmerald=Extractiepijp, 40 mB/t
+tip.PipeFluidsGold=Basale pijp, 40 mB/t
+tip.PipeFluidsIron=Kleppijp, 10 mB/t
+tip.PipeFluidsSandstone=Verbindt alleen met andere pijpen, 10 mB/t
+tip.PipeFluidsStone=Basale pijp, 10 mB/t\nVerbindt niet met Keistenen
+tip.PipeFluidsVoid=Vernietigt vloeistoffen, 10 mB/t
+tip.PipeFluidsWood=Extractiepijp, 10 mB/t
+tip.PipeItemsCobblestone=Basale pijp, veel wrijving\nVerbindt niet met Stenen of Kwartsen
+tip.PipeItemsDaizuli=Stuurt geverfde voorwerpen
+tip.PipeItemsDiamond=Sorteert voorwerpen
+tip.PipeItemsEmerald=Om-en-omextractiepijp
+tip.PipeItemsGold=Versnelt voorwerpen
+tip.PipeItemsIron=Stuurt voorwerpen
+tip.PipeItemsLapis=Verft voorwerpen
+tip.PipeItemsObsidian=Zuigt voorwerpen op
+tip.PipeItemsQuartz=Basale pijp, lage wrijving\nVerbindt niet met Keistenen of Stenen
+tip.PipeItemsSandstone=Verbindt alleen met andere pijpen
+tip.PipeItemsStone=Basale pijp, middelmatige wrijving\nVerbindt niet met Keistenen of Kwartsen
+tip.PipeItemsVoid=Verwijdert voorwerpen
+tip.PipeItemsWood=Extractiepijp
+tip.PipeItemsEmzuli=Poortgestuurde extractiepijp
+tip.PipePowerWood=Energieingangpijp
+tip.PipePowerIron=Instelbare limietpijp
+tip.PipeStructureCobblestone=Ondersteuningspijp
