@@ -120,6 +120,7 @@ item.redPipeWire.name=Rotes Rohrkabel
 item.bluePipeWire.name=Blaues Rohrkabel
 item.greenPipeWire.name=Grünes Rohrkabel
 item.yellowPipeWire.name=Gelbes Rohrkabel
+item.redstoneCrystal.name=Redstone-Kristall
 item.redstone_red_chipset.name=Redstone-Schaltkreis
 item.redstone_iron_chipset.name=Eiserner Schaltkreis
 item.redstone_gold_chipset.name=Goldener Schaltkreis
