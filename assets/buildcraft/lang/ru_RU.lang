@@ -170,12 +170,10 @@ item.PipeFluidsSandstone.name=Песчаниковая труба для жид�
 item.Facade.name=Облицовка
 item.PipePlug.name=Заглушка
 
-itemGroup.buildcraft.tier_1=BuildCraft: Механизмы 1 уровня
-itemGroup.buildcraft.tier_2=BuildCraft: Механизмы 2 уровня
-itemGroup.buildcraft.tier_3=BuildCraft: Механизмы 3 уровня
-itemGroup.buildcraft.tier_4=BuildCraft: Механизмы 4 уровня
-itemGroup.buildcraft.misc=BuildCraft: Остальные механизмы
-itemGroup.buildcraft.facades=BuildCraft: Облицовки
+itemGroup.buildcraft.blocks=Buildcraft: Блоки
+itemGroup.buildcraft.items=Buildcraft: Предметы
+itemGroup.buildcraft.pipes=Buildcraft: Трубы
+itemGroup.buildcraft.facades=Buildcraft: Облицовки
 
 tile.architectBlock.name=Архитекторский стол
 tile.assemblyTableBlock.name=Сборочный стол
