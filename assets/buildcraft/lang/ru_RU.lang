@@ -1,7 +1,7 @@
 # Russian language file
 # Русский языковой пакет
 
-chat.pipe.power.iron.mode=Переключено на предел в %d МДж/т
+chat.pipe.power.iron.mode=Переключено на предел в %d мДж/т
 
 color.black=Чёрный
 color.blue=Синий
@@ -204,6 +204,15 @@ tile.refineryBlock.name=Нефтеперерабатывающая устано�
 tile.spring.oil.name=Источник нефти
 tile.spring.water.name=Источник воды
 tile.tankBlock.name=Бак
+
+tile.architect.rotate=Вращение: Вкл.
+tile.architect.norotate=Вращение: Откл.
+tile.architect.allblocks=Блоки: Все
+tile.architect.simpleblocks=Блоки: Обычные
+tile.architect.excavate=Копание: Вкл.
+tile.architect.noexcavate=Копание: Откл.
+tile.architect.supportmods=Моды: Поддерживаемые
+tile.architect.allmods=Моды: Все
 
 tip.gate.wires=§9§oСовместимые провода:
 tip.gate.wires.redstone=Красный
