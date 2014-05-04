@@ -98,6 +98,7 @@ gui.heat=Hitze
 gui.assemblyRate=Energierate
 gui.assemblyCurrentRequired=Energie benötigt
 gui.clickcraft=-Klicken zum Herstellen-
+gui.pipes.emerald.title=Filter
 gui.pipes.emerald.blocking=Blockierend
 gui.pipes.emerald.blocking.tip=Extraktion wirt blockiert, wenn ein Element im Filter fehlt
 gui.pipes.emerald.nonblocking=Nicht Blockierend
@@ -132,6 +133,8 @@ item.blueprintItem.name=Erweiterter Bauplan
 item.blueprint.unnamed=<unbenannt>
 item.blueprint.author=von
 item.blueprint.blank=Leer
+item.blueprint.creative_only=Nur Kreativ-Modus
+item.blueprint.no_build=Kein Bauen
 item.PipeItemsWood.name=Hölzernes Transportrohr
 item.PipeItemsCobblestone.name=Pflasterstein-Transportrohr
 item.PipeItemsStone.name=Steineres Transportrohr
@@ -166,11 +169,9 @@ item.PipeFluidsSandstone.name=Sandstein-Wasserrohr
 item.Facade.name=Fassade
 item.PipePlug.name=Rohrstöpsel
 
-itemGroup.buildcraft.tier_1=Buildcraft-Maschinen Stufe 1
-itemGroup.buildcraft.tier_2=Buildcraft-Maschinen Stufe 2
-itemGroup.buildcraft.tier_3=Buildcraft-Maschinen Stufe 3
-itemGroup.buildcraft.tier_4=Buildcraft-Maschinen Stufe 4
-itemGroup.buildcraft.misc=Buildcraft Unkatergorisierte Maschinen
+itemGroup.buildcraft.blocks=Buildcraft-Blöcke
+itemGroup.buildcraft.items=Buildcraft-Items
+itemGroup.buildcraft.pipes=Buildcraft-Rohre
 itemGroup.buildcraft.facades=Buildcraft-Fassaden
 
 tile.architectBlock.name=Architekturtisch
@@ -203,11 +204,20 @@ tile.spring.oil.name=Ölquelle
 tile.spring.water.name=Wasserquelle
 tile.tankBlock.name=Tank
 
+tile.architect.rotate=Rotieren: An
+tile.architect.norotate=Rotieren: Aus
+tile.architect.allblocks=Blöcke: Alle
+tile.architect.simpleblocks=Blöcke: Einfache
+tile.architect.excavate=Umgraben: An
+tile.architect.noexcavate=Umgraben: Aus
+tile.architect.supportmods=Mods: Unterstützte
+tile.architect.allmods=Mods: Alle
+
 tip.gate.wires=§9§oKompatible Kabel:
 tip.gate.wires.redstone=Rot
 tip.gate.wires.iron=Rot, Blau
-tip.gate.wires.gold=Rot, Blau, Gelb
-tip.gate.wires.diamond=Rot, Blau, Gelb, Grün
+tip.gate.wires.gold=Rot, Blau, Grün
+tip.gate.wires.diamond=Rot, Blau, Grün, Gelb
 tip.gate.expansions=§9§oInstallierte Erweiterungen:
 
 tip.PipeFluidsCobblestone=Basisrohr, 10 mB/t\nWird sich nicht mit Stein verbinden
