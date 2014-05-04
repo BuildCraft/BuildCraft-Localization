@@ -169,10 +169,10 @@ item.PipeFluidsSandstone.name=Sandstein-Wasserrohr
 item.Facade.name=Fassade
 item.PipePlug.name=Rohrstöpsel
 
-itemGroup.buildcraft.blocks=Buildcraft Blöcke
-itemGroup.buildcraft.items=Buildcraft Items
-itemGroup.buildcraft.pipes=Buildcraft Rohre
-itemGroup.buildcraft.facades=Buildcraft Fassaden
+itemGroup.buildcraft.blocks=Buildcraft-Blöcke
+itemGroup.buildcraft.items=Buildcraft-Items
+itemGroup.buildcraft.pipes=Buildcraft-Rohre
+itemGroup.buildcraft.facades=Buildcraft-Fassaden
 
 tile.architectBlock.name=Architekturtisch
 tile.assemblyTableBlock.name=Montagebank
