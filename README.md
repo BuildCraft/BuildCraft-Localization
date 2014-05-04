@@ -18,3 +18,7 @@ The BuildCraft license applies.
 ### Issues
 
 Errors in translation that you are somehow unable to make a pull request for, can be filed here. Missing localization support or code issues that affect localization should be filed in the main BuildCraft repository.
+
+### Gate Localiztion
+
+If your language requires a specific sequence for the Gates, you can replace the "%s" with "%1$s" for the material and "%2$s" for the type of gate (AND and OR)
