@@ -52,7 +52,7 @@ gate.material.iron=di Ferro
 gate.material.gold=d'Oro
 gate.material.diamond=di Diamante
 
-gate.name=%s Gate %s
+gate.name=%2$s Gate %1$s
 gate.name.basic=Gate Basilare
 
 gate.trigger.engine.blue=Motore Blu
@@ -216,8 +216,8 @@ tile.architect.allmods=Mods: Tutti
 tip.gate.wires=§9§oFili Compatibili:
 tip.gate.wires.redstone=Rosso
 tip.gate.wires.iron=Rosso, Blu
-tip.gate.wires.gold=Rosso, Blu, Giallo
-tip.gate.wires.diamond=Rosso, Blu, Giallo, Verde
+tip.gate.wires.gold=Rosso, Blu, Verde
+tip.gate.wires.diamond=Rosso, Blu, Verde, Giallo
 tip.gate.expansions=§9§oEspansioni Installate:
 
 tip.PipeFluidsCobblestone=Tubo basilare, 10 mB/t\nNon si connette a Pietra
