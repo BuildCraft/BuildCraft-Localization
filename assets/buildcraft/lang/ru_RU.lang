@@ -2,6 +2,9 @@
 # Русский языковой пакет
 
 chat.pipe.power.iron.mode=Переключено на предел в %d мДж/т
+chat.pipe.power.energyConverter=Преобразование энергии: %s
+chat.pipe.power.energyConverter.from_old_to_new=Со старого API на новой API
+chat.pipe.power.energyConverter.from_new_to_old=С нового API на старый API
 
 color.black=Чёрный
 color.blue=Синий
@@ -127,15 +130,16 @@ item.redstone_red_chipset.name=Микросхема из красного кам
 item.redstone_iron_chipset.name=Железная микросхема
 item.redstone_gold_chipset.name=Золотая микросхема
 item.redstone_diamond_chipset.name=Алмазная микросхема
-item.redstone_pulsating_chipset.name=PПульсирующая микросхема
+item.redstone_pulsating_chipset.name=Пульсирующая микросхема
 item.redstone_quartz_chipset.name=Кварцевая микросхема
 item.redstone_comp_chipset.name=Композитная микросхема из красного камня
 item.blueprintItem.name=Строительный проект
 item.blueprint.unnamed=<безымянный>
 item.blueprint.author=от
 item.blueprint.blank=Пустой
-item.blueprint.creative_only=Только для творческого режима
-item.blueprint.no_build=No Building
+item.blueprint.creative_only=Творческий
+item.blueprint.no_build=Нет постройки
+item.blueprint.incomplete=Незавершённый
 item.PipeItemsWood.name=Деревянная транспортная труба
 item.PipeItemsCobblestone.name=Булыжниковая транспортная труба
 item.PipeItemsStone.name=Каменная транспортная труба
@@ -204,6 +208,8 @@ tile.refineryBlock.name=Нефтеперерабатывающая устано�
 tile.spring.oil.name=Источник нефти
 tile.spring.water.name=Источник воды
 tile.tankBlock.name=Бак
+tile.energyConverter.name=Преобразователь энергии
+tile.energyConverter.tooltip=Преобразует энергию BC между старым и новым API|Добавлен для совместимости с другими модами,|пока они не перешли на новый API.|Может быть удалён в будущем.
 
 tile.architect.rotate=Вращение: Вкл.
 tile.architect.norotate=Вращение: Откл.
@@ -217,8 +223,8 @@ tile.architect.allmods=Моды: Все
 tip.gate.wires=§9§oСовместимые провода:
 tip.gate.wires.redstone=Красный
 tip.gate.wires.iron=Красный, синий
-tip.gate.wires.gold=Красный, синий, жёлтый
-tip.gate.wires.diamond=Красный, синий, жёлтый, зелёный
+tip.gate.wires.gold=Красный, синий, зелёный
+tip.gate.wires.diamond=Красный, синий, зелёный, жёлтый
 tip.gate.expansions=§9§oУстановленные расширения:
 
 tip.PipeFluidsCobblestone=Обычная труба, 10 мДж/т\nНе присоединяется к каменным
