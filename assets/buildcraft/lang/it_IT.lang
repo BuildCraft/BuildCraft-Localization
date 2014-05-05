@@ -1,6 +1,9 @@
 # Italian language file, basic translation by tambry, everything else by pazzoeo (including corrections), some corrections by LandKingdom, update and vanilla standard by TheVikingWarrior
 
 chat.pipe.power.iron.mode=Cambiato a un limite di %d MJ/t
+chat.pipe.power.energyConverter=Conversione di Energia: %s
+chat.pipe.power.energyConverter.from_old_to_new=Dal vecchio API al nuovo API
+chat.pipe.power.energyConverter.from_new_to_old=Dal nuovo API al vecchio API
 
 color.black=Nero
 color.blue=Blu
@@ -135,6 +138,7 @@ item.blueprint.unnamed=<senzanome>
 item.blueprint.author=di
 item.blueprint.blank=Vuoto
 item.blueprint.creative_only=Solo Creativa
+item.blueprint.incomplete=Incompleto
 item.blueprint.no_build=Nessuna Costruzione
 item.PipeItemsCobblestone.name=Tubo di Pietrisco per Trasporto
 item.PipeItemsStone.name=Tubo di Pietra per Trasporto
@@ -203,6 +207,8 @@ tile.refineryBlock.name=Raffinatore
 tile.spring.oil.name=Sorgente di Petrolio
 tile.spring.water.name=Sorgente d'Acqua
 tile.tankBlock.name=Serbatoio
+tile.energyConverter.name=Convertitore di Energia
+tile.energyConverter.tooltip=Converte BC energia tra la nuova e la vecchia energia del API|Aggiunta per compatibilità con altre mod|finchè non cambiano l'energia del API.|Potrebbe essere rimosso nel futuro.
 
 tile.architect.rotate=Rotazione: Si
 tile.architect.norotate=Rotazione: No
