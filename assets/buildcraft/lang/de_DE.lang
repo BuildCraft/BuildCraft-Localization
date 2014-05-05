@@ -1,6 +1,9 @@
 # German lang file, tanslated by SirSengir, Keksynator and Vexatos
 
 chat.pipe.power.iron.mode=Gewechselt zu einem Limit von %d MJ/t
+chat.pipe.power.energyConverter=Energieumwandlung: %s
+chat.pipe.power.energyConverter.from_old_to_new=Von alter API zu neuer API
+chat.pipe.power.energyConverter.from_new_to_old=Von neuer API zu alter API
 
 color.black=Schwarz
 color.blue=Blau
@@ -135,6 +138,7 @@ item.blueprint.author=von
 item.blueprint.blank=Leer
 item.blueprint.creative_only=Nur Kreativ-Modus
 item.blueprint.no_build=Kein Bauen
+item.blueprint.incomplete=Unvollständig
 item.PipeItemsWood.name=Hölzernes Transportrohr
 item.PipeItemsCobblestone.name=Pflasterstein-Transportrohr
 item.PipeItemsStone.name=Steineres Transportrohr
@@ -203,6 +207,8 @@ tile.refineryBlock.name=Raffinerie
 tile.spring.oil.name=Ölquelle
 tile.spring.water.name=Wasserquelle
 tile.tankBlock.name=Tank
+tile.energyConverter.name=Energieumwandler
+tile.energyConverter.tooltip=Wandle BC-Energie zwischen alter und neuer API|Für Kompatibilität mit anderen Mods hinzugefügt,|solange sie noch nicht auf die neue API umgestiegen sind.|Könnte in Zukunft entfernt werden.
 
 tile.architect.rotate=Rotieren: An
 tile.architect.norotate=Rotieren: Aus
