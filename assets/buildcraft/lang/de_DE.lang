@@ -294,3 +294,8 @@ achievement.templateAchievement=Die Basis
 achievement.templateAchievement.desc=Fertige eine Schablone
 achievement.blueprintLibraryAchievement=Ideen werden fortbestehen
 achievement.blueprintLibraryAchievement.desc=Ferige eine Bauplan-Bibliothek
+
+bc_update.new_version=§cNeue BuildCraft-Version verfügbar: %s für Minecraft %s
+bc_update.download=§cDownloade bei http://www.mod-buildcraft.com/download
+bc_update.once=Diese Nachricht erscheint nur einmal
+bc_update.again=Gib '/buildcraft version' ein, solltest du sie noch einmal sehen wollen
