@@ -171,6 +171,7 @@ item.PipeFluidsVoid.name=Löschendes Wasserrohr
 item.PipeItemsSandstone.name=Sandstein-Transportrohr
 item.PipeFluidsSandstone.name=Sandstein-Wasserrohr
 item.Facade.name=Fassade
+item.FacadePhased.name=Phasenfassade
 item.PipePlug.name=Rohrstöpsel
 
 itemGroup.buildcraft.blocks=Buildcraft-Blöcke
