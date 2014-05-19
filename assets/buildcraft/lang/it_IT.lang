@@ -171,6 +171,10 @@ item.PipeFluidsVoid.name=Tubo del Void per Fluidi
 item.PipeItemsSandstone.name=Tubo di Arenaria per Trasporto
 item.PipeFluidsSandstone.name=Tubo di Arenaria per Fluidi
 item.Facade.name=Facciata
+item.FacadePhased.name=Facciata Doppia
+item.FacadePhased.state=%s: %s
+item.FacadePhased.state_default=Predefinito: %s
+item.FacadePhased.state_transparent=Trasparente
 item.PipePlug.name=Tappo per Tubi
 
 itemGroup.buildcraft.blocks=Buildcraft Blocchi
