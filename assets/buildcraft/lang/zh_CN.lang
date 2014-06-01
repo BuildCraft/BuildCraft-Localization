@@ -172,6 +172,7 @@ item.PipeFluidsVoid.name=虚空流体管道
 item.PipeItemsSandstone.name=沙石管道
 item.PipeFluidsSandstone.name=沙石流体管道
 item.Facade.name=伪装板
+item.FacadePhased.name=多阶伪装板
 item.PipePlug.name=管塞
 
 itemGroup.buildcraft.blocks=建筑|方块
