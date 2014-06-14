@@ -1,8 +1,9 @@
-# pt_BR
-# Translated by: Sergio-F
-# Contributions by: RockJB
+# pt_BR / Translated by Sergio-F / Updated by RockJB
 
 chat.pipe.power.iron.mode=Limite mudado para %d MJ/t
+chat.pipe.power.energyConverter=Conversão de Energia: %s
+chat.pipe.power.energyConverter.from_old_to_new=Da antiga API para a nova API
+chat.pipe.power.energyConverter.from_new_to_old=Da nova API para a antiga API
 
 color.black=Preto
 color.blue=Azul
@@ -137,6 +138,7 @@ item.blueprint.author=por
 item.blueprint.blank=Em branco
 item.blueprint.creative_only=Apenas Criativo
 item.blueprint.no_build=Sem construção
+item.blueprint.incomplete=Incompleto
 item.PipeItemsWood.name=Tubo de Transporte de Madeira
 item.PipeItemsCobblestone.name=Tubo de Transporte de Pedregulho
 item.PipeItemsStone.name=Tubo de Transporte de Pedra
@@ -169,6 +171,7 @@ item.PipeFluidsVoid.name=Tubo de Fluído Vazio
 item.PipeItemsSandstone.name=Tubo de Transporte de Arenito
 item.PipeFluidsSandstone.name=Tubo de Fluído de Arenito
 item.Facade.name=Fachada
+item.FacadePhased.name=Fachada faseada
 item.PipePlug.name=Tapa tubo
 
 itemGroup.buildcraft.blocks=Blocos do Buildcraft
@@ -205,6 +208,17 @@ tile.refineryBlock.name=Refinaria
 tile.spring.oil.name=Fonte de Petróleo
 tile.spring.water.name=Fonte de Água
 tile.tankBlock.name=Tanque
+tile.energyConverter.name=Conversor de Energia
+tile.energyConverter.tooltip=Converta energia do BC entre a antiga e a nova API de energia|Adicionado para compatibilidade com outros mods|enquanto eles não migram para a nova API.|Pode ser removido no futuro.
+
+tile.architect.rotate=Girar: Sim
+tile.architect.norotate=Girar: Não
+tile.architect.allblocks=Blocos: Todos
+tile.architect.simpleblocks=Blocos: Simples
+tile.architect.excavate=Escavar: Sim
+tile.architect.noexcavate=Escavate: Não
+tile.architect.supportmods=Mods: Suporte
+tile.architect.allmods=Mods: Todos
 
 tip.gate.wires=§9§oFios Compatíveis:
 tip.gate.wires.redstone=Vermelho
@@ -281,3 +295,8 @@ achievement.templateAchievement=Base
 achievement.templateAchievement.desc=Crafte um Modelo
 achievement.blueprintLibraryAchievement=Ideias nunca morrem
 achievement.blueprintLibraryAchievement.desc=Crafte uma Biblioteca de Diagramas
+
+bc_update.new_version=§cNova versão de BuildCraft disponível: %s para Minecraft %s
+bc_update.download=§cBaixe em http://www.mod-buildcraft.com/download
+bc_update.once=Essa mensagem só aparece uma vez
+bc_update.again=Digite '/buildcraft version' se você quer vê-la de novo
