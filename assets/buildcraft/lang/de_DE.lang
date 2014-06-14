@@ -1,5 +1,12 @@
 # German lang file, tanslated by SirSengir, Keksynator and Vexatos
 
+buildcraft.boardRobotPicker=Sammler
+buildcraft.boardRobotLumberjack=Holzfäller
+buildcraft.boardRobotPlanter=Gärtner
+buildcraft.boardRobotLeaveCutter=Blattschneider
+buildcraft.boardDetail.parameters=Parameter
+buildcraft.boardDetail.range=Reichweite
+
 chat.pipe.power.iron.mode=Gewechselt zu einem Limit von %d MJ/t
 chat.pipe.power.energyConverter=Energieumwandlung: %s
 chat.pipe.power.energyConverter.from_old_to_new=Von alter API zu neuer API
@@ -88,6 +95,7 @@ gate.trigger.pipe.wire.inactive=Rohrsignal (%s) Aus
 gate.trigger.timer=%s-Sekunden-Timer
 
 gui.building.resources=Baumaterial
+gui.building.fluids=Flüssigkeitstanks
 gui.del=Ent
 gui.filling.resources=Füllmaterial
 gui.inventory=Inventar
@@ -132,6 +140,8 @@ item.redstone_diamond_chipset.name=Diamantener Schaltkreis
 item.redstone_pulsating_chipset.name=Pulsierender Schaltkreis
 item.redstone_quartz_chipset.name=Quarz-Schaltkreis
 item.redstone_comp_chipset.name=Redstone-Bindungs-Schaltkreis
+item.redstone_board.name=Redstone-Platte
+item.robot.name=Roboter
 item.blueprintItem.name=Erweiterter Bauplan
 item.blueprint.unnamed=<unbenannt>
 item.blueprint.author=von
@@ -172,6 +182,9 @@ item.PipeItemsSandstone.name=Sandstein-Transportrohr
 item.PipeFluidsSandstone.name=Sandstein-Wasserrohr
 item.Facade.name=Fassade
 item.FacadePhased.name=Phasenfassade
+item.FacadePhased.state=%s: %s
+item.FacadePhased.state_default=Standard: %s
+item.FacadePhased.state_transparent=Transparent
 item.PipePlug.name=Rohrstöpsel
 
 itemGroup.buildcraft.blocks=Buildcraft-Blöcke
@@ -239,7 +252,6 @@ tip.PipeItemsCobblestone=Basisrohr, hoher Widerstand\nWird sich nicht mit Stein 
 tip.PipeItemsDaizuli=Routet gefärbte Items
 tip.PipeItemsDiamond=Sortiert Items
 tip.PipeItemsEmerald=Round-robin-Extraktionsrohr
-tip.PipeItemsEmzuli=Gatterkontrolliertes Extraktionsrohr
 tip.PipeItemsGold=Beschleunigt Items
 tip.PipeItemsIron=Routet Items
 tip.PipeItemsLapis=Färbt Items
@@ -249,8 +261,9 @@ tip.PipeItemsSandstone=Verbindet sich nur mit anderen Rohren
 tip.PipeItemsStone=Basisrohr, mäßiger Widerstand\nWird sich nicht mit Pflasterstein oder Quarz verbinden
 tip.PipeItemsVoid=Zerstört Items
 tip.PipeItemsWood=Extraktionsrohr
-tip.PipePowerIron=Rohr mit auswählbarem Energielimit
+tip.PipeItemsEmzuli=Gatterkontrolliertes Extraktionsrohr
 tip.PipePowerWood=Energie-Eingangsrohr
+tip.PipePowerIron=Rohr mit auswählbarem Energielimit
 tip.PipeStructureCobblestone=Rohr zur Unterstützung
 
 achievement.woodenGearAchievement=Ungehobelt
