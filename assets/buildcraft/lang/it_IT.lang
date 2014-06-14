@@ -1,5 +1,12 @@
 # Italian language file, basic translation by tambry, everything else by pazzoeo (including corrections), some corrections by LandKingdom, update and vanilla standard by TheVikingWarrior
 
+buildcraft.boardRobotPicker=Raccoglitore
+buildcraft.boardRobotLumberjack=Taglialegna
+buildcraft.boardRobotPlanter=Piantatore
+buildcraft.boardRobotLeaveCutter=Taglia Foglie
+buildcraft.boardDetail.Parameter=Parametro
+buildcraft.boardDetail.range=Raggio
+
 chat.pipe.power.iron.mode=Cambiato a un limite di %d MJ/t
 chat.pipe.power.energyConverter=Conversione di Energia: %s
 chat.pipe.power.energyConverter.from_old_to_new=Dal vecchio API al nuovo API
@@ -88,6 +95,7 @@ gate.trigger.pipe.wire.inactive=Segnale %s per Tubi Spento
 gate.trigger.timer=Timer di %s Sec
 
 gui.building.resources=Materiali per Costruire
+gui.building.fluids=Cisterna per Fluidi
 gui.del=Canc
 gui.filling.resources=Materiali per Riempire
 gui.inventory=Inventario
@@ -132,6 +140,8 @@ item.redstone_diamond_chipset.name=Circuito di Diamante
 item.redstone_pulsating_chipset.name=Circuito Pulsante
 item.redstone_quartz_chipset.name=Circuito di Quarzo
 item.redstone_comp_chipset.name=Circuito di Pietrarossa Comp
+item.redstone_board.name=Scheda di Pietrarossa
+item.robot.name=Robot
 item.PipeItemsWood.name=Tubo di Legno per Trasporto
 item.blueprintItem.name=Cianotipo
 item.blueprint.unnamed=<senzanome>
