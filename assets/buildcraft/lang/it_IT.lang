@@ -4,6 +4,9 @@ buildcraft.boardRobotPicker=Raccoglitore
 buildcraft.boardRobotLumberjack=Taglialegna
 buildcraft.boardRobotPlanter=Piantatore
 buildcraft.boardRobotLeaveCutter=Taglia Foglie
+buildcraft.boardRobotCarrier=Vettore
+buildcraft.boardRobotBomber=Bombardiere
+buildcraft.boardRobotKnight=Cavaliere
 buildcraft.boardDetail.Parameter=Parametro
 buildcraft.boardDetail.range=Raggio
 
@@ -50,6 +53,11 @@ gate.action.machine.loop=Ripeti
 gate.action.pulsar.constant=Pulsar di Energia
 gate.action.pulsar.single=Pulsar di Energia Singolo
 gate.action.pipe.wire=Segnale %s per Tubi
+gate.action.robot.goto_station=Vai a Stazione
+gate.action.pipe.close=Sbarra Tubo
+gate.action.station.provide_items=Procura Oggetti
+gate.action.station.request_items=Richiedi Oggetti
+gate.action.robot.work_in_area=Lavora in Area
 
 gate.expansion.fader=Fader di Pietrarossa
 gate.expansion.pulsar=Pulsar Autarchico
@@ -63,7 +71,7 @@ gate.material.gold=d'Oro
 gate.material.diamond=di Diamante
 
 gate.name=%2$s Gate %1$s
-gate.name.basic=Gate Basilare
+gate.name.basic=Gate Base
 
 gate.trigger.engine.blue=Motore Blu
 gate.trigger.engine.green=Motore Verde
@@ -150,6 +158,7 @@ item.blueprint.blank=Vuoto
 item.blueprint.creative_only=Solo Creativa
 item.blueprint.incomplete=Incompleto
 item.blueprint.no_build=Nessuna Costruzione
+item.mapLocation.name=Luogo su Mappa
 item.PipeItemsCobblestone.name=Tubo di Pietrisco per Trasporto
 item.PipeItemsStone.name=Tubo di Pietra per Trasporto
 item.PipeItemsQuartz.name=Tubo di Quarzo per Trasporto
