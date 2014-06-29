@@ -1,6 +1,17 @@
 # zh_CN
 # Translated by hendyzone
 
+buildcraft.boardRobotPicker=拾取号
+buildcraft.boardRobotLumberjack=伐木号
+buildcraft.boardRobotPlanter=植树号
+buildcraft.boardRobotLeaveCutter=剪叶号
+buildcraft.boardRobotCarrier=搬运号
+buildcraft.boardRobotBomber=爆弹号
+buildcraft.boardRobotKnight=骑士号
+buildcraft.boardRobotMiner=矿工号
+buildcraft.boardDetail.parameters=参数
+buildcraft.boardDetail.range=范围
+
 chat.pipe.power.iron.mode=切换上限为%d MJ/t
 chat.pipe.power.energyConverter=能量转换: %s
 chat.pipe.power.energyConverter.from_old_to_new=从旧API到新API
@@ -44,6 +55,14 @@ gate.action.machine.loop=循环
 gate.action.pulsar.constant=能量脉冲
 gate.action.pulsar.single=单次能量脉冲
 gate.action.pipe.wire=%s管道信号
+gate.action.robot.goto_station=前往站点
+gate.action.pipe.close=关闭管道
+gate.action.station.provide_items=提供物品
+gate.action.station.request_items=请求物品
+gate.action.station.drop_items_in_pipe=管道中掉落物
+gate.action.robot.work_in_area=工作区域
+gate.action.robot.wakeup=唤醒
+gate.action.station.forbid_robot=机器人禁忌
 
 gate.expansion.fader=红石衰减器
 gate.expansion.pulsar=专一脉冲
@@ -87,6 +106,7 @@ gate.trigger.pipe.tooMuchEnergy=能量过载
 gate.trigger.pipe.wire.active=%s管道信号开
 gate.trigger.pipe.wire.inactive=%s管道信号关
 gate.trigger.timer=%s秒计时器
+gate.trigger.robot.sleep=休眠
 
 gui.building.resources=建筑材料
 gui.del=删除
