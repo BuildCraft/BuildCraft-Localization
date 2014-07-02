@@ -8,6 +8,10 @@ buildcraft.boardRobotCarrier=Träger
 buildcraft.boardRobotBomber=Bomber
 buildcraft.boardRobotKnight=Ritter
 buildcraft.boardRobotMiner=Bergarbeiter
+buildcraft.boardRobotFarmer=Bauer
+buildcraft.boardRobotHarvester=Ernter
+buildcraft.boardRobotShovelman=Schaufler
+buildcraft.boardRobotBucher=Schlachter
 buildcraft.boardDetail.parameters=Parameter
 buildcraft.boardDetail.range=Reichweite
 
@@ -62,6 +66,7 @@ gate.action.station.drop_items_in_pipe=Items in Rohr befördern
 gate.action.robot.work_in_area=Im Bereich arbeiten
 gate.action.robot.wakeup=Aufwachen
 gate.action.station.forbid_robot=Roboter verboten
+gate.action.robot.filter=Filter
 
 gate.expansion.fader=Redstone-Fader
 gate.expansion.pulsar=Autarker Pulsar
@@ -195,6 +200,7 @@ item.PipeItemsVoid.name=Löschendes Transportrohr
 item.PipeFluidsVoid.name=Löschendes Wasserrohr
 item.PipeItemsSandstone.name=Sandstein-Transportrohr
 item.PipeFluidsSandstone.name=Sandstein-Wasserrohr
+item.PipeRobotStation.name=Dockingstation
 item.Facade.name=Fassade
 item.FacadePhased.name=Phasenfassade
 item.FacadePhased.state=%s: %s
