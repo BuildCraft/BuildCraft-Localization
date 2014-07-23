@@ -172,6 +172,7 @@ item.PipeFluidsVoid.name=Пустотная жидкостная труба
 item.PipeItemsSandstone.name=Песчаниковая транспортная труба
 item.PipeFluidsSandstone.name=Песчаниковая жидкостная труба
 item.Facade.name=Фасад
+item.FacadePhased.name=Переключаемый фасад
 item.PipePlug.name=Заглушка
 
 itemGroup.buildcraft.blocks=Buildcraft: Блоки
