@@ -12,6 +12,7 @@ buildcraft.boardRobotFarmer=Contadino
 buildcraft.boardRobotHarvester=Mietitrice
 buildcraft.boardRobotShovelman=Scavatore
 buildcraft.boardRobotButcher=Macellaio
+buildcraft.boardRobotBuilder=Costruttore
 buildcraft.boardDetail.Parameter=Parametro
 buildcraft.boardDetail.range=Raggio
 
@@ -112,6 +113,8 @@ gate.trigger.pipe.wire.active=Segnale %s per tubi acceso
 gate.trigger.pipe.wire.inactive=Segnale %s per tubi spento
 gate.trigger.timer=Timer di %s sec
 gate.trigger.robot.sleep=Dormire
+gate.trigger.machine.energyStoredHigh=Molta energia contenuta
+gate.trigger.machine.energyStoredLow=Poca energia contenuta
 
 gui.building.resources=Materiali per costruire
 gui.building.fluids=Cisterna per fluidi
@@ -137,6 +140,7 @@ gui.pipes.emzuli.title=Programma per estrazione
 gui.pipes.emzuli.paint=Colora gli oggetti di %s
 gui.pipes.emzuli.nopaint=Non colorare gli oggetti
 
+item.scienceBook.name=Libro di scienze ingegneristiche
 item.bucketFuel.name=Secchio di carburante
 item.bucketOil.name=Secchio di petrolio
 item.woodenGearItem.name=Ingranaggio di legno
