@@ -249,6 +249,7 @@ tile.spring.water.name=Sorgente d'acqua
 tile.tankBlock.name=Serbatoio
 tile.energyConverter.name=Convertitore di energia
 tile.energyConverter.tooltip=Converte BC energia tra la nuova e la vecchia energia del API|Aggiunta per compatibilità con altre mod|finchè non cambiano l'energia del API.|Potrebbe essere rimosso nel futuro.
+tile.zonePlan.name=Pianificatore per zone
 
 tile.architect.rotate=Rotazione: Si
 tile.architect.norotate=Rotazione: No
