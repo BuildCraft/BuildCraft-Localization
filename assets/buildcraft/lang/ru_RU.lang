@@ -160,6 +160,7 @@ item.redstone_red_chipset.name=Микросхема из красного кам
 item.redstone_iron_chipset.name=Железная микросхема
 item.redstone_gold_chipset.name=Золотая микросхема
 item.redstone_diamond_chipset.name=Алмазная микросхема
+item.redstone_emerald_chipset.name=Изумрудная микросхема
 item.redstone_pulsating_chipset.name=Пульсирующая микросхема
 item.redstone_quartz_chipset.name=Кварцевая микросхема
 item.redstone_comp_chipset.name=Композитная микросхема
@@ -248,6 +249,7 @@ tile.spring.water.name=Источник воды
 tile.tankBlock.name=Цистерна
 tile.energyConverter.name=Преобразователь энергии
 tile.energyConverter.tooltip=Преобразует энергию BC между старым и новым API|Добавлен для совместимости с другими модами,|пока они не перешли на новый API.|Может быть удалён в будущем.
+tile.zonePlan.name=Планировщик зон
 
 tile.architect.rotate=Вращение: Вкл.
 tile.architect.norotate=Вращение: Откл.
