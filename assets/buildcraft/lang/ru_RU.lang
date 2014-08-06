@@ -13,6 +13,7 @@ buildcraft.boardRobotHarvester=Собиратель
 buildcraft.boardRobotShovelman=Землекоп
 buildcraft.boardRobotButcher=Мясник
 buildcraft.boardRobotBuilder=Строитель
+buildcraft.boardRobotCrafter=Создатель
 buildcraft.boardDetail.parameters=Параметры
 buildcraft.boardDetail.range=Диапазон
 
@@ -64,6 +65,7 @@ gate.action.pipe.close=Закрыть трубу
 gate.action.station.provide_items=Предоставить предметы
 gate.action.station.request_items=Запросить предметы
 gate.action.station.drop_items_in_pipe=Бросить предметы в трубу
+gate.action.station.craft=Создавать
 gate.action.robot.work_in_area=Работать в области
 gate.action.robot.wakeup=Разбудить
 gate.action.station.forbid_robot=Робот запрещён
