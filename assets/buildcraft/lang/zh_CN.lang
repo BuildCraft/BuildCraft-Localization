@@ -1,23 +1,23 @@
 # zh_CN
 # Translated by hendyzone
 
-buildcraft.boardRobotPicker=拾取号
-buildcraft.boardRobotLumberjack=伐木号
-buildcraft.boardRobotPlanter=植树号
-buildcraft.boardRobotLeaveCutter=剪叶号
-buildcraft.boardRobotCarrier=搬运号
-buildcraft.boardRobotFluidCarrier=储罐号
-buildcraft.boardRobotBomber=爆弹号
-buildcraft.boardRobotKnight=骑士号
-buildcraft.boardRobotMiner=矿工号
-buildcraft.boardRobotFarmer=农民号
-buildcraft.boardRobotHarvester=收获号
-buildcraft.boardRobotShovelman=铲工号
-buildcraft.boardRobotButcher=屠夫号
-buildcraft.boardRobotBuilder=建筑号
-buildcraft.boardRobotCrafter=合成号
-buildcraft.boardRobotDelivery=配送号
-buildcraft.boardRobotPump=液泵号
+buildcraft.boardRobotPicker=拾物机器人
+buildcraft.boardRobotLumberjack=伐木机器人
+buildcraft.boardRobotPlanter=植树机器人
+buildcraft.boardRobotLeaveCutter=剪叶机器人
+buildcraft.boardRobotCarrier=搬运机器人
+buildcraft.boardRobotFluidCarrier=储罐机器人
+buildcraft.boardRobotBomber=爆破机器人
+buildcraft.boardRobotKnight=骑士机器人
+buildcraft.boardRobotMiner=采掘机器人
+buildcraft.boardRobotFarmer=耕种机器人
+buildcraft.boardRobotHarvester=收获机器人
+buildcraft.boardRobotShovelman=铲工机器人
+buildcraft.boardRobotButcher=屠宰机器人
+buildcraft.boardRobotBuilder=建筑机器人
+buildcraft.boardRobotCrafter=合成机器人
+buildcraft.boardRobotDelivery=配送机器人
+buildcraft.boardRobotPump=液泵机器人
 
 chat.pipe.power.iron.mode=切换为%dRF/t限制
 
