@@ -1,6 +1,6 @@
 # KOREAN language file
 
-chat.pipe.power.iron.mode=제한량이 %d MJ/t로 변경됨
+chat.pipe.power.iron.mode=제한량이 %d RF/t로 변경됨
 
 gate.pipe.empty=파이프가 비었을 때
 gate.pipe.containsItems=아이템 운송중일 때

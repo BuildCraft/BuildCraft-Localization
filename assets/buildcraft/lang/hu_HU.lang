@@ -1,7 +1,7 @@
 # hu_HU
 # Translated by naburus-primus
 
-chat.pipe.power.iron.mode=Átváltás a %d MJ/tick limit -re.
+chat.pipe.power.iron.mode=Átváltás a %d RF/tick limit -re.
 
 color.black=Fekete
 color.blue=Kék

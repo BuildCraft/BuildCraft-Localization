@@ -10,7 +10,7 @@ buildcraft.boardRobotCarrier=Kandja
 buildcraft.boardDetail.parameters=Parameetrid
 buildcraft.boardDetail.range=Kaugus
 
-chat.pipe.power.iron.mode=Lülitatud %d MJ/t limiit
+chat.pipe.power.iron.mode=Lülitatud %d RF/t limiit
 chat.pipe.power.energyConverter=Energia konversioon: %s
 chat.pipe.power.energyConverter.from_old_to_new=Vanalt API-lt uuele API-le
 chat.pipe.power.energyConverter.from_new_to_old=Uuelt API-lt vanale API-le

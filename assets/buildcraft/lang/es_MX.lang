@@ -1,6 +1,6 @@
 # Translated by Aritzh, francogp
 
-chat.pipe.power.iron.mode=Cambiado a %d MJ/t limite
+chat.pipe.power.iron.mode=Cambiado a %d RF/t limite
 chat.pipe.power.energyConverter=Conversión de energía: %s
 chat.pipe.power.energyConverter.from_old_to_new=De la API antigua a la nueva API
 chat.pipe.power.energyConverter.from_new_to_old=Desde la nueva API a la antigua API

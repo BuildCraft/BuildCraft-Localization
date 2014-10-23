@@ -1,7 +1,7 @@
 # fr_FR
 # Translated by robin4002 and zzt Update by Linyor (add 200 lines)
 
-chat.pipe.power.iron.mode=commuté à %d MJ/t
+chat.pipe.power.iron.mode=commuté à %d RF/t
 chat.pipe.power.energyConverter=Conversion de l'énergie: %s
 chat.pipe.power.energyConverter.from_old_to_new=De l'ancien API au nouveau API
 chat.pipe.power.energyConverter.from_new_to_old=Du nouveau API à l'ancien API
