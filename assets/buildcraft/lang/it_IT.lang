@@ -18,6 +18,17 @@ buildcraft.boardRobotCrafter=Fabbricatrice
 buildcraft.boardRobotDelivery=Consegnatrice
 buildcraft.boardRobotPump=Pompa
 
+chat.gateCopier.clear=Infromazione del gate cancellate.
+chat.gateCopier.gateCopied=Copiate informazioni del gate alla copiatrice.
+chat.gateCopier.gatePasted=Incollato dati copiati sul gate.
+chat.gateCopier.noGate=Nessun gate trovato su questo lato!
+chat.gateCopier.noInformation=Nessuna informazione del gate contenuta!
+chat.gateCopier.warning.actionParameters=§6Attenzione: il gate ha meno parametri d'azione!
+chat.gateCopier.warning.logic=§6Attenzione: il gate ha un tipo differente di logica!
+chat.gateCopier.warning.load=§6Attenzione: attivazioni/azioni del gate potrebbero mancare!
+chat.gateCopier.warning.slots=§6Attenzione: il gate ha meno posti!
+chat.gateCopier.warning.triggerParameters=§6Attenzione: il gate ha meno parametri d'attivazioni!
+
 chat.pipe.power.iron.mode=Cambiato limite a %d RF/t
 
 color.black=Nero
@@ -147,7 +158,6 @@ gui.pipes.emzuli.title=Programma per estrazione
 gui.pipes.emzuli.paint=Colora gli oggetti di %s
 gui.pipes.emzuli.nopaint=Non colorare gli oggetti
 
-item.scienceBook.name=Libro di scienze ingegneristiche
 item.bucketFuel.name=Secchio di carburante
 item.bucketOil.name=Secchio di petrolio
 item.woodenGearItem.name=Ingranaggio di legno
@@ -181,6 +191,7 @@ item.blueprint.blank=Vuoto
 item.blueprint.creative_only=Solo creativa
 item.blueprint.incomplete=Incompleto
 item.blueprint.no_build=Nessuna costruzione
+item.gateCopier.name=Copiatrice di gate
 item.mapLocation.name=Luogo su mappa
 item.PipeItemsWood.name=Tubo di legno per trasporto
 item.PipeItemsCobblestone.name=Tubo di pietrame per trasporto
@@ -224,6 +235,7 @@ item.FacadePhased.state_transparent=Trasparente
 item.PipePlug.name=Tappo per tubi
 
 itemGroup.buildcraft.blocks=Buildcraft blocchi
+itemGroup.buildcraft.boards=Buildcraft robot
 itemGroup.buildcraft.items=Buildcraft oggetti
 itemGroup.buildcraft.pipes=Buildcraft tubi
 itemGroup.buildcraft.facades=Buildcraft facciate
@@ -258,8 +270,6 @@ tile.refineryBlock.name=Raffinatore
 tile.spring.oil.name=Sorgente di petrolio
 tile.spring.water.name=Sorgente d'acqua
 tile.tankBlock.name=Serbatoio
-tile.energyConverter.name=Convertitore di corrente
-tile.energyConverter.tooltip=Converte corrente BC tra la nuova e la vecchia corrente del API|Aggiunta per compatibilità con altre mod|finchè non cambiano la corrente del API.|Potrebbe essere rimosso nel futuro.
 tile.zonePlan.name=Pianificatore per zone
 
 tile.architect.rotate=Rotazione: Si
@@ -276,6 +286,7 @@ tip.gate.wires.redstone=Rosso
 tip.gate.wires.iron=Rosso, Blu
 tip.gate.wires.gold=Rosso, Blu, Verde
 tip.gate.wires.diamond=Rosso, Blu, Verde, Giallo
+tip.gate.wires.emerald=Rosso, Blu, Verde, Giallo
 tip.gate.expansions=§9§oEspansioni installate:
 
 tip.PipeFluidsCobblestone=Tubo basilare, 10 mB/t\nNon si connette a pietra
