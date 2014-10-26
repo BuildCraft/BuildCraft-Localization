@@ -19,6 +19,16 @@ buildcraft.boardRobotCrafter=合成机器人
 buildcraft.boardRobotDelivery=配送机器人
 buildcraft.boardRobotPump=液泵机器人
 
+chat.gateCopier.clear=清除BC门配置信息.
+chat.gateCopier.gateCopied=将BC门配置信息复制到拷贝器中.
+chat.gateCopier.gatePasted=将拷贝器中的信息粘贴到BC门中.
+chat.gateCopier.noGate=该面没有发现BC门!
+chat.gateCopier.noInformation=未存储BC门配置信息!
+chat.gateCopier.warning.actionParameters=§6警告:目标缺少执行参数!
+chat.gateCopier.warning.logic=§6警告:目标的逻辑类型不符!
+chat.gateCopier.warning.load=§6警告:门控触发/执行配置已丢失!
+chat.gateCopier.warning.slots=§6警告:目标内部格子数量不足!
+chat.gateCopier.warning.triggerParameters=§6警告:目标的触发参数过少!
 chat.pipe.power.iron.mode=切换为%dRF/t限制
 
 color.black=黑色
@@ -148,7 +158,6 @@ gui.pipes.emzuli.title=抽取预设
 gui.pipes.emzuli.paint=染色物品 %s
 gui.pipes.emzuli.nopaint=不对物品染色
 
-item.scienceBook.name=工程科技手册
 item.bucketFuel.name=燃油桶
 item.bucketOil.name=原油桶
 item.woodenGearItem.name=木齿轮
@@ -183,6 +192,7 @@ item.blueprint.creative_only=仅限创造模式
 item.blueprint.no_build=无建筑
 item.blueprint.incomplete=未完成
 item.mapLocation.name=地图位置
+item.gateCopier.name=BC门配置拷贝器
 item.PipeItemsWood.name=木质管道
 item.PipeItemsCobblestone.name=圆石管道
 item.PipeItemsStone.name=石头管道
@@ -259,8 +269,6 @@ tile.refineryBlock.name=精炼厂
 tile.spring.oil.name=油泉
 tile.spring.water.name=泉
 tile.tankBlock.name=储罐
-tile.energyConverter.name=能源转化机
-tile.energyConverter.tooltip=在新旧API间转换BC能.|兼容其他没有更新到新API的模组.|未来版本会被移除.
 tile.zonePlan.name=区域规划机
 
 tile.architect.rotate=旋转:开
@@ -277,6 +285,7 @@ tip.gate.wires.redstone=红
 tip.gate.wires.iron=红,蓝
 tip.gate.wires.gold=红,蓝,黄
 tip.gate.wires.diamond=红,蓝,黄,绿
+tip.gate.wires.emerald=红,蓝,黄,绿
 tip.gate.expansions=§9§o已安装拓展:
 
 tip.PipeFluidsCobblestone=基础类管道,流量为10 mB/t\n不会与石质管道相连
