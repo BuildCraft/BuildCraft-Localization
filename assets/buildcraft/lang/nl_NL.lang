@@ -3,7 +3,7 @@
 # Updated by Obbidobbi and more
 # Based on master language file at commit 080b4ba
 
-chat.pipe.power.iron.mode=Ingesteld op limiet van %d MJ/t
+chat.pipe.power.iron.mode=Ingesteld op limiet van %d RF/t
 
 color.black=Zwart
 color.blue=Blauw

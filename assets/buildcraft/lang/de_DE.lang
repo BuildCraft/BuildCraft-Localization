@@ -18,7 +18,7 @@ buildcraft.boardRobotCrafter=Handwerker
 buildcraft.boardRobotDelivery=Lieferant
 buildcraft.boardRobotPump=Pumpe
 
-chat.pipe.power.iron.mode=Gewechselt zu einem Limit von %d MJ/t
+chat.pipe.power.iron.mode=Gewechselt zu einem Limit von %d RF/t
 
 color.black=Schwarz
 color.blue=Blau

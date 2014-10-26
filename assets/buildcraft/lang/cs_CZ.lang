@@ -1,6 +1,6 @@
 # cs_CZ language file
 
-chat.pipe.power.iron.mode=Přepnuto na limit %d MJ/t
+chat.pipe.power.iron.mode=Přepnuto na limit %d RF/t
 
 color.black=Černá
 color.blue=Modrá
