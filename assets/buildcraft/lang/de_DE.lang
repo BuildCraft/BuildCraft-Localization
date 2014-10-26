@@ -191,6 +191,7 @@ item.blueprint.creative_only=Nur Kreativ-Modus
 item.blueprint.no_build=Kein Bauen
 item.blueprint.incomplete=Unvollständig
 item.mapLocation.name=Kartenposition
+item.gateCopier.name=Gatterkopierer
 item.PipeItemsWood.name=Hölzernes Transportrohr
 item.PipeItemsCobblestone.name=Pflasterstein-Transportrohr
 item.PipeItemsStone.name=Steineres Transportrohr
