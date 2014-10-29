@@ -48,9 +48,16 @@ color.red=红色
 color.white=白色
 color.yellow=黄色
 
+direction.north=北方
+direction.west=西方
+direction.east=东方
+direction.south=南方
+direction.up=顶端
+direction.down=底端
+
 fillerpattern.clear=清除
 fillerpattern.fill=填充
-fillerpattern.flatten=夷平
+fillerpattern.flatten=平整
 fillerpattern.horizon=地平线
 fillerpattern.pyramid=金字塔
 fillerpattern.stairs=阶梯型
@@ -69,6 +76,7 @@ gate.action.machine.loop=循环
 gate.action.pulsar.constant=能量脉冲
 gate.action.pulsar.single=单次能量脉冲
 gate.action.pipe.wire=%s管道信号
+gate.action.redstone.signal=红石信号
 gate.action.robot.goto_station=前往站点
 gate.action.pipe.valve.open=开启
 gate.action.pipe.valve.input_only=仅输入
