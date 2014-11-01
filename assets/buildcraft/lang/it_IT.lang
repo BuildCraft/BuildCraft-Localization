@@ -48,6 +48,13 @@ color.red=Rosso
 color.white=Bianco
 color.yellow=Giallo
 
+direction.north=Nord
+direction.west=Ovest
+direction.east=Est
+direction.south=Sud
+direction.up=Su
+direction.down=Giù
+
 fillerpattern.clear=Sgombrare
 fillerpattern.fill=Riempire
 fillerpattern.flatten=Appiattire
@@ -69,6 +76,7 @@ gate.action.machine.loop=Ripeti
 gate.action.pulsar.constant=Pulsar di energia
 gate.action.pulsar.single=Pulsar di energia singolo
 gate.action.pipe.wire=Segnale %s per tubi
+gate.action.redstone.signal=Segnale pietrarossa
 gate.action.robot.goto_station=Vai a stazione
 gate.action.pipe.valve.open=Aperto
 gate.action.pipe.valve.input_only=Solo entrata
@@ -101,6 +109,8 @@ gate.material.emerald=di smeraldo
 
 gate.name=%2$s gate %1$s
 gate.name.basic=Gate base
+
+gate.parameter.redstone.gateSideOnly=Solo lato del gate
 
 gate.trigger.engine.blue=Motore blu
 gate.trigger.engine.green=Motore verde
