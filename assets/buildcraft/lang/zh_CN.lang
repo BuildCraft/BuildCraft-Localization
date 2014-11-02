@@ -274,6 +274,7 @@ tile.pathMarkerBlock.name=路径标记
 tile.plainPipeBlock.name=采矿管道
 tile.pumpBlock.name=液泵
 tile.refineryBlock.name=精炼厂
+tile.requester.name=请求机
 tile.spring.oil.name=油泉
 tile.spring.water.name=泉
 tile.tankBlock.name=储罐
@@ -281,12 +282,12 @@ tile.zonePlan.name=区域规划机
 
 tile.architect.rotate=旋转:开
 tile.architect.norotate=旋转:关
-tile.architect.allblocks=方块:全部方块
-tile.architect.simpleblocks=方块:非复杂型
+tile.architect.allowCreative=模式:创造模式
+tile.architect.noallowCreative=模式:生存模式
+tile.architect.tooltip.allowCreative.1=创造模式允许使用所有方块-仅限创造模式!
+tile.architect.tooltip.allowCreative.2=生存模式将忽略所有不支持的方块
 tile.architect.excavate=挖掘:开
 tile.architect.noexcavate=挖掘:关
-tile.architect.supportmods=模组:支持
-tile.architect.allmods=模组:全部
 
 tip.gate.wires=§9§o兼容管线:
 tip.gate.wires.redstone=红
@@ -323,6 +324,9 @@ tip.PipePowerWood=能量输入管道
 tip.PipePowerIron=可选能量限制管道
 tip.PipePowerEmerald=能量输入管道
 tip.PipeStructureCobblestone=结构支撑管道
+
+tip.tool.add=添加
+tip.tool.remove=移除
 
 achievement.woodenGearAchievement=边缘略显粗糙
 achievement.woodenGearAchievement.desc=合成木齿轮
