@@ -276,6 +276,7 @@ tile.pathMarkerBlock.name=Wegmarkierung
 tile.plainPipeBlock.name=Minenrohr
 tile.pumpBlock.name=Pumpe
 tile.refineryBlock.name=Raffinerie
+tile.requester.name=Bestellblock
 tile.spring.oil.name=Ölquelle
 tile.spring.water.name=Wasserquelle
 tile.tankBlock.name=Tank
@@ -325,6 +326,9 @@ tip.PipePowerWood=Energie-Eingangsrohr
 tip.PipePowerEmerald=Energie-Eingangsrohr
 tip.PipePowerIron=Rohr mit auswählbarem Energielimit
 tip.PipeStructureCobblestone=Rohr zur Unterstützung
+
+tip.tool.add=Hinzufügen
+tip.tool.remove=Entfernen
 
 achievement.woodenGearAchievement=Ungehobelt
 achievement.woodenGearAchievement.desc=Fertige ein Holzzahnrad
