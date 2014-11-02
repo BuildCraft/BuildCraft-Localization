@@ -276,6 +276,7 @@ tile.pathMarkerBlock.name=Wegmarkierung
 tile.plainPipeBlock.name=Minenrohr
 tile.pumpBlock.name=Pumpe
 tile.refineryBlock.name=Raffinerie
+tile.requester.name=Bestellblock
 tile.spring.oil.name=Ölquelle
 tile.spring.water.name=Wasserquelle
 tile.tankBlock.name=Tank
@@ -283,12 +284,12 @@ tile.zonePlan.name=Zonenplaner
 
 tile.architect.rotate=Rotieren: An
 tile.architect.norotate=Rotieren: Aus
-tile.architect.allblocks=Blöcke: Alle
-tile.architect.simpleblocks=Blöcke: Einfache
+tile.architect.allowCreative=Modus: Kreativ
+tile.architect.noallowCreative=Modus: Normal
+tile.architect.tooltip.allowCreative.1=Kreativ erlaubt alle Blockarten - Nur im Kreativmodus!
+tile.architect.tooltip.allowCreative.2=Normal ignoriert nicht unterstützte Blöcke
 tile.architect.excavate=Umgraben: An
 tile.architect.noexcavate=Umgraben: Aus
-tile.architect.supportmods=Mods: Unterstützte
-tile.architect.allmods=Mods: Alle
 
 tip.gate.wires=§9§oKompatible Kabel:
 tip.gate.wires.redstone=Rot
@@ -325,6 +326,9 @@ tip.PipePowerWood=Energie-Eingangsrohr
 tip.PipePowerEmerald=Energie-Eingangsrohr
 tip.PipePowerIron=Rohr mit auswählbarem Energielimit
 tip.PipeStructureCobblestone=Rohr zur Unterstützung
+
+tip.tool.add=Hinzufügen
+tip.tool.remove=Entfernen
 
 achievement.woodenGearAchievement=Ungehobelt
 achievement.woodenGearAchievement.desc=Fertige ein Holzzahnrad
