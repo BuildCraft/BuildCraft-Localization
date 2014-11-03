@@ -18,6 +18,16 @@ buildcraft.boardRobotCrafter=Создатель
 buildcraft.boardRobotDelivery=Разносчик
 buildcraft.boardRobotPump=Помпа
 
+chat.gateCopier.clear=Данные о гейте очищены.
+chat.gateCopier.gateCopied=Данные гейта скопированы в копировальщик гейтов.
+chat.gateCopier.gatePasted=Скопированные данные вставлены в гейт.
+chat.gateCopier.noGate=На этой стороне не найден гейт!
+chat.gateCopier.noInformation=Нет скопированных данных гейта!
+chat.gateCopier.warning.actionParameters=§6Предупреждение: Цель имеет меньше параметров!
+chat.gateCopier.warning.logic=§6Предупреждение: Цель имеет другой вид логики!
+chat.gateCopier.warning.load=§6Предупреждение: Триггеры/действия гейта могут быть пропущены!
+chat.gateCopier.warning.slots=§6Предупреждение: Цель имеет меньше слотов!
+chat.gateCopier.warning.triggerParameters=§6Предупреждение: Цель имеет меньше параметров триггера!
 chat.pipe.power.iron.mode=Переключено на предел в %d RF/т
 
 color.black=Чёрный
@@ -36,6 +46,13 @@ color.purple=Фиолетовый
 color.red=Красный
 color.white=Белый
 color.yellow=Жёлтый
+
+direction.north=Север
+direction.west=Запад
+direction.east=Восток
+direction.south=Юг
+direction.up=Верх
+direction.down=Низ
 
 fillerpattern.clear=Очистка
 fillerpattern.fill=Заполнение
@@ -58,6 +75,7 @@ gate.action.machine.loop=Цикл
 gate.action.pulsar.constant=Энергетический пульсар
 gate.action.pulsar.single=Одиночный энергетический пульс
 gate.action.pipe.wire=%s сигнал трубы
+gate.action.redstone.signal=Сигнал красного камня
 gate.action.robot.goto_station=Перемещение на станцию
 gate.action.pipe.valve.open=Открыть
 gate.action.pipe.valve.input_only=Только вход
@@ -90,6 +108,8 @@ gate.material.emerald=Изумруд
 
 gate.name=%s %s Гейт
 gate.name.basic=Базовый гейт
+
+gate.parameter.redstone.gateSideOnly=Только со стороны гейта
 
 gate.trigger.engine.blue=Двигатель синий
 gate.trigger.engine.green=Двигатель зелёный
@@ -147,7 +167,6 @@ gui.pipes.emzuli.title=Шаблоны извлечения
 gui.pipes.emzuli.paint=Окрашивать предмета %s
 gui.pipes.emzuli.nopaint=Не окрашивать предметы
 
-item.scienceBook.name=Научная книга инженеров
 item.bucketFuel.name=Ведро топлива
 item.bucketOil.name=Ведро нефти
 item.woodenGearItem.name=Деревянная шестерня
@@ -182,6 +201,7 @@ item.blueprint.creative_only=Творческий
 item.blueprint.no_build=Нет постройки
 item.blueprint.incomplete=Незавершённый
 item.mapLocation.name=Карта расположения
+item.gateCopier.name=Копировальщик гейтов
 item.PipeItemsWood.name=Деревянная транспортная труба
 item.PipeItemsCobblestone.name=Булыжниковая транспортная труба
 item.PipeItemsStone.name=Каменная транспортная труба
@@ -224,6 +244,7 @@ item.FacadePhased.state_transparent=Прозрачный
 item.PipePlug.name=Заглушка
 
 itemGroup.buildcraft.blocks=Buildcraft: Блоки
+itemGroup.buildcraft.boards=Buildcraft: Роботы
 itemGroup.buildcraft.items=Buildcraft: Предметы
 itemGroup.buildcraft.pipes=Buildcraft: Трубы
 itemGroup.buildcraft.facades=Buildcraft: Фасады
@@ -249,32 +270,33 @@ tile.laserBlock.name=Лазер
 tile.libraryBlock.name=Библиотека проектов
 tile.machineBlock.name=Карьер
 tile.markerBlock.name=Метка
+tile.constructionMarkerBlock.name=Строительная метка
 tile.miningWellBlock.name=Буровая установка
 tile.pathMarkerBlock.name=Метка
 tile.plainPipeBlock.name=Буровая труба
 tile.pumpBlock.name=Помпа
 tile.refineryBlock.name=Нефтеперегонная вышка
+tile.requester.name=Инициатор запроса
 tile.spring.oil.name=Источник нефти
 tile.spring.water.name=Источник воды
 tile.tankBlock.name=Цистерна
-tile.energyConverter.name=Преобразователь энергии
-tile.energyConverter.tooltip=Преобразует энергию BC между старым и новым API|Добавлен для совместимости с другими модами,|пока они не перешли на новый API.|Может быть удалён в будущем.
 tile.zonePlan.name=Планировщик зон
 
 tile.architect.rotate=Вращение: Вкл.
 tile.architect.norotate=Вращение: Откл.
-tile.architect.allblocks=Блоки: Все
-tile.architect.simpleblocks=Блоки: Обычные
+tile.architect.allowCreative=Режим: Творческий
+tile.architect.noallowCreative=Mode: Выживание
+tile.architect.tooltip.allowCreative.1=В творческом разрешены все блоки - Только в творческом режиме!
+tile.architect.tooltip.allowCreative.2=В выживании запрещены все неподдерживаемые блоки
 tile.architect.excavate=Копание: Вкл.
 tile.architect.noexcavate=Копание: Откл.
-tile.architect.supportmods=Моды: Поддерживаемые
-tile.architect.allmods=Моды: Все
 
 tip.gate.wires=§9§oСовместимые провода:
 tip.gate.wires.redstone=Красный
 tip.gate.wires.iron=Красный, Синий
 tip.gate.wires.gold=Красный, Синий, Зелёный
 tip.gate.wires.diamond=Красный, Синий, Зелёный, Жёлтый
+tip.gate.wires.emerald=Красный, Синий, Зелёный, Жёлтый
 tip.gate.expansions=§9§oУстановленные расширения:
 
 tip.PipeFluidsCobblestone=Обычная труба, 10 мВ/т\nНе присоединяется к каменным
@@ -304,6 +326,9 @@ tip.PipePowerWood=Труба для входа энергии
 tip.PipePowerEmerald=Труба для входа энергии
 tip.PipePowerIron=Труба с регулируемой пропускной мощностью
 tip.PipeStructureCobblestone=Вспомогательная труба
+
+tip.tool.add=Добавить
+tip.tool.remove=Удалить
 
 achievement.woodenGearAchievement=Немного шероховатая вокруг краёв
 achievement.woodenGearAchievement.desc=Сделайте деревянную шестерню
