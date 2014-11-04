@@ -277,6 +277,7 @@ tile.pathMarkerBlock.name=Delimitatore per percorso
 tile.plainPipeBlock.name=Tubo della scavatrice
 tile.pumpBlock.name=Pompa
 tile.refineryBlock.name=Raffinatore
+tile.requester.name=Richieditrice
 tile.spring.oil.name=Sorgente di petrolio
 tile.spring.water.name=Sorgente d'acqua
 tile.tankBlock.name=Serbatoio
@@ -284,12 +285,12 @@ tile.zonePlan.name=Pianificatore per zone
 
 tile.architect.rotate=Rotazione: Si
 tile.architect.norotate=Rotazione: No
-tile.architect.allblocks=Blocchi: Tutti
-tile.architect.simpleblocks=Blocchi: Semplici
++tile.architect.allowCreative=Modalità: Creativa
++tile.architect.noallowCreative=Modalità: Sopravvivenza
++tile.architect.tooltip.allowCreative.1=Creativa permette tutti i blocchi - Solo Modalità Creativa!
++tile.architect.tooltip.allowCreative.2=Sopravvivenza ignora tutti i blocchi non supportati
 tile.architect.excavate=Scavare: Si
 tile.architect.noexcavate=Scavare: No
-tile.architect.supportmods=Mod: Supporto
-tile.architect.allmods=Mod: Tutti
 
 tip.gate.wires=§9§oFili compatibili:
 tip.gate.wires.redstone=Rosso
@@ -326,6 +327,9 @@ tip.PipePowerWood=Entrata per corrente
 tip.PipePowerEmerald=Entrata per corrente
 tip.PipePowerIron=Tubo con limite selezionabile
 tip.PipeStructureCobblestone=Tubo per supporto
+
++tip.tool.add=Aggiungi
++tip.tool.remove=Rimuovi
 
 achievement.woodenGearAchievement=Un po' grezzo
 achievement.woodenGearAchievement.desc=Crea un ingranaggio di legno
