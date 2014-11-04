@@ -1,5 +1,5 @@
 # ja_JP
-# Translated by gishicrafter Updated by tokoku-11
+# Translated by gishicrafter Updated by tokoku(tokoku-11 in Github)
 
 buildcraft.boardRobotPicker=アイテム回収
 buildcraft.boardRobotLumberjack=きこり
@@ -129,7 +129,7 @@ gate.trigger.machine.scheduled=作業が完了していない
 gate.trigger.redstone.input.active=レッドストーン信号を受けている
 gate.trigger.redstone.input.inactive=レッドストーン信号を受けていない
 gate.trigger.redstone.input.level=レッドストーン信号の強度が%d
-gate.trigger.pipe.empty=Pipe Emptyパイプが空
+gate.trigger.pipe.empty=パイプが空
 gate.trigger.pipe.containsItems=アイテムが通過中
 gate.trigger.pipe.containsFluids=液体が通過中
 gate.trigger.pipe.containsEnergy=エネルギーが通過中
