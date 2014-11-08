@@ -275,6 +275,7 @@ tile.pathMarkerBlock.name=経路マーカー
 tile.plainPipeBlock.name=採掘パイプ
 tile.pumpBlock.name=ポンプ
 tile.refineryBlock.name=精製機
+tile.requester.name=アイテム要求器
 tile.spring.oil.name=原油の源
 tile.spring.water.name=湧き水の源
 tile.tankBlock.name=タンク
