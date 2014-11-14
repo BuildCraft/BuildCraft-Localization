@@ -281,10 +281,10 @@ tile.spring.water.name=湧き水の源
 tile.tankBlock.name=タンク
 tile.zonePlan.name=範囲指定機
 
-tile.architect.rotate=：方向保持: Off
+tile.architect.rotate=方向保持: Off
 tile.architect.norotate=方向保持: On
-tile.architect.allowCreative=モード: クリエイティブ
-tile.architect.noallowCreative=モード: サバイバル
+tile.architect.allowCreative=クリエイティブ
+tile.architect.noallowCreative=サバイバル
 tile.architect.tooltip.allowCreative.1=クリエイティブでは全てのブロックを記録できます
 tile.architect.tooltip.allowCreative.2=サバイバルでは一部のブロックを記録できません
 tile.architect.excavate=ブロック破壊: On
