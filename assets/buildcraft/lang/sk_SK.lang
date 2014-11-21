@@ -14,6 +14,9 @@ buildcraft.boardRobotHarvester=Zberač
 buildcraft.boardRobotShovelman=Kopač
 buildcraft.boardRobotButcher=Mäsiar
 buildcraft.boardRobotBuilder=Stavač
+buildcraft.boardRobotCrafter=Remeselník
+buildcraft.boardRobotDelivery=Poštár
+buildcraft.boardRobotPump=Pumpár
 buildcraft.boardDetail.parameters=Parametre
 buildcraft.boardDetail.range=Dosah
 
@@ -38,6 +41,13 @@ color.purple=Fialová
 color.red=Červená
 color.white=Biela
 color.yellow=Žltá
+
+direction.north=Sever
+direction.west=Západ
+direction.east=Východ
+direction.south=Juh
+direction.up=Vrch
+direction.down=Spodok
 
 fillerpattern.clear=Vyčistiť
 fillerpattern.fill=Vyplniť
@@ -84,6 +94,8 @@ gate.material.emerald=Emeraldová
 
 gate.name=%s %s Brána
 gate.name.basic=Základná brána
+
+gate.parameter.redstone.gateSideOnly=Len strana brány
 
 gate.trigger.engine.blue=Modrý motor
 gate.trigger.engine.green=Zelený motor
@@ -261,7 +273,7 @@ tile.architect.noexcavate=Vykopať: VYP
 tile.architect.supportmods=Mód: Podporný
 tile.architect.allmods=Mód: Všetky
 
-tip.gate.wires=§9§oCompatible Wires:
+tip.gate.wires=§9§oKompatibilné Drôty:
 tip.gate.wires.redstone=Červený
 tip.gate.wires.iron=Červený, Modrý
 tip.gate.wires.gold=Červený, Modrý, Zelený
@@ -293,6 +305,9 @@ tip.PipeItemsEmzuli=Extračná rúra, bránou nastaviteľná
 tip.PipePowerWood=Rúra na vstup energie
 tip.PipePowerIron=Nastaviteľná rúra
 tip.PipeStructureCobblestone=Podporná rúra
+
+tip.tool.add=Pridať
+tip.tool.remove=Odstrániť
 
 achievement.woodenGearAchievement=Trošku hrboľaté
 achievement.woodenGearAchievement.desc=Vyrob si Drevené ozubené koleso
