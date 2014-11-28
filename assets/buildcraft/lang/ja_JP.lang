@@ -314,6 +314,7 @@ tip.PipeFluidsSandstone=防水パイプのみと接続する
 tip.PipeFluidsStone=基本パイプ\n丸石の防水パイプとは接続しない
 tip.PipeFluidsVoid=液体を消去する
 tip.PipeFluidsWood=搬出パイプ
+tip.PipeItemsClay=挿入パイプ
 tip.PipeItemsCobblestone=基本パイプ, 減速率高\n石、水晶の輸送パイプと接続しない
 tip.PipeItemsDaizuli=色分けされたアイテムを分別する
 tip.PipeItemsDiamond=アイテムを分別する
@@ -330,6 +331,7 @@ tip.PipeItemsWood=搬出パイプ
 tip.PipeItemsEmzuli=ゲート制御搬出パイプ
 tip.PipePowerWood=エネルギー入力パイプ
 tip.PipePowerEmerald=エネルギー入力パイプ
+tip.PipePowerSandstone=伝導パイプのみと接続する
 tip.PipePowerIron=エネルギー流量調整パイプ
 tip.PipeStructureCobblestone=支持パイプ
 
