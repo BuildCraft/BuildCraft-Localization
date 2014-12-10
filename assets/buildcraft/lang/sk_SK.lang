@@ -1,11 +1,14 @@
 # Slovak language file
 # Translated by leSamo - twitter: @leSamoSK
 
+
+
 buildcraft.boardRobotPicker=Zdvýhač
 buildcraft.boardRobotLumberjack=Drevorubač
 buildcraft.boardRobotPlanter=Sadič
 buildcraft.boardRobotLeaveCutter=Strihač
 buildcraft.boardRobotCarrier=Nosič
+buildcraft.boardRobotFluidCarrier=Prelievač
 buildcraft.boardRobotBomber=Bombardér
 buildcraft.boardRobotKnight=Rytier
 buildcraft.boardRobotMiner=Banič
@@ -17,13 +20,18 @@ buildcraft.boardRobotBuilder=Stavač
 buildcraft.boardRobotCrafter=Remeselník
 buildcraft.boardRobotDelivery=Poštár
 buildcraft.boardRobotPump=Pumpár
-buildcraft.boardDetail.parameters=Parametre
-buildcraft.boardDetail.range=Dosah
 
+chat.gateCopier.clear=Informácie brány vynulované.
+chat.gateCopier.gateCopied=Informácie brány skopírované.
+chat.gateCopier.gatePasted=Informácie brány prilepené.
+chat.gateCopier.noGate=Žiadna brána nebola na tejto strane nájdená!
+chat.gateCopier.noInformation=Žiadne informácie o bráne uložené!
+chat.gateCopier.warning.actionParameters=§6Warning: Cieľ nemá dostatočné parametre!
+chat.gateCopier.warning.logic=§6Warning: Cieľ má iný typ logiky!
+chat.gateCopier.warning.load=§6Warning: Niektoré parametre môžu chýbať!
+chat.gateCopier.warning.slots=§6Warning: Cieľ nemá dosť priestoru!
+chat.gateCopier.warning.triggerParameters=§6Warning: Cieľ nemá dostatočné parametre!
 chat.pipe.power.iron.mode=Zmenené na %d RF/t limit
-chat.pipe.power.energyConverter=Výmena energie: %s
-chat.pipe.power.energyConverter.from_old_to_new=Zo starého API na nové API
-chat.pipe.power.energyConverter.from_new_to_old=Z novej API na starú API
 
 color.black=Čierna
 color.blue=Modrá
@@ -70,7 +78,7 @@ gate.action.machine.loop=Dookola
 gate.action.pulsar.constant=Energetický pulzar
 gate.action.pulsar.single=Jediný elektrický signál
 gate.action.pipe.wire=%s Potrubný signál
-gate.action.robot.goto_station=Späť do stanice€
+gate.action.robot.goto_station=Späť do stanice
 gate.action.pipe.close=Zatvoriť potrubie
 gate.action.station.provide_items=Poskytnúť predmety
 gate.action.station.request_items=Potrebovať predmety
@@ -79,6 +87,8 @@ gate.action.robot.work_in_area=Pracovať v území
 gate.action.robot.wakeup=Zobudiť sa
 gate.action.station.forbid_robot=Zakázaný robot
 gate.action.robot.filter=Filter
+
+# some gate.action missing
 
 gate.expansion.fader=Ruditový prelínač
 gate.expansion.pulsar=Sebestačný pulzar
@@ -153,7 +163,6 @@ gui.pipes.emzuli.title=Funkcia extrakcie
 gui.pipes.emzuli.paint=Farbiť predmety %s
 gui.pipes.emzuli.nopaint=Nefarbiť predmety
 
-item.scienceBook.name=Kniha inžinierskej vedy
 item.bucketFuel.name=Vedro s benzínom
 item.bucketOil.name=Vedro s ropou
 item.woodenGearItem.name=Drevené ozubené koleso
@@ -272,6 +281,8 @@ tile.architect.excavate=Vykopať: ZAP
 tile.architect.noexcavate=Vykopať: VYP
 tile.architect.supportmods=Mód: Podporný
 tile.architect.allmods=Mód: Všetky
+
+#some tile.architect missing
 
 tip.gate.wires=§9§oKompatibilné Drôty:
 tip.gate.wires.redstone=Červený
