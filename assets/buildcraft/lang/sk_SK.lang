@@ -1,8 +1,5 @@
 # Slovak language file
 # Translated by leSamo - twitter: @leSamoSK
-
-
-
 buildcraft.boardRobotPicker=Zdvýhač
 buildcraft.boardRobotLumberjack=Drevorubač
 buildcraft.boardRobotPlanter=Sadič
@@ -70,25 +67,32 @@ fillerpattern.frame=Rám
 fluid.oil=Ropa
 fluid.fuel=Benzín
 
-gate.action.extraction=%s Predvoľba - extrakcia
-gate.action.pipe.item.color=Zfarbiť predmety %s
+gate.action.extraction=%s Predvoľba extrakcia
+gate.action.pipe.item.color=Zafarbiť predmety %s
 gate.action.machine.on=ZAP
 gate.action.machine.off=VYP
-gate.action.machine.loop=Dookola
+gate.action.machine.loop=Opakovať
 gate.action.pulsar.constant=Energetický pulzar
-gate.action.pulsar.single=Jediný elektrický signál
+gate.action.pulsar.single=Jediný elektrický pulz
 gate.action.pipe.wire=%s Potrubný signál
+gate.action.redstone.signal=Ruditový signal
 gate.action.robot.goto_station=Späť do stanice
-gate.action.pipe.close=Zatvoriť potrubie
+gate.action.pipe.valve.open=Otvorené
+gate.action.pipe.valve.input_only=Iba vstup
+gate.action.pipe.valve.output_only=Iba výstup
+gate.action.pipe.valve.closed=Zatvorené
 gate.action.station.provide_items=Poskytnúť predmety
-gate.action.station.request_items=Potrebovať predmety
-gate.action.station.drop_items_in_pipe=Hodiť predmety do potrubia
-gate.action.robot.work_in_area=Pracovať v území
-gate.action.robot.wakeup=Zobudiť sa
-gate.action.station.forbid_robot=Zakázaný robot
+gate.action.station.accept_items=Prijať predmety
+gate.action.station.request_items=Vyžadovať predmety
+gate.action.station.drop_items_in_pipe=vhoď predmety do rúry
+gate.action.station.allow_craft=Povoľ vyrábanie
+gate.action.station.provide_machine_request=Poskytni vypočítané predmety
+gate.action.station.accept_fluids=Príjimaj tekutiny 
+gate.action.station.povide_fluids=Poskytuj tekutiny
+gate.action.robot.work_in_area=Pracuj v území
+gate.action.robot.wakeup=Zobuď sa
+gate.action.station.forbid_robot=Robot zakázaný
 gate.action.robot.filter=Filter
-
-# some gate.action missing
 
 gate.expansion.fader=Ruditový prelínač
 gate.expansion.pulsar=Sebestačný pulzar
@@ -111,6 +115,7 @@ gate.trigger.engine.blue=Modrý motor
 gate.trigger.engine.green=Zelený motor
 gate.trigger.engine.yellow=Žltý motor
 gate.trigger.engine.red=Červený motor
+gate.trigger.engine.overheat=Motor prehriaty
 gate.trigger.fluid.empty=Prázdna nádrž
 gate.trigger.fluid.contains=Tekutina v nádrži
 gate.trigger.fluid.space=Priestor pre tekutinu
@@ -139,6 +144,7 @@ gate.trigger.robot.sleep=Spánok
 gate.trigger.machine.energyStoredHigh=Veľa uloženej energie
 gate.trigger.machine.energyStoredLow=Málo uloženej energie
 
+
 gui.building.resources=Zdroje na stavbu
 gui.building.fluids=Tekutiny na stavbu
 gui.del=Vymazať
@@ -162,6 +168,8 @@ gui.pipes.emerald.nonblocking.tip=Extrakcia nie je blokovaná ak jeden z prvkov 
 gui.pipes.emzuli.title=Funkcia extrakcie
 gui.pipes.emzuli.paint=Farbiť predmety %s
 gui.pipes.emzuli.nopaint=Nefarbiť predmety
+
+
 
 item.bucketFuel.name=Vedro s benzínom
 item.bucketOil.name=Vedro s ropou
@@ -235,10 +243,18 @@ item.FacadePhased.state_default=Štandardné: %s
 item.FacadePhased.state_transparent=Priehľadná
 item.PipePlug.name=Napojenie Rúry
 
+
+
+
+
+
+
+
 itemGroup.buildcraft.blocks=Buildcraft Bloky
 itemGroup.buildcraft.items=Buildcraft Predmety
 itemGroup.buildcraft.pipes=Buildcraft Rúry
 itemGroup.buildcraft.facades=Buildcraft Fasády
+
 
 tile.architectBlock.name=Stôl architekta
 tile.assemblyTableBlock.name=Výrobný stôl
@@ -273,6 +289,7 @@ tile.energyConverter.name=Konverzia energie
 tile.energyConverter.tooltip=
 tile.zonePlan.name=Plánovač povrchu
 
+
 tile.architect.rotate=Otočiť: ZAP
 tile.architect.norotate=Otočiť: VYP
 tile.architect.allblocks=Bloky: Všetky
@@ -282,14 +299,13 @@ tile.architect.noexcavate=Vykopať: VYP
 tile.architect.supportmods=Mód: Podporný
 tile.architect.allmods=Mód: Všetky
 
-#some tile.architect missing
-
 tip.gate.wires=§9§oKompatibilné Drôty:
 tip.gate.wires.redstone=Červený
 tip.gate.wires.iron=Červený, Modrý
 tip.gate.wires.gold=Červený, Modrý, Zelený
 tip.gate.wires.diamond=Červený, Modrý, Zelený, Žltý
 tip.gate.expansions=§9§oNainštalované rozšírenia:
+
 
 tip.PipeFluidsCobblestone=Základná rúra\nNenapojí sa na Skalnú rúru
 tip.PipeFluidsEmerald=Extrakčná rúra
