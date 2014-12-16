@@ -1,6 +1,6 @@
 # Master language file
 # translated by unoya (中文語系檔作者:無云)
-# after 6.22 ver
+# after 6.26 ver
 
 buildcraft.boardRobotPicker=拾取機
 buildcraft.boardRobotLumberjack=伐木機
@@ -13,7 +13,7 @@ buildcraft.boardRobotKnight=騎士
 buildcraft.boardRobotMiner=礦工
 buildcraft.boardRobotFarmer=農夫
 buildcraft.boardRobotHarvester=收割機
-buildcraft.boardRobotShovelman=鐵鍬人
+buildcraft.boardRobotShovelman=鐵鍬達人
 buildcraft.boardRobotButcher=屠夫
 buildcraft.boardRobotBuilder=建設者
 buildcraft.boardRobotCrafter=工匠
@@ -21,13 +21,13 @@ buildcraft.boardRobotDelivery=輸送員
 buildcraft.boardRobotPump=泵浦
 
 chat.gateCopier.clear=閘門訊息已清除.
-chat.gateCopier.gateCopied=複製閘門訊息給複製機.
-chat.gateCopier.gatePasted=貼上複製資料給閘門.
-chat.gateCopier.noGate=這裡找不到任何閘門!
-chat.gateCopier.noInformation=沒有任何儲存的閘門訊息!
+chat.gateCopier.gateCopied=複製閘門資料.
+chat.gateCopier.gatePasted=貼上閘門資料.
+chat.gateCopier.noGate=找不到任何閘門!
+chat.gateCopier.noInformation=沒有任何儲存的閘門資料!
 chat.gateCopier.warning.actionParameters=§6警告: 目標有變動少許參數!
-chat.gateCopier.warning.logic=§6警告: 目標有不同的邏輯類型!
-chat.gateCopier.warning.load=§6警告: 閘門觸發器/操作機可能會遺失!
+chat.gateCopier.warning.logic=§6警告: 目標是不同的邏輯類型!
+chat.gateCopier.warning.load=§6警告: 閘門觸發器或操作方式可能會遺失!
 chat.gateCopier.warning.slots=§6警告: 目標缺少插槽!
 chat.gateCopier.warning.triggerParameters=§6警告: 目標缺少觸發參數!
 chat.pipe.power.iron.mode=切換到 %d RF/t 限界值
@@ -62,9 +62,9 @@ fillerpattern.flatten=整地
 fillerpattern.horizon=水平線
 fillerpattern.pyramid=金字塔
 fillerpattern.stairs=樓梯
-fillerpattern.box=方塊
+fillerpattern.box=方框
 fillerpattern.cylinder=圓形
-fillerpattern.frame=框架
+fillerpattern.frame=線框
 
 fluid.oil=石油
 fluid.fuel=燃料
@@ -74,8 +74,8 @@ gate.action.pipe.item.color=上色道具 %s
 gate.action.machine.on=開啟
 gate.action.machine.off=關閉
 gate.action.machine.loop=循環
-gate.action.pulsar.constant=脈衝能量
-gate.action.pulsar.single=單脈衝能量
+gate.action.pulsar.constant=週期性脈衝能量
+gate.action.pulsar.single=單一脈衝能量
 gate.action.pipe.wire=%s 導管訊號
 gate.action.redstone.signal=紅石訊號
 gate.action.robot.goto_station=移動到工作站
@@ -136,7 +136,7 @@ gate.trigger.redstone.input.level=紅石等級 %d
 gate.trigger.pipe.empty=空導管
 gate.trigger.pipe.containsItems=道具穿越
 gate.trigger.pipe.containsFluids=流體穿越
-gate.trigger.pipe.containsEnergy=電力穿越
+gate.trigger.pipe.containsEnergy=能量穿越
 gate.trigger.pipe.requestsEnergy=能量需求
 gate.trigger.pipe.tooMuchEnergy=能量超載
 gate.trigger.pipe.wire.active=%s 導管訊號開啟
@@ -272,7 +272,7 @@ tile.engineWood.name=紅石引擎
 tile.fillerBlock.name=填充機
 tile.filteredBufferBlock.name=過濾緩衝機
 tile.floodGateBlock.name=閘門機
-tile.frameBlock.name=框架
+tile.frameBlock.name=施工框架
 tile.integrationTableBlock.name=整合工作台
 tile.laserBlock.name=雷射
 tile.libraryBlock.name=藍圖資料庫
@@ -293,7 +293,7 @@ tile.architect.rotate=旋轉: 開啟
 tile.architect.norotate=旋轉: 關閉
 tile.architect.allowCreative=模式: 創造
 tile.architect.noallowCreative=模式: 生存
-tile.architect.tooltip.allowCreative.1=允許所有方塊 - 創造模式!
+tile.architect.tooltip.allowCreative.1=允許所有方塊 - 創造模式
 tile.architect.tooltip.allowCreative.2=忽略所有不支援方塊 - 生存模式
 tile.architect.excavate=挖掘: 開啟
 tile.architect.noexcavate=挖掘: 關閉
