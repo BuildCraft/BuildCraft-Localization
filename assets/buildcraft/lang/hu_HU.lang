@@ -1,5 +1,5 @@
-# hu_HU
-# Translated by naburus-primus and Platypus007
+#hu_HU
+#Translated by naburus-primus and Platypus007
 #based on en_US.lang
 
 buildcraft.boardRobotPicker=Szedegető
@@ -27,9 +27,9 @@ chat.gateCopier.noGate=Nincs kapu ezen az oldalon!
 chat.gateCopier.noInformation=Nincs eltárolt kapu-információ!
 chat.gateCopier.warning.actionParameters=§6Figyelmeztetés: A célpontnak kevesebb paramétere van!
 chat.gateCopier.warning.logic=§6Figyelmeztetés: A célpont más logikai típusú!
-chat.gateCopier.warning.load=§6Figyelmeztetés: Gate triggers/actions might be missing!
+chat.gateCopier.warning.load=§6Figyelmeztetés: Kapu triggerek/cselekvések hiányozhatnak!
 chat.gateCopier.warning.slots=§6Figyelmeztetés: A célpontnak a vártnál kevesebb helye van!
-chat.gateCopier.warning.triggerParameters=§6Figyelmeztetés: Target has less trigger parameters!
+chat.gateCopier.warning.triggerParameters=§6Figyelmeztetés: A célpontnak kevesebb trigger paramétere van!
 chat.pipe.power.iron.mode=Átváltás a %d RF/tick limit -re.
 
 color.black=Fekete
@@ -96,7 +96,7 @@ gate.action.station.forbid_robot=Tiltott robot
 gate.action.robot.filter=Szűrő
 
 
-# gate.expansion.fader=Redstone Fader
+# gate.expansion.fader=Vöröskó fader
 # gate.expansion.pulsar=Pulzálós bővítés
 # gate.expansion.timer=Időzítős bővítés
 
@@ -124,7 +124,7 @@ gate.trigger.fluid.space=Van hely a folyadéknak
 gate.trigger.fluid.full=A tank tele van
 gate.trigger.fluidlevel.below=A tárolt mennyiség < %d%%
 gate.trigger.inventory.empty=Az Inventory üres
-gate.trigger.inventory.contains=Itemek az Inventoryban
+gate.trigger.inventory.contains=Tárgyak az Inventoryban
 gate.trigger.inventory.space=Hely az Inventoryban
 gate.trigger.inventory.full=Az Inventory tele van
 gate.trigger.inventorylevel.below=A tárolt mennyiség < %d%%
@@ -166,8 +166,8 @@ gui.pipes.emerald.blocking.tip=Extrakció blokkolása, ha a szűrőben hiányzik
 gui.pipes.emerald.nonblocking=Nincs blokkolva
 gui.pipes.emerald.nonblocking.tip=Extrakció folytatódik a következő elemmel ha a szűrőben hiányzik egy elem
 gui.pipes.emzuli.title=Extrakciós beállítások
-gui.pipes.emzuli.paint=Itemek festése %s
-gui.pipes.emzuli.nopaint=Ne fess itemeket
+gui.pipes.emzuli.paint=Itemek színezése %s
+gui.pipes.emzuli.nopaint=Ne színezz itemeket
 
 item.bucketFuel.name=Benzines vödör
 item.bucketOil.name=Olajos vödör
@@ -287,8 +287,8 @@ tile.architect.rotate=Forgatás: bekapcsolva
 tile.architect.norotate=Forgatás: kikapcsolva
 tile.architect.allowCreative=Játékmód: Kreatív
 tile.architect.noallowCreative=Játékmód: Túlélő
-tile.architect.tooltip.allowCreative.1=Creative allows all blocks - Creative Mode only!
-tile.architect.tooltip.allowCreative.2=Survival ignores all unsupported blocks
+tile.architect.tooltip.allowCreative.1=A Kreatív mód engedélyezi az összes blokk típust - Csak Kreatív módban!
+tile.architect.tooltip.allowCreative.2=A Túlélő mód ignorálja az összes nem támogatott blokkot
 tile.architect.excavate=Kivájás: bekapcsolva
 tile.architect.noexcavate=Kivájás: kikapcsolva
 
@@ -332,7 +332,7 @@ achievement.woodenGearAchievement=A széleken még kicsit durva
 achievement.woodenGearAchievement.desc=Fa fogaskerék legyártása
 achievement.stoneGearAchievement=Kőkemény
 achievement.stoneGearAchievement.desc=Fa fogaskerék felfejlesztése kő fogaskerékre
-achievement.ironGearAchievement=Vajon rozsdamentes?
+achievement.ironGearAchievement=Ez vajon rozsdamentes?
 achievement.ironGearAchievement.desc=Kő fogaskerék felfejlesztése vas fogaskerékre
 achievement.goldGearAchievement=Nem, ez nem mézből készült
 achievement.goldGearAchievement.desc=Vas fogaskerék felfejlesztése arany fogaskerékre
