@@ -248,7 +248,8 @@ item.FacadePhased.state=%s: %s
 item.FacadePhased.state_default=По-умолч.: %s
 item.FacadePhased.state_transparent=Прозрачный
 item.PipePlug.name=Заглушка для труб
-item.Lens.name=Lens
+item.Lens.name=Линза
+item.Filter.name=Фильтр
 
 itemGroup.buildcraft.blocks=Buildcraft: Блоки
 itemGroup.buildcraft.boards=Buildcraft: Роботы
