@@ -105,9 +105,10 @@ gate.material.iron=Железо
 gate.material.gold=Золото
 gate.material.diamond=Алмаз
 gate.material.emerald=Изумруд
+gate.material.quartz=Кварц
 
 gate.name=%s %s Гейт
-gate.name.basic=Базовый гейт
+gate.name.basic=Основной гейт
 
 gate.parameter.redstone.gateSideOnly=Только со стороны гейта
 
@@ -294,7 +295,7 @@ tile.zonePlan.name=Планировщик зон
 tile.architect.rotate=Вращение: Вкл.
 tile.architect.norotate=Вращение: Откл.
 tile.architect.allowCreative=Режим: Творческий
-tile.architect.noallowCreative=Mode: Выживание
+tile.architect.noallowCreative=Режим: Выживание
 tile.architect.tooltip.allowCreative.1=В творческом разрешены все блоки - только в творческом режиме!
 tile.architect.tooltip.allowCreative.2=В выживании запрещены все неподдерживаемые блоки
 tile.architect.excavate=Копание: Вкл.
@@ -304,6 +305,7 @@ tip.gate.wires=§9§oСовместимые провода:
 tip.gate.wires.redstone=Красный
 tip.gate.wires.iron=Красный, Синий
 tip.gate.wires.gold=Красный, Синий, Зелёный
+tip.gate.wires.quartz=Красный, Синий, Зелёный
 tip.gate.wires.diamond=Красный, Синий, Зелёный, Жёлтый
 tip.gate.wires.emerald=Красный, Синий, Зелёный, Жёлтый
 tip.gate.expansions=§9§oУстановленные расширения:
