@@ -105,6 +105,7 @@ gate.material.iron=Eisern
 gate.material.gold=Golden
 gate.material.diamond=Diamanten
 gate.material.emerald=Smaragden
+gate.material.quartz=Quarzig
 
 gate.name=%ses %s-Gatter
 gate.name.basic=Basisgatter
@@ -248,6 +249,8 @@ item.FacadePhased.state=%s: %s
 item.FacadePhased.state_default=Standard: %s
 item.FacadePhased.state_transparent=Transparent
 item.PipePlug.name=Rohrstöpsel
+item.Lens.name=Linse
+item.Filter.name=Filter
 
 itemGroup.buildcraft.blocks=Buildcraft-Blöcke
 itemGroup.buildcraft.boards=Buildcraft-Roboter
@@ -302,6 +305,7 @@ tip.gate.wires=§9§oKompatible Kabel:
 tip.gate.wires.redstone=Rot
 tip.gate.wires.iron=Rot, Blau
 tip.gate.wires.gold=Rot, Blau, Grün
+tip.gate.wires.quartz=Rot, Blau, Grün
 tip.gate.wires.diamond=Rot, Blau, Grün, Gelb
 tip.gate.wires.emerald=Rot, Blau, Grün, Gelb
 tip.gate.expansions=§9§oInstallierte Erweiterungen:
