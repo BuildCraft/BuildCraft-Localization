@@ -340,6 +340,14 @@ tip.PipePowerIron=可选能量限制管道
 tip.PipePowerEmerald=能量输入管道
 tip.PipeStructureCobblestone=结构支撑管道
 
+tip.shift.PipeFluidsDiamond=界面接受任意流体容器
+tip.shift.PipeFluidsEmerald=界面接受任意流体容器
+tip.shift.PipeItemsClay=机器和箱子优先\从不邻接管道
+tip.shift.PipeItemsDaizuli=潜行点击以切换颜色
+tip.shift.PipeItemsEmzuli=在界面中设定输出预过滤配置\n预设配置会将输出的物品染色\n通过门来切换输出预设
+tip.shift.PipeItemsLapis=潜行点击以切换颜色
+tip.shift.PipeItemsObsidian=用引擎供能\n能量越多-作用范围越远
+tip.shift.PipePowerIron=用扳手或门来切换输送限度
 
 tip.tool.add=添加
 tip.tool.remove=移除
