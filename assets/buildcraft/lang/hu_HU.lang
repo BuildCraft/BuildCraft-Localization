@@ -63,10 +63,11 @@ fillerpattern.horizon=Horizontális
 fillerpattern.pyramid=Piramis
 fillerpattern.stairs=Lépcső
 fillerpattern.box=Doboz
+fillerpattern.cylinder=Cilinder
+fillerpattern.frame=Keret
 
 fluid.oil=Olaj
 fluid.fuel=Benzin
-
 
 gate.action.extraction=%s Extrakciós beállitás
 gate.action.pipe.item.color=Fess itemeket %s
@@ -95,10 +96,9 @@ gate.action.robot.wakeup=Ébresztő
 gate.action.station.forbid_robot=Tiltott robot
 gate.action.robot.filter=Szűrő
 
-
-# gate.expansion.fader=Vöröskő fader
-# gate.expansion.pulsar=Pulzálós bővítés
-# gate.expansion.timer=Időzítős bővítés
+gate.expansion.fader=Vöröskő fader
+gate.expansion.pulsar=Pulzálós bővítés
+gate.expansion.timer=Időzítős bővítés
 
 gate.logic.and=ÉS
 gate.logic.or=VAGY
@@ -142,6 +142,7 @@ gate.trigger.pipe.tooMuchEnergy=Túl sok energia
 # gate.trigger.pipe.wire.active=%s cső-jelzés bekapcsolva
 # gate.trigger.pipe.wire.inactive=%s cső-jelzés kikapcsolva
 # gate.trigger.timer=%s másodperc időzítő
+gate.trigger.robot.sleep=Alvó üzemmód
 gate.trigger.machine.energyStoredHigh=Nagyfeszültségű eneriga van tárolva
 gate.trigger.machine.energyStoredLow=Kisfeszültségű eneriga van tárolva 
 
@@ -188,6 +189,7 @@ item.redstone_red_chipset.name=Vöröskő Chip
 item.redstone_iron_chipset.name=Vas Chip
 item.redstone_gold_chipset.name=Arany Chip
 item.redstone_diamond_chipset.name=Gyémánt Chip
+item.redstone_emerald_chipset.name=Smaragd Chip
 item.redstone_pulsating_chipset.name=Lüktető Chip
 item.redstone_quartz_chipset.name=Alvilági kvarc Chip
 item.redstone_comp_chipset.name=Komplikált vöröskő Chip
@@ -229,6 +231,7 @@ item.PipePowerQuartz.name=Kvarc áramszállítócső
 item.PipePowerIron.name=Vas áramszállítócső
 item.PipePowerGold.name=Arany áramszállítócső
 item.PipePowerDiamond.name=Gyémánt áramszállítócső
+item.PipePowerEmerald.name=Smaragd áramszállítócső
 item.PipeItemsStripes.name=Csíkos szállítócső
 item.PipeStructureCobblestone.name=Zúzottkő struktúracső
 item.PipeItemsVoid.name=Megsemmisítőcső
@@ -297,6 +300,7 @@ tip.gate.wires.redstone=Piros
 tip.gate.wires.iron=Piros, Kék
 tip.gate.wires.gold=Piros, Kék, Sárga
 tip.gate.wires.diamond=Piros, Kék, Sárga, Zöld
+tip.gate.wires.emerald=Piros, Kék, Sárga, Zöld
 tip.gate.expansions=§9§oTelepített kiegészítések:
 
 tip.PipeFluidsCobblestone=Nem csatlakozik kőhöz
