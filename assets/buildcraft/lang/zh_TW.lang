@@ -107,6 +107,7 @@ gate.material.iron=鐵
 gate.material.gold=金
 gate.material.diamond=鑽石
 gate.material.emerald=綠寶石
+gate.material.quartz=石英
 
 gate.name=%s %s 閘門
 gate.name.basic=基本閘門
@@ -248,6 +249,8 @@ item.FacadePhased.state=%s: %s
 item.FacadePhased.state_default=預設: %s
 item.FacadePhased.state_transparent=透明
 item.PipePlug.name=管塞
+item.Lens.name=鏡片
+item.Filter.name=過濾片
 
 itemGroup.buildcraft.blocks=Buildcraft 方塊類
 itemGroup.buildcraft.boards=Buildcraft 自動機器類
