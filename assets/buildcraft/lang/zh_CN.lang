@@ -30,6 +30,14 @@ chat.gateCopier.warning.load=§6警告:门控触发/执行配置已丢失!
 chat.gateCopier.warning.slots=§6警告:目标内部格子数量不足!
 chat.gateCopier.warning.triggerParameters=§6警告:目标的触发参数过少!
 chat.pipe.power.iron.mode=切换为%dRF/t限制
+chat.pipe.power.iron.mode.numberless=切换为%s限制
+chat.pipe.power.iron.level.20=极低
+chat.pipe.power.iron.level.40=低
+chat.pipe.power.iron.level.80=较低
+chat.pipe.power.iron.level.160=适量
+chat.pipe.power.iron.level.320=高
+chat.pipe.power.iron.level.640=极高
+chat.pipe.power.iron.level.1280=满载
 
 color.black=黑色
 color.blue=蓝色
@@ -251,7 +259,7 @@ item.FacadePhased.state_default=默认:%s
 item.FacadePhased.state_transparent=透明度
 item.PipePlug.name=管塞
 item.Lens.name=透镜
-item.Filter.name=过滤器
+item.Filter.name=滤镜
 
 itemGroup.buildcraft.blocks=建筑|方块
 itemGroup.buildcraft.boards=建筑|机器人
