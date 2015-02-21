@@ -1,5 +1,6 @@
-# Slovak language file
-# Translated by leSamo - twitter: @leSamoSK
+# Slovak language file for BuildCraft 6.4.0 translated by leSamo
+# If this translation gets outdated, please contact me on Twitter: @leSamoSK
+
 buildcraft.boardRobotPicker=Zdvýhač
 buildcraft.boardRobotLumberjack=Drevorubač
 buildcraft.boardRobotPlanter=Sadič
@@ -29,6 +30,14 @@ chat.gateCopier.warning.load=§6Warning: Niektoré parametre môžu chýbať!
 chat.gateCopier.warning.slots=§6Warning: Cieľ nemá dosť priestoru!
 chat.gateCopier.warning.triggerParameters=§6Warning: Cieľ nemá dostatočné parametre!
 chat.pipe.power.iron.mode=Zmenené na %d RF/t limit
+chat.pipe.power.iron.mode.numberless=Zmenené na %s limit
+chat.pipe.power.iron.level.20=Veľmi nízka
+chat.pipe.power.iron.level.40=Nízka
+chat.pipe.power.iron.level.80=Stredne nízka
+chat.pipe.power.iron.level.160=Stredná
+chat.pipe.power.iron.level.320=Vysoká
+chat.pipe.power.iron.level.640=Veľmi vysoká
+chat.pipe.power.iron.level.1280=Plná kapacita
 
 color.black=Čierna
 color.blue=Modrá
@@ -104,7 +113,8 @@ gate.logic.or=OR
 gate.material.iron=Železná
 gate.material.gold=Zlatá
 gate.material.diamond=Diamantová
-gate.material.emerald=Emeraldová
+gate.material.emerald=Smaragdová
+gate.material.quartz=Kremenná
 
 gate.name=%s %s Brána
 gate.name.basic=Základná brána
@@ -144,7 +154,6 @@ gate.trigger.robot.sleep=Spánok
 gate.trigger.machine.energyStoredHigh=Veľa uloženej energie
 gate.trigger.machine.energyStoredLow=Málo uloženej energie
 
-
 gui.building.resources=Zdroje na stavbu
 gui.building.fluids=Tekutiny na stavbu
 gui.del=Vymazať
@@ -160,6 +169,8 @@ gui.heat=Teplo
 gui.assemblyRate=Rýchlosť výroby
 gui.assemblyCurrentRequired=Potrebná energia
 gui.clickcraft=-Klikni pre vyrobenie-
+gui.list.metadata=Povoliť podobné
+gui.list.oredict=Povoliť rovnocenné
 gui.pipes.emerald.title=Filtre
 gui.pipes.emerald.blocking=Blokované
 gui.pipes.emerald.blocking.tip=Extrakcia je blokovaná ak jeden z prvkov chýba
@@ -168,8 +179,6 @@ gui.pipes.emerald.nonblocking.tip=Extrakcia nie je blokovaná ak jeden z prvkov 
 gui.pipes.emzuli.title=Funkcia extrakcie
 gui.pipes.emzuli.paint=Farbiť predmety %s
 gui.pipes.emzuli.nopaint=Nefarbiť predmety
-
-
 
 item.bucketFuel.name=Vedro s benzínom
 item.bucketOil.name=Vedro s ropou
@@ -190,13 +199,14 @@ item.redstone_red_chipset.name=Ruditový čip
 item.redstone_iron_chipset.name=Železný čip
 item.redstone_gold_chipset.name=Zlatý čip
 item.redstone_diamond_chipset.name=Diamantový čip
-item.redstone_emerald_chipset.name=Emeraldový čip
+item.redstone_emerald_chipset.name=Smaragdový čip
 item.redstone_pulsating_chipset.name=Pulzujúci čip
 item.redstone_quartz_chipset.name=Kremenný čip
 item.redstone_comp_chipset.name=Ruditový comp čip
 item.redstone_board.name=Ruditová tabuľa
 item.robot.name=Robot
 item.blueprintItem.name=Schéma
+item.blueprintItem.name=Zoznam
 item.blueprint.unnamed=<bez názvu>
 item.blueprint.author=od
 item.blueprint.blank=Prázdne
@@ -204,6 +214,7 @@ item.blueprint.creative_only=Len v tvorivom móde
 item.blueprint.no_build=Žiadne stavanie
 item.blueprint.incomplete=Nedokončené
 item.mapLocation.name=Umiestnenie na mape
+item.gateCopier.name=Duplikátor brán
 item.PipeItemsWood.name=Drevená transportačná rúra
 item.PipeItemsCobblestone.name=Kamenná transportačná rúra
 item.PipeItemsStone.name=Skalná transportačná rúra
@@ -212,16 +223,19 @@ item.PipeItemsIron.name=Železná transportačná rúra
 item.PipeItemsGold.name=Zlatá transportačná rúra
 item.PipeItemsDiamond.name=Diamantová transportačná rúra
 item.PipeItemsObsidian.name=Obsidiánová transportačná rúra
-item.PipeItemsEmerald.name=Emeraldová transportačná rúra
-item.PipeItemsLapis.name=Lapisová transportačná rúra
-item.PipeItemsDaizuli.name=Lapimantová transportačná rúra
-item.PipeItemsEmzuli.name=Lapiraldová transportačná rúra
+item.PipeItemsEmerald.name=Smaragdová transportačná rúra
+item.PipeItemsLapis.name=Lazuritová transportačná rúra
+item.PipeItemsDaizuli.name=Lazumantová transportačná rúra
+item.PipeItemsEmzuli.name=Lazuraldová transportačná rúra
+item.PipeItemsClay.name=Ílová transportačná rúra
 item.PipeFluidsWood.name=Drevená vodotesná rúra
 item.PipeFluidsCobblestone.name=Kamenná vodotesná rúra
 item.PipeFluidsStone.name=Skalná vodotesná rúra
 item.PipeFluidsIron.name=Železná vodotesná rúra
+item.PipeFluidsQuartz.name=Kremenná vodotesná rúra
 item.PipeFluidsGold.name=Zlatá vodotesná rúra
-item.PipeFluidsEmerald.name=Emeraldová vodotesná rúra
+item.PipeFluidsEmerald.name=Smaragdová vodotesná rúra
+item.PipeFluidsDiamond.name=Diamantová vodotesná rúra
 item.PipePowerWood.name=Drevená enegetická rúra
 item.PipePowerCobblestone.name=Kamenná enegetická rúra
 item.PipePowerStone.name=Skalná energetická rúra
@@ -229,41 +243,40 @@ item.PipePowerQuartz.name=Kremenná energetická rúra
 item.PipePowerIron.name=Železná energetická rúra
 item.PipePowerGold.name=Zlatá energetická rúra
 item.PipePowerDiamond.name=Diamantová energetická rúra
+item.PipePowerEmerald.name=Smaragdová energetická rúra
 item.PipeItemsStripes.name=Prúžkovaná transportačná rúra
-item.PipeStructureCobblestone.name=Kamená stavebná rúra
-item.PipeItemsVoid.name=Transportačná čierna diera
-item.PipeFluidsVoid.name=Vodotesná čierna diera
+item.PipeStructureCobblestone.name=Kamenná stavebná rúra
+item.PipeItemsVoid.name=Transportačná ničiaca rúra
+item.PipeFluidsVoid.name=Vodotesná ničiaca rúra
 item.PipeItemsSandstone.name=Pieskovcová transportačná rúra
 item.PipeFluidsSandstone.name=Pieskovcová vodotesná rúra
+item.PipePowerSandstone.name=Pieskovcová energická rúra
 item.PipeRobotStation.name=Stanica
 item.Facade.name=Fasáda
-item.FacadePhased.name=Tajná fasáda
+item.FacadePhased.name=Skrytá fasáda
 item.FacadePhased.state=%s: %s
 item.FacadePhased.state_default=Štandardné: %s
 item.FacadePhased.state_transparent=Priehľadná
 item.PipePlug.name=Napojenie Rúry
-
-
-
-
-
-
-
+item.Lens.name=Šošovka
+item.Filter.name=Filter
 
 itemGroup.buildcraft.blocks=Buildcraft Bloky
+itemGroup.buildcraft.boards=Buildcraft Roboty
 itemGroup.buildcraft.items=Buildcraft Predmety
 itemGroup.buildcraft.pipes=Buildcraft Rúry
 itemGroup.buildcraft.facades=Buildcraft Fasády
 
-
 tile.architectBlock.name=Stôl architekta
-tile.assemblyTableBlock.name=Výrobný stôl
+tile.assemblyTableBlock.name=Skladací stôl
 tile.assemblyWorkbenchBlock.name=Pokročilá výrobňa
 tile.autoWorkbenchBlock.name=Auto-vyrábací stôl
 tile.blockFuel.name=Benzín
 tile.blockHopper.name=Násypník
 tile.blockOil.name=Ropa
 tile.builderBlock.name=Stavač
+tile.chargingTableBlock.name=Nabíjací stôl
+tile.constructionMarkerBlock.name=Stavebná značka
 tile.engineCreative.name=Tvorivý motor
 tile.engineIron.name=Spaľovací motor
 tile.engineStone.name=Parný motor
@@ -282,13 +295,11 @@ tile.pathMarkerBlock.name=Smerovacia značka
 tile.plainPipeBlock.name=Kopacia rúra
 tile.pumpBlock.name=Pumpa
 tile.refineryBlock.name=Rafinéria
+tile.requester.name=Vyžiadavač
 tile.spring.oil.name=Ropný prúd
 tile.spring.water.name=Vodný prúd
 tile.tankBlock.name=Nádrž
-tile.energyConverter.name=Konverzia energie
-tile.energyConverter.tooltip=
 tile.zonePlan.name=Plánovač povrchu
-
 
 tile.architect.rotate=Otočiť: ZAP
 tile.architect.norotate=Otočiť: VYP
@@ -303,22 +314,25 @@ tip.gate.wires=§9§oKompatibilné Drôty:
 tip.gate.wires.redstone=Červený
 tip.gate.wires.iron=Červený, Modrý
 tip.gate.wires.gold=Červený, Modrý, Zelený
+tip.gate.wires.quartz=Červený, Modrý, Zelený
 tip.gate.wires.diamond=Červený, Modrý, Zelený, Žltý
-tip.gate.expansions=§9§oNainštalované rozšírenia:
+tip.gate.wires.emerald=Červený, Modrý, Zelený, Žltý
+tip.gate.expansions=§9§oNaištalované rozšírenia:
 
-
-tip.PipeFluidsCobblestone=Základná rúra\nNenapojí sa na Skalnú rúru
+tip.PipeFluidsCobblestone=Nenapojí sa na Skalnú rúru
 tip.PipeFluidsEmerald=Extrakčná rúra
 tip.PipeFluidsGold=Základná rúra
 tip.PipeFluidsIron=Ventilová rúra
 tip.PipeFluidsSandstone=Napojí sa len na iné rúry
-tip.PipeFluidsStone=Základná rúra\nNenapojí sa na Kamennú rúru
+tip.PipeFluidsStone=Nenapojí sa na Kamennú rúru
 tip.PipeFluidsVoid=Ničí tekutiny
-tip.PipeFluidsWood=Extrakčná rúra
+tip.PipeFluidsWood=Extrakčná rúra 
+tip.PipeItemsClay=Vkladacia rúra
 tip.PipeItemsCobblestone=Základná rúra, silný ťah\nNenapojí sa na Skalnú alebo Kremennú rúru
 tip.PipeItemsDaizuli=Smeruje zafarbené predmety
 tip.PipeItemsDiamond=Smeruje predmety
 tip.PipeItemsEmerald=Extrakčná rúra, riadi sa zoznamom
+tip.PipeItemsEmzuli=Extračná rúra, riadi sa bránou
 tip.PipeItemsGold=Zrýchľuje predmety
 tip.PipeItemsIron=Smeruje predmety
 tip.PipeItemsLapis=Označuje predmety
@@ -328,10 +342,20 @@ tip.PipeItemsSandstone=Napojí sa iba na iné rúry
 tip.PipeItemsStone=Základná rúra, stredný ťah\nNenapojí sa na Kremennú alebo Kamennú rúru
 tip.PipeItemsVoid=Ničí predmety
 tip.PipeItemsWood=Extrakčná rúra
-tip.PipeItemsEmzuli=Extračná rúra, bránou nastaviteľná
+tip.PipePowerEmerald=Rúra pre vstup energie
+tip.PipePowerIron=Nastaviteľná rúra 
+tip.PipePowerSandstone= Napojí sa len na iné rúry
 tip.PipePowerWood=Rúra na vstup energie
-tip.PipePowerIron=Nastaviteľná rúra
 tip.PipeStructureCobblestone=Podporná rúra
+
+tip.shift.PipeFluidsDiamond=GUI prijíma akékoľvej nádoby na tekutinu
+tip.shift.PipeFluidsEmerald=GUI prijíma akúkoľvej nádobu na tekutinu
+tip.shift.PipeItemsClay=Uprednostňuje nádoby a stroje\n pred inými rúrami.
+tip.shift.PipeItemsDaizuli=Plíž sa a klikni aby si\n zmenil farbu
+tip.shift.PipeItemsEmzuli=
+tip.shift.PipeItemsLapis=Plíž sa a klikni aby si\n zmenil farbu
+tip.shift.PipeItemsObsidian=
+tip.shift.PipePowerIron=Limit sa dá zmeniť francúyskym\n kľúčom alebo bránou
 
 tip.tool.add=Pridať
 tip.tool.remove=Odstrániť
@@ -383,3 +407,7 @@ bc_update.new_version=§cNová verzia Buildcraftu je dostupná: %s pre Minecraft
 bc_update.download=§cStiahnúť z http://www.mod-buildcraft.com/download
 bc_update.once=Táto správa sa zobrazí iba raz
 bc_update.again=Napíš '/buildcraft version' ak ju chceš vidieť znovu
+
+command.buildcraft.version=BuildCraft %s pre Minecraft %s (Najnovšie: %s).
+command.buildcraft.versioninfo=Informácie o verzií.
+command.buildcraft.available=Príkazy k dispozícií:
