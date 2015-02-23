@@ -1,4 +1,4 @@
-# German lang file, tanslated by SirSengir, Keksynator and Vexatos
+# German lang file, tanslated by SirSengir, Keksynator, Vexatos, FGpisces and leSamo
 
 buildcraft.boardRobotPicker=Sammler
 buildcraft.boardRobotLumberjack=Holzfäller
@@ -17,6 +17,7 @@ buildcraft.boardRobotBuilder=Bauarbeiter
 buildcraft.boardRobotCrafter=Handwerker
 buildcraft.boardRobotDelivery=Lieferant
 buildcraft.boardRobotPump=Pumpe
+buildcraft.boardRobotStripes=Streifen
 
 chat.gateCopier.clear=Gatterinformationen gelöscht.
 chat.gateCopier.gateCopied=Gatterinformationen auf Kopierer kopiert.
@@ -29,6 +30,14 @@ chat.gateCopier.warning.load=§6Warnung: Gattertrigger/-aktionen könnten fehlen
 chat.gateCopier.warning.slots=§6Warnung: Ziel hat weniger Slots!
 chat.gateCopier.warning.triggerParameters=§6Warnung: Ziel hat weniger Trigger-Parameter!
 chat.pipe.power.iron.mode=Gewechselt zu einem Limit von %d RF/t
+chat.pipe.power.iron.mode.numberless=zur %s Grenze umgescaltet
+chat.pipe.power.iron.level.20=Sehr niedrig
+chat.pipe.power.iron.level.40=Niedrig
+chat.pipe.power.iron.level.80=Mittel-niedrig
+chat.pipe.power.iron.level.160=Mittel
+chat.pipe.power.iron.level.320=Hoch
+chat.pipe.power.iron.level.640=Sehr hoch
+chat.pipe.power.iron.level.1280=Volle Kapazität
 
 color.black=Schwarz
 color.blue=Blau
@@ -93,6 +102,7 @@ gate.action.robot.work_in_area=Im Bereich arbeiten
 gate.action.robot.wakeup=Aufwachen
 gate.action.station.forbid_robot=Roboter verboten
 gate.action.robot.filter=Filter
+gate.action.robot.filter_tool=Filterwerkzeug
 
 gate.expansion.fader=Redstone-Fader
 gate.expansion.pulsar=Autarker Pulsar
@@ -398,3 +408,7 @@ bc_update.new_version=§cNeue BuildCraft-Version verfügbar: %s für Minecraft %
 bc_update.download=§cDownload auf http://www.mod-buildcraft.com/download
 bc_update.once=Diese Nachricht erscheint nur einmal
 bc_update.again=Gib '/buildcraft version' ein, solltest du sie noch einmal sehen wollen
+
+command.buildcraft.version=BuildCraft %s für Minecraft %s (Späteste: %s).
+command.buildcraft.versioninfo=Versionsinformationen.
+command.buildcraft.available=Verfügbare Befehle:
