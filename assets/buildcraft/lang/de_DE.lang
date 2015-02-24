@@ -294,6 +294,7 @@ tile.markerBlock.name=Platzmarker
 tile.miningWellBlock.name=Minenbohrer
 tile.pathMarkerBlock.name=Wegmarkierung
 tile.plainPipeBlock.name=Minenrohr
+tile.programmingTableBlock.name=Programmiertisch
 tile.pumpBlock.name=Pumpe
 tile.refineryBlock.name=Raffinerie
 tile.requester.name=Bestellblock
