@@ -124,7 +124,7 @@ gate.parameter.redstone.gateSideOnly=仅限门侧
 gate.trigger.engine.blue=引擎为蓝色工作阶段
 gate.trigger.engine.green=引擎为绿色工作阶段
 gate.trigger.engine.yellow=引擎为黄色工作阶段
-gate.trigger.engine.red=引擎为红石工作阶段
+gate.trigger.engine.red=引擎为红色工作阶段
 gate.trigger.engine.overheat=引擎过载
 gate.trigger.fluid.empty=储罐空
 gate.trigger.fluid.contains=储罐非空
@@ -407,3 +407,7 @@ bc_update.new_version=§c新版Buildcraft可用:版本为%s,且适用于Minecraf
 bc_update.download=§c从 http://www.mod-buildcraft.com/download 下载
 bc_update.once=本信息默认仅显示一次
 bc_update.again=若想再次查看可用输入指令 '/buildcraft version'
+
+command.buildcraft.version=BuildCraft%s,适用于Minecraft %s (最新版本为: %s).
+command.buildcraft.versioninfo=版本信息.
+command.buildcraft.available=可用指令:
