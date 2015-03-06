@@ -18,6 +18,7 @@ buildcraft.boardRobotBuilder=建築
 buildcraft.boardRobotCrafter=クラフト
 buildcraft.boardRobotDelivery=配達
 buildcraft.boardRobotPump=ポンプ
+buildcraft.boardRobotStripes=Stripes
 
 chat.gateCopier.clear=ゲートコピー機の情報を消去しました
 chat.gateCopier.gateCopied=ゲートの情報をコピーしました
@@ -30,6 +31,14 @@ chat.gateCopier.warning.load=§6注意: 一部の入力設定を適用できま�
 chat.gateCopier.warning.slots=§6注意: 設定項目が足りません
 chat.gateCopier.warning.triggerParameters=§6注意: 追加機能が足りません
 chat.pipe.power.iron.mode=エネルギーの流量を%d RF/tに制限しました
+chat.pipe.power.iron.mode.numberless=エネルギーの流量を%s に制限しました
+chat.pipe.power.iron.level.20=非常に低い
+chat.pipe.power.iron.level.40=低い
+chat.pipe.power.iron.level.80=少し低い
+chat.pipe.power.iron.level.160=正常
+chat.pipe.power.iron.level.320=高い
+chat.pipe.power.iron.level.640=非常に高い
+chat.pipe.power.iron.level.1280=Full Capacity
 
 color.black=黒
 color.blue=青
@@ -94,6 +103,7 @@ gate.action.robot.work_in_area=作業範囲
 gate.action.robot.wakeup=ロボットを起動する
 gate.action.station.forbid_robot=右記のロボットを禁止する
 gate.action.robot.filter=フィルター
+gate.action.robot.filter_tool=フィルターツール
 
 gate.expansion.fader=レッドストーン信号の強度
 gate.expansion.pulsar=エンジン動力
@@ -349,8 +359,8 @@ tip.shift.PipeItemsLapis=Sneak-click to change color
 tip.shift.PipeItemsObsidian=Power with an engine\nMore power - greater distance
 tip.shift.PipePowerIron=Change the limit with a wrench or gates
 
-tip.tool.add=Add
-tip.tool.remove=Remove
+tip.tool.add=追加
+tip.tool.remove=削除
 
 achievement.woodenGearAchievement=粗削りの歯車
 achievement.woodenGearAchievement.desc=木の歯車を作る
@@ -399,3 +409,7 @@ bc_update.new_version=§cBuildCraftの新しいバージョンがリリースさ
 bc_update.download=§cダウンロードはこちら http://www.mod-buildcraft.com/download
 bc_update.once=このメッセージは起動時、一度だけ表示されます
 bc_update.again=このメッセージを次から表示したくない場合は'/buildcraft version'と打ち込んで下さい
+
+command.buildcraft.version=BuildCraft %s for Minecraft %s (最新: %s).
+command.buildcraft.versioninfo=バージョン情報
+command.buildcraft.available=使用可能なコマンド
