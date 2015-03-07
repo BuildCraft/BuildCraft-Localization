@@ -17,6 +17,7 @@ buildcraft.boardRobotBuilder=Stavač
 buildcraft.boardRobotCrafter=Remeselník
 buildcraft.boardRobotDelivery=Poštár
 buildcraft.boardRobotPump=Pumpár
+buildcraft.boardRobotStripes=Pásikovaný
 buildcraft.boardDetail.parameters=Parametre
 buildcraft.boardDetail.range=Dosah
 
@@ -263,6 +264,7 @@ tile.tankBlock.name=Nádrž
 tile.energyConverter.name=Konverzia energie
 tile.energyConverter.tooltip=
 tile.zonePlan.name=Plánovač povrchu
+tile.programmingTableBlock.name=Programovací stôl
 
 tile.architect.rotate=Otočiť: ZAP
 tile.architect.norotate=Otočiť: VYP
