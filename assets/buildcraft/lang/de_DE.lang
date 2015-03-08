@@ -261,12 +261,13 @@ item.FacadePhased.state_transparent=Transparent
 item.PipePlug.name=Rohrstöpsel
 item.Lens.name=Linse
 item.Filter.name=Filter
+item.debugger.name=Debugger
+item.debugger.warning=Nur zum Testen verwenden! Verrät Geheimnisse.
 
-itemGroup.buildcraft.blocks=Buildcraft-Blöcke
-itemGroup.buildcraft.boards=Buildcraft-Roboter
-itemGroup.buildcraft.items=Buildcraft-Items
-itemGroup.buildcraft.pipes=Buildcraft-Rohre
-itemGroup.buildcraft.facades=Buildcraft-Fassaden
+itemGroup.buildcraft.boards=BuildCraft: Roboter
+itemGroup.buildcraft.main=BuildCraft
+itemGroup.buildcraft.pipes=BuildCraft: Rohre
+itemGroup.buildcraft.facades=BuildCraft: Fassaden
 
 tile.architectBlock.name=Architekturtisch
 tile.assemblyTableBlock.name=Montagebank
