@@ -70,7 +70,7 @@ fillerpattern.pyramid=Pyramide
 fillerpattern.stairs=Escaliers
 fillerpattern.box=Boîte
 fillerpattern.cylinder=Cylindre
-fillerpattern.frame=Cadre
+fillerpattern.frame=Charpente
 
 fluid.oil=Pétrole
 fluid.fuel=Gaz
@@ -283,7 +283,7 @@ tile.engineWood.name=Moteur à redstone
 tile.fillerBlock.name=Remplisseur
 tile.filteredBufferBlock.name=Tampon filtreur
 tile.floodGateBlock.name=Vanne
-tile.frameBlock.name=Section de cadre
+tile.frameBlock.name=Charpente en treillis
 tile.integrationTableBlock.name=Table d'intégration
 tile.laserBlock.name=Laser
 tile.libraryBlock.name=Bibliothèque à blueprints
