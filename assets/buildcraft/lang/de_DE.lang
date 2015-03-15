@@ -106,7 +106,8 @@ gate.action.robot.filter_tool=Filterwerkzeug
 
 gate.expansion.fader=Redstone-Fader
 gate.expansion.pulsar=Autarker Pulsar
-gate.expansion.timer=Clock-Timer
+gate.expansion.timer=Timer
+gate.expansion.light_sensor=Lichtsensor
 
 gate.logic.and=AND
 gate.logic.or=OR
@@ -154,6 +155,8 @@ gate.trigger.timer=%s-Sekunden-Timer
 gate.trigger.robot.sleep=Schlaf
 gate.trigger.machine.energyStoredHigh=Viel Energie gespeichert
 gate.trigger.machine.energyStoredLow=Wenig Energie gespeichert
+gate.trigger.light.bright=Hell
+gate.trigger.light.dark=Dunkel
 
 gui.building.resources=Baumaterial
 gui.building.fluids=Flüssigkeitstanks
@@ -190,6 +193,7 @@ item.goldGearItem.name=Goldzahnrad
 item.diamondGearItem.name=Diamantzahnrad
 item.templateItem.name=Schablone
 item.wrenchItem.name=Schraubenschlüssel
+item.paintbrush.name=Pinsel
 item.pipeWaterproof.name=Dichtung
 item.redPipeWire.name=Rotes Rohrkabel
 item.bluePipeWire.name=Blaues Rohrkabel
@@ -268,6 +272,7 @@ itemGroup.buildcraft.boards=BuildCraft: Roboter
 itemGroup.buildcraft.main=BuildCraft
 itemGroup.buildcraft.pipes=BuildCraft: Rohre
 itemGroup.buildcraft.facades=BuildCraft: Fassaden
+itemGroup.buildcraft.gates=BuildCraft: Gatter
 
 tile.architectBlock.name=Architekturtisch
 tile.assemblyTableBlock.name=Montagebank
@@ -289,7 +294,7 @@ tile.floodGateBlock.name=Schleusentor
 tile.frameBlock.name=Rahmen
 tile.integrationTableBlock.name=Integrationstisch
 tile.laserBlock.name=Laser
-tile.libraryBlock.name=Bauplan-Bibliothek
+tile.libraryBlock.name=Elektronische Bibliothek
 tile.machineBlock.name=Steinbruch
 tile.markerBlock.name=Platzmarker
 tile.miningWellBlock.name=Minenbohrer
@@ -404,7 +409,7 @@ achievement.blueprintAchievement.desc=Fertige einen Bauplan
 achievement.templateAchievement=Die Basis
 achievement.templateAchievement.desc=Fertige eine Schablone
 achievement.blueprintLibraryAchievement=Ideen werden fortbestehen
-achievement.blueprintLibraryAchievement.desc=Ferige eine Bauplan-Bibliothek
+achievement.blueprintLibraryAchievement.desc=Ferige eine Elektronische Bibliothek
 
 bc_update.new_version=§cNeue BuildCraft-Version verfügbar: %s für Minecraft %s
 bc_update.download=§cDownload auf http://www.mod-buildcraft.com/download
