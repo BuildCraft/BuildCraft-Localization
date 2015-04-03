@@ -56,6 +56,46 @@ color.red=Rot
 color.white=Weiß
 color.yellow=Gelb
 
+config.general=Generelles
+config.general.pipes=Rohre
+config.blueprints=Baupläne
+config.power=Energieverbrauch
+config.display=Darstellung
+config.worldgen=Weltgenerierung
+config.network=Networking
+config.buildcraft=BuildCraft-Konfiguration
+
+config.blueprints.clientDatabaseDirectory=Client-Verzeichnis
+config.blueprints.excludedMods=Ausgeschlossene Mods
+config.blueprints.excludedBlocks=Ausgeschlossene Blöcke
+
+config.display.colorBlindMode=Farbenblind-Modus
+config.display.hideFluidValues=Flüssigkeitszahlen verstecken
+config.display.hidePowerValues=Energiezahlen verstecken
+
+config.general.pumpsConsumeWater=Pumpen verbrauchen Wasser
+config.general.updateCheck=Prüfe auf Updates
+config.general.itemLifespan=Item-Lebensdauer (Sekunden)
+config.general.canEnginesExplode=Motoren explodieren
+config.general.oilCanBurn=Brennendes Öl
+config.general.oilIsDense=Dichtes Öl
+config.general.quarry=Steinbruchoptionen
+config.general.quarry.oneTimeUse=Einwegnutzung
+config.general.quarry.doChunkLoading=Austomatisches Chunk-Laden
+config.general.miningDepth=Höchste relative Abbautiefe
+config.general.pumpDimensionControl=Pumpen-Dimensionskontrolle
+
+config.network.longUpdateFactor=Client-Synchronisationsfaktor (ticks)
+config.network.updateFactor=Packet-Sendefaktor (ticks)
+
+config.power.miningUsageMultiplier=Abbaunutzungsmultiplikator
+config.power.chipsetCostMultiplier=Schaltkreis-Kostenmultiplikator
+
+config.worldgen.enable=Aktivieren
+config.worldgen.oilWellGenerationRate=Ölquellen-Generationsrate
+config.worldgen.spawnOilSprings=Generiere Ölquellen
+
+
 direction.north=Nord
 direction.west=West
 direction.east=Ost
@@ -108,6 +148,8 @@ gate.expansion.fader=Redstone-Fader
 gate.expansion.pulsar=Autarker Pulsar
 gate.expansion.timer=Timer
 gate.expansion.light_sensor=Lichtsensor
+gate.expansion.rtc=Echtzeit-Uhr
+gate.expansion.biological_sensor=Biosensor
 
 gate.logic.and=AND
 gate.logic.or=OR
@@ -153,10 +195,17 @@ gate.trigger.pipe.wire.active=Rohrsignal (%s) An
 gate.trigger.pipe.wire.inactive=Rohrsignal (%s) Aus
 gate.trigger.timer=%s-Sekunden-Timer
 gate.trigger.robot.sleep=Schlaf
-gate.trigger.machine.energyStoredHigh=Viel Energie gespeichert
-gate.trigger.machine.energyStoredLow=Wenig Energie gespeichert
+gate.trigger.machine.energyStored.high=Viel Energie gespeichert
+gate.trigger.machine.energyStored.low=Wenig Energie gespeichert
+gate.trigger.machine.energyStored.below25=Energie < 25%
+gate.trigger.machine.energyStored.below50=Energie < 50%
+gate.trigger.machine.energyStored.below75=Energie < 75%
 gate.trigger.light.bright=Hell
 gate.trigger.light.dark=Dunkel
+gate.trigger.time.0=Nacht
+gate.trigger.time.6=Morgen
+gate.trigger.time.12=Nachmittag
+gate.trigger.time.18=Abend
 
 gui.building.resources=Baumaterial
 gui.building.fluids=Flüssigkeitstanks
