@@ -56,6 +56,45 @@ color.red=Красный
 color.white=Белый
 color.yellow=Жёлтый
 
+config.general=Общие
+config.general.pipes=Трубы
+config.blueprints=Строительные проекты
+config.power=Потребление энергии
+config.display=Отображение
+config.worldgen=Генерации мира
+config.network=Сетевые
+config.buildcraft=Конфигурация BuildCraft
+
+config.blueprints.clientDatabaseDirectory=Каталог клиента
+config.blueprints.excludedMods=Исключённые модификации
+config.blueprints.excludedBlocks=Исключённые блоки
+
+config.display.colorBlindMode=Режим цветовой слепоты
+config.display.hideFluidValues=Спрятать кол-во жидкости
+config.display.hidePowerValues=Спрятать кол-во энергии
+
+config.general.pumpsConsumeWater=Потребление воды помпами
+config.general.updateCheck=Проверка обновлений
+config.general.itemLifespan=Срок "жизни" предметов (в секундах)
+config.general.canEnginesExplode=Взрыв двигателей
+config.general.oilCanBurn=Воспламеняющая нефть
+config.general.oilIsDense=Плотная нефть
+config.general.quarry=Настройки карьера
+config.general.quarry.oneTimeUse=Одноразового использования
+config.general.quarry.doChunkLoading=Автоматическая загрузка чанков
+config.general.miningDepth=Максимальная относительная глубина добычи
+config.general.pumpDimensionControl=Контроль измерений помпы
+
+config.network.longUpdateFactor=Множитель синхронизации клиента (в тактах)
+config.network.updateFactor=Множитель отправки пакетов (в тактах)
+
+config.power.miningUsageMultiplier=Множитель потребления шахтёром
+config.power.chipsetCostMultiplier=Множитель стоимости микросхемы
+
+config.worldgen.enable=Включить
+config.worldgen.oilWellGenerationRate=Коэффициент генерации нефтяных скважин
+config.worldgen.spawnOilSprings=Размещать нефтяные ручейки
+
 direction.north=Север
 direction.west=Запад
 direction.east=Восток
@@ -107,6 +146,9 @@ gate.action.robot.filter_tool=Фильтрующий инструмент
 gate.expansion.fader=Красный микшер
 gate.expansion.pulsar=Автаркический пульсар
 gate.expansion.timer=Таймер
+gate.expansion.light_sensor=Датчик света
+gate.expansion.rtc=Часы реального времени
+gate.expansion.biological_sensor=Биологический датчик
 
 gate.logic.and=И
 gate.logic.or=ИЛИ
@@ -152,8 +194,17 @@ gate.trigger.pipe.wire.active=%s Сигнал вкл.
 gate.trigger.pipe.wire.inactive=%s Сигнал выкл.
 gate.trigger.timer=Таймер на %s секунд
 gate.trigger.robot.sleep=Сон
-gate.trigger.machine.energyStoredHigh=Хранится много энергии
-gate.trigger.machine.energyStoredLow=Хранится мало энергии
+gate.trigger.machine.energyStored.high=Накоплено много энергии
+gate.trigger.machine.energyStored.low=Накоплено мало энергии
+gate.trigger.machine.energyStored.below25=Энергии < 25%
+gate.trigger.machine.energyStored.below50=Энергии < 50%
+gate.trigger.machine.energyStored.below75=Энергии < 75%
+gate.trigger.light.bright=Ярко
+gate.trigger.light.dark=Темно
+gate.trigger.time.0=Ночь
+gate.trigger.time.6=Утро
+gate.trigger.time.12=После полудня
+gate.trigger.time.18=Вечер
 
 gui.building.resources=Ресурсы для строительства
 gui.building.fluids=Жидкостные резервуары
@@ -190,6 +241,7 @@ item.goldGearItem.name=Золотая шестерня
 item.diamondGearItem.name=Алмазная шестерня
 item.templateItem.name=Чертёж
 item.wrenchItem.name=Гаечный ключ
+item.paintbrush.name=Кисточка
 item.pipeWaterproof.name=Уплотнитель для труб
 item.redPipeWire.name=Красный провод
 item.bluePipeWire.name=Синий провод
@@ -261,12 +313,14 @@ item.FacadePhased.state_transparent=Прозрачный
 item.PipePlug.name=Заглушка для труб
 item.Lens.name=Линза
 item.Filter.name=Фильтр
+item.debugger.name=Отладчик
+item.debugger.warning=Используйте только для тестирования! Раскрывает секреты.
 
-itemGroup.buildcraft.blocks=Buildcraft: Блоки
-itemGroup.buildcraft.boards=Buildcraft: Роботы
-itemGroup.buildcraft.items=Buildcraft: Предметы
-itemGroup.buildcraft.pipes=Buildcraft: Трубы
-itemGroup.buildcraft.facades=Buildcraft: Фасады
+itemGroup.buildcraft.boards=BuildCraft: Роботы
+itemGroup.buildcraft.main=BuildCraft
+itemGroup.buildcraft.pipes=BuildCraft: Трубы
+itemGroup.buildcraft.facades=BuildCraft: Фасады
+itemGroup.buildcraft.gates=BuildCraft: Гейты
 
 tile.architectBlock.name=Стол архитектора
 tile.assemblyTableBlock.name=Сборочный стол
@@ -288,7 +342,7 @@ tile.floodGateBlock.name=Шлюз
 tile.frameBlock.name=Каркас
 tile.integrationTableBlock.name=Стол интеграции
 tile.laserBlock.name=Лазер
-tile.libraryBlock.name=Библиотека проектов
+tile.libraryBlock.name=Библиотека электроники
 tile.machineBlock.name=Карьер
 tile.markerBlock.name=Метка
 tile.miningWellBlock.name=Буровая установка
@@ -403,7 +457,7 @@ achievement.blueprintAchievement.desc=Сделайте проект
 achievement.templateAchievement=Основа
 achievement.templateAchievement.desc=Сделайте чертёж
 achievement.blueprintLibraryAchievement=Идеи живут
-achievement.blueprintLibraryAchievement.desc=Сделайте библиотеку проектов
+achievement.blueprintLibraryAchievement.desc=Сделайте библиотеку электроники
 
 bc_update.new_version=§cНовая версия BuildCraft доступна: %s для Minecraft %s
 bc_update.download=§cЗагрузите с http://www.mod-buildcraft.com/download
