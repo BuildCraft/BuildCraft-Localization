@@ -3,14 +3,14 @@
 
 buildcraft.boardRobotPicker=拾物机器人
 buildcraft.boardRobotLumberjack=伐木机器人
-buildcraft.boardRobotPlanter=植树机器人
+buildcraft.boardRobotPlanter=播种机器人
 buildcraft.boardRobotLeaveCutter=剪叶机器人
 buildcraft.boardRobotCarrier=搬运机器人
 buildcraft.boardRobotFluidCarrier=储罐机器人
 buildcraft.boardRobotBomber=爆破机器人
 buildcraft.boardRobotKnight=骑士机器人
 buildcraft.boardRobotMiner=采掘机器人
-buildcraft.boardRobotFarmer=耕种机器人
+buildcraft.boardRobotFarmer=耕耘机器人
 buildcraft.boardRobotHarvester=收获机器人
 buildcraft.boardRobotShovelman=铲工机器人
 buildcraft.boardRobotButcher=屠宰机器人
@@ -18,6 +18,7 @@ buildcraft.boardRobotBuilder=建筑机器人
 buildcraft.boardRobotCrafter=合成机器人
 buildcraft.boardRobotDelivery=配送机器人
 buildcraft.boardRobotPump=液泵机器人
+buildcraft.boardRobotStripes=条纹机器人
 
 chat.gateCopier.clear=清除BC门配置信息.
 chat.gateCopier.gateCopied=将BC门配置信息复制到拷贝器中.
@@ -293,6 +294,7 @@ tile.markerBlock.name=地标
 tile.miningWellBlock.name=矿井
 tile.pathMarkerBlock.name=路径标记
 tile.plainPipeBlock.name=采矿管道
+tile.programmingTableBlock.name=编程台
 tile.pumpBlock.name=液泵
 tile.refineryBlock.name=精炼厂
 tile.requester.name=请求机
