@@ -1,4 +1,4 @@
-# Slovak language file for BuildCraft 6.5.0 translated by leSamo
+# Slovak language file for BuildCraft 7.0.1 translated by leSamo
 # If this translation gets outdated, please contact me on Twitter: @leSamoSK
 
 buildcraft.boardRobotPicker=Zdvýhač
@@ -57,6 +57,46 @@ color.red=Červená
 color.white=Biela
 color.yellow=Žltá
 
+config.general=Všeobecné
+config.general.pipes=Rúry
+config.blueprints=Schémy
+config.power=Spotreba energie
+config.display=Zobrazenie
+config.worldgen=Generovanie sveta
+config.network=Siete
+config.buildcraft=Buildcraft konfigurácia
+
+config.blueprints.clientDatabaseDirectory=Priečinok klienta
+config.blueprints.excludedMods=Vynechané módy
+config.blueprints.excludedBlocks=Vynechané kocky
+
+config.display.colorBlindMode=Mód pre farboslepých
+config.display.hideFluidValues=Skryť čísla pri tekutinách
+config.display.hidePowerValues=Skryť čísla pri energiách
+
+config.general.pumpsConsumeWater=Pumpy spotrebúvajú tekutiny
+config.general.updateCheck=Kontrola aktualizácií
+config.general.itemLifespan=Životnosť predmetov (v sekundách)
+config.general.canEnginesExplode=Motory vybuchujú
+config.general.oilCanBurn=Ropa horí
+config.general.oilIsDense=Hustá ropa
+config.general.quarry=Nastavenia pre lom
+config.general.quarry.oneTimeUse=Jednorázový lom
+config.general.quarry.doChunkLoading=Automatické načítavanie chunkov
+config.general.miningDepth=Maximálna relatívna hĺbka kopania
+config.general.pumpDimensionControl=Dimensionálna kontrola pre pumpu
+
+config.network.longUpdateFactor=Faktor synchronizácie klienta (v tikoch)
+config.network.updateFactor=Faktor posielania balíkov (v tikoch)
+
+config.power.miningUsageMultiplier=Koeficient spotreby energie kopania
+config.power.chipsetCostMultiplier=Koeficient spotreby energie vyrábania čipov
+
+config.worldgen.enable=Aktivovať
+config.worldgen.oilWellGenerationRate=Koeficient množstva generovaných prameňov ropy
+config.worldgen.spawnOilSprings=Generovanie prameňov ropy
+
+
 direction.north=Sever
 direction.west=Západ
 direction.east=Východ
@@ -100,13 +140,18 @@ gate.action.station.provide_machine_request=Poskytni vypočítané predmety
 gate.action.station.accept_fluids=Príjimaj tekutiny 
 gate.action.station.povide_fluids=Poskytuj tekutiny
 gate.action.robot.work_in_area=Pracuj v území
+gate.action.robot.load_unload_area=Nakladaj/Vykladaj v území
 gate.action.robot.wakeup=Zobuď sa
 gate.action.station.forbid_robot=Robot zakázaný
 gate.action.robot.filter=Filter
+gate.action.robot.filter_tool=Filterový nástroj
 
 gate.expansion.fader=Ruditový prelínač
-gate.expansion.pulsar=Sebestačný pulzar
+gate.expansion.pulsar=Pulzar
 gate.expansion.timer=Spínacie hodiny
+gate.expansion.light_sensor=Senzor svetla
+gate.expansion.rtc=Hodiny s reálnym časom
+gate.expansion.biological_sensor=Biologický senzor
 
 gate.logic.and=AND
 gate.logic.or=OR
@@ -154,6 +199,15 @@ gate.trigger.timer=%s Sek časovač
 gate.trigger.robot.sleep=Spánok
 gate.trigger.machine.energyStoredHigh=Veľa uloženej energie
 gate.trigger.machine.energyStoredLow=Málo uloženej energie
+gate.trigger.machine.energyStored.below25=Energia < 25%
+gate.trigger.machine.energyStored.below50=Energia < 50%
+gate.trigger.machine.energyStored.below75=Energia < 75%
+gate.trigger.light.bright=Svetlo
+gate.trigger.light.dark=Tma
+gate.trigger.time.0=Noc
+gate.trigger.time.6=Ráno
+gate.trigger.time.12=Poobedie
+gate.trigger.time.18=Večer
 
 gui.building.resources=Zdroje na stavbu
 gui.building.fluids=Tekutiny na stavbu
@@ -190,6 +244,7 @@ item.goldGearItem.name=Zlaté ozubené koleso
 item.diamondGearItem.name=Diamantové ozubené koleso
 item.templateItem.name=Šablóna
 item.wrenchItem.name=Francúzsky kľúč
+item.paintbrush.name=Štetec
 item.pipeWaterproof.name=Tesnenie
 item.redPipeWire.name=Červený kábel
 item.bluePipeWire.name=Modrý kábel
@@ -268,6 +323,7 @@ itemGroup.buildcraft.boards=BuildCraft Roboty
 itemGroup.buildcraft.main=BuildCraft
 itemGroup.buildcraft.pipes=BuildCraft Rúry
 itemGroup.buildcraft.facades=BuildCraft Fasády
+itemGroup.buildcraft.gates=BuildCraft Brány
 
 tile.architectBlock.name=Stôl architekta
 tile.assemblyTableBlock.name=Skladací stôl
@@ -306,8 +362,8 @@ tile.zonePlan.name=Plánovač povrchu
 
 tile.architect.rotate=Otočiť: ZAP
 tile.architect.norotate=Otočiť: VYP
-tile.architect.allblocks=Bloky: Všetky
-tile.architect.simpleblocks=Bloky: Jednoduché
+tile.architect.allblocks=Kocky: Všetky
+tile.architect.simpleblocks=Kocky: Jednoduché
 tile.architect.excavate=Vykopať: ZAP
 tile.architect.noexcavate=Vykopať: VYP
 tile.architect.supportmods=Mód: Podporný
