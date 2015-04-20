@@ -142,7 +142,8 @@ gate.action.station.povide_fluids=Poskytuj tekutiny
 gate.action.robot.work_in_area=Pracuj v území
 gate.action.robot.load_unload_area=Nakladaj/Vykladaj v území
 gate.action.robot.wakeup=Zobuď sa
-gate.action.station.forbid_robot=Robot zakázaný
+gate.action.station.forbid_robot=Zakázať robota
+gate.action.station.force_robot=Prinútiť robota
 gate.action.robot.filter=Filter
 gate.action.robot.filter_tool=Filterový nástroj
 
@@ -197,6 +198,9 @@ gate.trigger.pipe.wire.active=%s Potrubný signál ZAP
 gate.trigger.pipe.wire.inactive=%s Potrubný signál VYP
 gate.trigger.timer=%s Sek časovač
 gate.trigger.robot.sleep=Spánok
+gate.trigger.robot.in.station=Robot v stanici
+gate.trigger.robot.linked=Stanica napojená
+gate.trigger.robot.reserved=Stanica rezervovaná
 gate.trigger.machine.energyStoredHigh=Veľa uloženej energie
 gate.trigger.machine.energyStoredLow=Málo uloženej energie
 gate.trigger.machine.energyStored.below25=Energia < 25%
@@ -417,6 +421,7 @@ tip.shift.PipeItemsObsidian=
 tip.shift.PipePowerIron=Limit sa dá zmeniť francúyskym\n kľúčom alebo bránou
 
 tip.tool.add=Pridať
+tip.tool.fullscreen=Celá obrazovka
 tip.tool.remove=Odstrániť
 
 achievement.woodenGearAchievement=Trošku hrboľaté
