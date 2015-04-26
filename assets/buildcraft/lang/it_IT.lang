@@ -29,6 +29,7 @@ chat.gateCopier.warning.logic=§6Attenzione: il gate ha un tipo differente di lo
 chat.gateCopier.warning.load=§6Attenzione: attivazioni/azioni del gate potrebbero mancare!
 chat.gateCopier.warning.slots=§6Attenzione: il gate ha meno posti!
 chat.gateCopier.warning.triggerParameters=§6Attenzione: il gate ha meno parametri d'attivazioni!
+chat.pipe.power.iron.mode=Cambiato il limite a %d RF/t
 chat.pipe.power.iron.mode.numberless=Cambiato il limite a %s
 chat.pipe.power.iron.level.20=molto basso
 chat.pipe.power.iron.level.40=basso
@@ -37,8 +38,6 @@ chat.pipe.power.iron.level.160=medio
 chat.pipe.power.iron.level.320=alto
 chat.pipe.power.iron.level.640=molto alto
 chat.pipe.power.iron.level.1280=capacità massima
-
-chat.pipe.power.iron.mode=Cambiato limite a %d RF/t
 
 color.black=Nero
 color.blue=Blu
@@ -56,6 +55,46 @@ color.purple=Viola
 color.red=Rosso
 color.white=Bianco
 color.yellow=Giallo
+
+config.general=Generale
+config.general.pipes=Tubi
+config.blueprints=Cianotipi
+config.power=Uso di energia
+config.display=Descrizione
+config.worldgen=Generazione del mondo
+config.network=Networking
+config.buildcraft=Configurazioni BuildCraft
+
+config.blueprints.clientDatabaseDirectory=Directory del client
+config.blueprints.excludedMods=Mod esclusi
+config.blueprints.excludedBlocks=Blocchi esclusi
+
+config.display.colorBlindMode=Modalità daltonico
+config.display.hideFluidValues=Nascondi i numeri dei fluidi
+config.display.hidePowerValues=Nascondi i numeri dell'energia
+
+config.general.pumpsConsumeWater=Pompa consuma acqua
+config.general.updateCheck=Controlla per aggiornamenti for updates
+config.general.itemLifespan=Durata di vita degli oggetti (secondi)
+config.general.canEnginesExplode=Esplosioni motori
+config.general.oilCanBurn=Petrolio combustibile
+config.general.oilIsDense=Petrolio denso
+config.general.quarry=Opzioni scavatrice
+config.general.quarry.oneTimeUse=Usabile una sola volta
+config.general.quarry.doChunkLoading=Caricamento chunk automatico
+config.general.miningDepth=Profondità massima di scavo
+config.general.pumpDimensionControl=Controllo dimensione della pompa
+
+config.network.longUpdateFactor=Fattore di sincronizzazione al client (tick)
+config.network.updateFactor=Fattore di mandare pacchetti (tick)
+
+config.power.miningUsageMultiplier=Moltiplicatore di usura di scavo
+config.power.chipsetCostMultiplier=Moltiplicatore di costo di circuiti
+
+config.worldgen.enable=Attiva
+config.worldgen.oilWellGenerationRate=Proporzioni generazione di pozzi petroliferi
+config.worldgen.spawnOilSprings=Genera pozzi petroliferi
+
 
 direction.north=Nord
 direction.west=Ovest
@@ -99,15 +138,20 @@ gate.action.station.allow_craft=Permetti fabbricazione
 gate.action.station.provide_machine_request=Procura oggetti richiesti
 gate.action.station.accept_fluids=Accetta fluidi
 gate.action.station.povide_fluids=Procura fluidi
+gate.action.robot.load_unload_area=Carica/scarica in area
 gate.action.robot.work_in_area=Lavora in area
 gate.action.robot.wakeup=Svegliarsi
 gate.action.station.forbid_robot=Proibito a robot
+gate.action.station.force_robot=Forza robot
 gate.action.robot.filter=Filtro
 gate.action.robot.filter_tool=Filtra attrezzo
 
 gate.expansion.fader=Fader di pietrarossa
 gate.expansion.pulsar=Pulsar autarchico
 gate.expansion.timer=Timer
+gate.expansion.light_sensor=Light Sensor
+gate.expansion.rtc=Real-Time Clock
+gate.expansion.biological_sensor=Biological Sensor
 
 gate.logic.and=AND
 gate.logic.or=OR
@@ -153,8 +197,20 @@ gate.trigger.pipe.wire.active=Segnale %s per tubi acceso
 gate.trigger.pipe.wire.inactive=Segnale %s per tubi spento
 gate.trigger.timer=Timer di %s sec
 gate.trigger.robot.sleep=Dormire
-gate.trigger.machine.energyStoredHigh=Molta corrente contenuta
-gate.trigger.machine.energyStoredLow=Poca corrente contenuta
+gate.trigger.robot.in.station=Robot in stazione
+gate.trigger.robot.linked=Stazioni collegati
+gate.trigger.robot.reserved=Stazione riservato
+gate.trigger.machine.energyStored.high=Molta corrente contenuta
+gate.trigger.machine.energyStored.low=oca corrente contenuta
+gate.trigger.machine.energyStored.below25=Energia < 25%
+gate.trigger.machine.energyStored.below50=Energia < 50%
+gate.trigger.machine.energyStored.below75=Energia < 75%
+gate.trigger.light.bright=Luminoso
+gate.trigger.light.dark=Scuro
+gate.trigger.time.0=Notte
+gate.trigger.time.6=Mattina
+gate.trigger.time.12=Pomeriggio
+gate.trigger.time.18=Sera
 
 gui.building.resources=Materiali per costruire
 gui.building.fluids=Cisterna per fluidi
@@ -171,6 +227,8 @@ gui.heat=Calore
 gui.assemblyRate=Frequenza di corrente
 gui.assemblyCurrentRequired=Corrente richiesta
 gui.clickcraft=-Clicca per fabbricare-
+gui.list.metadata=Accetta variazioni
+gui.list.oredict=Accetta equivalenti
 gui.pipes.emerald.title=Filtri
 gui.pipes.emerald.blocking=Blocco
 gui.pipes.emerald.blocking.tip=L'estrazione è bloccata se manca un elemento nel filtro
@@ -189,6 +247,7 @@ item.goldGearItem.name=Ingranaggio d'oro
 item.diamondGearItem.name=Ingranaggio di diamante
 item.templateItem.name=Progetto
 item.wrenchItem.name=Chiave inglese
+item.paintbrush.name=Pennello
 item.pipeWaterproof.name=Sigillante impermeabile per tubi
 item.redPipeWire.name=Filo rosso per tubi
 item.bluePipeWire.name=Filo blu per tubi
@@ -205,16 +264,16 @@ item.redstone_quartz_chipset.name=Circuito di quarzo
 item.redstone_comp_chipset.name=Circuito di pietrarossa comp
 item.redstone_board.name=Scheda di pietrarossa
 item.robot.name=Robot
-item.list.name=Lista
 item.blueprintItem.name=Cianotipo
+item.list.name=Lista
 item.blueprint.unnamed=<senzanome>
 item.blueprint.author=di
 item.blueprint.blank=Vuoto
 item.blueprint.creative_only=Solo creativa
 item.blueprint.incomplete=Incompleto
 item.blueprint.no_build=Nessuna costruzione
-item.gateCopier.name=Copiatrice di gate
 item.mapLocation.name=Luogo su mappa
+item.gateCopier.name=Copiatrice di gate
 item.PipeItemsWood.name=Tubo di legno per trasporto
 item.PipeItemsCobblestone.name=Tubo di pietrame per trasporto
 item.PipeItemsStone.name=Tubo di pietra per trasporto
@@ -262,11 +321,13 @@ item.Lens.name=Lente
 item.Filter.name=Filtro
 item.debugger.name=Debugger
 item.debugger.warning=Usa solo per prova! Rivela segreti.
+item.package.name=Pacco
 
 itemGroup.buildcraft.boards=BuildCraft robot
 itemGroup.buildcraft.main=BuildCraft
 itemGroup.buildcraft.pipes=BuildCraft tubi
 itemGroup.buildcraft.facades=BuildCraft facciate
+itemGroup.buildcraft.gates=BuildCraft gate
 
 tile.architectBlock.name=Tavolo dell'architetto
 tile.assemblyTableBlock.name=Tavolo di assemblaggio
@@ -275,9 +336,9 @@ tile.autoWorkbenchBlock.name=Banco da lavoro automatico
 tile.blockFuel.name=Carburante
 tile.blockHopper.name=Scivolo
 tile.blockOil.name=Petrolio
+tile.builderBlock.name=Costruttore
 tile.chargingTableBlock.name=Tavolo caricatore
 tile.constructionMarkerBlock.name=Delimitatore per costruzione
-tile.builderBlock.name=Costruttore
 tile.engineCreative.name=Motore creativo
 tile.engineIron.name=Motore a carburante
 tile.engineStone.name=Motore a vapore
@@ -292,6 +353,7 @@ tile.libraryBlock.name=Libreria per progetti
 tile.machineBlock.name=Scavatrice
 tile.markerBlock.name=Delimitatore per area
 tile.miningWellBlock.name=Scavatrice verticale
+tile.packagerBlock.name=Imballagiatore per ricette
 tile.pathMarkerBlock.name=Delimitatore per percorso
 tile.plainPipeBlock.name=Tubo della scavatrice
 tile.programmingTableBlock.name=Tavolo di programmazione
@@ -300,6 +362,7 @@ tile.refineryBlock.name=Raffinatore
 tile.requester.name=Richieditrice
 tile.spring.oil.name=Sorgente di petrolio
 tile.spring.water.name=Sorgente d'acqua
+tile.stampingTableBlock.name=Tavolo di timbratura
 tile.tankBlock.name=Serbatoio
 tile.zonePlan.name=Pianificatore per zone
 
@@ -360,6 +423,7 @@ tip.shift.PipeItemsObsidian=Alimenta con un motore\npiù corrente - maggiore dis
 tip.shift.PipePowerIron=Cambia il limite con una chiave inglese o un gate
 
 tip.tool.add=Aggiungi
+tip.tool.fullscreen=Schermo intero
 tip.tool.remove=Rimuovi
 
 achievement.woodenGearAchievement=Un po' grezzo
