@@ -3,10 +3,10 @@
 buildcraft.boardRobotPicker=Cueilleur
 buildcraft.boardRobotLumberjack=Bûcheron
 buildcraft.boardRobotPlanter=Planteur
-buildcraft.boardRobotLeaveCutter=Tailleur de feuile
+buildcraft.boardRobotLeaveCutter=Coupeur de feuile
 buildcraft.boardRobotCarrier=Transporteur
-buildcraft.boardRobotFluidCarrier=Transporteur de fluide
-buildcraft.boardRobotBomber=Plastiqueur
+buildcraft.boardRobotFluidCarrier=Transporteur de fluides
+buildcraft.boardRobotBomber=Bombardier
 buildcraft.boardRobotKnight=Chevalier
 buildcraft.boardRobotMiner=Mineur
 buildcraft.boardRobotFarmer=Fermier
@@ -55,7 +55,7 @@ direction.up=Haut
 direction.down=Bas
 
 fillerpattern.clear=Nettoyer
-fillerpattern.fill=Rempli
+fillerpattern.fill=Remplir
 fillerpattern.flatten=Aplatir
 fillerpattern.horizon=Horizon
 fillerpattern.pyramid=Pyramide
@@ -380,4 +380,4 @@ bc_update.again=Taper '/buildcraft version' si vous voulez le voir à nouveau
 
 command.buildcraft.version=BuildCraft %s pour Minecraft %s (Dernière version: %s).
 command.buildcraft.versioninfo=Informations sur la version.
-command.buildcraft.available=Commandes disponibles:
+command.buildcraft.available=Liste des commandes disponibles:
