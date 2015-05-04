@@ -1,4 +1,4 @@
-# Slovak language file for BuildCraft 7.0.1 translated by leSamo
+# Slovak language file for BuildCraft 7.0.3 translated by leSamo
 # If this translation gets outdated, please contact me on Twitter: @leSamoSK
 
 buildcraft.boardRobotPicker=Zdvýhač
@@ -9,7 +9,7 @@ buildcraft.boardRobotCarrier=Nosič
 buildcraft.boardRobotFluidCarrier=Prelievač
 buildcraft.boardRobotBomber=Bombardér
 buildcraft.boardRobotKnight=Rytier
-buildcraft.boardRobotMiner=Banič
+buildcraft.boardRobotMiner=Banník
 buildcraft.boardRobotFarmer=Farmár
 buildcraft.boardRobotHarvester=Zberač
 buildcraft.boardRobotShovelman=Kopač
@@ -18,7 +18,26 @@ buildcraft.boardRobotBuilder=Stavač
 buildcraft.boardRobotCrafter=Remeselník
 buildcraft.boardRobotDelivery=Poštár
 buildcraft.boardRobotPump=Pumpár
-buildcraft.boardRobotStripes=Stripes
+buildcraft.boardRobotStripes=Pásiky
+
+buildcraft.boardRobotPicker.desc=Zbiera predmety
+buildcraft.boardRobotLumberjack.desc=Rúbe drevo
+buildcraft.boardRobotPlanter.desc=Sadí rastliny
+buildcraft.boardRobotLeaveCutter.desc=Strihá listy
+buildcraft.boardRobotCarrier.desc=Prepravuje predmety
+buildcraft.boardRobotFluidCarrier.desc=Prepravuje tekutiny
+buildcraft.boardRobotBomber.desc=Zhadzuje bomby
+buildcraft.boardRobotKnight.desc=Bojuje s príšerami
+buildcraft.boardRobotMiner.desc=Kope rudy
+buildcraft.boardRobotFarmer.desc=Stará sa o zvieratá
+buildcraft.boardRobotHarvester.des=Zbiera úrodu
+buildcraft.boardRobotShovelman.desc=Kope hlinu
+buildcraft.boardRobotButcher.desc=Bojuje so zvieratami
+buildcraft.boardRobotBuilder.desc=Stavia budovy
+buildcraft.boardRobotCrafter.desc=Vyrába predmety
+buildcraft.boardRobotDelivery.desc=Dodáva predmety po žiadosti
+buildcraft.boardRobotPump.desc=Pumpuje tekutiny
+buildcraft.boardRobotStripes.desc=Ehm... pásiky!
 
 chat.gateCopier.clear=Informácie brány vynulované.
 chat.gateCopier.gateCopied=Informácie brány skopírované.
@@ -265,6 +284,7 @@ item.redstone_quartz_chipset.name=Kremenný čip
 item.redstone_comp_chipset.name=Ruditový comp čip
 item.redstone_board.name=Ruditová tabuľa
 item.robot.name=Robot
+item.tablet.name=Tablet
 item.blueprintItem.name=Schéma
 item.blueprintItem.name=Zoznam
 item.blueprint.unnamed=<bez názvu>
@@ -313,6 +333,7 @@ item.PipeFluidsSandstone.name=Pieskovcová vodotesná rúra
 item.PipePowerSandstone.name=Pieskovcová energická rúra
 item.PipeRobotStation.name=Stanica
 item.Facade.name=Fasáda
+item.Facade.state_hollow=Dutý
 item.FacadePhased.name=Skrytá fasáda
 item.FacadePhased.state=%s: %s
 item.FacadePhased.state_default=Štandardné: %s
@@ -322,6 +343,7 @@ item.Lens.name=Šošovka
 item.Filter.name=Filter
 item.debugger.name=Ladič
 item.debugger.warning=Používajte iba na testovanie! Môže prezradiť tajomstvá.
+item.package.name=Balík
  
 itemGroup.buildcraft.boards=BuildCraft Roboty
 itemGroup.buildcraft.main=BuildCraft
@@ -353,6 +375,7 @@ tile.libraryBlock.name=Knižnica schém
 tile.machineBlock.name=Lom
 tile.markerBlock.name=Orientačná značka
 tile.miningWellBlock.name=Kopacia studňa
+tile.packagerBlock.name=Balič receptov
 tile.pathMarkerBlock.name=Smerovacia značka
 tile.plainPipeBlock.name=Kopacia rúra
 tile.pumpBlock.name=Pumpa
@@ -361,6 +384,7 @@ tile.refineryBlock.name=Rafinéria
 tile.requester.name=Vyžiadavač
 tile.spring.oil.name=Ropný prúd
 tile.spring.water.name=Vodný prúd
+tile.stampingTableBlock.name=Pečiatkovací stôl
 tile.tankBlock.name=Nádrž
 tile.zonePlan.name=Plánovač povrchu
 
@@ -418,7 +442,7 @@ tip.shift.PipeItemsDaizuli=Plíž sa a klikni aby si\n zmenil farbu
 tip.shift.PipeItemsEmzuli=
 tip.shift.PipeItemsLapis=Plíž sa a klikni aby si\n zmenil farbu
 tip.shift.PipeItemsObsidian=
-tip.shift.PipePowerIron=Limit sa dá zmeniť francúyskym\n kľúčom alebo bránou
+tip.shift.PipePowerIron=Limit sa dá zmeniť francúzskym\n kľúčom alebo bránou
 
 tip.tool.add=Pridať
 tip.tool.fullscreen=Celá obrazovka
