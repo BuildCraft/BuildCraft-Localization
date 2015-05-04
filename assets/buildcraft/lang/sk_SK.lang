@@ -1,4 +1,4 @@
-# Slovak language file for BuildCraft 7.0.1 translated by leSamo
+# Slovak language file for BuildCraft 7.0.3 translated by leSamo
 # If this translation gets outdated, please contact me on Twitter: @leSamoSK
 
 buildcraft.boardRobotPicker=Zdvýhač
@@ -9,7 +9,7 @@ buildcraft.boardRobotCarrier=Nosič
 buildcraft.boardRobotFluidCarrier=Prelievač
 buildcraft.boardRobotBomber=Bombardér
 buildcraft.boardRobotKnight=Rytier
-buildcraft.boardRobotMiner=Banič
+buildcraft.boardRobotMiner=Banník
 buildcraft.boardRobotFarmer=Farmár
 buildcraft.boardRobotHarvester=Zberač
 buildcraft.boardRobotShovelman=Kopač
@@ -18,7 +18,7 @@ buildcraft.boardRobotBuilder=Stavač
 buildcraft.boardRobotCrafter=Remeselník
 buildcraft.boardRobotDelivery=Poštár
 buildcraft.boardRobotPump=Pumpár
-buildcraft.boardRobotStripes=Stripes
+buildcraft.boardRobotStripes=Pásiky
 
 buildcraft.boardRobotPicker.desc=Zbiera predmety
 buildcraft.boardRobotLumberjack.desc=Rúbe drevo
