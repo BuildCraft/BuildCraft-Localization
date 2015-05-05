@@ -15,7 +15,7 @@ gui.heat=Varme
 
 item.bucketFuel.name=Drivstoffspann
 item.bucketOil.name=Oljespann
-item.woodenGearItem.name=Tretannhjil
+item.woodenGearItem.name=Tretannhjul
 item.stoneGearItem.name=Steintannhjul
 item.ironGearItem.name=Jerntannhjul
 item.goldGearItem.name=Gulltannhjul
@@ -65,7 +65,7 @@ tile.frameBlock.name=Rammer
 tile.laserBlock.name=Laser
 tile.libraryBlock.name=Blåkopibiblotek
 tile.machineBlock.name=Steinbrudd
-tile.markerBlock.name=Landmarkering
+tile.markerBlock.name=Landmarkerer
 tile.miningWellBlock.name=Gruvebrønn
 tile.pathMarkerBlock.name=Veimarkering
 tile.plainPipeBlock.name=Gruverør
