@@ -1,5 +1,4 @@
-# Slovak language file for BuildCraft 7.0.3 translated by leSamo
-# If this translation gets outdated, please contact me on Twitter: @leSamoSK
+# Slovak language file for mod 'BuildCraft' 7.0.4 translated by leSamo, if this translation gets outdated, please, contact me on Twitter: @leSamoSK
 
 buildcraft.boardRobotPicker=Zdvýhač
 buildcraft.boardRobotLumberjack=Drevorubač
@@ -29,7 +28,7 @@ buildcraft.boardRobotFluidCarrier.desc=Prepravuje tekutiny
 buildcraft.boardRobotBomber.desc=Zhadzuje bomby
 buildcraft.boardRobotKnight.desc=Bojuje s príšerami
 buildcraft.boardRobotMiner.desc=Kope rudy
-buildcraft.boardRobotFarmer.desc=Stará sa o zvieratá
+buildcraft.boardRobotFarmer.desc=Obrába hlinu
 buildcraft.boardRobotHarvester.des=Zbiera úrodu
 buildcraft.boardRobotShovelman.desc=Kope hlinu
 buildcraft.boardRobotButcher.desc=Bojuje so zvieratami
@@ -43,11 +42,11 @@ chat.gateCopier.clear=Informácie brány vynulované.
 chat.gateCopier.gateCopied=Informácie brány skopírované.
 chat.gateCopier.gatePasted=Informácie brány prilepené.
 chat.gateCopier.noGate=Žiadna brána nebola na tejto strane nájdená!
-chat.gateCopier.noInformation=Žiadne informácie o bráne uložené!
+chat.gateCopier.noInformation=Žiadne informácie o bráne neboli uložené!
 chat.gateCopier.warning.actionParameters=§6Warning: Cieľ nemá dostatočné parametre!
 chat.gateCopier.warning.logic=§6Warning: Cieľ má iný typ logiky!
 chat.gateCopier.warning.load=§6Warning: Niektoré parametre môžu chýbať!
-chat.gateCopier.warning.slots=§6Warning: Cieľ nemá dosť priestoru!
+chat.gateCopier.warning.slots=§6Warning: Cieľ nemá dostatok priestoru!
 chat.gateCopier.warning.triggerParameters=§6Warning: Cieľ nemá dostatočné parametre!
 chat.pipe.power.iron.mode=Zmenené na %d RF/t limit
 chat.pipe.power.iron.mode.numberless=Zmenené na %s limit
@@ -497,5 +496,21 @@ bc_update.once=Táto správa sa zobrazí iba raz
 bc_update.again=Napíš '/buildcraft version' ak ju chceš vidieť znovu
 
 command.buildcraft.version=BuildCraft %s pre Minecraft %s (Najnovšie: %s).
-command.buildcraft.versioninfo=Informácie o verzií.
-command.buildcraft.available=Príkazy k dispozícií:
+command.buildcraft.changelog_header=Zoznam zmien pre BuildCraft %s:
+
+command.buildcraft.aliases=Aliasy: %s
+command.buildcraft.help=Napíš '%s' ak potrebuješ pomoc.
+command.buildcraft.list=Dostupné príkazy:
+command.buildcraft.permlevel=Úroveň povolenia: %s
+command.buildcraft.noperms=Nemáš povolenie pre použitie tohto príkazu.
+
+command.buildcraft.buildcraft.help=Rôzne príkazy, ktoré súvisia s BuildCraftom
+command.buildcraft.buildcraft.format=Formát: /%s <pod-príkaz>
+
+command.buildcraft.buildcraft.version.desc=- %s : Informácie o verzií
+command.buildcraft.buildcraft.version.help=Ukáže používanú a najnovšiu verziu Buildcraftu
+command.buildcraft.buildcraft.version.format=Formát: /%s
+
+command.buildcraft.buildcraft.changelog.desc=- %s : Zoznam zmien
+command.buildcraft.buildcraft.changelog.help=Ukáže zoznam zmien v najnovšom BuildCrafte.
+command.buildcraft.buildcraft.changelog.format=Formát: /%s
