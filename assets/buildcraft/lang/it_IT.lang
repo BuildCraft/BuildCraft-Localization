@@ -28,7 +28,7 @@ buildcraft.boardRobotFluidCarrier.desc=Muove fluidi tra serbatoi
 buildcraft.boardRobotBomber.desc=Bobmarda posizioni
 buildcraft.boardRobotKnight.desc=Combatte mob
 buildcraft.boardRobotMiner.desc=Scava minerali
-buildcraft.boardRobotFarmer.desc=Alleva animali
+buildcraft.boardRobotFarmer.desc=Zappa la terra
 buildcraft.boardRobotHarvester.desc=Raccoglie piante mature
 buildcraft.boardRobotShovelman.desc=Scava area
 buildcraft.boardRobotButcher.desc=Combatte animali
@@ -496,5 +496,21 @@ bc_update.once=Questo messaggio sarà mostrato soltanto una volta
 bc_update.again=Scrivi '/buildcraft version' se lo vuoi vedere di nuovo
 
 command.buildcraft.version=BuildCraft %s per Minecraft %s (ultimo: %s).
-command.buildcraft.versioninfo=Informazionio versione.
-command.buildcraft.available=Comandi avviabili:
+command.buildcraft.changelog_header=Changelog per BuildCraft %s:
+
+command.buildcraft.aliases=Pseudonimi: %s
+command.buildcraft.help=Prova '%s' per aiuto.
+command.buildcraft.list=Comandi avviabili:
+command.buildcraft.permlevel=Livello autorizzazione: %s
+command.buildcraft.noperms=Non hai l'autorizzazione di usare questo comando.
+
+command.buildcraft.buildcraft.help=Vari comandi per BuildCraft
+command.buildcraft.buildcraft.format=Formato: /%s <sub-comando>
+
+command.buildcraft.buildcraft.version.desc=- %s : Informazioni versione
+command.buildcraft.buildcraft.version.help=Mostra l'ultima versione e la versione corrente di BC.
+command.buildcraft.buildcraft.version.format=Formato: /%s
+
+command.buildcraft.buildcraft.changelog.desc=- %s : Changelog
+command.buildcraft.buildcraft.changelog.help=Mostra l'ultimo changelog di BC.
+command.buildcraft.buildcraft.changelog.format=Formato: /%s 
