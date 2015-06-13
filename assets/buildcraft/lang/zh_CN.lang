@@ -413,3 +413,16 @@ bc_update.again=若想再次查看可用输入指令 '/buildcraft version'
 command.buildcraft.version=BuildCraft%s,适用于Minecraft %s (最新版本为: %s).
 command.buildcraft.versioninfo=版本信息.
 command.buildcraft.available=可用指令:
+command.buildcraft.permlevel=权限等级: %s
+command.buildcraft.noperms=你没有使用该指令的权限.
+
+command.buildcraft.buildcraft.help=建筑相关指令集
+command.buildcraft.buildcraft.format=格式: /%s <子命令>
+
+command.buildcraft.buildcraft.version.desc=- %s : 版本信息
+command.buildcraft.buildcraft.version.help=显示当前及最新BC版本
+command.buildcraft.buildcraft.version.format=格式: /%s
+
+command.buildcraft.buildcraft.changelog.desc=- %s : 日志
+command.buildcraft.buildcraft.changelog.help=显示最新BC日志.
+command.buildcraft.buildcraft.changelog.format=格式: /%s
