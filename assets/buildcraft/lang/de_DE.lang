@@ -13,7 +13,7 @@ buildcraft.boardRobotFarmer=Bauer
 buildcraft.boardRobotHarvester=Ernter
 buildcraft.boardRobotShovelman=Schaufler
 buildcraft.boardRobotButcher=Schlachter
-buildcraft.boardRobotBuilder=Bauarbeiter
+buildcraft.boardRobotBuilder=Konstrukteur
 buildcraft.boardRobotCrafter=Handwerker
 buildcraft.boardRobotDelivery=Lieferant
 buildcraft.boardRobotPump=Pumpe
@@ -28,7 +28,7 @@ buildcraft.boardRobotFluidCarrier.desc=Transportiert Flüssigkeiten zwischen Tan
 buildcraft.boardRobotBomber.desc=Bombardiert Orte
 buildcraft.boardRobotKnight.desc=Bekämpft Monster
 buildcraft.boardRobotMiner.desc=Baut Erze ab
-buildcraft.boardRobotFarmer.desc=Bewirtschaftet Nutzvieh
+buildcraft.boardRobotFarmer.desc=Pflügt Erde
 buildcraft.boardRobotHarvester.desc=Erntet reife Feldfrüchte
 buildcraft.boardRobotShovelman.desc=Schaufelt Dinge
 buildcraft.boardRobotButcher.desc=Schlachtet Tiere
@@ -78,7 +78,9 @@ color.yellow=Gelb
 config.general=Generelles
 config.general.pipes=Rohre
 config.blueprints=Baupläne
+config.builders=Konstrukteur
 config.power=Energieverbrauch
+config.experimental=Experimentelles
 config.display=Darstellung
 config.worldgen=Weltgenerierung
 config.network=Networking
@@ -88,19 +90,36 @@ config.blueprints.clientDatabaseDirectory=Client-Verzeichnis
 config.blueprints.excludedMods=Ausgeschlossene Mods
 config.blueprints.excludedBlocks=Ausgeschlossene Blöcke
 
+config.builders.dropBrokenBlocks=Abgebaute Blöcke nicht zerstören
+
 config.display.colorBlindMode=Farbenblind-Modus
 config.display.hideFluidValues=Flüssigkeitszahlen verstecken
 config.display.hidePowerValues=Energiezahlen verstecken
 
+config.experimental.kinesisPowerLossOnTravel=Energieleitungs-Energieverlust
+
+config.general.boards.blacklist=Roboter-Blacklist
 config.general.pumpsConsumeWater=Pumpen verbrauchen Wasser
 config.general.updateCheck=Prüfe auf Updates
+config.general.fuel.fuel.combustion=Verbrennungsmotoren-Benzinmultiplikator
+config.general.fuel.oil.combustion=Verbrennungsmotoren-Ölmultiplikator
+config.general.fuel.fuel.combustion.energyOutput=Verbrennungsmotoren-Benzin-Output
+config.general.fuel.oil.combustion.energyOutput=Verbrennungsmotoren-Öl-Output
 config.general.itemLifespan=Item-Lebensdauer (Sekunden)
 config.general.canEnginesExplode=Motoren explodieren
 config.general.oilCanBurn=Brennendes Öl
 config.general.oilIsDense=Dichtes Öl
+config.general.pipes.baseFluidRate=Basis-Fließrate
+config.general.pipes.facadeBlacklist=Fassaden-Blacklist
+config.general.pipes.facadeBlacklistAsWhitelist=Fassaden-Blacklist invertieren
+config.general.pipes.facadeNoLaserRecipe=Fassaden-Rezepte ohne Laser
+config.general.pipes.hardness=Härte
+config.general.pipes.slimeballWaterproofRecipe=Schleimball-Dichtungsrezept
+config.general.pumpsNeedRealPower=Pumpen benötigen echte Energie
 config.general.quarry=Steinbruchoptionen
 config.general.quarry.oneTimeUse=Einwegnutzung
 config.general.quarry.doChunkLoading=Austomatisches Chunk-Laden
+config.general.markerRange=Reichweite von Markern
 config.general.miningDepth=Höchste relative Abbautiefe
 config.general.pumpDimensionControl=Pumpen-Dimensionskontrolle
 
@@ -109,11 +128,17 @@ config.network.updateFactor=Packet-Sendefaktor (ticks)
 
 config.power.miningUsageMultiplier=Abbaunutzungsmultiplikator
 config.power.chipsetCostMultiplier=Schaltkreis-Kostenmultiplikator
+config.power.gateCostMultiplier=Gatter-Kostenmultiplikator
 
 config.worldgen.enable=Aktivieren
+config.worldgen.generateWaterSprings=Generiere Wasserquellen
 config.worldgen.oilWellGenerationRate=Ölquellen-Generationsrate
 config.worldgen.spawnOilSprings=Generiere Ölquellen
-
+config.worldgen.biomes.biomeOilDesert=Biome-ID: Ölwüste
+config.worldgen.biomes.biomeOilOcean=Biome-ID: Ölozean
+config.worldgen.biomes.excessiveOilIDs=Biome mit sehr viel Öl
+config.worldgen.biomes.excludeOilIDs=Biome ohne Öl
+config.worldgen.biomes.increasedOilIDs=Biome mit mehr Öl
 
 direction.north=Nord
 direction.west=West
@@ -121,6 +146,16 @@ direction.east=Ost
 direction.south=Süd
 direction.up=Oben
 direction.down=Unten
+
+direction.center.0=Nordwest
+direction.center.1=Nord
+direction.center.2=Nordost
+direction.center.3=West
+direction.center.4=Mitte
+direction.center.5=Ost
+direction.center.6=Südwest
+direction.center.7=Süd
+direction.center.8=Südost
 
 fillerpattern.clear=Leeren
 fillerpattern.fill=Füllen
@@ -131,6 +166,8 @@ fillerpattern.stairs=Treppe
 fillerpattern.box=Box
 fillerpattern.cylinder=Zylinder
 fillerpattern.frame=Rahmen
+fillerpattern.parameter.hollow=Hohl
+fillerpattern.parameter.filled=Gefüllt
 
 fluid.oil=Öl
 fluid.fuel=Benzin
@@ -154,7 +191,7 @@ gate.action.station.accept_items=Items annehmen
 gate.action.station.request_items=Items anfordern
 gate.action.station.drop_items_in_pipe=Items in Rohr befördern
 gate.action.station.allow_craft=Fertigung erlauben
-gate.action.station.provide_machine_request=Errechnete Items anbieten
+gate.action.station.provide_machine_request=Benötigte Items anfordern
 gate.action.station.accept_fluids=Flüssigkeiten annehmen
 gate.action.station.povide_fluids=Flüssigkeiten anbieten
 gate.action.robot.work_in_area=Im Bereich arbeiten
@@ -433,6 +470,10 @@ tip.PipePowerIron=Rohr mit auswählbarem Energielimit
 tip.PipePowerSandstone=Verbindet sich nur mit anderen Rohren
 tip.PipePowerEmerald=Energie-Eingangsrohr
 tip.PipeStructureCobblestone=Rohr zur Unterstützung
+tip.deprecated=Veraltet
+
+tip.filler.excavate.on=Ausgraben
+tip.filler.excavate.off=Nicht Ausgraben
 
 tip.shift.PipeFluidsDiamond=GUI akzeptiert jegliche Flüssigkeitscontainer
 tip.shift.PipeFluidsEmerald=GUI akzeptiert jegliche Flüssigkeitscontainer
@@ -442,6 +483,10 @@ tip.shift.PipeItemsEmzuli=Stelle die Extraktionsfilter im GUI ein\nEin Filter ka
 tip.shift.PipeItemsLapis=Klicke beim Schleichen, um Farbe zu ändern
 tip.shift.PipeItemsObsidian=Akzeptiert Energie eines Motors\nMehr Energie bedeutet größere Reichweite
 tip.shift.PipePowerIron=Ändere das Limit mit einem Schraubenschlüssel oder Gattern
+
+tip.PipeItemsEmerald.whitelist=Whitelist
+tip.PipeItemsEmerald.blacklist=Blacklist
+tip.PipeItemsEmerald.roundrobin=Round Robin (In Reihenfolge)
 
 tip.tool.add=Hinzufügen
 tip.tool.fullscreen=Vollbild
@@ -496,5 +541,22 @@ bc_update.once=Diese Nachricht erscheint nur einmal
 bc_update.again=Gib '/buildcraft version' ein, solltest du sie noch einmal sehen wollen
 
 command.buildcraft.version=BuildCraft %s für Minecraft %s (Aktuellste: %s).
-command.buildcraft.versioninfo=Versionsinformationen.
-command.buildcraft.available=Verfügbare Befehle:
+command.buildcraft.changelog_header=Changelog für BuildCraft %s:
+
+command.buildcraft.aliases=Alias: %s
+command.buildcraft.help=Für weitere Informationen gib '%s' ein.
+command.buildcraft.list=Verfügbare Befehle:
+command.buildcraft.permlevel=Berechtigungs-Level: %s
+command.buildcraft.noperms=Du hast nicht die nötigen Berechtigungen, um diesen Befehl zu nutzen.
+
+command.buildcraft.buildcraft.help=Verschiedene Befehle bezüglich BuildCraft
+command.buildcraft.buildcraft.format=Format: /%s <Sub-Befehl>
+
+command.buildcraft.buildcraft.version.desc=- %s : Versionsinformationen
+command.buildcraft.buildcraft.version.help=Zeigt die aktuell insatallierte sowie die neueste BC-Version.
+command.buildcraft.buildcraft.version.format=Format: /%s
+
+command.buildcraft.buildcraft.changelog.desc=- %s : Changelog
+command.buildcraft.buildcraft.changelog.help=Zeigt den aktuellsten BC-Changelog
+command.buildcraft.buildcraft.changelog.format=Format: /%s
+
