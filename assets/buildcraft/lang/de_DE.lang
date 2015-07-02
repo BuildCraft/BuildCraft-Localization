@@ -559,4 +559,3 @@ command.buildcraft.buildcraft.version.format=Format: /%s
 command.buildcraft.buildcraft.changelog.desc=- %s : Changelog
 command.buildcraft.buildcraft.changelog.help=Zeigt den aktuellsten BC-Changelog
 command.buildcraft.buildcraft.changelog.format=Format: /%s
-
