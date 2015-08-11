@@ -85,7 +85,7 @@ config.experimental=测试
 config.display=显示
 config.worldgen=世界生成
 config.network=网络
-config.buildcraft=建筑配置
+config.buildcraft=建筑模组配置信息
 
 config.blueprints.clientDatabaseDirectory=客户端路径
 config.blueprints.excludedMods=排除模组
@@ -148,6 +148,16 @@ direction.south=南方
 direction.up=顶端
 direction.down=底端
 
+direction.center.0=西北
+direction.center.1=北方
+direction.center.2=东北
+direction.center.3=西方
+direction.center.4=中央
+direction.center.5=东方
+direction.center.6=西南
+direction.center.7=南方
+direction.center.8=东南
+
 fillerpattern.clear=清除
 fillerpattern.fill=填充
 fillerpattern.flatten=平整
@@ -157,6 +167,8 @@ fillerpattern.stairs=阶梯型
 fillerpattern.box=盒状
 fillerpattern.cylinder=柱体
 fillerpattern.frame=框架
+fillerpattern.parameter.hollow=中空
+fillerpattern.parameter.filled=填实
 
 fluid.oil=原油
 fluid.fuel=燃油
@@ -180,7 +192,7 @@ gate.action.station.accept_items=接受物品
 gate.action.station.request_items=请求物品
 gate.action.station.drop_items_in_pipe=管道中掉落物
 gate.action.station.allow_craft=允许合成
-gate.action.station.provide_machine_request=提供已计算物品
+gate.action.station.provide_machine_request=请求所需物品
 gate.action.station.accept_fluids=接受流体
 gate.action.station.povide_fluids=提供流体
 gate.action.robot.work_in_area=区域工作
@@ -449,6 +461,10 @@ tip.PipePowerWood=能量输入管道
 tip.PipePowerIron=可选能量限制管道
 tip.PipePowerEmerald=能量输入管道
 tip.PipeStructureCobblestone=结构支撑管道
+tip.deprecated=Deprecated
+
+tip.filler.excavate.on=挖掘
+tip.filler.excavate.off=停止挖掘
 
 tip.shift.PipeFluidsDiamond=界面接受任意流体容器
 tip.shift.PipeFluidsEmerald=界面接受任意流体容器
@@ -459,6 +475,9 @@ tip.shift.PipeItemsLapis=潜行点击以切换颜色
 tip.shift.PipeItemsObsidian=用引擎供能\n能量越多-作用范围越远
 tip.shift.PipePowerIron=用扳手或门来切换输送限度
 
+tip.PipeItemsEmerald.whitelist=白名单
+tip.PipeItemsEmerald.blacklist=黑名单
+tip.PipeItemsEmerald.roundrobin=按序循环
 
 tip.tool.add=添加
 tip.tool.fullscreen=全屏
