@@ -547,7 +547,7 @@ achievement.blueprintLibraryAchievement.desc=合成出蓝图档案馆
 bc_update.new_version=§c新版Buildcraft可用:版本为%s,且适用于Minecraft %s
 bc_update.download=§c从 http://www.mod-buildcraft.com/download 下载
 bc_update.once=本信息默认仅显示一次
-bc_update.again=若想再次查看可用输入指令 '/buildcraft version'
+bc_update.again=若想再次查看可输入指令 '/buildcraft version'
 
 chat.buildcraft.quarry.tooSmall=[BuildCraft] 采石场区域超出载入区块边界或太小 %d %d (%d)
 chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] 位于 %d %d %d 的采石场将保持%d个区块载入
