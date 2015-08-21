@@ -234,12 +234,12 @@ gate.trigger.fluid.empty=储罐空
 gate.trigger.fluid.contains=储罐有流体
 gate.trigger.fluid.space=储罐有空间
 gate.trigger.fluid.full=储罐满
-gate.trigger.fluidlevel.below=已使用空间<%d%%
+gate.trigger.fluidlevel.below=已使用空间 < %d%%
 gate.trigger.inventory.empty=容器空
 gate.trigger.inventory.contains=容器有物品
 gate.trigger.inventory.space=容器有空间
 gate.trigger.inventory.full=容器满
-gate.trigger.inventorylevel.below=已使用空间<%d%%
+gate.trigger.inventorylevel.below=已使用空间 < %d%%
 gate.trigger.machine.done=工作完成
 gate.trigger.machine.scheduled=有工作
 gate.trigger.redstone.input.active=红石信号开
@@ -547,13 +547,13 @@ achievement.blueprintLibraryAchievement.desc=合成出蓝图档案馆
 bc_update.new_version=§c新版Buildcraft可用:版本为%s,适用于Minecraft %s
 bc_update.download=§c从 http://www.mod-buildcraft.com/download 下载
 bc_update.once=本信息默认仅显示一次
-bc_update.again=若想再次查看可用输入指令 '/buildcraft version'
+bc_update.again=若想再次查看可输入指令 '/buildcraft version'
 
 chat.buildcraft.quarry.tooSmall=[BuildCraft] 采石场区域超出载入区块边界或太小 %d %d (%d)
 chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] 位于 %d %d %d 的采石场将保持%d个区块载入
 
 command.buildcraft.version=BuildCraft%s,适用于Minecraft %s (最新版本为: %s).
-command.buildcraft.changelog_header=BuildCraft更定日志 %s:
+command.buildcraft.changelog_header=BuildCraft更新日志 %s:
 
 command.buildcraft.aliases=别名: %s
 command.buildcraft.help=输入 '%s' 查看帮助.
