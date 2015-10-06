@@ -402,6 +402,7 @@ tip.gate.wires.diamond=Красный, Синий, Зелёный, Жёлтый
 tip.gate.wires.emerald=Красный, Синий, Зелёный, Жёлтый
 tip.gate.expansions=§9§oУстановленные расширения:
 
+tip.PipeFluidsClay=Вводящая труба
 tip.PipeFluidsCobblestone=Не присоединяется к каменным
 tip.PipeFluidsDiamond=Сортирует жидкости
 tip.PipeFluidsEmerald=Извлекающая труба

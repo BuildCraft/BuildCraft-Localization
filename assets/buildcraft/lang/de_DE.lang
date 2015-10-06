@@ -443,6 +443,7 @@ tip.gate.wires.diamond=Rot, Blau, Grün, Gelb
 tip.gate.wires.emerald=Rot, Blau, Grün, Gelb
 tip.gate.expansions=§9§oInstallierte Erweiterungen:
 
+tip.PipeFluidsClay=Insertionsrohr
 tip.PipeFluidsCobblestone=Wird sich nicht mit Stein verbinden
 tip.PipeFluidsDiamond=Sortiert Flüssigkeiten
 tip.PipeFluidsEmerald=Extraktionsrohr

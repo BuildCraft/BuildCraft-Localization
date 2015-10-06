@@ -322,6 +322,7 @@ tip.gate.wires.diamond=Rouge, bleu, vert, jaune
 tip.gate.wires.emerald=Rouge, bleu, vert, jaune
 tip.gate.expansions=§9§oExtensions installées :
 
+tip.PipeFluidsClay=Tuyau d'insertion
 tip.PipeFluidsCobblestone=Ne se connecte pas à celui de pierre
 tip.PipeFluidsDiamond=Trie les fluides
 tip.PipeFluidsEmerald=Tuyau d'extraction

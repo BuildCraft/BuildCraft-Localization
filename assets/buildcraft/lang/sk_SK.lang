@@ -405,6 +405,7 @@ tip.gate.wires.diamond=Červený, Modrý, Zelený, Žltý
 tip.gate.wires.emerald=Červený, Modrý, Zelený, Žltý
 tip.gate.expansions=§9§oNaištalované rozšírenia:
 
+tip.PipeFluidsClay=Vkladacia rúra
 tip.PipeFluidsCobblestone=Nenapojí sa na Skalnú rúru
 tip.PipeFluidsEmerald=Extrakčná rúra
 tip.PipeFluidsGold=Základná rúra
