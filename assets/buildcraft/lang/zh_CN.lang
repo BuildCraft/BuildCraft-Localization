@@ -1,4 +1,4 @@
-#zh_CN
+# Master language file
 
 buildcraft.boardRobotPicker=拾取机器人
 buildcraft.boardRobotLumberjack=伐木机器人
@@ -37,7 +37,7 @@ buildcraft.boardRobotBuilder.desc=修建房屋
 buildcraft.boardRobotCrafter.desc=合成物品
 buildcraft.boardRobotDelivery.desc=根据需求配送物品
 buildcraft.boardRobotPump.desc=泵出流体
-buildcraft.boardRobotStripes.desc=啊……条纹!
+buildcraft.boardRobotStripes.desc=采掘石头
 buildcraft.boardRobotStripes.desc=采掘石头
 
 chat.gateCopier.clear=门信息已清除.
@@ -247,7 +247,7 @@ gate.trigger.redstone.input.inactive=红石信号关
 gate.trigger.redstone.input.level=红石信号强度%d
 gate.trigger.pipe.empty=管道空
 gate.trigger.pipe.containsItems=物品经过
-gate.trigger.pipe.containsFiluids=流体经过
+gate.trigger.pipe.containsFluids=流体经过
 gate.trigger.pipe.containsEnergy=能量经过
 gate.trigger.pipe.requestsEnergy=能量需求
 gate.trigger.pipe.tooMuchEnergy=能量过载
@@ -269,6 +269,8 @@ gate.trigger.time.0=夜晚
 gate.trigger.time.6=早晨
 gate.trigger.time.12=下午
 gate.trigger.time.18=傍晚
+
+gui.fluidtank.empty=空
 
 gui.building.resources=建筑材料
 gui.building.fluids=流体储罐
@@ -408,7 +410,6 @@ tile.engineWood.name=红石引擎
 tile.fillerBlock.name=填充机
 tile.filteredBufferBlock.name=过滤缓存器
 tile.floodGateBlock.name=液闸
-tile.flywheelBlock.name=飞轮
 tile.frameBlock.name=框架
 tile.integrationTableBlock.name=集成台
 tile.laserBlock.name=镭射器
@@ -548,6 +549,7 @@ bc_update.new_version=§c新版Buildcraft可用:版本为%s,适用于Minecraft %
 bc_update.download=§c从 http://www.mod-buildcraft.com/download 下载
 bc_update.once=本信息默认仅显示一次
 bc_update.again=若想再次查看可输入指令 '/buildcraft version'
+bc_update.changelog=输入指令 '/buildcraft changelog' 以查看日志
 
 chat.buildcraft.quarry.tooSmall=[BuildCraft] 采石场区域超出载入区块边界或太小 %d %d (%d)
 chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] 位于 %d %d %d 的采石场将保持%d个区块载入
@@ -568,6 +570,12 @@ command.buildcraft.buildcraft.version.desc=- %s : 版本信息
 command.buildcraft.buildcraft.version.help=显示当前及最新BC版本
 command.buildcraft.buildcraft.version.format=格式: /%s
 
-command.buildcraft.buildcraft.changelog.desc=- %s : 日志
+command.buildcraft.buildcraft.changelog.desc=- %s : Changelog
 command.buildcraft.buildcraft.changelog.help=显示最新BC日志.
 command.buildcraft.buildcraft.changelog.format=格式: /%s
+command.buildcraft.buildcraft.op.desc=- %s : Op FakePlayer
+command.buildcraft.buildcraft.op.help=给予BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限.
+command.buildcraft.buildcraft.op.format=格式: /%s
+command.buildcraft.buildcraft.deop.desc=- %s : Deop FakePlayer
+command.buildcraft.buildcraft.deop.help=撤销BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限.
+command.buildcraft.buildcraft.deop.format=格式: /%s
