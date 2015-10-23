@@ -47,11 +47,11 @@ chat.gateCopier.noGate=Ingen port fundet på denne side!
 chat.gateCopier.noInformation=Ingen port information gemt!
 chat.gateCopier.warning.actionParameters=§6Advarsel: Målet har færre handlings parremetre!
 chat.gateCopier.warning.logic=§6Warning: Målet har forskellige logik typer!
-chat.gateCopier.warning.load=§6Warning: Gate triggers/actions might be missing!
-chat.gateCopier.warning.slots=§6Warning: Target has less slots!
-chat.gateCopier.warning.triggerParameters=§6Warning: Target has less trigger parameters!
-chat.pipe.power.iron.mode=Switched to %d RF/t limit
-chat.pipe.power.iron.mode.numberless=Switched to %s limit
+chat.gateCopier.warning.load=§6Warning: Port triggers/handling mangler muligvis!
+chat.gateCopier.warning.slots=§6Warning: Målet har færres pladser!
+chat.gateCopier.warning.triggerParameters=§6Advarsel: Målet har færre trigger parametre!
+chat.pipe.power.iron.mode=Skiftede til %d RF/t begrænsning
+chat.pipe.power.iron.mode.numberless=Skiftede til %s begrænsning
 chat.pipe.power.iron.level.20=Meget lav
 chat.pipe.power.iron.level.40=Lavt
 chat.pipe.power.iron.level.80=Medium-lavt
@@ -77,26 +77,26 @@ color.red=Rød
 color.white=Hvid
 color.yellow=Gul
 
-config.general=General
-config.general.pipes=Pipes
-config.blueprints=Blueprints
-config.builders=Builders
-config.power=Power Usage
-config.experimental=Experimental
+config.general=Generelt
+config.general.pipes=Rør
+config.blueprints=Arbejdstegninger
+config.builders=Byggere
+config.power=Strøm forbrug
+config.experimental=Experimentel
 config.display=Display
-config.worldgen=World Generation
-config.network=Networking
-config.buildcraft=BuildCraft Configuration
+config.worldgen=Verdens generering
+config.network=Netværking
+config.buildcraft=BuildCraft Konfiguration
 
-config.blueprints.clientDatabaseDirectory=Client directory
-config.blueprints.excludedMods=Excluded mods
-config.blueprints.excludedBlocks=Excluded blocks
+config.blueprints.clientDatabaseDirectory=Klient mappe
+config.blueprints.excludedMods=Udeluk mods
+config.blueprints.excludedBlocks=Udeluk blokke
 
-config.builders.dropBrokenBlocks=Drop broken blocks
+config.builders.dropBrokenBlocks=Smid øædelagt blok
 
-config.display.colorBlindMode=Colorblind mode
-config.display.hideFluidValues=Hide fluid numbers
-config.display.hidePowerValues=Hide power numbers
+config.display.colorBlindMode=Farveblind tilstand
+config.display.hideFluidValues=Skjul væske numre
+config.display.hidePowerValues=Skjul strøm numre
 
 config.experimental.kinesisPowerLossOnTravel=Kinesis pipes power perdition
 
