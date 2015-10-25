@@ -1,4 +1,4 @@
-# Slovak language file for mod 'BuildCraft' 7.0.4 translated by leSamo, if this translation gets outdated, please, contact me on Twitter: @leSamoSK
+# Slovak language file for mod 'BuildCraft' 7.1.12 translated by leSamo, if this translation gets outdated, please, contact me on Twitter: @leSamoSK
 
 buildcraft.boardRobotPicker=Zdvýhač
 buildcraft.boardRobotLumberjack=Drevorubač
@@ -18,6 +18,7 @@ buildcraft.boardRobotCrafter=Remeselník
 buildcraft.boardRobotDelivery=Poštár
 buildcraft.boardRobotPump=Pumpár
 buildcraft.boardRobotStripes=Pásiky
+buildcraft.boardRobotBreaker=Rozbíjač
 
 buildcraft.boardRobotPicker.desc=Zbiera predmety
 buildcraft.boardRobotLumberjack.desc=Rúbe drevo
@@ -37,6 +38,7 @@ buildcraft.boardRobotCrafter.desc=Vyrába predmety
 buildcraft.boardRobotDelivery.desc=Dodáva predmety po žiadosti
 buildcraft.boardRobotPump.desc=Pumpuje tekutiny
 buildcraft.boardRobotStripes.desc=Ehm... pásiky!
+buildcraft.boardRobotStripes.desc=Kope kameň
 
 chat.gateCopier.clear=Informácie brány vynulované.
 chat.gateCopier.gateCopied=Informácie brány skopírované.
@@ -78,7 +80,9 @@ color.yellow=Žltá
 config.general=Všeobecné
 config.general.pipes=Rúry
 config.blueprints=Schémy
+config.builders=Stavače
 config.power=Spotreba energie
+config.experimental=Experimentálne
 config.display=Zobrazenie
 config.worldgen=Generovanie sveta
 config.network=Siete
@@ -88,19 +92,36 @@ config.blueprints.clientDatabaseDirectory=Priečinok klienta
 config.blueprints.excludedMods=Vynechané módy
 config.blueprints.excludedBlocks=Vynechané kocky
 
+config.builders.dropBrokenBlocks=Vyhadzovať rozbité kocky
+
 config.display.colorBlindMode=Mód pre farboslepých
 config.display.hideFluidValues=Skryť čísla pri tekutinách
 config.display.hidePowerValues=Skryť čísla pri energiách
 
+config.experimental.kinesisPowerLossOnTravel=Odpor kinetických rúr
+
+config.general.boards.blacklist=Čierna listina robotov
 config.general.pumpsConsumeWater=Pumpy spotrebúvajú tekutiny
 config.general.updateCheck=Kontrola aktualizácií
+config.general.fuel.fuel.combustion=Efektivita benzínu v spaľovacom motore
+config.general.fuel.oil.combustion=Efektivita ropy v spaľovacom motore
+config.general.fuel.fuel.combustion.energyOutput=Výstup energie benzínu v spaľovacom motore
+config.general.fuel.oil.combustion.energyOutput=Výstup energie ropy v spaľovacom motore
 config.general.itemLifespan=Životnosť predmetov (v sekundách)
 config.general.canEnginesExplode=Motory vybuchujú
 config.general.oilCanBurn=Ropa horí
 config.general.oilIsDense=Hustá ropa
+config.general.pipes.baseFluidRate=Základná rýchlosť prenosu tekutín
+config.general.pipes.facadeBlacklist=Čierna listina fasád
+config.general.pipes.facadeBlacklistAsWhitelist=Invertovať čiernu listinu fasád
+config.general.pipes.facadeNoLaserRecipe=Pridať recept na fasádu bez použitia laséru
+config.general.pipes.hardness=Tvrdosť
+config.general.pipes.slimeballWaterproofRecipe=Pridať recept na tesnenie zo slizu
+config.general.pumpsNeedRealPower=Pumpy potrubujú ozajstnú energiu
 config.general.quarry=Nastavenia pre lom
 config.general.quarry.oneTimeUse=Jednorázový lom
 config.general.quarry.doChunkLoading=Automatické načítavanie chunkov
+config.general.markerRange=Dosah značiek
 config.general.miningDepth=Maximálna relatívna hĺbka kopania
 config.general.pumpDimensionControl=Dimensionálna kontrola pre pumpu
 
@@ -109,11 +130,17 @@ config.network.updateFactor=Faktor posielania balíkov (v tikoch)
 
 config.power.miningUsageMultiplier=Koeficient spotreby energie kopania
 config.power.chipsetCostMultiplier=Koeficient spotreby energie vyrábania čipov
+config.power.gateCostMultiplier=Koeficient ceny brán
 
 config.worldgen.enable=Aktivovať
+config.worldgen.generateWaterSprings=Generovanie prameňov vody
 config.worldgen.oilWellGenerationRate=Koeficient množstva generovaných prameňov ropy
 config.worldgen.spawnOilSprings=Generovanie prameňov ropy
-
+config.worldgen.biomes.biomeOilDesert=ID biomu púštnej ropy
+config.worldgen.biomes.biomeOilOcean=ID biomu oceánskej ropy
+config.worldgen.biomes.excessiveOilIDs=ID biomov s nadbytkom ropy
+config.worldgen.biomes.excludeOilIDs=ID biomov bez ropy
+config.worldgen.biomes.increasedOilIDs=ID biomov so zvýšeným počtom ropy
 
 direction.north=Sever
 direction.west=Západ
@@ -121,6 +148,16 @@ direction.east=Východ
 direction.south=Juh
 direction.up=Vrch
 direction.down=Spodok
+
+direction.center.0=Severozápad
+direction.center.1=Sever
+direction.center.2=Severovýchod
+direction.center.3=Západ
+direction.center.4=Stred
+direction.center.5=Východ
+direction.center.6=Juhozápad
+direction.center.7=Juh
+direction.center.8=Juhovýchod
 
 fillerpattern.clear=Vyčistiť
 fillerpattern.fill=Vyplniť
@@ -131,6 +168,8 @@ fillerpattern.stairs=Schody
 fillerpattern.box=Krabica
 fillerpattern.cylinder=Valec
 fillerpattern.frame=Rám
+fillerpattern.parameter.hollow=Duté
+fillerpattern.parameter.filled=Vyplnené
 
 fluid.oil=Ropa
 fluid.fuel=Benzín
@@ -231,6 +270,8 @@ gate.trigger.time.6=Ráno
 gate.trigger.time.12=Poobedie
 gate.trigger.time.18=Večer
 
+gui.fluidtank.empty=Prázdne
+
 gui.building.resources=Zdroje na stavbu
 gui.building.fluids=Tekutiny na stavbu
 gui.del=Vymazať
@@ -315,6 +356,7 @@ item.PipeFluidsQuartz.name=Kremenná vodotesná rúra
 item.PipeFluidsGold.name=Zlatá vodotesná rúra
 item.PipeFluidsEmerald.name=Smaragdová vodotesná rúra
 item.PipeFluidsDiamond.name=Diamantová vodotesná rúra
+item.PipeFluidsClay.name=Ílová vodotesná rúra
 item.PipePowerWood.name=Drevená enegetická rúra
 item.PipePowerCobblestone.name=Kamenná enegetická rúra
 item.PipePowerStone.name=Skalná energetická rúra
@@ -332,7 +374,7 @@ item.PipeFluidsSandstone.name=Pieskovcová vodotesná rúra
 item.PipePowerSandstone.name=Pieskovcová energická rúra
 item.PipeRobotStation.name=Stanica
 item.Facade.name=Fasáda
-item.Facade.state_hollow=Dutý
+item.Facade.state_hollow=Dutá
 item.FacadePhased.name=Skrytá fasáda
 item.FacadePhased.state=%s: %s
 item.FacadePhased.state_default=Štandardné: %s
@@ -340,10 +382,11 @@ item.FacadePhased.state_transparent=Priehľadná
 item.PipePlug.name=Napojenie Rúry
 item.Lens.name=Šošovka
 item.Filter.name=Filter
+item.PipePowerAdapter.name=Energetický adaptér
 item.debugger.name=Ladič
 item.debugger.warning=Používajte iba na testovanie! Môže prezradiť tajomstvá.
 item.package.name=Balík
- 
+
 itemGroup.buildcraft.boards=BuildCraft Roboty
 itemGroup.buildcraft.main=BuildCraft
 itemGroup.buildcraft.pipes=BuildCraft Rúry
@@ -408,8 +451,9 @@ tip.gate.expansions=§9§oNaištalované rozšírenia:
 tip.PipeFluidsClay=Vkladacia rúra
 tip.PipeFluidsCobblestone=Nenapojí sa na Skalnú rúru
 tip.PipeFluidsEmerald=Extrakčná rúra
-tip.PipeFluidsGold=Základná rúra
+tip.PipeFluidsDiamond=Triedi tekutiny
 tip.PipeFluidsIron=Ventilová rúra
+tip.PipeFluidsQuartz=Nenapojí sa na kamenné alebo skalné rúry
 tip.PipeFluidsSandstone=Napojí sa len na iné rúry
 tip.PipeFluidsStone=Nenapojí sa na Kamennú rúru
 tip.PipeFluidsVoid=Ničí tekutiny
@@ -434,6 +478,12 @@ tip.PipePowerIron=Nastaviteľná rúra
 tip.PipePowerSandstone= Napojí sa len na iné rúry
 tip.PipePowerWood=Rúra na vstup energie
 tip.PipeStructureCobblestone=Podporná rúra
+tip.deprecated=Zastaralé
+
+tip.filler.excavate.on=Vykopávať
+tip.filler.excavate.off=Nevykopávať
+
+tip.list.matches=Zhoduje sa
 
 tip.shift.PipeFluidsDiamond=GUI prijíma akékoľvej nádoby na tekutinu
 tip.shift.PipeFluidsEmerald=GUI prijíma akúkoľvej nádobu na tekutinu
@@ -443,6 +493,10 @@ tip.shift.PipeItemsEmzuli=
 tip.shift.PipeItemsLapis=Plíž sa a klikni aby si\n zmenil farbu
 tip.shift.PipeItemsObsidian=
 tip.shift.PipePowerIron=Limit sa dá zmeniť francúzskym\n kľúčom alebo bránou
+
+tip.PipeItemsEmerald.whitelist=Biela listina
+tip.PipeItemsEmerald.blacklist=Čierna listina
+tip.PipeItemsEmerald.roundrobin=Poporadí
 
 tip.tool.add=Pridať
 tip.tool.fullscreen=Celá obrazovka
@@ -495,23 +549,7 @@ bc_update.new_version=§cNová verzia Buildcraftu je dostupná: %s pre Minecraft
 bc_update.download=§cStiahnúť z http://www.mod-buildcraft.com/download
 bc_update.once=Táto správa sa zobrazí iba raz
 bc_update.again=Napíš '/buildcraft version' ak ju chceš vidieť znovu
+bc_update.changelog=Napíš '/buildcraft changelog' ak chceš vidieť zoznam zmien
 
 command.buildcraft.version=BuildCraft %s pre Minecraft %s (Najnovšie: %s).
 command.buildcraft.changelog_header=Zoznam zmien pre BuildCraft %s:
-
-command.buildcraft.aliases=Aliasy: %s
-command.buildcraft.help=Napíš '%s' ak potrebuješ pomoc.
-command.buildcraft.list=Dostupné príkazy:
-command.buildcraft.permlevel=Úroveň povolenia: %s
-command.buildcraft.noperms=Nemáš povolenie pre použitie tohto príkazu.
-
-command.buildcraft.buildcraft.help=Rôzne príkazy, ktoré súvisia s BuildCraftom
-command.buildcraft.buildcraft.format=Formát: /%s <pod-príkaz>
-
-command.buildcraft.buildcraft.version.desc=- %s : Informácie o verzií
-command.buildcraft.buildcraft.version.help=Ukáže používanú a najnovšiu verziu Buildcraftu
-command.buildcraft.buildcraft.version.format=Formát: /%s
-
-command.buildcraft.buildcraft.changelog.desc=- %s : Zoznam zmien
-command.buildcraft.buildcraft.changelog.help=Ukáže zoznam zmien v najnovšom BuildCrafte.
-command.buildcraft.buildcraft.changelog.format=Formát: /%s
