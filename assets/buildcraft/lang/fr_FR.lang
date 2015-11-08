@@ -18,6 +18,7 @@ buildcraft.boardRobotCrafter=Artisan
 buildcraft.boardRobotDelivery=Livreur
 buildcraft.boardRobotPump=Pompeur
 buildcraft.boardRobotStripes=Rayé
+buildcraft.boardRobotBreaker=Casseur
 
 buildcraft.boardRobotPicker.desc=Récupère des objets
 buildcraft.boardRobotLumberjack.desc=Coupe des bûches
@@ -37,6 +38,7 @@ buildcraft.boardRobotCrafter.desc=Fabrique des objets
 buildcraft.boardRobotDelivery.desc=Livre des objets sur demande
 buildcraft.boardRobotPump.desc=Pompe des fluides
 buildcraft.boardRobotStripes.desc=Oh, des rayures!
+buildcraft.boardRobotBreaker.desc=Mines la pierre
 
 chat.gateCopier.clear=Informations de porte dégagées.
 chat.gateCopier.gateCopied=Informations de porte copiées au copieur.
@@ -66,7 +68,7 @@ color.gray=Gris
 color.green=Vert
 color.light.blue=Bleu clair
 color.light.gray=Gris clair
-color.lime=Vert citron
+color.lime=Vert claire
 color.magenta=Magenta
 color.orange=Orange
 color.pink=Rose
@@ -267,6 +269,10 @@ gate.trigger.time.0=Nuit
 gate.trigger.time.6=Matin
 gate.trigger.time.12=Après-midi
 gate.trigger.time.18=Soir
+gate.trigger.fuelLevelBelow=Niveau de carburant en dessous de %d%%
+gate.trigger.coolantLevelBelow=Niveau de refroidissant en dessous de %d%%
+
+gui.fluidtank.empty=Vide
 
 gui.building.resources=Ressource de construction
 gui.building.fluids=Réservoirs de fluide
@@ -352,6 +358,7 @@ item.PipeFluidsQuartz.name=Tuyau étanche en quartz
 item.PipeFluidsGold.name=Tuyau étanche en or
 item.PipeFluidsEmerald.name=Tuyau étanche en émeraude
 item.PipeFluidsDiamond.name=Tuyau étanche en diamant
+item.PipeFluidsClay.name=Tuyau étanche en argile
 item.PipePowerWood.name=Tuyau cinétique en bois
 item.PipePowerCobblestone.name=Tuyau cinétique en pierre
 item.PipePowerStone.name=Tuyau cinétique en roche
@@ -377,7 +384,8 @@ item.FacadePhased.state_transparent=Transparente
 item.PipePlug.name=Bouchon pour tuyau
 item.Lens.name=Lentille
 item.Filter.name=Filtre
-item.debugger.name=Débugueur
+item.PipePowerAdapter.name=Adaptateur d'énergie
+item.debugger.name=Débogueur
 item.debugger.warning=N'utiliser en cas de tests! Révèle des secrets.
 item.package.name=Paquet
 
@@ -442,21 +450,24 @@ tip.gate.wires.diamond=Rouge, Bleu, Vert, Jaune
 tip.gate.wires.emerald=Rouge, Bleu, Vert, Jaune
 tip.gate.expansions=§9§oExtensions installées:
 
+tip.PipeFluidsClay=Tuyau d'insertion
 tip.PipeFluidsCobblestone=Ne se connecte pas à la roche
 tip.PipeFluidsEmerald=Tuyau d'extraction
+tip.PipeFluidsDiamond=Trie les fluides
 tip.PipeFluidsGold=Tuyau basique
 tip.PipeFluidsIron=Vanne de tuyau
 tip.PipeFluidsSandstone=Seulement relié à d'autres tuyaux
 tip.PipeFluidsStone=Ne se connecte pas à la pierre
-tip.PipeFluidsVoid=Détruit fluides
+tip.PipeFluidsVoid=Détruit les fluides
 tip.PipeFluidsWood=Tuyau d'extraction
+tip.PipeItemsClay=Tuyau d'insertion
 tip.PipeItemsCobblestone=Tuyau basique, hauts frottements\nNe se connecte pas à la roche ou au quartz
 tip.PipeItemsDaizuli=Trie les objets peints
 tip.PipeItemsDiamond=Trie les objets
 tip.PipeItemsEmerald=Tuyau d'extraction en round-robin
 tip.PipeItemsEmzuli=Tuyau d'extraction contrôlé par porte
 tip.PipeItemsGold=Accélère les objets
-tip.PipeItemsIron=tuyau à sens unique
+tip.PipeItemsIron=Tuyau à sens unique
 tip.PipeItemsLapis=Peint les objets
 tip.PipeItemsObsidian=Aspire les objets
 tip.PipeItemsQuartz=Tuyau basique, faibles frottements\nNe se connecte pas à la roche ou à la pierre
@@ -464,7 +475,6 @@ tip.PipeItemsSandstone=Seulement relié à d'autres tuyaux
 tip.PipeItemsStone=Tuyau basique, moyens frottements \nNe se connecte pas à la pierre ou au quartz
 tip.PipeItemsVoid=Détruit les objets
 tip.PipeItemsWood=Tuyau d'extraction
-tip.PipeItemsEmzuli=Porte de contrôle pour tuyau d'extraction
 tip.PipePowerEmerald=Entrée tuyau cinétique
 tip.PipePowerIron=Tuyau limiteur sélectionnable
 tip.PipePowerSandstone=Seulement relié à d'autres tuyaux
@@ -472,8 +482,14 @@ tip.PipePowerWood=Entrée tuyau cinétique
 tip.PipeStructureCobblestone=Tuyau de soutien
 tip.deprecated=Déprécié
 
+tip.gate.charged=Chargé
+tip.gate.fullcharge=Pleine charge
+tip.gate.nocharge=Pas de charge
+
 tip.filler.excavate.on=Creuser
 tip.filler.excavate.off=Ne pas creuser
+
+tip.list.matches=Correspond
 
 tip.shift.PipeFluidsDiamond=L'IUG accepte tous les conteneurs de fluides
 tip.shift.PipeFluidsEmerald=L'IUG accepte tous les conteneurs de fluides
@@ -539,6 +555,10 @@ bc_update.new_version=§cNouvelle version de BuildCraft disponible: %s pour Mine
 bc_update.download=§cTéléchargez-la sur http://www.mod-buildcraft.com/download
 bc_update.once=Ce message s'affiche qu'une seule fois
 bc_update.again=Tapez '/buildcraft version' si vous voulez le voir à nouveau
+bc_update.changelog=Type '/buildcraft changelog' pour voir le journal des modifications
+
+chat.buildcraft.quarry.tooSmall=[BuildCraft] La taille de la carrière est au-delà de la limite de parcelles chargées ou trop petite %d %d (%d)
+chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] La carrière à %d %d %d conservera %d parcelles chargées
 
 command.buildcraft.version=BuildCraft %s pour Minecraft %s (Plus récente: %s).
 command.buildcraft.changelog_header=Carnet de changements pour BuildCraft %s:
@@ -559,3 +579,11 @@ command.buildcraft.available=Liste des commandes disponibles:
 command.buildcraft.buildcraft.changelog.desc=- %s : Carnet de changements
 command.buildcraft.buildcraft.changelog.help=Affiche le Carnet de changements BuildCraft le plus récent.
 command.buildcraft.buildcraft.changelog.format=Format: /%s
+
+command.buildcraft.buildcraft.op.desc=- %s : Op FakePlayer
+command.buildcraft.buildcraft.op.help=Gives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)
+command.buildcraft.buildcraft.op.format=Format: /%s
+
+command.buildcraft.buildcraft.deop.desc=- %s : Deop FakePlayer
+command.buildcraft.buildcraft.deop.help=Gives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)
+command.buildcraft.buildcraft.deop.format=Format: /%s
