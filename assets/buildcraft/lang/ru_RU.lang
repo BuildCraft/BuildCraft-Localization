@@ -315,6 +315,7 @@ item.PipeFluidsQuartz.name=Кварцевая жидкостная труба
 item.PipeFluidsGold.name=Золотая жидкостная труба
 item.PipeFluidsEmerald.name=Изумрудная жидкостная труба
 item.PipeFluidsDiamond.name=Алмазная жидкостная труба
+item.PipeFluidsClay.name=Глиняная жидкостная труба
 item.PipePowerWood.name=Деревянная энергетическая труба
 item.PipePowerCobblestone.name=Булыжниковая энергетическая труба
 item.PipePowerStone.name=Каменная энергетическая труба
@@ -340,6 +341,7 @@ item.FacadePhased.state_transparent=Прозрачный
 item.PipePlug.name=Заглушка для труб
 item.Lens.name=Линза
 item.Filter.name=Фильтр
+item.PipePowerAdapter.name=Энергетический адаптер	
 item.debugger.name=Отладчик
 item.debugger.warning=Используйте только для тестирования! Раскрывает секреты.
 
@@ -373,6 +375,7 @@ tile.libraryBlock.name=Библиотека электроники
 tile.machineBlock.name=Карьер
 tile.markerBlock.name=Метка
 tile.miningWellBlock.name=Буровая установка
+tile.packagerBlock.name=Упаковщик рецептов	
 tile.pathMarkerBlock.name=Метка
 tile.plainPipeBlock.name=Буровая труба
 tile.programmingTableBlock.name=Стол программирования
@@ -381,6 +384,7 @@ tile.refineryBlock.name=Нефтеперегонная вышка
 tile.requester.name=Инициатор запроса
 tile.spring.oil.name=Источник нефти
 tile.spring.water.name=Источник воды
+tile.stampingTableBlock.name=Стол штамповки
 tile.tankBlock.name=Цистерна
 tile.zonePlan.name=Планировщик зон
 
@@ -431,6 +435,11 @@ tip.PipePowerIron=Труба с регулируемой пропускной м
 tip.PipePowerSandstone=Присоединяется только к другим трубам
 tip.PipePowerWood=Труба для входа энергии
 tip.PipeStructureCobblestone=Вспомогательная труба
+tip.deprecated=Устаревший
+
+tip.gate.charged=заряжено
+tip.gate.fullcharge=Полностью заряжен
+tip.gate.nocharge=Полностью разряжен
 
 tip.shift.PipeFluidsDiamond=GUI принимает любые жидкостные контейнеры
 tip.shift.PipeFluidsEmerald=GUI принимает любой жидкостный контейнер
