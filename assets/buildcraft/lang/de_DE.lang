@@ -1,5 +1,6 @@
 # German lang file, tanslated by SirSengir, Keksynator, Vexatos, FGpisces and leSamo
 
+buildcraft.boardRobotClean=Rein
 buildcraft.boardRobotPicker=Sammler
 buildcraft.boardRobotLumberjack=Holzfäller
 buildcraft.boardRobotPlanter=Gärtner
@@ -18,6 +19,7 @@ buildcraft.boardRobotCrafter=Handwerker
 buildcraft.boardRobotDelivery=Lieferant
 buildcraft.boardRobotPump=Pumpe
 buildcraft.boardRobotStripes=Gestreift
+buildcraft.boardRobotBreaker=Brecher
 
 buildcraft.boardRobotPicker.desc=Sammelt Items auf
 buildcraft.boardRobotLumberjack.desc=Fällt Bäume
@@ -37,6 +39,7 @@ buildcraft.boardRobotCrafter.desc=Fertigt Items
 buildcraft.boardRobotDelivery.desc=Liefert Items auf Bestellung
 buildcraft.boardRobotPump.desc=Pumpt Flüssigkeiten
 buildcraft.boardRobotStripes.desc=Ähm... Streifen!
+buildcraft.boardRobotBreaker.desc=Baut Stein ab
 
 chat.gateCopier.clear=Gatterinformationen gelöscht.
 chat.gateCopier.gateCopied=Gatterinformationen auf Kopierer kopiert.
@@ -57,6 +60,8 @@ chat.pipe.power.iron.level.160=mittleren
 chat.pipe.power.iron.level.320=hohen
 chat.pipe.power.iron.level.640=sehr hohen
 chat.pipe.power.iron.level.1280=nicht vorhandenen
+
+color.clear=Klar
 
 color.black=Schwarz
 color.blue=Blau
@@ -166,6 +171,7 @@ fillerpattern.stairs=Treppe
 fillerpattern.box=Box
 fillerpattern.cylinder=Zylinder
 fillerpattern.frame=Rahmen
+fillerpattern.none=Nichts
 fillerpattern.parameter.hollow=Hohl
 fillerpattern.parameter.filled=Gefüllt
 
@@ -267,6 +273,10 @@ gate.trigger.time.0=Nacht
 gate.trigger.time.6=Morgen
 gate.trigger.time.12=Nachmittag
 gate.trigger.time.18=Abend
+gate.trigger.fuelLevelBelow=Füllstand unterhalb von %d%%
+gate.trigger.coolantLevelBelow=Kühlmittelfüllstand unterhalb von %d%%
+
+gui.fluidtank.empty=Leer
 
 gui.building.resources=Baumaterial
 gui.building.fluids=Flüssigkeitstanks
@@ -378,9 +388,12 @@ item.FacadePhased.state_transparent=Transparent
 item.PipePlug.name=Rohrstöpsel
 item.Lens.name=Linse
 item.Filter.name=Filter
+item.PipePowerAdapter.name=Energieadapter
 item.debugger.name=Debugger
 item.debugger.warning=Nur zum Testen verwenden! Verrät Geheimnisse.
 item.package.name=Paket
+item.guideBook.name=Anleitung
+item.robot_goggles.name=Roboterbrille
 
 itemGroup.buildcraft.boards=BuildCraft: Roboter
 itemGroup.buildcraft.main=BuildCraft
@@ -448,8 +461,9 @@ tip.PipeFluidsCobblestone=Wird sich nicht mit Stein verbinden
 tip.PipeFluidsDiamond=Sortiert Flüssigkeiten
 tip.PipeFluidsEmerald=Extraktionsrohr
 tip.PipeFluidsIron=Ventilrohr
+tip.PipeFluidsQuartz=Wird sich nicht mit Pflasterstein und und Stein verbinden
 tip.PipeFluidsSandstone=Verbindet sich nur mit anderen Rohren
-tip.PipeFluidsStone=Wird sich nicht mit Pflasterstein verbinden
+tip.PipeFluidsStone=Wird sich nicht mit Pflasterstein und Quartz verbinden
 tip.PipeFluidsVoid=Zerstört Flüssigkeiten
 tip.PipeFluidsWood=Extraktionsrohr
 tip.PipeItemsClay=Insertionsrohr
@@ -474,8 +488,14 @@ tip.PipePowerEmerald=Energie-Eingangsrohr
 tip.PipeStructureCobblestone=Rohr zur Unterstützung
 tip.deprecated=Veraltet
 
+tip.gate.charged=Geladen
+tip.gate.fullcharge=Voll geladen
+tip.gate.nocharge=Keine Ladung
+
 tip.filler.excavate.on=Ausgraben
 tip.filler.excavate.off=Nicht Ausgraben
+
+tip.list.matches=Passt zu
 
 tip.shift.PipeFluidsDiamond=GUI akzeptiert jegliche Flüssigkeitscontainer
 tip.shift.PipeFluidsEmerald=GUI akzeptiert jegliche Flüssigkeitscontainer
@@ -541,6 +561,11 @@ bc_update.new_version=§cNeue BuildCraft-Version verfügbar: %s für Minecraft %
 bc_update.download=§cDownload auf http://www.mod-buildcraft.com/download
 bc_update.once=Diese Nachricht erscheint nur einmal
 bc_update.again=Gib '/buildcraft version' ein, solltest du sie noch einmal sehen wollen
+bc_update.changelog=Tippe '/buildcraft changelog', um das Changelog zu sehen
+ 
+chat.buildcraft.quarry.tooSmall=[BuildCraft] Steinbruchgrenzen liegen außerhalb des Chunk-geladenen Bereiches, oder ist zu klein %d %d (%d)
+chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] Der Steinbruch bei %d %d %d wird %d Chunks laden
+
 
 command.buildcraft.version=BuildCraft %s für Minecraft %s (Aktuellste: %s).
 command.buildcraft.changelog_header=Changelog für BuildCraft %s:
@@ -561,3 +586,16 @@ command.buildcraft.buildcraft.version.format=Format: /%s
 command.buildcraft.buildcraft.changelog.desc=- %s : Changelog
 command.buildcraft.buildcraft.changelog.help=Zeigt den aktuellsten BC-Changelog
 command.buildcraft.buildcraft.changelog.format=Format: /%s
+
+buildcraft.guide.chapter.=EMPTY CHAPTER!
+buildcraft.guide.chapter.block=Blocks
+buildcraft.guide.chapter.item=Items
+buildcraft.guide.chapter.gears=Gears
+ 
+command.buildcraft.buildcraft.op.desc=- %s : Op FakePlayer
+command.buildcraft.buildcraft.op.help=Gibt OP-Rechte für den Buildcraft-FakePlayer (verantwortlich für Steinbrücher, Roboter, usw.)
+command.buildcraft.buildcraft.op.format=Format: /%s
+ 
+command.buildcraft.buildcraft.deop.desc=- %s : Deop FakePlayer
+command.buildcraft.buildcraft.deop.help=Entfernt OP-Rechte des Buildcraft-FakePlayer (verantwortlich für Steinbrücher, Roboter, usw.)
+command.buildcraft.buildcraft.deop.format=Format: /%s
