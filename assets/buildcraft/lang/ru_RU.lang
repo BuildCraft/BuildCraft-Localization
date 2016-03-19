@@ -18,6 +18,7 @@ buildcraft.boardRobotCrafter=Создатель
 buildcraft.boardRobotDelivery=Разносчик
 buildcraft.boardRobotPump=Помпа
 buildcraft.boardRobotStripes=Полосатый
+buildcraft.boardRobotBreaker=Дробильщик
 
 buildcraft.boardRobotPicker.desc=Подбирает предметы
 buildcraft.boardRobotLumberjack.desc=Рубит деревья
@@ -37,6 +38,7 @@ buildcraft.boardRobotCrafter.desc=Создаёт предметы
 buildcraft.boardRobotDelivery.desc=Приности предметы по запросу
 buildcraft.boardRobotPump.desc=Высасывает жидкости
 buildcraft.boardRobotStripes.desc=Гм... полосатый!
+buildcraft.boardRobotBreaker.desc=Добывает камень
 
 chat.gateCopier.clear=Данные о гейте очищены.
 chat.gateCopier.gateCopied=Данные гейта скопированы в копировальщик гейтов.
@@ -58,6 +60,8 @@ chat.pipe.power.iron.level.320=высокий
 chat.pipe.power.iron.level.640=очень высокий
 chat.pipe.power.iron.level.1280=полной мощности
 
+color.clear=Чистый
+
 color.black=Чёрный
 color.blue=Синий
 color.brown=Коричневый
@@ -78,7 +82,9 @@ color.yellow=Жёлтый
 config.general=Общие
 config.general.pipes=Трубы
 config.blueprints=Строительные проекты
+config.builders=Строители
 config.power=Потребление энергии
+config.experimental=Экспериментальные
 config.display=Отображение
 config.worldgen=Генерации мира
 config.network=Сетевые
@@ -88,32 +94,55 @@ config.blueprints.clientDatabaseDirectory=Каталог клиента
 config.blueprints.excludedMods=Исключённые модификации
 config.blueprints.excludedBlocks=Исключённые блоки
 
+config.builders.dropBrokenBlocks=Выбрасывает разрушаемые блоки
+
 config.display.colorBlindMode=Режим цветовой слепоты
 config.display.hideFluidValues=Спрятать кол-во жидкости
 config.display.hidePowerValues=Спрятать кол-во энергии
 
+config.experimental.kinesisPowerLossOnTravel=Затухание в энергетических трубах
+
+config.general.boards.blacklist=Чёрный список роботов
 config.general.pumpsConsumeWater=Потребление воды помпами
 config.general.updateCheck=Проверка обновлений
+config.general.fuel.fuel.combustion=Расход топлива
+config.general.fuel.oil.combustion=Расход нефти
+config.general.fuel.fuel.combustion.energyOutput=Выходная мощность на топливе
+config.general.fuel.oil.combustion.energyOutput=Выходная мощность на нефти
 config.general.itemLifespan=Срок "жизни" предметов (в секундах)
 config.general.canEnginesExplode=Взрыв двигателей
-config.general.oilCanBurn=Воспламеняющая нефть
-config.general.oilIsDense=Плотная нефть
+config.general.oilCanBurn=Возгорание нефти
+config.general.oilIsDense=Вязкость нефти
+config.general.pipes.baseFluidRate=Базовая скорость жидкости
+config.general.pipes.facadeBlacklist=Чёрный список фасадов
+config.general.pipes.facadeBlacklistAsWhitelist=Инвертировать в белый список фасадов
+config.general.pipes.facadeNoLaserRecipe=Добавить рецепт фасада без лазера
+config.general.pipes.hardness=Твёрдость
+config.general.pipes.slimeballWaterproofRecipe=Добавить рецепт герметика из слизи
+config.general.pumpsNeedRealPower=Помпы потребляют мощность
 config.general.quarry=Настройки карьера
 config.general.quarry.oneTimeUse=Одноразового использования
 config.general.quarry.doChunkLoading=Автоматическая загрузка чанков
+config.general.markerRange=Диапазон маркеров
 config.general.miningDepth=Максимальная относительная глубина добычи
 config.general.pumpDimensionControl=Контроль измерений помпы
 
 config.network.longUpdateFactor=Множитель синхронизации клиента (в тактах)
 config.network.updateFactor=Множитель отправки пакетов (в тактах)
 
-config.power.miningUsageMultiplier=Множитель потребления шахтёром
-config.power.chipsetCostMultiplier=Множитель стоимости микросхемы
+config.power.miningUsageMultiplier=Потребление мощности буровой установкой
+config.power.chipsetCostMultiplier=Энергоёмкость производства микросхемы
+config.power.gateCostMultiplier=Энергоёмкость производства гейта
 
 config.worldgen.enable=Включить
+config.worldgen.generateWaterSprings=Генерировать родники
 config.worldgen.oilWellGenerationRate=Коэффициент генерации нефтяных скважин
 config.worldgen.spawnOilSprings=Размещать нефтяные ручейки
-
+config.worldgen.biomes.biomeOilDesert=Biome id Нефтеносных песков
+config.worldgen.biomes.biomeOilOcean=Biome id Нефтеносного шельфа
+config.worldgen.biomes.excessiveOilIDs=Биомы изобилующие нефтью
+config.worldgen.biomes.excludeOilIDs=Биомы без нефти
+config.worldgen.biomes.increasedOilIDs=Биомы богатые нефтью
 
 direction.north=Север
 direction.west=Запад
@@ -121,6 +150,16 @@ direction.east=Восток
 direction.south=Юг
 direction.up=Верх
 direction.down=Низ
+
+direction.center.0=Северо-Запад
+direction.center.1=Север
+direction.center.2=Северо-восток
+direction.center.3=Запад
+direction.center.4=Центр
+direction.center.5=Восток
+direction.center.6=Юго-Запад
+direction.center.7=Юг
+direction.center.8=Юго-Восток
 
 fillerpattern.clear=Очистка
 fillerpattern.fill=Заполнение
@@ -131,6 +170,8 @@ fillerpattern.stairs=Лестница
 fillerpattern.box=Коробка
 fillerpattern.cylinder=Цилиндр
 fillerpattern.frame=Рамка
+fillerpattern.parameter.hollow=Пустотелая форма
+fillerpattern.parameter.filled=Заполненная форма
 
 fluid.oil=Нефть
 fluid.fuel=Топливо
@@ -230,6 +271,10 @@ gate.trigger.time.0=Ночь
 gate.trigger.time.6=Утро
 gate.trigger.time.12=После полудня
 gate.trigger.time.18=Вечер
+gate.trigger.fuelLevelBelow=Запас топлива ниже %d%%
+gate.trigger.coolantLevelBelow=Запас хладагента ниже %d%%
+
+gui.fluidtank.empty=Пусто
 
 gui.building.resources=Ресурсы для строительства
 gui.building.fluids=Жидкостные резервуары
@@ -341,9 +386,10 @@ item.FacadePhased.state_transparent=Прозрачный
 item.PipePlug.name=Заглушка для труб
 item.Lens.name=Линза
 item.Filter.name=Фильтр
-item.PipePowerAdapter.name=Энергетический адаптер	
+item.PipePowerAdapter.name=Энергетический адаптер
 item.debugger.name=Отладчик
 item.debugger.warning=Используйте только для тестирования! Раскрывает секреты.
+item.package.name=Пакет
 
 itemGroup.buildcraft.boards=BuildCraft: Роботы
 itemGroup.buildcraft.main=BuildCraft
@@ -371,12 +417,12 @@ tile.floodGateBlock.name=Шлюз
 tile.frameBlock.name=Каркас
 tile.integrationTableBlock.name=Стол интеграции
 tile.laserBlock.name=Лазер
-tile.libraryBlock.name=Библиотека электроники
+tile.libraryBlock.name=Библиотека проектов
 tile.machineBlock.name=Карьер
 tile.markerBlock.name=Метка
 tile.miningWellBlock.name=Буровая установка
-tile.packagerBlock.name=Упаковщик рецептов	
-tile.pathMarkerBlock.name=Метка
+tile.packagerBlock.name=Упаковщик рецептов
+tile.pathMarkerBlock.name=Направляющая Метка
 tile.plainPipeBlock.name=Буровая труба
 tile.programmingTableBlock.name=Стол программирования
 tile.pumpBlock.name=Помпа
@@ -411,6 +457,7 @@ tip.PipeFluidsCobblestone=Не присоединяется к каменным
 tip.PipeFluidsDiamond=Сортирует жидкости
 tip.PipeFluidsEmerald=Извлекающая труба
 tip.PipeFluidsIron=Клапанная труба
+tip.PipeFluidsQuartz=Не присоединяется к булыжниковым и каменным
 tip.PipeFluidsSandstone=Присоединяется только к другим трубам
 tip.PipeFluidsStone=Не присоединяется к булыжниковым
 tip.PipeFluidsVoid=Уничтожает жидкости
@@ -441,6 +488,11 @@ tip.gate.charged=заряжено
 tip.gate.fullcharge=Полностью заряжен
 tip.gate.nocharge=Полностью разряжен
 
+tip.filler.excavate.on=Удалять блоки
+tip.filler.excavate.off=Не удалять блоки
+
+tip.list.matches=соответствия
+
 tip.shift.PipeFluidsDiamond=GUI принимает любые жидкостные контейнеры
 tip.shift.PipeFluidsEmerald=GUI принимает любой жидкостный контейнер
 tip.shift.PipeItemsClay=Приоритизирует механизмы и сундуки\nпо соседним трубам.
@@ -449,6 +501,10 @@ tip.shift.PipeItemsEmzuli=Установите фильтры извлечени
 tip.shift.PipeItemsLapis=ПКМ, сидя, чтобы изменить цвет
 tip.shift.PipeItemsObsidian=Питается от двигателя\nБольше энергии - большая дистанция
 tip.shift.PipePowerIron=Измените лимит ключом или гейтами
+
+tip.PipeItemsEmerald.whitelist=Белый список
+tip.PipeItemsEmerald.blacklist=Чёрный список
+tip.PipeItemsEmerald.roundrobin=Круговая система (в порядке убывания)
 
 tip.tool.add=Добавить
 tip.tool.fullscreen=Во весь экран
@@ -495,13 +551,41 @@ achievement.blueprintAchievement.desc=Сделайте проект
 achievement.templateAchievement=Основа
 achievement.templateAchievement.desc=Сделайте чертёж
 achievement.blueprintLibraryAchievement=Идеи живут
-achievement.blueprintLibraryAchievement.desc=Сделайте библиотеку электроники
+achievement.blueprintLibraryAchievement.desc=Сделайте библиотеку проектов
 
 bc_update.new_version=§cНовая версия BuildCraft доступна: %s для Minecraft %s
 bc_update.download=§cЗагрузите с http://www.mod-buildcraft.com/download
 bc_update.once=Это сообщение будет показано единожды
 bc_update.again=Наберите '/buildcraft version' для повторного просмотра
+bc_update.changelog=Наберите '/buildcraft changelog' для просмотра списка изменений
+
+chat.buildcraft.quarry.tooSmall=[BuildCraft] Границы карьера вне зоны прогруженных чанков или слишком малы %d %d (%d)
+chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] Карьер на %d %d %d будет держать %d чанки загруженными
 
 command.buildcraft.version=BuildCraft %s для Minecraft %s (Последняя версия: %s).
-command.buildcraft.versioninfo=Информация о версии.
-command.buildcraft.available=Доступные команды:
+command.buildcraft.changelog_header=Изменения для BuildCraft %s:
+
+command.buildcraft.aliases=Псевдонимы: %s
+command.buildcraft.help=Наберите '%s' для справки.
+command.buildcraft.list=Доступные команды:
+command.buildcraft.permlevel=Уровень доступа: %s
+command.buildcraft.noperms=У Вас нет доступа к выполнению этой команды.
+
+command.buildcraft.buildcraft.help=Варианты команд BuildCraft.
+command.buildcraft.buildcraft.format=Формат: /%s <sub-command>
+
+command.buildcraft.buildcraft.version.desc=- %s : Информация о версии
+command.buildcraft.buildcraft.version.help=Отображает текущую и последнюю версию BC.
+command.buildcraft.buildcraft.version.format=Формат: /%s
+
+command.buildcraft.buildcraft.changelog.desc=- %s : Список изменений
+command.buildcraft.buildcraft.changelog.help=Показывает последние изменения в BC.
+command.buildcraft.buildcraft.changelog.format=Формат: /%s
+
+command.buildcraft.buildcraft.op.desc=- %s : Op FakePlayer
+command.buildcraft.buildcraft.op.help=Gives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)
+command.buildcraft.buildcraft.op.format=Формат: /%s
+
+command.buildcraft.buildcraft.deop.desc=- %s : Deop FakePlayer
+command.buildcraft.buildcraft.deop.help=Ungives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)
+command.buildcraft.buildcraft.deop.format=Формат: /%s
