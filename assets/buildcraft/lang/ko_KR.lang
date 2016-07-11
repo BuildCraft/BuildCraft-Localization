@@ -18,6 +18,7 @@ buildcraft.boardRobotCrafter=Crafter
 buildcraft.boardRobotDelivery=Delivery
 buildcraft.boardRobotPump=펌프
 buildcraft.boardRobotStripes=Stripes
+buildcraft.boardRobotBreaker=Breaker
 
 buildcraft.boardRobotPicker.desc=아이템을 줍습니다
 buildcraft.boardRobotLumberjack.desc=나무 원목을 부숩니다
@@ -37,6 +38,7 @@ buildcraft.boardRobotCrafter.desc=Crafts items
 buildcraft.boardRobotDelivery.desc=Delivers items upon request
 buildcraft.boardRobotPump.desc=Pumps out liquids
 buildcraft.boardRobotStripes.desc=Uhh... Stripes!
+buildcraft.boardRobotBreaker.desc=Mines stone
 
 chat.gateCopier.clear=Gate information cleared.
 chat.gateCopier.gateCopied=Copied gate information to copier.
@@ -170,7 +172,24 @@ fillerpattern.parameter.hollow=Hollow
 fillerpattern.parameter.filled=Filled
 
 fluid.oil=석유
-fluid.fuel=정제유
+fluid.fuel=Fuel
+fluid.steam=증기
+fluid.oilDistilled=Distilled Oil
+fluid.oilHeavy=Heavy Oil
+fluid.oilDense=Dense Oil
+fluid.oilResidue=Residue
+fluid.tar=Tar
+fluid.fuelMixed=Mixed Fuels
+fluid.fuelMixedHeavy=Mixed Heavy Fuels
+fluid.fuelMixedLight=Mixed Light Fuels
+fluid.fuelDense=Dense Fuel
+fluid.fuelLight=Fuel
+fluid.fuelGaseous=Gaseous Fuel
+
+buildcraft.fluid.heat_0= (§bCool§b)
+buildcraft.fluid.heat_1= (§eWarm§r)
+buildcraft.fluid.heat_2= (§6Hot§r)
+buildcraft.fluid.heat_3= (§cSearing§r)
 
 gate.action.extraction=%s Extraction Preset
 gate.action.pipe.item.color=Paint Items %s
@@ -229,8 +248,8 @@ gate.trigger.engine.yellow=엔진 노랑
 gate.trigger.engine.red=엔진 빨강
 gate.trigger.engine.overheat=엔진 과열
 gate.trigger.fluid.empty=탱크 완전 빔
-gate.trigger.fluid.contains=탱크에 엑체가 있음
-gate.trigger.fluid.space=탱크에 엑체가 들어갈 곳이 있음
+gate.trigger.fluid.contains=탱크에 액체가 있음
+gate.trigger.fluid.space=탱크에 액체가 들어갈 곳이 있음
 gate.trigger.fluid.full=탱크 가득참
 gate.trigger.fluidlevel.below=Contains < %d%%
 gate.trigger.inventory.empty=인벤토리 완전 빔
@@ -267,6 +286,10 @@ gate.trigger.time.0=Night
 gate.trigger.time.6=Morning
 gate.trigger.time.12=Afternoon
 gate.trigger.time.18=Evening
+gate.trigger.fuelLevelBelow=Fuel level below %d%%
+gate.trigger.coolantLevelBelow=Coolant level below %d%%
+
+gui.fluidtank.empty=Empty
 
 gui.building.resources=건축 재료
 gui.building.fluids=액체 탱크
@@ -331,6 +354,19 @@ item.blueprint.no_build=No Building
 item.blueprint.incomplete=Incomplete
 item.mapLocation.name=Map Location
 item.gateCopier.name=Gate Copier
+item.plasticSheet.singular.name=Plastic Sheet
+item.plasticSheet.plural.name=Plastic Sheets
+
+item.buildcraft_pipe_wood_item.name=Wooden Transport Pipe
+item.buildcraft_pipe_cobblestone_item.name=Cobblestone Transport Pipe
+item.buildcraft_pipe_stone_item.name=Stone Transport Pipe
+item.buildcraft_pipe_andersite_item.name=Andersite Transport Pipe
+item.buildcraft_pipe_andersite_polished_item.name=Polished Andersite Transport Pipe
+item.buildcraft_pipe_diorite_item.name=Diorite Transport Pipe
+item.buildcraft_pipe_diorite_polished_item.name=Polished Diorite Transport Pipe
+item.buildcraft_pipe_granite_item.name=Granite Transport Pipe
+item.buildcraft_pipe_granite_polished_item.name=Polished Granite Transport Pipe
+
 item.PipeItemsWood.name=나무 아이템 파이프
 item.PipeItemsCobblestone.name=조약돌 아이템 파이프
 item.PipeItemsStone.name=돌 아이템 파이프
@@ -352,7 +388,7 @@ item.PipeFluidsQuartz.name=쿼츠 액체 파이프
 item.PipeFluidsGold.name=금 액체 파이프
 item.PipeFluidsEmerald.name=에메랄드 액체 파이프
 item.PipeFluidsDiamond.name=다이아몬드 액체 파이프
-item.PipeFluidsClay.name=점토 엑체 파이프
+item.PipeFluidsClay.name=점토 액체 파이프
 item.PipePowerWood.name=나무 전력 파이프
 item.PipePowerCobblestone.name=조약돌 전력 파이프
 item.PipePowerStone.name=돌 전력 파이프
@@ -368,6 +404,8 @@ item.PipeFluidsVoid.name=공허의 액체 파이프
 item.PipeItemsSandstone.name=사암 아이템 파이프
 item.PipeFluidsSandstone.name=사암 액체 파이프
 item.PipePowerSandstone.name=사암 전력 파이프
+
+
 item.PipeRobotStation.name=도킹 스테이션
 item.Facade.name=덮개
 item.Facade.state_hollow=가운데가 빈
@@ -381,6 +419,8 @@ item.Filter.name=필터
 item.debugger.name=Debugger
 item.debugger.warning=Use only for testing! Leaks secrets.
 item.package.name=Package
+item.guideBook.name=Guide Book
+item.robot_goggles.name=Robot Goggles
 
 itemGroup.buildcraft.boards=빌드크래프트 [BuildCraft Robots]
 itemGroup.buildcraft.main=빌드크래프트 [Buildcraft]
@@ -431,8 +471,8 @@ tile.architect.allowCreative=Mode: Creative
 tile.architect.noallowCreative=Mode: Survival
 tile.architect.tooltip.allowCreative.1=크리에이티브는 모든 블럭을 지원합니다 - 크리에이티브 모드만!
 tile.architect.tooltip.allowCreative.2=서바이벌은 지원하지 않는 블럭들(타일엔티티)를 무시합니다
-tile.architect.excavate=채굴 : 킴
-tile.architect.noexcavate=채굴 : 끔
+tile.architect.excavate=채굴: On
+tile.architect.noexcavate=채굴: Off
 
 tip.gate.wires=§9§oCompatible Wires:
 tip.gate.wires.redstone=빨강색
@@ -472,6 +512,10 @@ tip.PipePowerSandstone=Only connects to other pipes
 tip.PipePowerWood=전기 입력 파이프
 tip.PipeStructureCobblestone=보조 파이프
 tip.deprecated=Deprecated
+
+tip.gate.charged=Charged
+tip.gate.fullcharge=Full Charge
+tip.gate.nocharge=No Charge
 
 tip.filler.excavate.on=영역을 채굴 후 건축함
 tip.filler.excavate.off=영역을 채굴하지 않고 건축함
@@ -540,6 +584,10 @@ bc_update.new_version=§c새로운 빌드크래프트 버전인 %s 이 %s 버전
 bc_update.download=§chttp://www.mod-buildcraft.com/download 에서 다운받으세요
 bc_update.once=이 메세지는 한번만 보여집니다
 bc_update.again=다시 보고 싶으시다면 '/buildcraft version'을 치세요
+bc_update.changelog=Type '/buildcraft changelog' to see the changelog
+
+chat.buildcraft.quarry.tooSmall=[BuildCraft] Quarry size is outside of chunkloading bounds or too small %d %d (%d)
+chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] The quarry at %d %d %d will keep %d chunks loaded
 
 command.buildcraft.version=BuildCraft %s for Minecraft %s (Lastest: %s).
 command.buildcraft.changelog_header=Changelog for BuildCraft %s:
@@ -560,3 +608,18 @@ command.buildcraft.buildcraft.version.format=Format: /%s
 command.buildcraft.buildcraft.changelog.desc=- %s : Changelog
 command.buildcraft.buildcraft.changelog.help=Displays the latest BC changelog.
 command.buildcraft.buildcraft.changelog.format=Format: /%s
+
+buildcraft.item.maplocation.nonclean.usage=Shift-right click to clean
+
+buildcraft.guide.chapter.=EMPTY CHAPTER!
+buildcraft.guide.chapter.block=Blocks
+buildcraft.guide.chapter.item=Items
+buildcraft.guide.chapter.gears=Gears
+
+command.buildcraft.buildcraft.op.desc=- %s : Op FakePlayer
+command.buildcraft.buildcraft.op.help=Gives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)
+command.buildcraft.buildcraft.op.format=Format: /%s
+
+command.buildcraft.buildcraft.deop.desc=- %s : Deop FakePlayer
+command.buildcraft.buildcraft.deop.help=Ungives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)
+command.buildcraft.buildcraft.deop.format=Format: /%s
