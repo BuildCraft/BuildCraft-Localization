@@ -582,10 +582,10 @@ command.buildcraft.buildcraft.changelog.desc=- %s : Список изменен�
 command.buildcraft.buildcraft.changelog.help=Показывает последние изменения в BC.
 command.buildcraft.buildcraft.changelog.format=Формат: /%s
 
-command.buildcraft.buildcraft.op.desc=- %s : Op FakePlayer
-command.buildcraft.buildcraft.op.help=Gives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)
+command.buildcraft.buildcraft.op.desc=- %s : Дать права оператора фейк-игроку
+command.buildcraft.buildcraft.op.help=Даёт права оператора фейк-игроку (отыгрывает роль в игре на каръеры, роботов и т.д.)
 command.buildcraft.buildcraft.op.format=Формат: /%s
 
-command.buildcraft.buildcraft.deop.desc=- %s : Deop FakePlayer
-command.buildcraft.buildcraft.deop.help=Ungives OP rights to the BC FakePlayer (acts in the name of quarries, robots, etc.)
+command.buildcraft.buildcraft.deop.desc=- %s : Снять права оператора с фейк-игрока
+command.buildcraft.buildcraft.deop.help=Убирает права оператора у фейк-игрока (отыгрывает роль в игре на каръеры, роботов и т.д.)
 command.buildcraft.buildcraft.deop.format=Формат: /%s
