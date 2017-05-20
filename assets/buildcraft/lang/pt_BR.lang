@@ -1,6 +1,6 @@
-# pt_BR / Translated by Sergio-F / Updated by RockJB
+# pt_BR / Translated by Sergio-F / Updated by RockJB / Updated by creeper123123321
 
-buildcraft.boardRobotPicker=Catador
+buildcraft.boardRobotPicker=Pegador
 buildcraft.boardRobotLumberjack=Lenhador
 buildcraft.boardRobotPlanter=Lavrador
 buildcraft.boardRobotLeaveCutter=Cortador
@@ -10,13 +10,35 @@ buildcraft.boardRobotBomber=Granadeiro
 buildcraft.boardRobotKnight=Cavaleiro
 buildcraft.boardRobotMiner=Minerador
 buildcraft.boardRobotFarmer=Agricultor
-buildcraft.boardRobotHarvester=Colheitador
+buildcraft.boardRobotHarvester=Colhedor
 buildcraft.boardRobotShovelman=Arador
 buildcraft.boardRobotButcher=Açougueiro
 buildcraft.boardRobotBuilder=Construtor
 buildcraft.boardRobotCrafter=Artesão
 buildcraft.boardRobotDelivery=Entregador
 buildcraft.boardRobotPump=Bomba
+buildcraft.boardRobotStripes=Listras
+buildcraft.boardRobotBreaker=Quebrador
+
+buildcraft.boardRobotPicker.desc=Pega itens
+buildcraft.boardRobotLumberjack.desc=Quebra madeiras
+buildcraft.boardRobotPlanter.desc=Planta mudas
+buildcraft.boardRobotLeaveCutter.desc=Corta folhas
+buildcraft.boardRobotCarrier.desc=Move itens entre inventários
+buildcraft.boardRobotFluidCarrier.desc=Move fluidos entre tanques
+buildcraft.boardRobotBomber.desc=Explode localizações
+buildcraft.boardRobotKnight.desc=Luta com mobs
+buildcraft.boardRobotMiner.desc=Minera
+buildcraft.boardRobotFarmer.desc=Ara a terra
+buildcraft.boardRobotHarvester.desc=Corta plantas maduras
+buildcraft.boardRobotShovelman.desc=Cava áreas
+buildcraft.boardRobotButcher.desc=Luta com animais
+buildcraft.boardRobotBuilder.desc=Constrói estruturas
+buildcraft.boardRobotCrafter.desc=Fabrica itens
+buildcraft.boardRobotDelivery.desc=Entrega itens sob requisição
+buildcraft.boardRobotPump.desc=Bombeia líquidos
+buildcraft.boardRobotStripes.desc=Uhh... Listras!
+buildcraft.boardRobotBreaker.desc=Minera pedras
 
 chat.gateCopier.clear=Informações da Porta Lógica apagadas.
 chat.gateCopier.gateCopied=Informações da Porta Lógica copiada para copiadora.
@@ -29,6 +51,16 @@ chat.gateCopier.warning.load=§6Aviso: Gatilhos/Ações da Porta Lógica podem e
 chat.gateCopier.warning.slots=§6Aviso: O alvo tem menos espaços!
 chat.gateCopier.warning.triggerParameters=§6Aviso: O alvo tem menos parâmetros de gatilho!
 chat.pipe.power.iron.mode=Limite mudado para %d RF/t
+chat.pipe.power.iron.mode.numberless=Limite mudado para %s
+chat.pipe.power.iron.level.20=Muito baixo
+chat.pipe.power.iron.level.40=Baixo
+chat.pipe.power.iron.level.80=Médio-baixo
+chat.pipe.power.iron.level.160=Médio
+chat.pipe.power.iron.level.320=Médio-alto
+chat.pipe.power.iron.level.640=Alto
+chat.pipe.power.iron.level.1280=Muito alto
+chat.pipe.power.iron.level.2560=Capacidade total
+color.clear=Limpar
 
 color.black=Preto
 color.blue=Azul
@@ -47,6 +79,71 @@ color.red=Vermelho
 color.white=Branco
 color.yellow=Amarelo
 
+config.general=Geral
+config.general.pipes=Tubos
+config.blueprints=Modelos
+config.builders=Construtores
+config.power=Uso de energia
+config.experimental=Experimental
+config.display=Mostrar
+config.worldgen=Geração de mundo
+config.network=Redes
+config.buildcraft=Configuração do BuildCraft
+
+config.blueprints.clientDatabaseDirectory=Diretório do cliente
+config.blueprints.excludedMods=Mods excluídos
+config.blueprints.excludedBlocks=Blocos excluídos
+
+config.builders.dropBrokenBlocks=Largar itens quebrados
+
+config.display.colorBlindMode=Modo “cego a cor”
+config.display.hideFluidValues=Esconder número de fluidos
+config.display.hidePowerValues=Esconder número de energia
+
+config.experimental.kinesisPowerLossOnTravel=Perda de energia cinética na viagem
+
+config.general.boards.blacklist=Lista negra de robôs
+config.general.pumpsConsumeWater=Bombas consomem água
+config.general.updateCheck=Verificar por atualizações
+config.general.fuel.fuel.combustion=Multiplicador do Motor à combustão sólida
+config.general.fuel.oil.combustion=Multiplicador do Motor à combustão de óleo
+config.general.fuel.fuel.combustion.energyOutput=Saída do motor à combustão sólida
+config.general.fuel.oil.combustion.energyOutput=Saída do motor à combustão de óleo
+config.general.itemLifespan=Vida útil do item (segundos)
+config.general.canEnginesExplode=Motores explodem
+config.general.oilCanBurn=Queimar óleo
+config.general.oilIsDense=Óleo denso
+config.general.pipes.baseFluidRate=Taxa de vazão base
+config.general.pipes.facadeBlacklist=Lista negra de fachadas
+config.general.pipes.facadeBlacklistAsWhitelist=Inverter lista negra de fachadas
+config.general.pipes.facadeNoLaserRecipe=Adicionar receita de fachadas sem laser
+config.general.pipes.hardness=Dureza
+config.general.pipes.slimeballWaterproofRecipe=Adicionar receita de bola de gosma selante
+config.general.pumpsNeedRealPower=Bombas necessitam energia real
+config.general.quarry=Opções da Quarry
+config.general.quarry.oneTimeUse=Uso único
+config.general.quarry.doChunkLoading=Carregamento de Chunk automático
+config.general.markerRange=Alcance de marcadores
+config.general.miningDepth=Profundidade de mineração relativa máxima
+config.general.pumpDimensionControl=Controle da dimensão da bomba
+
+config.network.longUpdateFactor=Fator de sincronização do cliente (ticks)
+config.network.updateFactor=Fator de envio de pacotes (ticks)
+
+config.power.miningUsageMultiplier=Multiplicador de uso de mineração
+config.power.chipsetCostMultiplier=Multiplicador do custo de Chipset
+config.power.gateCostMultiplier=Multiplicador de custo de Gate
+
+config.worldgen.enable=Habilitar
+config.worldgen.generateWaterSprings=Gerar fontes d’água
+config.worldgen.oilWellGenerationRate=Taxa de geração de poço de petróleo
+config.worldgen.spawnOilSprings=Gerar spring de petróleo
+config.worldgen.biomes.biomeOilDesert=ID do bioma de deserto de petróleo
+config.worldgen.biomes.biomeOilOcean=ID do bioma de oceano de petróleo
+config.worldgen.biomes.excessiveOilIDs=Biomas com petróleo excessivo
+config.worldgen.biomes.excludeOilIDs=Biomas sem petróleo
+config.worldgen.biomes.increasedOilIDs=Biomas com petróleo aumentado
+
 direction.north=Norte
 direction.west=Oeste
 direction.east=Leste
@@ -54,8 +151,37 @@ direction.south=Sul
 direction.up=Superior
 direction.down=Inferior
 
+buildcraft.fluid.empty=Vazio
+buildcraft.fluid.static.milli.short=%s mB de %s
+buildcraft.fluid.static.bucket.short=%s B de %s
+buildcraft.fluid.static.milli.long=%s milli buckets de %s
+buildcraft.fluid.static.bucket.long=%s buckets of %s
+
+buildcraft.fluid.empty.milli.short=0 / %s mB
+buildcraft.fluid.empty.bucket.short=0 / %s B
+buildcraft.fluid.empty.milli.long=Tanque vazio de %s milli bucket
+buildcraft.fluid.empty.bucket.long=Tanque vazio de %s bucket
+
+buildcraft.fluid.full.milli.short=%1$s / %1$s mB de %2$s
+buildcraft.fluid.full.bucket.short=%1$s / %1$s B de %2$s
+buildcraft.fluid.full.milli.long=Tanque cheio de %s milli bucket %s
+buildcraft.fluid.full.bucket.long=Tanque cheio de %s bucket %s
+
+buildcraft.fluid.static.cap.milli.short=%s / %3$s mB de %2$s
+buildcraft.fluid.static.cap.bucket.short=%s / %3$s B de %2$s
+buildcraft.fluid.static.cap.milli.long=%s milli buckets de %s em um tanque de %s milli bucket
+buildcraft.fluid.static.cap.bucket.long=%s buckets de %s em um tanque de %s bucket
+
+buildcraft.fluid.flow.milli.short=%s mB/t
+buildcraft.fluid.flow.bucket.short=%s B/s
+buildcraft.fluid.flow.milli.long=%s milli buckets por tick
+buildcraft.fluid.flow.bucket.long=%s buckets por segundo
+
+buildcraft.mj.static.long=%s Minecraft Joules
+buildcraft.mj.flow.long=%s Minecraft Joules por tick
+
 fillerpattern.clear=Limpar
-fillerpattern.fill=Preenhcher
+fillerpattern.fill=Preencher
 fillerpattern.flatten=Achatar
 fillerpattern.horizon=Horizonte
 fillerpattern.pyramid=Pirâmide
@@ -66,6 +192,21 @@ fillerpattern.frame=Armação
 
 fluid.oil=Petróleo
 fluid.fuel=Combustível
+fluid.oil_distilled=Óleo destilado
+fluid.oil_heavy=Óleo pesado
+fluid.oil_dense=Óleo Denso
+fluid.oil_residue=Resíduo
+fluid.tar=Pixe
+fluid.fuel_mixed=Combustíveis misturados
+fluid.fuel_mixed_heavy=Combustíveis pesados misturados
+fluid.fuel_mixed_light=Combustíveis leves misturados
+fluid.fuel_dense=Combustível denso
+fluid.fuel_light=Combustível leve
+fluid.fuel_gaseous=Combustível gasoso
+
+buildcraft.fluid.heat_0= (§bFrio§r)
+buildcraft.fluid.heat_1= (§6Quente§r)
+buildcraft.fluid.heat_2= (§cAbrasador§r)
 
 gate.action.extraction=%s Extração Predefinida
 gate.action.pipe.item.color=Pintar Itens de %s
@@ -91,8 +232,11 @@ gate.action.station.accept_fluids=Aceitar Fluidos
 gate.action.station.povide_fluids=Fornecer Fluidos
 gate.action.robot.work_in_area=Trabalho na Área
 gate.action.robot.wakeup=Acordar
-gate.action.station.forbid_robot=Proibido Robôs
+gate.action.station.forbid_robot=Proibir Robôs
+gate.action.station.force_robot=Forçar Robôs
 gate.action.robot.filter=Filtro
+gate.action.robot.filter_tool=Ferramenta de filtro
+gate.action.pipe.direction=Face do lado %s
 
 gate.expansion.fader=Desvanecedor de Redstone
 gate.expansion.pulsar=Pulso Autárquico
@@ -109,7 +253,7 @@ gate.material.emerald=Esmeralda
 gate.name=%s %s Porta Lógica
 gate.name.basic=Porta Lógica Básica
 
-gate.parameter.redstone.gateSideOnly=Apena Porta Lógica Lateral
+gate.parameter.redstone.gateSideOnly=Apenas Porta Lógica Lateral
 
 gate.trigger.engine.blue=Motor Azul
 gate.trigger.engine.green=Motor Verde
@@ -143,6 +287,8 @@ gate.trigger.robot.sleep=Repouso
 gate.trigger.machine.energyStoredHigh=Energia Armazenada Alta
 gate.trigger.machine.energyStoredLow=Energia Armazenada Baixa
 
+gui.fluidtank.empty=Vazio
+
 gui.building.resources=Recursos de Construção
 gui.building.fluids=Tanque de Fluidos
 gui.del=Del
@@ -166,6 +312,11 @@ gui.pipes.emerald.nonblocking.tip=Extração continua com o próximo elemento no
 gui.pipes.emzuli.title=Predefinições de Extração
 gui.pipes.emzuli.paint=Pintar Itens %s
 gui.pipes.emzuli.nopaint=Não Pintar Itens
+gui.ledger.ownership=Dono
+gui.ledger.help=Ajuda
+gui.counters=Contadores
+gui.leftToBreak=Blocos para quebrar:
+gui.leftToPlace=Blocos para colocar:
 
 item.bucketFuel.name=Balde de Combustível
 item.bucketOil.name=Balde de Petróleo
@@ -194,7 +345,7 @@ item.redstone_board.name=Placa de Redstone
 item.robot.name=Robô
 item.blueprintItem.name=Diagrama
 item.list.name=Lista
-item.blueprint.unnamed=<Sem nome>
+item.blueprint.unnamed=<sem nome>
 item.blueprint.author=por
 item.blueprint.blank=Em branco
 item.blueprint.creative_only=Apenas Criativo
@@ -211,9 +362,9 @@ item.PipeItemsGold.name=Tubo de Transporte de Ouro
 item.PipeItemsDiamond.name=Tubo de Transporte de Diamante
 item.PipeItemsObsidian.name=Tubo de Transporte de Obsidiana
 item.PipeItemsEmerald.name=Tubo de Transporte de Esmeralda
-item.PipeItemsLapis.name=Tubo de Transporte de Lazuli
-item.PipeItemsDaizuli.name=Tubo de Transporte de Daizuli
-item.PipeItemsEmzuli.name=Tubo de Transporte de Emzuli
+item.PipeItemsLapis.name=Tubo de Transporte de Lazúli
+item.PipeItemsDaizuli.name=Tubo de Transporte de Daizúli
+item.PipeItemsEmzuli.name=Tubo de Transporte de Emzúli
 item.PipeFluidsWood.name=Tubo de Fluído de Madeira
 item.PipeFluidsCobblestone.name=Tubo de Fluído de Pedregulho
 item.PipeFluidsStone.name=Tubo de Fluído de Pedra
@@ -242,12 +393,22 @@ item.FacadePhased.state=%s: %s
 item.FacadePhased.state_default=Padrão: %s
 item.FacadePhased.state_transparent=Transparente
 item.PipePlug.name=Tampa de Tubo
+item.light_sensor.name=Sensor de luz
+item.Lens.name=Lentes
+item.Filter.name=Filtro
+item.PipePowerAdapter.name=Adaptador de Energia
+item.debugger.name=Debugger
+item.debugger.warning=Use só para testes! Vaza segredos.
+item.package.name=Pacote
+item.guide.name=Livro guia
+item.robot_goggles.name=Óculos de robô
 
-itemGroup.buildcraft.blocks=Buildcraft: Blocos
-itemGroup.buildcraft.boards=Buildcraft: Robôs
-itemGroup.buildcraft.items=Buildcraft: Itens
-itemGroup.buildcraft.pipes=Buildcraft: Tubos
-itemGroup.buildcraft.facades=Buildcraft: Fachadas
+itemGroup.buildcraft.blocks=Buildcraft Blocos
+itemGroup.buildcraft.boards=Buildcraft Robôs
+itemGroup.buildcraft.items=Buildcraft Itens
+itemGroup.buildcraft.pipes=Buildcraft Tubos
+itemGroup.buildcraft.facades=Buildcraft Fachadas
+itemGroup.buildcraft.plugs=BuildCraft Plugáveis
 
 tile.architectBlock.name=Mesa de Arquitetura
 tile.assemblyTableBlock.name=Mesa de Montagem
@@ -282,12 +443,16 @@ tile.spring.oil.name=Fonte de Petróleo
 tile.spring.water.name=Fonte de Água
 tile.tankBlock.name=Tanque
 tile.zonePlan.name=Planejador de Setores
+tile.distiller.name=Distilador
+tile.heat_exchange_start.name=Troca de calor (início)
+tile.heat_exchange_middle.name=Troca de calor (meio)
+tile.heat_exchange_end.name=Troca de calor (fim)
 
 tile.architect.rotate=Girar: Sim
 tile.architect.norotate=Girar: Não
-tile.architect.allowCreative=Modo: Creativo
+tile.architect.allowCreative=Modo: Criativo
 tile.architect.noallowCreative=Modo: Sobrevivência
-tile.architect.tooltip.allowCreative.1=Creativo permite todos os blocos - somente modo criativo!
+tile.architect.tooltip.allowCreative.1=Criativo permite todos os blocos - somente modo criativo!
 tile.architect.tooltip.allowCreative.2=Sobrevivência ignora todos os blocos não suportados
 tile.architect.excavate=Escavar: Sim
 tile.architect.noexcavate=Escavar: Não
@@ -300,6 +465,7 @@ tip.gate.wires.diamond=Vermelho, Azul, Verde, Amarelo
 tip.gate.wires.emerald=Vermelho, Azul, Verde, Amarelo
 tip.gate.expansions=§9§oExpansões Instaladas:
 
+tip.PipeFluidsClay=Tubo de inserção
 tip.PipeFluidsCobblestone=Não se conecta com Pedra
 tip.PipeFluidsEmerald=Tubo de Extração, 40 mB/t
 tip.PipeFluidsIron=Tubo de Válvula
@@ -307,7 +473,7 @@ tip.PipeFluidsSandstone=Só se conecta a outros tubos
 tip.PipeFluidsStone=Não conecta com Pedregulho
 tip.PipeFluidsVoid=Destroi fluídos
 tip.PipeFluidsWood=Tubo de Extração
-tip.PipeItemsCobblestone=Tubo básico, alta resistência\nNão conecta com Pedra ou Quartzo
+tip.PipeItemsCobblestone=Tubo básico, alta resistência\nNão conecta com tubo de Pedra ou de Quartzo
 tip.PipeItemsDaizuli=Roteia itens pintados
 tip.PipeItemsDiamond=Ordena itens
 tip.PipeItemsEmerald=Tubo de extração distribuidor
@@ -315,9 +481,9 @@ tip.PipeItemsGold=Acelera itens
 tip.PipeItemsIron=Roteia itens
 tip.PipeItemsLapis=Pinta itens
 tip.PipeItemsObsidian=Suga itens
-tip.PipeItemsQuartz=Tubo básico, baixa resistência\nNão conecta com Pedregulho ou Pedra
+tip.PipeItemsQuartz=Tubo básico, baixa resistência\nNão conecta com tubo de Pedregulho ou de Pedra
 tip.PipeItemsSandstone=Conecta somente com outros tubos
-tip.PipeItemsStone=Tubo básico, média resistência\nNão conecta com Pedregulho ou Quartzo
+tip.PipeItemsStone=Tubo básico, média resistência\nNão conecta com tubo de Pedregulho ou de Quartzo
 tip.PipeItemsVoid=Destrói itens
 tip.PipeItemsWood=Tubo de Extração
 tip.PipeItemsEmzuli=Tubo de Extração controlado por Porta Lógica
@@ -325,9 +491,34 @@ tip.PipePowerWood=Tubo Receptor de Energia
 tip.PipePowerEmerald=Tubo Receptor de Energia
 tip.PipePowerIron=Tubo Limitador Selecionável
 tip.PipeStructureCobblestone=Tubo de Suporte
+tip.deprecated=Depreciado
 
+tip.gate.charged=Carregado
+tip.gate.fullcharge=Carga cheia
+tip.gate.nocharge=Sem carga
+
+tip.filler.excavate.on=Escavar
+tip.filler.excavate.off=Não escavar
+
+tip.list.matches=Matches
+
+tip.shift.PipeFluidsDiamond=GUI aceita qualquer container de fluidos
+tip.shift.PipeFluidsEmerald=GUI aceita qualquer container de fluídos
+tip.shift.PipeItemsClay=Prioriza máquinas e baús\nsobre tubos vizinhos.
+tip.shift.PipeItemsDaizuli=Agachar e clicar para mudar cor
+tip.shift.PipeItemsEmzuli=Define extração de filtros predefinidos em um GUI\nUma predefinição pode pintar itens extraídos \nTroca predefinições de extração via gates
+tip.shift.PipeItemsLapis=Agachar e Clicar para mudar cor
+tip.shift.PipeItemsObsidian=Dar energia com motor\nMais energia – maior distância
+tip.shift.PipePowerDiamond=Mude o limite com uma chave inglesa ou gates
+
+tip.PipeItemsEmerald.whitelist=Lista branca
+tip.PipeItemsEmerald.blacklist=Lista negra
+tip.PipeItemsEmerald.roundrobin=Round Robin (Em ordem)
+
+tip.tool.fullscreen=Tela cheia
 tip.tool.add=Adicionar
 tip.tool.remove=Remover
+
 
 achievement.woodenGearAchievement=Um pouco irregular em torno das bordas
 achievement.woodenGearAchievement.desc=Monte uma engrenagem de madeira
@@ -342,16 +533,16 @@ achievement.diamondGearAchievement.desc=Aprimore uma engrenagem de ouro para uma
 achievement.wrenchAchievement=Apenas acerte!
 achievement.wrenchAchievement.desc=Faça uma chave de grifo
 achievement.engineAchievement1=O começo de algo grande
-achievement.engineAchievement1.desc=Monte um motor de redstone
+achievement.engineAchievement1.desc=Monte um motor de Redstone
 achievement.engineAchievement2=Muito eficiente
 achievement.engineAchievement2.desc=Monte um motor a vapor
 achievement.engineAchievement3=Alta potência
 achievement.engineAchievement3.desc=Monte um motor de combustão
-achievement.aLotOfCraftingAchievement=Muito crafting
+achievement.aLotOfCraftingAchievement=Muitas fabricações
 achievement.aLotOfCraftingAchievement.desc=Monte uma mesa de trabalho automática
 achievement.straightDownAchievement=Diretamente pra baixo
 achievement.straightDownAchievement.desc=Faça um minerador
-achievement.chunkDestroyerAchievement=Destruidor de ´chunks´
+achievement.chunkDestroyerAchievement=Destruidor de Chunks
 achievement.chunkDestroyerAchievement.desc=Monte uma pedreira
 achievement.fasterFillingAchievement=Preenchimento mais rápido
 achievement.fasterFillingAchievement.desc=Faça um preenchedor
@@ -372,7 +563,7 @@ achievement.templateAchievement.desc=Monte um modelo
 achievement.blueprintLibraryAchievement=Ideias nunca morrem
 achievement.blueprintLibraryAchievement.desc=Monte uma biblioteca de diagramas
 
-bc_update.new_version=§cNova versão de BuildCraft disponível: %s para Minecraft %s
+bc_update.new_version=§cNova versão do BuildCraft disponível: %s para Minecraft %s
 bc_update.download=§cBaixe em http://www.mod-buildcraft.com/download
 bc_update.once=Essa mensagem só aparece uma vez
 bc_update.again=Digite '/buildcraft version' se você quer vê-la de novo
