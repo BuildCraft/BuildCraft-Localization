@@ -601,9 +601,9 @@ tip.PipeItemsGold=加速物品
 tip.PipeItemsIron=路由物品
 tip.PipeItemsLapis=彩色标记物品
 tip.PipeItemsObsidian=吸取物品
-tip.PipeItemsQuartz=基础管道,阻力小\n不会连接石质或石头管道
+tip.PipeItemsQuartz=基础管道,阻力,不会连接石质或石头管道
 tip.PipeItemsSandstone=只会连接其他管道
-tip.PipeItemsStone=基础管道,阻力适中\n不会连接圆石或石英管道
+tip.PipeItemsStone=基础管道,阻力适中,不会连接圆石或石英管道
 tip.PipeItemsVoid=销毁物品
 tip.PipeItemsWood=提取管道
 tip.PipePowerEmerald=能量输入管道
@@ -613,19 +613,19 @@ tip.PipePowerWood=能量输入管道
 tip.PipeStructureCobblestone=支撑类管道
 tip.deprecated=不可用
 tip.PipeFluidsCobblestone=不会连接石质或石英管道
-tip.PipeItemsCobblestone=基础管道,阻力大\n不会连接石质或石英管道
+tip.PipeItemsCobblestone=基础管道,阻力大\,不会连接石质或石英管道
 tip.PipeFluidsQuartz=不会连接圆石或石质管道
 tip.PipeFluidsStone=不会连接圆石或石英管道
 
-tip.gate.charged=Charged
-tip.gate.fullcharge=Full Charge
-tip.gate.nocharge=No Charge
+tip.gate.charged=正在充能
+tip.gate.fullcharge=充能已满
+tip.gate.nocharge=未在充能
 
 tip.filler.excavate.on=采掘
 tip.filler.excavate.off=不采掘
 
-tip.filler.invert.on=Invert
-tip.filler.invert.off=Do Not Invert
+tip.filler.invert.on=转换
+tip.filler.invert.off=不转换
 
 tip.list.matches=匹配
 
@@ -821,14 +821,14 @@ advancements.buildcraftcore.gears.description=Get one of each gear
 advancements.buildcraftcore.wrenched.title=Wrenched!
 advancements.buildcraftcore.wrenched.description=Use the wrench
 
-advancements.buildcraftcore.freePowar.title=Free Power!
+advancements.buildcraftcore.freePowar.title=免费能源!
 advancements.buildcraftcore.freePowar.description=Generate free power
 
 advancements.buildcraftcore.list.title=Sorting all the things
 advancements.buildcraftcore.list.description=Discover the advanced capabilities of the list
 
-advancements.buildcraftcore.engine.title=My first engine
-advancements.buildcraftcore.engine.description=Get your first engine
+advancements.buildcraftcore.engine.title=我的第一个引擎
+advancements.buildcraftcore.engine.description=获得引擎
 
 advancements.buildcraftcore.markers.title=Marking your territory
 advancements.buildcraftcore.markers.description=Use volume markers to mark out an area
@@ -839,20 +839,20 @@ advancements.buildcraftcore.path_markers.description=Define a path
 advancements.buildcraftcore.paper.title=Paper collector
 advancements.buildcraftcore.paper.description=Use every piece of paper
 
-advancements.buildcraftenergy.poweringUp.title=Powering Up!
-advancements.buildcraftenergy.poweringUp.description=Activate a Stirling/Combustion engine with a redstone signal
+advancements.buildcraftenergy.poweringUp.title=引擎启动!
+advancements.buildcraftenergy.poweringUp.description=用红石信号启动斯特林引擎或燃油引擎
 
-advancements.buildcraftenergy.lava_power.title=Lava Power
-advancements.buildcraftenergy.lava_power.description=Power a strling engine with a lava bucket
+advancements.buildcraftenergy.lava_power.title=岩浆供能
+advancements.buildcraftenergy.lava_power.description=用一桶岩浆对斯特林引擎供能
 
-advancements.buildcraftenergy.to_much_power.title=To much power!
+advancements.buildcraftenergy.to_much_power.title=能量溢出!
 advancements.buildcraftenergy.to_much_power.description=Make an engine overheat and wackit it with a wrench
 
 advancements.buildcraftenergy.ice_cool.title=Ice cool
 advancements.buildcraftenergy.ice_cool.description=Cool a combustion engine with something else then water (if available)
 
-advancements.buildcraftenergy.sticky_dipping.title=Sticky dipping
-advancements.buildcraftenergy.sticky_dipping.description=Discover the sticky nature of oil
+advancements.buildcraftenergy.sticky_dipping.title=黏糊糊的
+advancements.buildcraftenergy.sticky_dipping.description=石油果然是黏的
 
 advancements.buildcraftenergy.fine_riches.title=Fine riches
 advancements.buildcraftenergy.fine_riches.description=Find an oil biome
