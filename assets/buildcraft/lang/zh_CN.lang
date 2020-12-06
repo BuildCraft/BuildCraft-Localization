@@ -38,7 +38,7 @@ buildcraft.boardRobotBuilder.desc=修建房屋
 buildcraft.boardRobotCrafter.desc=合成物品
 buildcraft.boardRobotDelivery.desc=根据需求配送物品
 buildcraft.boardRobotPump.desc=泵出流体
-buildcraft.boardRobotStripes.desc=采掘石头
+buildcraft.boardRobotStripes.desc=它...就是条纹！
 buildcraft.boardRobotStripes.desc=采掘石头
 
 chat.gateCopier.clear=门信息已清除.
@@ -51,14 +51,14 @@ chat.gateCopier.warning.logic=§6警告:目标的逻辑类型不同!
 chat.gateCopier.warning.load=§6警告:门触发/操作配置可能丢失!
 chat.gateCopier.warning.slots=§6警告:目标槽数不足!
 chat.gateCopier.warning.triggerParameters=§6警告:目标的触发参数不足!
-chat.pipe.power.iron.mode=切换为%dRF/t限制
+chat.pipe.power.iron.mode=切换为%dMJ/t限制
 chat.pipe.power.iron.mode.numberless=切换为%s限制
 chat.pipe.power.iron.level.20=极低
 chat.pipe.power.iron.level.40=低
 chat.pipe.power.iron.level.80=较低
 chat.pipe.power.iron.level.160=中等
-chat.pipe.power.iron.level.320=高
-chat.pipe.power.iron.level.640=较高
+chat.pipe.power.iron.level.320=较高
+chat.pipe.power.iron.level.640=高
 chat.pipe.power.iron.level.1280=极高
 chat.pipe.power.iron.level.2560=满容量
 color.clear=颜色清除
@@ -99,8 +99,8 @@ config.blueprints.excludedBlocks=排除方块
 config.builders.dropBrokenBlocks=掉落方块
 
 config.display.colorBlindMode=色盲模式
-config.display.hideFluidValues=隐藏流体量
-config.display.hidePowerValues=隐藏能量
+config.display.hideFluidValues=隐藏流体流量
+config.display.hidePowerValues=隐藏能量流量
 
 config.experimental.kinesisPowerLossOnTravel=管道流失能量
 
@@ -167,28 +167,28 @@ direction.center.8=东南
 buildcraft.fluid.empty=空
 buildcraft.fluid.static.milli.short=%s mB
 buildcraft.fluid.static.bucket.short=%s B
-buildcraft.fluid.static.milli.long=%s 小桶
-buildcraft.fluid.static.bucket.long=%s 大桶
+buildcraft.fluid.static.milli.long=%s 毫桶
+buildcraft.fluid.static.bucket.long=%s 桶
 
 buildcraft.fluid.empty.milli.short=0 / %s mB
 buildcraft.fluid.empty.bucket.short=0 / %s B
-buildcraft.fluid.empty.milli.long=空的 %s 小储罐
-buildcraft.fluid.empty.bucket.long=空的 %s 大储罐
+buildcraft.fluid.empty.milli.long=空的 %s 毫桶储槽
+buildcraft.fluid.empty.bucket.long=空的 %s 桶储槽
 
 buildcraft.fluid.full.milli.short=%1$s / %1$s mB
 buildcraft.fluid.full.bucket.short=%1$s / %1$s B
-buildcraft.fluid.full.milli.long=满的 %s 小储罐
-buildcraft.fluid.full.bucket.long=满的 %s 大储罐
+buildcraft.fluid.full.milli.long=满的 %s 毫桶储槽
+buildcraft.fluid.full.bucket.long=满的 %s 桶储槽
 
 buildcraft.fluid.static.cap.milli.short=%s / %s mB
 buildcraft.fluid.static.cap.bucket.short=%s / %s B
-buildcraft.fluid.static.cap.milli.long=%s 小桶 (在 %s 小储罐中)
-buildcraft.fluid.static.cap.bucket.long=%s 大桶 (在 %s 大储罐中)
+buildcraft.fluid.static.cap.milli.long=%s 毫桶 (在 %s 毫桶储槽中)
+buildcraft.fluid.static.cap.bucket.long=%s 桶 (在 %s 桶储槽中)
 
 buildcraft.fluid.flow.milli.short=%s mB/t
 buildcraft.fluid.flow.bucket.short=%s B/s
-buildcraft.fluid.flow.milli.long=%s 小桶每刻
-buildcraft.fluid.flow.bucket.long=%s 大桶每秒
+buildcraft.fluid.flow.milli.long=%s 毫桶每刻
+buildcraft.fluid.flow.bucket.long=%s 桶每秒
 
 buildcraft.mj.static.long=%s MC焦耳
 buildcraft.mj.static.short=%s MJ
@@ -238,12 +238,12 @@ fluid.oil_heavy=重油
 fluid.oil_dense=稠油
 fluid.oil_residue=残渣
 fluid.tar=焦油
-fluid.fuel_mixed=混合燃料
-fluid.fuel_mixed_heavy=混合重燃料
-fluid.fuel_mixed_light=混合轻燃料
-fluid.fuel_dense=浓燃料
-fluid.fuel_light=轻燃料
-fluid.fuel_gaseous=气态燃料
+fluid.fuel_mixed=混合燃油
+fluid.fuel_mixed_heavy=混合重燃油
+fluid.fuel_mixed_light=混合轻燃油
+fluid.fuel_dense=稠密燃油
+fluid.fuel_light=轻质燃油
+fluid.fuel_gaseous=气态燃油
 
 buildcraft.fluid.heat_0=%s (§b冷§r)
 buildcraft.fluid.heat_1=%s (§6热§r)
@@ -386,8 +386,8 @@ gui.assemblyRate=功率
 gui.assemblyCurrentRequired=需求能量
 gui.clickcraft=-点击以合成-
 gui.list.nbt=需要完全匹配\n§7(附魔，名称和存储的数据需要精确匹配)
-gui.list.metadata=模糊META数据
-gui.list.oredict=模糊矿物辞典
+gui.list.metadata=模糊META数据\n§7(相同类型)
+gui.list.oredict=模糊矿物辞典\n§7(相同材料)
 gui.pipes.emerald.title=过滤
 gui.pipes.emerald.blocking=阻挡
 gui.pipes.emerald.blocking.tip=若过滤设置中有缺失对象则阻挡被抽取物品
@@ -410,7 +410,7 @@ item.stoneGearItem.name=石齿轮
 item.ironGearItem.name=铁齿轮
 item.goldGearItem.name=金齿轮
 item.diamondGearItem.name=钻石齿轮
-item.templateItem.name=模版
+item.templateItem.name=模板
 item.wrenchItem.name=扳手
 item.paintbrush.name=颜料刷
 item.pipeWaterproof.name=管道密封剂
@@ -543,23 +543,23 @@ tile.engineIron.name=燃油引擎
 tile.engineStone.name=斯特林引擎
 tile.engineWood.name=红石引擎
 tile.fillerBlock.name=填充机
+tile.fillerBlock.tip=生存模式不可用
 tile.filteredBufferBlock.name=过滤缓存器
-tile.fillerBlock.tip=生存模式不可用.
 tile.floodGateBlock.name=液闸
 tile.frameBlock.name=框架
 tile.integrationTableBlock.name=集成台
 tile.integrationTableBlock.tip=没有合成配方来使用
 tile.laserBlock.name=镭射器
 tile.libraryBlock.name=电子档案馆
-tile.machineBlock.name=采石场
-tile.quarryBlock.name=Quarry
+tile.libraryBlock.tip=生存模式不可用
+tile.quarryBlock.name=采石场
 tile.markerBlock.name=地标
 tile.miningWellBlock.name=矿井
 tile.packagerBlock.name=配方封包器
 tile.pathMarkerBlock.name=路径标
 tile.plainPipeBlock.name=采矿管道
 tile.programmingTableBlock.name=编程台
-tile.programmingTableBlock.tip=BC1.12.2暂不支持机器人
+tile.programmingTableBlock.tip=BC1.12.2暂不支持机器人，所以这个没有用:(
 tile.pumpBlock.name=液泵
 tile.refineryBlock.name=精炼厂
 tile.requester.name=请求机
@@ -568,9 +568,9 @@ tile.spring.water.name=水泉
 tile.stampingTableBlock.name=压印台
 tile.tankBlock.name=储罐
 tile.zonePlan.name=区域规划机
-tile.zonePlannerBlock.tip=BC1.12.2暂不支持机器人
+tile.zonePlannerBlock.tip=BC1.12.2暂不支持机器人，所以这个没有用:(
 tile.distiller.name=蒸馏器
-tile.heat_exchange.name=热交换器
+tile.heat_exchange.name=换热器
 tile.decorated.blueprint.name=蓝图 (装饰)
 tile.decorated.template.name=模板 (装饰)
 tile.decorated.laser_back.name=激光 (装饰)
@@ -763,17 +763,17 @@ buildcraft.guide.group.to.buildcraft.area_markers=区域标记
 buildcraft.guide.group.from.buildcraft.area_markers=区域相关标记
 
 buildcraft.help.tank.generic=用一个空桶点击它，它里面的液体就会装进桶里
-buildcraft.help.tank.title.tankFuel=油储罐
+buildcraft.help.tank.title.tankFuel=燃油储罐
 buildcraft.help.tank.title.tankCoolant=冷却液储罐
 buildcraft.help.tank.title.tankResidue=残渣储罐
-buildcraft.help.tank.fuel=此储罐无法装下燃料
+buildcraft.help.tank.fuel=此储罐无法装下燃油
 buildcraft.help.tank.coolant=可以接受任何种类的流体以及冰块
-buildcraft.help.tank.residue=燃料没被处理时，输出残渣
+buildcraft.help.tank.residue=燃油没被处理时，输出残渣
 
-buildcraft.help.stone_engine.flame.title=燃料剩余
-buildcraft.help.stone_engine.fuel.title=燃料输入
+buildcraft.help.stone_engine.flame.title=燃油剩余
+buildcraft.help.stone_engine.fuel.title=燃油输入
 buildcraft.help.stone_engine.flame=着火了，(帮助没写完)
-buildcraft.help.stone_engine.fuel=接受燃料类别和熔炉相同
+buildcraft.help.stone_engine.fuel=接受燃油类别和熔炉相同
 
 command.buildcraft.buildcraft.op.desc=- %s : Op FakePlayer
 command.buildcraft.buildcraft.op.help=给予BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限.
@@ -827,7 +827,7 @@ advancements.buildcraftenergy.ice_cool.title=冰凉
 advancements.buildcraftenergy.ice_cool.description=冷却燃油引擎(先用其他方法，最后用水)
 
 advancements.buildcraftenergy.sticky_dipping.title=粘浸
-advancements.buildcraftenergy.sticky_dipping.description=石油原来这么黏啊....
+advancements.buildcraftenergy.sticky_dipping.description=原油原来这么黏啊....
 
 advancements.buildcraftenergy.fine_riches.title=大富豪
 advancements.buildcraftenergy.fine_riches.description=找到油田生物群系
@@ -850,13 +850,13 @@ advancements.buildcraftfactory.flooding_the_world.description=用水泉淹没一
 advancements.buildcraftfactory.draining_the_world.title=抽干世界
 advancements.buildcraftfactory.draining_the_world.description=使用水泵来吸水
 
-advancements.buildcraftfactory.oil_platform.title=石油平台
+advancements.buildcraftfactory.oil_platform.title=原油平台
 advancements.buildcraftfactory.oil_platform.description=抽取油泉
 
 advancements.buildcraftfactory.heating_and_distilling.title=加热与蒸馏
-advancements.buildcraftfactory.heating_and_distilling.description=用蒸馏器和热交换器建造完整的炼油装置
+advancements.buildcraftfactory.heating_and_distilling.description=用蒸馏器和换热器建造完整的炼油装置
 
-advancements.buildcraftfactory.black_gold.title=黑色的金子
+advancements.buildcraftfactory.black_gold.title=黑色黄金
 advancements.buildcraftfactory.black_gold.description=成功抽干大型油泉
 
 advancements.buildcraftsilicon.laser_power.title=激光力量
@@ -880,15 +880,14 @@ advancements.buildcrafttransport.logic_transportation.description=连接管道�
 advancements.buildcrafttransport.extended_logic.title=扩展逻辑
 advancements.buildcrafttransport.extended_logic.description=使用带有额外插槽的门
 
-advancements.buildcrafttransport.sealing_fluids.title=密封液
-advancements.buildcrafttransport.sealing_fluids.description=用仙人掌染成管道密封胶
+advancements.buildcrafttransport.sealing_fluids.title=将流体密封
+advancements.buildcrafttransport.sealing_fluids.description=用仙人掌做成管道密封剂
 
 advancements.buildcrafttransport.pipe_logic.title=管道逻辑
 advancements.buildcrafttransport.pipe_logic.description=在管道上放置门
 
 advancements.buildcrafttransport.all_plugged_up.title=全插上了
 advancements.buildcrafttransport.all_plugged_up.description=将每个管道扩展物(门，滤镜....)都连接到管道
-
 
 advancements.buildcrafttransport.pipe_fanatic.title=我爱管道
 advancements.buildcrafttransport.pipe_fanatic.description=放置了各种类型的管道
@@ -904,7 +903,6 @@ advancements.buildcraftbuilders.shaping_the_world.description=合成并放置采
 
 advancements.buildcraftbuilders.architect.title=建筑师
 advancements.buildcraftbuilders.architect.description=用建筑工作台扫描区域，并把区域保存在蓝图/模板中
-
 
 advancements.buildcraftbuilders.paving_the_way.title=铺平道路
 advancements.buildcraftbuilders.paving_the_way.description=利用带有路径标记的建筑机来建造道路
