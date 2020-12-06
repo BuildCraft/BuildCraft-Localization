@@ -512,7 +512,7 @@ item.Lens.name=透镜
 item.Filter.name=滤镜
 item.PipePowerAdapter.name=能量接收器
 item.debugger.name=调试器
-item.debugger.warning=仅用于测试!会导致泄密.
+item.debugger.warning=仅用于测试！会导致泄密
 item.package.name=包
 item.buildcraft.guide.name=BuildCraft 教程书
 item.buildcraft.guide_note.name=BuildCraft 教程笔记
@@ -538,7 +538,7 @@ tile.builderBlock.tip=生存模式不可用
 tile.chargingTableBlock.name=充能台
 tile.chargingTableBlock.tip=没法用它充能
 tile.constructionMarkerBlock.name=建设标
-tile.engineCreative.name=创造引擎
+tile.engineCreative.name=创造模式引擎
 tile.engineIron.name=燃油引擎
 tile.engineStone.name=斯特林引擎
 tile.engineWood.name=红石引擎
@@ -571,9 +571,9 @@ tile.zonePlan.name=区域规划机
 tile.zonePlannerBlock.tip=BC1.12.2暂不支持机器人，所以这个没有用:(
 tile.distiller.name=蒸馏器
 tile.heat_exchange.name=换热器
-tile.decorated.blueprint.name=蓝图 (装饰)
-tile.decorated.template.name=模板 (装饰)
-tile.decorated.laser_back.name=激光 (装饰)
+tile.decorated.blueprint.name=蓝图(装饰)
+tile.decorated.template.name=模板(装饰)
+tile.decorated.laser_back.name=激光(装饰)
 
 tile.architect.rotate=旋转:开
 tile.architect.norotate=旋转:关
@@ -700,26 +700,26 @@ bc_update.changelog=输入指令'/buildcraft changelog'以查看日志
 chat.buildcraft.quarry.tooSmall=[BuildCraft] 采石场区域超出载入区块边界或太小 %d %d (%d)
 chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] 位于 %d %d %d 的采石场将保持%d个区块载入
 
-command.buildcraft.version=BuildCraft%s,适用于Minecraft%s(最新版本为:%s).
+command.buildcraft.version=BuildCraft%s,适用于Minecraft%s(最新版本为:%s)
 command.buildcraft.changelog_header=BuildCraft更新日志%s:
 command.buildcraft.version.fail=版本检查失败，请看日志文件
 command.buildcraft.version.prerelease=你正在使用预发布版本
 
 command.buildcraft.aliases=别名:%s
-command.buildcraft.help=输入'%s'查看帮助.
+command.buildcraft.help=输入'%s'查看帮助
 command.buildcraft.list=可用命令:
 command.buildcraft.permlevel=权限等级:%s
-command.buildcraft.noperms=你没有使用该指令的权限.
+command.buildcraft.noperms=你没有使用该指令的权限
 
 command.buildcraft.buildcraft.help=建筑相关指令集
-command.buildcraft.buildcraft.format=格式:/%s<子命令>
+command.buildcraft.buildcraft.format=格式:/%s <子命令>
 
 command.buildcraft.buildcraft.version.desc=-%s:版本信息
 command.buildcraft.buildcraft.version.help=显示当前及最新BC版本
 command.buildcraft.buildcraft.version.format=格式:/%s
 
 command.buildcraft.buildcraft.changelog.desc=-%s:更新日志
-command.buildcraft.buildcraft.changelog.help=显示最新BC日志.
+command.buildcraft.buildcraft.changelog.help=显示最新BC日志
 command.buildcraft.buildcraft.changelog.format=格式:/%s
 
 buildcraft.item.nonclean.usage=Shift右键点击以清理
@@ -776,12 +776,12 @@ buildcraft.help.stone_engine.flame=着火了，(帮助没写完)
 buildcraft.help.stone_engine.fuel=接受燃油类别和熔炉相同
 
 command.buildcraft.buildcraft.op.desc=- %s : Op FakePlayer
-command.buildcraft.buildcraft.op.help=给予BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限.
+command.buildcraft.buildcraft.op.help=给予BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限
 command.buildcraft.buildcraft.op.format=格式:/%s
-command.buildcraft.buildcraft.deop.desc=- %s : Deop FakePlayer
-command.buildcraft.buildcraft.deop.help=撤销BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限.
-command.buildcraft.buildcraft.deop.format=格式:/%s
 
+command.buildcraft.buildcraft.deop.desc=- %s : Deop FakePlayer
+command.buildcraft.buildcraft.deop.help=撤销BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限
+command.buildcraft.buildcraft.deop.format=格式:/%s
 
 #advancements
 advancements.buildcraftcore.root.title=BuildCraft
@@ -880,7 +880,7 @@ advancements.buildcrafttransport.logic_transportation.description=连接管道�
 advancements.buildcrafttransport.extended_logic.title=扩展逻辑
 advancements.buildcrafttransport.extended_logic.description=使用带有额外插槽的门
 
-advancements.buildcrafttransport.sealing_fluids.title=将流体密封
+advancements.buildcrafttransport.sealing_fluids.title=流体密封
 advancements.buildcrafttransport.sealing_fluids.description=用仙人掌做成管道密封剂
 
 advancements.buildcrafttransport.pipe_logic.title=管道逻辑
@@ -899,7 +899,7 @@ advancements.buildcrafttransport.colorful_electrician.title=彩色管工
 advancements.buildcrafttransport.colorful_electrician.description=使用16种颜色来标记管道，提高管道系统的健壮性
 
 advancements.buildcraftbuilders.shaping_the_world.title=塑造世界
-advancements.buildcraftbuilders.shaping_the_world.description=合成并放置采石机
+advancements.buildcraftbuilders.shaping_the_world.description=合成并放置采石场
 
 advancements.buildcraftbuilders.architect.title=建筑师
 advancements.buildcraftbuilders.architect.description=用建筑工作台扫描区域，并把区域保存在蓝图/模板中
