@@ -24,7 +24,7 @@ buildcraft.boardRobotBreaker=破坏机器人
 buildcraft.boardRobotPicker.desc=拾取物品
 buildcraft.boardRobotLumberjack.desc=伐木
 buildcraft.boardRobotPlanter.desc=种植作物
-buildcraft.boardRobotLeaveCutter.desc=剪树叶
+buildcraft.boardRobotLeaveCutter.desc=修剪树叶
 buildcraft.boardRobotCarrier.desc=在容器间搬运物品
 buildcraft.boardRobotFluidCarrier.desc=在储罐间运输流体
 buildcraft.boardRobotBomber.desc=轰炸区域
@@ -39,7 +39,7 @@ buildcraft.boardRobotCrafter.desc=合成物品
 buildcraft.boardRobotDelivery.desc=根据需求配送物品
 buildcraft.boardRobotPump.desc=泵出流体
 buildcraft.boardRobotStripes.desc=它...就是条纹！
-buildcraft.boardRobotStripes.desc=采掘石头
+buildcraft.boardRobotBreaker.desc=采掘石头
 
 chat.gateCopier.clear=门信息已清除.
 chat.gateCopier.gateCopied=复制门信息到拷贝器中.
