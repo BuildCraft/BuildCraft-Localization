@@ -165,37 +165,37 @@ direction.center.7=南面
 direction.center.8=东南
 
 buildcraft.fluid.empty=空
-buildcraft.fluid.static.milli.short=%s mB
-buildcraft.fluid.static.bucket.short=%s B
-buildcraft.fluid.static.milli.long=%s 毫桶
-buildcraft.fluid.static.bucket.long=%s 桶
+buildcraft.fluid.static.milli.short=%smB
+buildcraft.fluid.static.bucket.short=%sB
+buildcraft.fluid.static.milli.long=%s毫桶
+buildcraft.fluid.static.bucket.long=%s桶
 
-buildcraft.fluid.empty.milli.short=0 / %s mB
-buildcraft.fluid.empty.bucket.short=0 / %s B
-buildcraft.fluid.empty.milli.long=空的 %s 毫桶储槽
-buildcraft.fluid.empty.bucket.long=空的 %s 桶储槽
+buildcraft.fluid.empty.milli.short=0/%smB
+buildcraft.fluid.empty.bucket.short=0/%sB
+buildcraft.fluid.empty.milli.long=空的%s毫桶储槽
+buildcraft.fluid.empty.bucket.long=空的%s桶储槽
 
-buildcraft.fluid.full.milli.short=%1$s / %1$s mB
-buildcraft.fluid.full.bucket.short=%1$s / %1$s B
-buildcraft.fluid.full.milli.long=满的 %s 毫桶储槽
-buildcraft.fluid.full.bucket.long=满的 %s 桶储槽
+buildcraft.fluid.full.milli.short=%1$s/%1$s mB
+buildcraft.fluid.full.bucket.short=%1$s/%1$s B
+buildcraft.fluid.full.milli.long=满的%s毫桶储槽
+buildcraft.fluid.full.bucket.long=满的%s桶储槽
 
-buildcraft.fluid.static.cap.milli.short=%s / %s mB
-buildcraft.fluid.static.cap.bucket.short=%s / %s B
-buildcraft.fluid.static.cap.milli.long=%s 毫桶 (在 %s 毫桶储槽中)
-buildcraft.fluid.static.cap.bucket.long=%s 桶 (在 %s 桶储槽中)
+buildcraft.fluid.static.cap.milli.short=%s/%smB
+buildcraft.fluid.static.cap.bucket.short=%s/%sB
+buildcraft.fluid.static.cap.milli.long=%s毫桶 (在%s毫桶储槽中)
+buildcraft.fluid.static.cap.bucket.long=%s桶 (在%s桶储槽中)
 
-buildcraft.fluid.flow.milli.short=%s mB/t
-buildcraft.fluid.flow.bucket.short=%s B/s
-buildcraft.fluid.flow.milli.long=%s 毫桶每刻
-buildcraft.fluid.flow.bucket.long=%s 桶每秒
+buildcraft.fluid.flow.milli.short=%smB/t
+buildcraft.fluid.flow.bucket.short=%sB/s
+buildcraft.fluid.flow.milli.long=%s毫桶每刻
+buildcraft.fluid.flow.bucket.long=%s桶每秒
 
-buildcraft.mj.static.long=%s MC焦耳
-buildcraft.mj.static.short=%s MJ
-buildcraft.mj.flow.long=%s MC焦耳每刻
-buildcraft.mj.flow.short=%s MJ/t
-buildcraft.mj.flow.seconds.long=%s MC焦耳每秒
-buildcraft.mj.flow.seconds.short=%s MJ/s
+buildcraft.mj.static.long=%sMC焦耳
+buildcraft.mj.static.short=%sMJ
+buildcraft.mj.flow.long=%sMC焦耳每刻
+buildcraft.mj.flow.short=%sMJ/t
+buildcraft.mj.flow.seconds.long=%sMC焦耳每秒
+buildcraft.mj.flow.seconds.short=%sMJ/s
 
 fillerpattern.clear=清除
 fillerpattern.fill=填充
@@ -245,9 +245,9 @@ fluid.fuel_dense=稠密燃油
 fluid.fuel_light=轻质燃油
 fluid.fuel_gaseous=气态燃油
 
-buildcraft.fluid.heat_0=%s (§b冷§r)
-buildcraft.fluid.heat_1=%s (§6热§r)
-buildcraft.fluid.heat_2=%s (§c灼热§r)
+buildcraft.fluid.heat_0=%s(§b冷§r)
+buildcraft.fluid.heat_1=%s(§6热§r)
+buildcraft.fluid.heat_2=%s(§c灼热§r)
 
 buildcraft.christmas.fluid.oil=生巧克力粉
 buildcraft.christmas.fluid.fuel=牛奶巧克力
@@ -261,9 +261,9 @@ buildcraft.christmas.fluid.fuel_dense=黑巧克力
 buildcraft.christmas.fluid.fuel_light=牛奶巧克力
 buildcraft.christmas.fluid.fuel_gaseous=白巧克力
 
-buildcraft.christmas.buildcraft.fluid.heat_0=§b融化§r %s
-buildcraft.christmas.buildcraft.fluid.heat_1=§6沸腾§r %s
-buildcraft.christmas.buildcraft.fluid.heat_2=§c灼热§r %s
+buildcraft.christmas.buildcraft.fluid.heat_0=§b融化§r%s
+buildcraft.christmas.buildcraft.fluid.heat_1=§6沸腾§r%s
+buildcraft.christmas.buildcraft.fluid.heat_2=§c灼热§r%s
 
 buildcraft.christmas.tile.engineIron.name=巧克力引擎
 
@@ -296,7 +296,7 @@ gate.action.station.forbid_robot=禁用机器人
 gate.action.station.force_robot=强制机器人
 gate.action.robot.filter=过滤
 gate.action.robot.filter_tool=过滤工具
-gate.action.pipe.direction=面向 %s 方
+gate.action.pipe.direction=面向%s方
 
 gate.logic.and=与
 gate.logic.or=或
@@ -305,12 +305,12 @@ gate.material.iron=铁质
 gate.material.nether_brick=地狱砖质
 gate.material.gold=金质
 
-gate.slots=%s 位置
-gate.params=%s 位置参数
-gate.params.trigger=%s 触发参数
-gate.params.action=%s 运行参数
+gate.slots=%s位置
+gate.params=%s位置参数
+gate.params.trigger=%s触发参数
+gate.params.action=%s运行参数
 
-gate.side=§7在 %s§7 方向
+gate.side=§7在%s§7方向
 
 gate.name=%s%s门
 gate.name.basic=基础门
@@ -327,12 +327,12 @@ gate.trigger.fluid.empty=储罐空
 gate.trigger.fluid.contains=储罐有流体
 gate.trigger.fluid.space=储罐有空间
 gate.trigger.fluid.full=储罐满
-gate.trigger.fluidlevel.below=已使用空间 < %d%%
+gate.trigger.fluidlevel.below=已使用空间<%d%%
 gate.trigger.inventory.empty=容器空
 gate.trigger.inventory.contains=容器有物品
 gate.trigger.inventory.space=容器有空间
 gate.trigger.inventory.full=容器满
-gate.trigger.inventorylevel.below=已使用空间 < %d%%
+gate.trigger.inventorylevel.below=已使用空间<%d%%
 gate.trigger.machine.done=工作完成
 gate.trigger.machine.scheduled=有工作
 gate.trigger.redstone.input.active=红石信号开
@@ -356,17 +356,17 @@ gate.trigger.robot.linked=转接坞连接
 gate.trigger.robot.reserved=转接坞预留
 gate.trigger.machine.energyStored.high=高能量存储
 gate.trigger.machine.energyStored.low=低能量存储
-gate.trigger.machine.energyStored.below25=能量储量 < 25%
-gate.trigger.machine.energyStored.below50=能量储量 < 50%
-gate.trigger.machine.energyStored.below75=能量储量 < 75%
+gate.trigger.machine.energyStored.below25=能量储量<25%
+gate.trigger.machine.energyStored.below50=能量储量<50%
+gate.trigger.machine.energyStored.below75=能量储量<75%
 gate.trigger.light.bright=明亮
 gate.trigger.light.dark=黑暗
 gate.trigger.time.0=夜晚
 gate.trigger.time.6=早晨
 gate.trigger.time.12=下午
 gate.trigger.time.18=傍晚
-gate.trigger.fuelLevelBelow=燃料少于 %d%%
-gate.trigger.coolantLevelBelow=冷却液少于 %d%%
+gate.trigger.fuelLevelBelow=燃油少于%d%%
+gate.trigger.coolantLevelBelow=冷却液少于%d%%
 
 gui.fluidtank.empty=空
 
@@ -394,7 +394,7 @@ gui.pipes.emerald.blocking.tip=若过滤设置中有缺失对象则阻挡被抽�
 gui.pipes.emerald.nonblocking=不阻挡
 gui.pipes.emerald.nonblocking.tip=若过滤设置对象缺失则抽取下一个过滤设置对象
 gui.pipes.emzuli.title=抽取预设
-gui.pipes.emzuli.paint=染色物品 %s
+gui.pipes.emzuli.paint=染色物品%s
 gui.pipes.emzuli.nopaint=不对物品染色
 gui.ledger.ownership=拥有者
 gui.ledger.help=帮助
@@ -441,7 +441,7 @@ item.gateCopier.name=门设拷贝器
 item.plasticSheet.name=塑料表格
 item.markerConnector.name=记号连接器
 item.pulsar.name=管道脉冲
-item.fragile_fluid_shard.name=脆弱的 %s 碎片
+item.fragile_fluid_shard.name=脆弱的%s碎片
 item.waterGel.name=水凝胶剂
 item.gel.name=水凝胶
 
@@ -503,7 +503,7 @@ item.PipeRobotStation.name=机器人转接坞
 item.Facade.name=伪装板
 item.Facade.state_hollow=中空
 item.FacadePhased.name=多阶伪装板
-item.FacadePhased.state=%s: %s
+item.FacadePhased.state=%s:%s
 item.FacadePhased.state_default=默认:%s
 item.FacadePhased.state_transparent=透明度
 item.PipePlug.name=管塞
@@ -691,42 +691,42 @@ achievement.templateAchievement.desc=合成出模板
 achievement.blueprintLibraryAchievement=创意永流传
 achievement.blueprintLibraryAchievement.desc=合成出蓝图档案馆
 
-bc_update.new_version=§c新版Buildcraft可用:版本为%s,适用于Minecraft %s
-bc_update.download=§c从 http://www.mod-buildcraft.com/download 下载
+bc_update.new_version=§c新版Buildcraft可用:版本为%s,适用于Minecraft%s
+bc_update.download=§c从http://www.mod-buildcraft.com/download下载
 bc_update.once=本信息默认仅显示一次
-bc_update.again=若想再次查看可输入指令 '/buildcraft version'
-bc_update.changelog=输入指令 '/buildcraft changelog' 以查看日志
+bc_update.again=若想再次查看可输入指令'/buildcraft version'
+bc_update.changelog=输入指令'/buildcraft changelog'以查看日志
 
 chat.buildcraft.quarry.tooSmall=[BuildCraft] 采石场区域超出载入区块边界或太小 %d %d (%d)
 chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] 位于 %d %d %d 的采石场将保持%d个区块载入
 
-command.buildcraft.version=BuildCraft%s,适用于Minecraft %s (最新版本为: %s).
-command.buildcraft.changelog_header=BuildCraft更新日志 %s:
+command.buildcraft.version=BuildCraft%s,适用于Minecraft%s(最新版本为:%s).
+command.buildcraft.changelog_header=BuildCraft更新日志%s:
 command.buildcraft.version.fail=版本检查失败，请看日志文件
 command.buildcraft.version.prerelease=你正在使用预发布版本
 
-command.buildcraft.aliases=别名: %s
-command.buildcraft.help=输入 '%s' 查看帮助.
+command.buildcraft.aliases=别名:%s
+command.buildcraft.help=输入'%s'查看帮助.
 command.buildcraft.list=可用命令:
-command.buildcraft.permlevel=权限等级: %s
+command.buildcraft.permlevel=权限等级:%s
 command.buildcraft.noperms=你没有使用该指令的权限.
 
 command.buildcraft.buildcraft.help=建筑相关指令集
-command.buildcraft.buildcraft.format=格式: /%s <子命令>
+command.buildcraft.buildcraft.format=格式:/%s<子命令>
 
-command.buildcraft.buildcraft.version.desc=- %s : 版本信息
+command.buildcraft.buildcraft.version.desc=-%s:版本信息
 command.buildcraft.buildcraft.version.help=显示当前及最新BC版本
-command.buildcraft.buildcraft.version.format=格式: /%s
+command.buildcraft.buildcraft.version.format=格式:/%s
 
-command.buildcraft.buildcraft.changelog.desc=- %s : 更新日志
+command.buildcraft.buildcraft.changelog.desc=-%s:更新日志
 command.buildcraft.buildcraft.changelog.help=显示最新BC日志.
-command.buildcraft.buildcraft.changelog.format=格式: /%s
+command.buildcraft.buildcraft.changelog.format=格式:/%s
 
 buildcraft.item.nonclean.usage=Shift右键点击以清理
 
 buildcraft.guide.book.meta.name=BuildCraft 配置教程
 buildcraft.guide_book.reloaded=教程书已重载
-buildcraft.guide.too_many_results=无法显示更多内容： %s
+buildcraft.guide.too_many_results=无法显示更多内容：%s
 buildcraft.guide.chapter_list=章节
 buildcraft.guide.contents.loaded_modules=已加载的模块:
 buildcraft.guide.contents.missing_modules=缺失的模块:
@@ -777,10 +777,10 @@ buildcraft.help.stone_engine.fuel=接受燃油类别和熔炉相同
 
 command.buildcraft.buildcraft.op.desc=- %s : Op FakePlayer
 command.buildcraft.buildcraft.op.help=给予BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限.
-command.buildcraft.buildcraft.op.format=格式: /%s
+command.buildcraft.buildcraft.op.format=格式:/%s
 command.buildcraft.buildcraft.deop.desc=- %s : Deop FakePlayer
 command.buildcraft.buildcraft.deop.help=撤销BC模拟玩家(以采石场，机器人等名义执行动作)服务器op权限.
-command.buildcraft.buildcraft.deop.format=格式: /%s
+command.buildcraft.buildcraft.deop.format=格式:/%s
 
 
 #advancements
