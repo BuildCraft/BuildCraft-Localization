@@ -121,7 +121,7 @@ gate.material.quartz=水晶
 gate.name=%sの%sゲート
 gate.name.basic=基本ゲート
 
-gate.parameter.redstone.gateSideOnly=Gate Side Only
+gate.parameter.redstone.gateSideOnly=ゲート側のみ
 
 gate.trigger.engine.blue=エンジンの色が青
 gate.trigger.engine.green=エンジンの色が緑
@@ -255,10 +255,10 @@ item.PipeFluidsSandstone.name=砂岩の防水パイプ
 item.PipePowerSandstone.name=砂岩の伝導パイプ
 item.PipeRobotStation.name=ドック
 item.Facade.name=外装板
-item.FacadePhased.name=Phased Facade
+item.FacadePhased.name=段階的な外装板
 item.FacadePhased.state=%s: %s
-item.FacadePhased.state_default=Default: %s
-item.FacadePhased.state_transparent=Transparent
+item.FacadePhased.state_default=デフォルト: %s
+item.FacadePhased.state_transparent=透明
 item.PipePlug.name=パイプ栓
 item.Lens.name=カラーレンズ
 item.Filter.name=カラーフィルター
@@ -353,11 +353,11 @@ tip.PipeStructureCobblestone=支持パイプ
 tip.shift.PipeFluidsDiamond=GUI accepts any fluid containers
 tip.shift.PipeFluidsEmerald=GUI accepts any fluid container
 tip.shift.PipeItemsClay=Prioritizes machines and chests\nover neighbouring pipes.
-tip.shift.PipeItemsDaizuli=Sneak-click to change color
+tip.shift.PipeItemsDaizuli=Shift+クリックで色を変更できます。
 tip.shift.PipeItemsEmzuli=Set extraction preset filters in GUI\nA preset can paint extracted items\nSwitch extraction presets via gates
-tip.shift.PipeItemsLapis=Sneak-click to change color
+tip.shift.PipeItemsLapis=Shift+クリックで色を変更できます。
 tip.shift.PipeItemsObsidian=Power with an engine\nMore power - greater distance
-tip.shift.PipePowerIron=Change the limit with a wrench or gates
+tip.shift.PipePowerIron=ゲートの制限をレンチで変更できます。
 
 tip.tool.add=追加
 tip.tool.remove=削除
