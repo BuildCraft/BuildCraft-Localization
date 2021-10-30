@@ -18,7 +18,7 @@ buildcraft.boardRobotBuilder=建築
 buildcraft.boardRobotCrafter=クラフト
 buildcraft.boardRobotDelivery=配達
 buildcraft.boardRobotPump=ポンプ
-buildcraft.boardRobotStripes=Stripes
+buildcraft.boardRobotStripes=ストライプ
 
 chat.gateCopier.clear=ゲートコピー機の情報を消去しました
 chat.gateCopier.gateCopied=ゲートの情報をコピーしました
@@ -38,7 +38,7 @@ chat.pipe.power.iron.level.80=少し低い
 chat.pipe.power.iron.level.160=正常
 chat.pipe.power.iron.level.320=高い
 chat.pipe.power.iron.level.640=非常に高い
-chat.pipe.power.iron.level.1280=Full Capacity
+chat.pipe.power.iron.level.1280=最大
 
 color.black=黒
 color.blue=青
@@ -406,7 +406,7 @@ achievement.blueprintLibraryAchievement=あなたのアイデアそのままに
 achievement.blueprintLibraryAchievement.desc=青写真ライブラリを作る
 
 bc_update.new_version=§cBuildCraftの新しいバージョンがリリースされています: %s for Minecraft %s
-bc_update.download=§cダウンロードはこちら http://www.mod-buildcraft.com/download
+bc_update.download=§cダウンロードはこちら http://www.mod-buildcraft.com/download.html
 bc_update.once=このメッセージは起動時、一度だけ表示されます
 bc_update.again=このメッセージを次から表示したくない場合は'/buildcraft version'と打ち込んで下さい
 
