@@ -1,6 +1,6 @@
-# German lang file, tanslated by SirSengir, Keksynator, Vexatos, FGpisces and leSamo
+# German lang file, tanslated by SirSengir, Keksynator, Vexatos, FGpisces, leSamo and Nerdyyy
 
-buildcraft.boardRobotClean=Rein
+buildcraft.boardRobotClean=Reiniger
 buildcraft.boardRobotPicker=Sammler
 buildcraft.boardRobotLumberjack=Holzfäller
 buildcraft.boardRobotPlanter=Gärtner
@@ -19,7 +19,7 @@ buildcraft.boardRobotCrafter=Handwerker
 buildcraft.boardRobotDelivery=Lieferant
 buildcraft.boardRobotPump=Pumpe
 buildcraft.boardRobotStripes=Gestreift
-buildcraft.boardRobotBreaker=Brecher
+buildcraft.boardRobotBreaker=Zerstörer
 
 buildcraft.boardRobotPicker.desc=Sammelt Items auf
 buildcraft.boardRobotLumberjack.desc=Fällt Bäume
@@ -98,10 +98,10 @@ config.blueprints.excludedBlocks=Ausgeschlossene Blöcke
 config.builders.dropBrokenBlocks=Abgebaute Blöcke nicht zerstören
 
 config.display.colorBlindMode=Farbenblind-Modus
-config.display.hideFluidValues=Flüssigkeitszahlen verstecken
-config.display.hidePowerValues=Energiezahlen verstecken
+config.display.hideFluidValues=Flüssigkeitswerte verstecken
+config.display.hidePowerValues=Energiewerte verstecken
 
-config.experimental.kinesisPowerLossOnTravel=Energieleitungs-Energieverlust
+config.experimental.kinesisPowerLossOnTravel=Energieleitungs-Verlust
 
 config.general.boards.blacklist=Roboter-Blacklist
 config.general.pumpsConsumeWater=Pumpen verbrauchen Wasser
