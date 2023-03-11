@@ -403,8 +403,8 @@ item.PipePowerAdapter.name=Energetický adaptér
 item.debugger.name=Ladič
 item.debugger.warning=Používej jenom k testování! Může prozradit tajemství.
 item.package.name=Balík
-
-
+item.guideBook.name=Příručka
+item.robot_goggles.name=Robotí brýle
 
 itemGroup.buildcraft.machines=BuildCraft: Stroje
 itemGroup.buildcraft.facades=BuildCraft: Fasády
@@ -463,10 +463,15 @@ tip.gate.wires.redstone=Červená
 tip.gate.wires.iron=Červená, modrá
 tip.gate.wires.gold=Červená, modrá, žlutá
 tip.gate.wires.diamond=Červená, modrá, žlutá, zelená
+tip.gate.wires.quartz=Červená, modrá, zelená
+tip.gate.wires.emerald=Červená, modrá, zelená, žlutá
+
 tip.gate.expansions=§9§oInstalovaná rozšíření:
 
+tip.PipeFluidsClay=Vkládací trubka
 tip.PipeFluidsCobblestone=Základní trubka\nNepřipojí se ke kamenné
 tip.PipeFluidsEmerald=Extrahující trubka
+tip.PipeFluidsDiamond=Třídí tekutiny
 tip.PipeFluidsGold=Základní trubka
 tip.PipeFluidsIron=Ventilová trubka
 tip.PipeFluidsSandstone=Připojuje se jen na jiné trubky (ne na stroje)
@@ -490,3 +495,13 @@ tip.PipeItemsEmzuli=Extrahuje předměty bránami
 tip.PipePowerWood=Extrahuje energii
 tip.PipePowerIron=Trubka, která může zvolit limit energie
 tip.PipeStructureCobblestone=Podpůrná trubka
+tip.deprecated=Zastaralé
+
+tip.filler.excavate.on=Vykopávat
+tip.filler.excavate.off=Nevykopávat
+
+tip.list.matches=Shoduje se
+
+tip.tool.add=Přidat
+tip.tool.fullscreen=Celá obrazovka
+tip.tool.remove=Odstranit
