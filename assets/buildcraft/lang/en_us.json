@@ -931,6 +931,11 @@
     "item.volume_box.name": "Volume Box",
 
     "item.buildcraft.bucket_filled": "%s Bucket",
+
+    "gui.creativetab.pipe.button.all": "All Colours",
+    "gui.creativetab.pipe.button.filtered": "Only %s",
+
+    "item.minecraft.firework_star.colorless": "§fColorless",
     
     "chat.buildcraft.schematic_single.not_enough_item": "Not enough items. Total needed: ",
     "chat.buildcraft.schematic_single.require_fluid": "Schematic requires fluids",

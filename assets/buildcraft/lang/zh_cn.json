@@ -932,6 +932,12 @@
     "item.buildcraft.bucket_filled": "%s 桶",
 
     "gui.power": "能量",
+
+    "gui.creativetab.pipe.button.all": "所有颜色",
+    "gui.creativetab.pipe.button.filtered": "只显示 %s",
+
+    "item.minecraft.firework_star.colorless": "§f无色",
+
     "chat.buildcraft.schematic_single.not_enough_item": "物品不足 共需要: ",
     "chat.buildcraft.schematic_single.require_fluid": "需要流体!",
     "chat.buildcraft.schematic_single.invalid": "图纸不可用: ",
