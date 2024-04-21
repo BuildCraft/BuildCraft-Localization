@@ -924,6 +924,7 @@
     "tile.zonePlan.name": "区域规划机",
     "tile.waterGel.name": "水凝胶剂",
     "tile.tubeBlock.name": "管子",
+    "tile.power_tester.name": "能量测试器",
 
     "item.globOil.name": "原油球[竟然被你拿到了?!]",
     "item.oilPlacer.name": "§e[调试工具] §b油井放置器",
