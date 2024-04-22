@@ -920,6 +920,9 @@
     "advancements.buildcraftbuilders.destroying_the_world.description": "有两个或以上的采石场(64X64, 全速运行)",
 
     // Calen: 1.18.2 new
+    "advancements.buildcrafttransport.too_many_pipe_filters.title": "过滤条件太多了",
+    "advancements.buildcrafttransport.too_many_pipe_filters.description": "试试列表?",
+
     "tile.replacerBlock.name": "替换机",
     "tile.zonePlan.name": "区域规划机",
     "tile.waterGel.name": "水凝胶剂",

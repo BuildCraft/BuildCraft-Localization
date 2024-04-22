@@ -921,6 +921,9 @@
     "advancements.buildcraftbuilders.destroying_the_world.description": "Have two or more 64 x 64 sized quarries running at once at full speed",
 
     // Calen: 1.18.2 new
+    "advancements.buildcrafttransport.too_many_pipe_filters.title": "Too many filters",
+    "advancements.buildcrafttransport.too_many_pipe_filters.description": "Try using a list",
+
     "tile.replacerBlock.name": "Replacer",
     "tile.zonePlan.name": "Zone Planer",
     "tile.waterGel.name": "Water Gelifier",
