@@ -929,7 +929,6 @@
     "tile.waterGel.name": "Water Gelifier",
     "tile.tubeBlock.name": "Tube",
     "tile.power_tester.name": "Power Tester",
-    "tile.pipeHolder.name": "Pipe",
 
     "item.globOil.name": "Oil Glob [How did you get this?!]",
     "item.oilPlacer.name": "§e[Debug Tool] §bOil Well Placer",
