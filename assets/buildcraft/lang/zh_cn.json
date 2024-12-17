@@ -760,7 +760,7 @@
     "buildcraft.guide.group.to.buildcraft.area_markers": "区域标记",
     "buildcraft.guide.group.from.buildcraft.area_markers": "区域相关标记",
 
-    "buildcraft.help.tank.generic": "用一个空桶点击它，它里面的液体就会装进桶里",
+    "buildcraft.help.tank.generic": "用一个空桶点击它，\\n它里面的液体就会装进桶里",
     "buildcraft.help.tank.title.tankFuel": "燃油储罐",
     "buildcraft.help.tank.title.tankCoolant": "冷却液储罐",
     "buildcraft.help.tank.title.tankResidue": "残渣储罐",
@@ -924,7 +924,7 @@
     "advancements.buildcrafttransport.too_many_pipe_filters.description": "试试列表?",
 
     "tile.replacerBlock.name": "替换机",
-    "tile.zonePlan.name": "区域规划机",
+    "tile.zonePlannerBlock.name": "区域规划机",
     "tile.waterGel.name": "水凝胶剂",
     "tile.tubeBlock.name": "管子",
     "tile.power_tester.name": "能量测试器",
