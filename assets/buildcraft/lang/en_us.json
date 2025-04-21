@@ -925,7 +925,6 @@
     "advancements.buildcrafttransport.too_many_pipe_filters.description": "Try using a list",
 
     "tile.replacerBlock.name": "Replacer",
-    "tile.zonePlan.name": "Zone Planer",
     "tile.waterGel.name": "Water Gelifier",
     "tile.tubeBlock.name": "Tube",
     "tile.power_tester.name": "Power Tester",
@@ -949,6 +948,13 @@
     "buildcraft.help.tank.title.tank2": "Tank 2",
     "buildcraft.help.tank.title.tank3": "Tank 3",
     "buildcraft.help.tank.title.tank4": "Tank 4",
+
+    "buildcraft.param.facing.north": "Facing north",
+    "buildcraft.param.facing.west": "Facing west",
+    "buildcraft.param.facing.east": "Facing east",
+    "buildcraft.param.facing.south": "Facing south",
+    "buildcraft.param.facing.up": "Facing up",
+    "buildcraft.param.facing.down": "Facing down",
 
     "null": "=w="
 }

@@ -1,7 +1,7 @@
 {
     // zh_CN
 
-    "buildcraft.boardRobotClean": "清洁机器人",
+    "buildcraft.boardRobotClean": "机器人",
     "buildcraft.boardRobotPicker": "拾取机器人",
     "buildcraft.boardRobotLumberjack": "伐木机器人",
     "buildcraft.boardRobotPlanter": "种植机器人",
@@ -950,6 +950,13 @@
     "buildcraft.help.tank.title.tank2": "储罐 2",
     "buildcraft.help.tank.title.tank3": "储罐 3",
     "buildcraft.help.tank.title.tank4": "储罐 4",
+
+    "buildcraft.param.facing.north": "朝北",
+    "buildcraft.param.facing.west": "朝西",
+    "buildcraft.param.facing.east": "朝东",
+    "buildcraft.param.facing.south": "朝南",
+    "buildcraft.param.facing.up": "朝上",
+    "buildcraft.param.facing.down": "朝下",
 
     "null": "=w="
 }
