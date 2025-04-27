@@ -551,7 +551,6 @@
     "itemGroup.buildcraft.plugs": "BuildCraft Pluggables",
 
     "tile.architectBlock.name": "Architect Table",
-    "tile.architectBlock.tip": "Not usable in survival",
     "tile.assemblyTableBlock.name": "Assembly Table",
     "tile.assemblyWorkbenchBlock.name": "Advanced Crafting Table",
     "tile.autoWorkbenchBlock.name": "Auto Workbench",
@@ -559,7 +558,6 @@
     "tile.chuteBlock.name": "Chute",
     "tile.blockOil.name": "Oil",
     "tile.builderBlock.name": "Builder",
-    "tile.builderBlock.tip": "Not usable in survival",
     "tile.chargingTableBlock.name": "Charging Table",
     "tile.chargingTableBlock.tip": "Nothing can be charged with this!",
     "tile.constructionMarkerBlock.name": "Construction Mark",
@@ -579,7 +577,6 @@
     "tile.integrationTableBlock.name": "Integration Table",
     "tile.laserBlock.name": "Laser",
     "tile.libraryBlock.name": "Electronic Library",
-    "tile.libraryBlock.tip": "Not usable in survival",
     "tile.quarryBlock.name": "Quarry",
     "tile.markerBlock.name": "Land Mark",
     "tile.miningWellBlock.name": "Mining Well",

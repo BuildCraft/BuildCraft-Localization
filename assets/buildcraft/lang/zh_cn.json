@@ -388,7 +388,7 @@
     "gui.lock": "已锁定",
     "gui.needed": "需要",
     "gui.unlock": "未锁定",
-    "gui.energy": "能量",
+    "gui.power": "能量",
     "gui.currentOutput": "当前输出",
     "gui.stored": "存储能量",
     "gui.heat": "热量",
@@ -550,7 +550,6 @@
     "itemGroup.buildcraft.plugs": "Buildcraft 门",
 
     "tile.architectBlock.name": "建筑工作台",
-    "tile.architectBlock.tip": "生存模式不可用",
     "tile.assemblyTableBlock.name": "装配台",
     "tile.assemblyWorkbenchBlock.name": "高级工作台",
     "tile.autoWorkbenchBlock.name": "自动合成台",
@@ -558,7 +557,6 @@
     "tile.chuteBlock.name": "滑槽",
     "tile.blockOil.name": "原油",
     "tile.builderBlock.name": "建筑机",
-    "tile.builderBlock.tip": "生存模式不可用",
     "tile.chargingTableBlock.name": "充能台",
     "tile.chargingTableBlock.tip": "没法用它充能",
     "tile.constructionMarkerBlock.name": "建设标",
@@ -971,8 +969,6 @@
     "item.volume_box.name": "范围选择选器",
 
     "item.buildcraft.bucket_filled": "%s 桶",
-
-    "gui.power": "能量",
 
     "gui.creativetab.pipe.button.all": "所有颜色",
     "gui.creativetab.pipe.button.filtered": "只显示 %s",
