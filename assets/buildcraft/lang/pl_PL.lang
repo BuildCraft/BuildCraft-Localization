@@ -3,8 +3,7 @@
 # updated to BuildCraft 6.1.x by asie
 # matches official minecraft translation
 
-chat.pipe.power.iron.mode=Ograniczono do %d RF/t
-
+chat.pipe.power.iron.mode="Przełączono na ograniczenie do %d RF/t"
 color.black=Czarny
 color.blue=Niebieski
 color.brown=Brązowy
@@ -21,8 +20,7 @@ color.purple=Purpurowy
 color.red=Czerwony
 color.white=Biały
 color.yellow=Żółty
-
-fillerpattern.clear=Wyczyść
+fillerpattern.clear="Wyczyść"
 fillerpattern.fill=Wypełnij
 fillerpattern.flatten=Spłaszcz
 fillerpattern.horizon=Horyzont
@@ -31,10 +29,8 @@ fillerpattern.stairs=Schody
 fillerpattern.box=Pudełko
 fillerpattern.cylinder=Cylinder
 fillerpattern.frame=Rama
-
 fluid.oil=Ropa
 fluid.fuel=Paliwo
-
 gate.action.extraction=%s Ustawienia ekstrakcji
 gate.action.pipe.item.color=Pomaluj przedmioty %s
 gate.action.machine.on=Włączona
@@ -60,19 +56,15 @@ gate.action.robot.work_in_area=Pracuj na obszarze
 gate.action.robot.wakeup=Obudź się
 gate.action.station.forbid_robot=Robot zakazany
 gate.action.robot.filter=Filtr
-
 gate.expansion.fader=Regulator
 gate.expansion.pulsar=Pulsar
 gate.expansion.timer=Zegar
-
 gate.material.iron=Żelazna
 gate.material.gold=Złota
 gate.material.diamond=Diamentowa
 gate.material.emerald=Szmaragdowa
-
 gate.name=%s bramka %s
 gate.name.basic=Bramka podstawowa
-
 gate.trigger.engine.blue=Silnik niebieski
 gate.trigger.engine.green=Silnik zielony
 gate.trigger.engine.yellow=Silnik żółty
@@ -104,7 +96,6 @@ gate.trigger.timer=%s sekundowy zegar
 gate.trigger.robot.sleep=Robot śpi
 gate.trigger.machine.energyStoredHigh=Wysoka ilość zgromadzonej energii
 gate.trigger.machine.energyStoredLow=Niska ilość zgromadzonej energii
-
 gui.building.resources=Materiały budowlane
 gui.building.fluids=Zbiorniki cieczy
 gui.del=Usuń
@@ -119,7 +110,7 @@ gui.stored=Przechowane
 gui.heat=Ciepło
 gui.assemblyRate=Mnożnik energii
 gui.assemblyCurrentRequired=Energii wymaganej
-gui.clickcraft=Kliknij, aby utworzyć
+gui.clickcraft="-Kliknij, aby utworzyć-"
 gui.pipes.emerald.title=Filtry
 gui.pipes.emerald.blocking=Blokujące
 gui.pipes.emerald.blocking.tip=Jeśli brakuje danego elementu z filtra, wyciąganie jest wyłączone
@@ -127,8 +118,7 @@ gui.pipes.emerald.nonblocking=Nie Blokujące
 gui.pipes.emerald.nonblocking.tip=Jeśli brakuje danego elementu z filtra, wyciągany zostaje następny element
 gui.pipes.emzuli.title=Tryby wyciągania
 gui.pipes.emzuli.paint=Maluj przedmioty %s
-gui.pipes.emzuli.nopaint=Maluj przedmioty
-
+gui.pipes.emzuli.nopaint="Nie maluj przedmiotów"
 item.bucketFuel.name=Wiadro paliwa
 item.bucketOil.name=Wiadro ropy
 item.woodenGearItem.name=Drewniana przekładnia
@@ -203,13 +193,11 @@ item.FacadePhased.state=%s: %s
 item.FacadePhased.state_default=Domyślnie: %s
 item.FacadePhased.state_transparent=Przezroczysty
 item.PipePlug.name=Korek do rury
-
 itemGroup.buildcraft.blocks=Bloki Buildcrafta
 itemGroup.buildcraft.boards=Roboty Buildcrafta
 itemGroup.buildcraft.items=Przedmioty Buildcrafta
 itemGroup.buildcraft.pipes=Rury Buildcrafta
 itemGroup.buildcraft.facades=Fasady Buildcrafta
-
 tile.architectBlock.name=Stół architektoniczny
 tile.assemblyTableBlock.name=Stół montażowy
 tile.assemblyWorkbenchBlock.name=Zaawansowany stół rzemieślniczy
@@ -241,7 +229,6 @@ tile.spring.water.name=Źródło wody
 tile.spring.oil.name=Żródło ropy
 tile.tankBlock.name=Zbiornik
 tile.zonePlan.name=Planer strefy
-
 tile.architect.rotate=Obrót: Tak
 tile.architect.norotate=Obrót: Nie
 tile.architect.allblocks=Bloki: Wszystkie
@@ -250,7 +237,6 @@ tile.architect.excavate=Wykop: Tak
 tile.architect.noexcavate=Wykop: Nie
 tile.architect.supportmods=Mody: Obsługiwane
 tile.architect.allmods=Mody: Wszystkie
-
 tip.gate.wires=§9§oKompatybilne kable:
 tip.gate.wires.redstone=Czerwony
 tip.gate.wires.iron=Czerwony, niebieski
@@ -258,7 +244,6 @@ tip.gate.wires.gold=Czerwony, niebieski, zielony
 tip.gate.wires.diamond=Czerwony, niebieski, zielony, żółty
 tip.gate.wires.emerald=Czerwony, niebieski, zielony, żółty
 tip.gate.expansions=§9§oZainstalowane rozszerzenia:
-
 tip.PipeFluidsCobblestone=Podstawowa rura\nNie łączy się z kamieniem
 tip.PipeFluidsEmerald=Rura ekstrakcyjna
 tip.PipeFluidsGold=Podstawowa rura
@@ -286,3 +271,4 @@ tip.PipePowerWood=Przyjmuje energię
 tip.PipePowerEmerald=Przyjmuje energię
 tip.PipePowerIron=Ogranicza energię
 tip.PipeStructureCobblestone=Rura pomocnicza
+color.clear="Bezbarwny"
