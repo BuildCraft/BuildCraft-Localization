@@ -3,7 +3,7 @@
 # updated to BuildCraft 6.1.x by asie
 # matches official minecraft translation
 
-chat.pipe.power.iron.mode="Przełączono na ograniczenie do %d RF/t"
+chat.pipe.power.iron.mode=Przełączono na ograniczenie do %d RF/t
 color.black=Czarny
 color.blue=Niebieski
 color.brown=Brązowy
@@ -20,7 +20,7 @@ color.purple=Purpurowy
 color.red=Czerwony
 color.white=Biały
 color.yellow=Żółty
-fillerpattern.clear="Wyczyść"
+fillerpattern.clear=Wyczyść
 fillerpattern.fill=Wypełnij
 fillerpattern.flatten=Spłaszcz
 fillerpattern.horizon=Horyzont
@@ -110,7 +110,7 @@ gui.stored=Przechowane
 gui.heat=Ciepło
 gui.assemblyRate=Mnożnik energii
 gui.assemblyCurrentRequired=Energii wymaganej
-gui.clickcraft="-Kliknij, aby utworzyć-"
+gui.clickcraft=-Kliknij, aby utworzyć-
 gui.pipes.emerald.title=Filtry
 gui.pipes.emerald.blocking=Blokujące
 gui.pipes.emerald.blocking.tip=Jeśli brakuje danego elementu z filtra, wyciąganie jest wyłączone
@@ -118,7 +118,7 @@ gui.pipes.emerald.nonblocking=Nie Blokujące
 gui.pipes.emerald.nonblocking.tip=Jeśli brakuje danego elementu z filtra, wyciągany zostaje następny element
 gui.pipes.emzuli.title=Tryby wyciągania
 gui.pipes.emzuli.paint=Maluj przedmioty %s
-gui.pipes.emzuli.nopaint="Nie maluj przedmiotów"
+gui.pipes.emzuli.nopaint=Nie maluj przedmiotów
 item.bucketFuel.name=Wiadro paliwa
 item.bucketOil.name=Wiadro ropy
 item.woodenGearItem.name=Drewniana przekładnia
@@ -271,4 +271,4 @@ tip.PipePowerWood=Przyjmuje energię
 tip.PipePowerEmerald=Przyjmuje energię
 tip.PipePowerIron=Ogranicza energię
 tip.PipeStructureCobblestone=Rura pomocnicza
-color.clear="Bezbarwny"
+color.clear=Bezbarwny
