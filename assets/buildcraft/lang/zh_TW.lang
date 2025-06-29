@@ -18,7 +18,6 @@ buildcraft.boardRobotBuilder=建築工
 buildcraft.boardRobotCrafter=製造工
 buildcraft.boardRobotDelivery=派送工
 buildcraft.boardRobotPump=泵工
-
 chat.gateCopier.clear=閘門訊息已清除。
 chat.gateCopier.gateCopied=已複製閘門資料到複製器。
 chat.gateCopier.gatePasted=已貼上資料到閘門。
@@ -30,7 +29,6 @@ chat.gateCopier.warning.load=§6警告: 閘門觸發器或操作方式可能會�
 chat.gateCopier.warning.slots=§6警告: 目標缺少插槽！
 chat.gateCopier.warning.triggerParameters=§6警告: 目標缺少觸發參數！
 chat.pipe.power.iron.mode=切換到 %d RF/t 限界值
-
 color.black=黑色
 color.blue=藍色
 color.brown=棕色
@@ -47,14 +45,12 @@ color.purple=紫色
 color.red=紅色
 color.white=白色
 color.yellow=黃色
-
 direction.north=北
 direction.west=西
 direction.east=東
 direction.south=南
 direction.up=上
 direction.down=下
-
 fillerpattern.clear=清除
 fillerpattern.fill=填充
 fillerpattern.flatten=整平
@@ -64,10 +60,8 @@ fillerpattern.stairs=樓梯
 fillerpattern.box=方箱
 fillerpattern.cylinder=圓柱
 fillerpattern.frame=線框
-
 fluid.oil=石油
 fluid.fuel=燃油
-
 gate.action.extraction=%s 的抽取預設值
 gate.action.pipe.item.color=上色物品 %s
 gate.action.machine.on=開啟
@@ -94,25 +88,19 @@ gate.action.robot.work_in_area=指定工作範圍
 gate.action.robot.wakeup=喚醒
 gate.action.station.forbid_robot=禁止機器人
 gate.action.robot.filter=過濾條件
-
 gate.expansion.fader=紅石衰減器
 gate.expansion.pulsar=無限脈衝
 gate.expansion.timer=計時器
-
 gate.logic.and=且
 gate.logic.or=或
-
 gate.material.iron=鐵
 gate.material.gold=金
 gate.material.diamond=鑽石
 gate.material.emerald=綠寶石
 gate.material.quartz=石英
-
 gate.name=%s %s 閘門
 gate.name.basic=基本閘門
-
 gate.parameter.redstone.gateSideOnly=限定閘門端
-
 gate.trigger.engine.blue=引擎 藍
 gate.trigger.engine.green=引擎 綠
 gate.trigger.engine.yellow=引擎 黃
@@ -145,7 +133,6 @@ gate.trigger.timer=%s 秒計時器
 gate.trigger.robot.sleep=休眠
 gate.trigger.machine.energyStoredHigh=能量存量高
 gate.trigger.machine.energyStoredLow=能量存量低
-
 gui.building.resources=建築材料
 gui.building.fluids=流體容器
 gui.del=刪除
@@ -169,7 +156,6 @@ gui.pipes.emerald.nonblocking.tip=就算找不到過濾器中的一個元素，�
 gui.pipes.emzuli.title=預設抽取
 gui.pipes.emzuli.paint=彩繪物品 %s
 gui.pipes.emzuli.nopaint=不可上色
-
 item.bucketFuel.name=燃油桶
 item.bucketOil.name=石油桶
 item.woodenGearItem.name=木製齒輪
@@ -250,13 +236,11 @@ item.FacadePhased.state_transparent=透明
 item.PipePlug.name=管塞
 item.Lens.name=鏡片
 item.Filter.name=過濾片
-
 itemGroup.buildcraft.blocks=Buildcraft 方塊類
 itemGroup.buildcraft.boards=Buildcraft 自動機器類
 itemGroup.buildcraft.items=Buildcraft 物品類
 itemGroup.buildcraft.pipes=Buildcraft 管路類
 itemGroup.buildcraft.facades=Buildcraft 外觀類
-
 tile.architectBlock.name=建築工作檯
 tile.assemblyTableBlock.name=晶片工作檯
 tile.assemblyWorkbenchBlock.name=高階自動工作檯
@@ -290,7 +274,6 @@ tile.spring.oil.name=石油泉源
 tile.spring.water.name=水泉源
 tile.tankBlock.name=流體容器
 tile.zonePlan.name=區域規劃機
-
 tile.architect.rotate=旋轉: 開啟
 tile.architect.norotate=旋轉: 關閉
 tile.architect.allowCreative=模式: 創造
@@ -299,7 +282,6 @@ tile.architect.tooltip.allowCreative.1=允許所有方塊 - 創造模式
 tile.architect.tooltip.allowCreative.2=忽略所有不支援方塊 - 生存模式
 tile.architect.excavate=挖掘: 開啟
 tile.architect.noexcavate=挖掘: 關閉
-
 tip.gate.wires=§9§o相容導線:
 tip.gate.wires.redstone=紅
 tip.gate.wires.iron=紅，藍
@@ -307,7 +289,6 @@ tip.gate.wires.gold=紅，藍，綠
 tip.gate.wires.diamond=紅，藍，綠，黃
 tip.gate.wires.emerald=紅，藍，綠，黃
 tip.gate.expansions=§9§o已安裝擴充:
-
 tip.PipeFluidsCobblestone=無法連接到石導管
 tip.PipeFluidsDiamond=排序流體
 tip.PipeFluidsEmerald=過濾抽取管
@@ -336,7 +317,6 @@ tip.PipePowerIron=限制能量輸出能力
 tip.PipePowerSandstone=只能連接到其他導管
 tip.PipePowerWood=能量輸入管
 tip.PipeStructureCobblestone=電路導線支撐管
-
 tip.shift.PipeFluidsDiamond=在GUI中可使用任何流體容器來設定
 tip.shift.PipeFluidsEmerald=在GUI中可使用任何流體容器來設定
 tip.shift.PipeItemsClay=比起導管更優先輸送到機器與箱子
@@ -345,10 +325,8 @@ tip.shift.PipeItemsEmzuli=在GUI中設定預設抽取的過濾條件，過濾條
 tip.shift.PipeItemsLapis=潛行狀態點擊可以改變上色的顏色
 tip.shift.PipeItemsObsidian=使用引擎給予能量，能量越多，吸取距離越長
 tip.shift.PipePowerIron=使用扳手或閘門可以變更方向限制設定
-
 tip.tool.add=增加
 tip.tool.remove=移除
-
 achievement.woodenGearAchievement=周圍的邊緣有點粗糙
 achievement.woodenGearAchievement.desc=製作一個木齒輪
 achievement.stoneGearAchievement=堅如磐石
@@ -391,7 +369,6 @@ achievement.templateAchievement=基礎
 achievement.templateAchievement.desc=製作一個模板
 achievement.blueprintLibraryAchievement=創意生活
 achievement.blueprintLibraryAchievement.desc=製作一個藍圖資料庫
-
 bc_update.new_version=§c已有新的 BuildCraft 版本： %s 於 Minecraft %s 版
 bc_update.download=§c下載位址 http://www.mod-buildcraft.com/download
 bc_update.once=這個訊息只會顯示一次
