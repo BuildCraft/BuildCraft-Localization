@@ -18,7 +18,6 @@ buildcraft.boardRobotBuilder=Construtor
 buildcraft.boardRobotCrafter=Crafter
 buildcraft.boardRobotDelivery=Entregador
 buildcraft.boardRobotPump=Bomba
-
 chat.gateCopier.clear=Informações do Gate resetadas.
 chat.gateCopier.gateCopied=Informações do Gate copiadas para o Copiador.
 chat.gateCopier.gatePasted=Dados colados para o Gate.
@@ -30,7 +29,6 @@ chat.gateCopier.warning.load=§6Aviso: Ações/Gatilhos de Gate podem estar falt
 chat.gateCopier.warning.slots=§6Aviso: Alvo tem menos slots!
 chat.gateCopier.warning.triggerParameters=§6Aviso: Alvo tem menos parametros de gatilho!
 chat.pipe.power.iron.mode=Limite mudado para %d RF/t
-
 color.black=Preto
 color.blue=Azul
 color.brown=Marrom
@@ -47,14 +45,12 @@ color.purple=Roxo
 color.red=Vermelho
 color.white=Branco
 color.yellow=Amarelo
-
 direction.north=Norte
 direction.west=Oeste
 direction.east=Leste
 direction.south=Sul
 direction.up=Cima
 direction.down=Baixo
-
 fillerpattern.clear=Esvasiar
 fillerpattern.fill=Encher
 fillerpattern.flatten=Achatar
@@ -64,10 +60,8 @@ fillerpattern.stairs=Escadas
 fillerpattern.box=Caixa
 fillerpattern.cylinder=Cilindro
 fillerpattern.frame=Moldura
-
 fluid.oil=Óleo
 fluid.fuel=Combustível
-
 gate.action.extraction=Extração Predefinida %s
 gate.action.pipe.item.color=Pintar Itens de %s
 gate.action.machine.on=Ligado
@@ -94,24 +88,18 @@ gate.action.robot.work_in_area=Trabalhar na Área
 gate.action.robot.wakeup=Acordar
 gate.action.station.forbid_robot=Robô Proíbido
 gate.action.robot.filter=Filtro
-
 gate.expansion.fader=Desvanecedor de Redstone
 gate.expansion.pulsar=Pulsar Autárquico
 gate.expansion.timer=Cronômetro
-
 gate.logic.and=AND
 gate.logic.or=OR
-
 gate.material.iron=Ferro
 gate.material.gold=Ouro
 gate.material.diamond=Diamante
 gate.material.emerald=Esmeralda
-
 gate.name=Gate de %s tipo %s
 gate.name.basic=Gate Simples
-
 gate.parameter.redstone.gateSideOnly=Gate Apenas Lateral
-
 gate.trigger.engine.blue=Motor Azul
 gate.trigger.engine.green=Motor Verde
 gate.trigger.engine.yellow=Motor Amarelo
@@ -143,7 +131,6 @@ gate.trigger.timer=Cronômetro de %s s
 gate.trigger.robot.sleep=Dormir
 gate.trigger.machine.energyStoredHigh=Muita Energia Armazenada
 gate.trigger.machine.energyStoredLow=Pouca Energia Armazenada
-
 gui.building.resources=Materiais de Construção
 gui.building.fluids=Tanques de Fluido
 gui.del=Del
@@ -167,7 +154,6 @@ gui.pipes.emerald.nonblocking.tip=A extração continua com o próximo elemento 
 gui.pipes.emzuli.title=Predefinições de extração
 gui.pipes.emzuli.paint=Pinte Itens de %s
 gui.pipes.emzuli.nopaint=Não Pinte Itens
-
 item.bucketFuel.name=Balde de Combustível
 item.bucketOil.name=Balde de Óleo
 item.woodenGearItem.name=Engrenagem de Madeira
@@ -243,13 +229,11 @@ item.FacadePhased.state=%s: %s
 item.FacadePhased.state_default=Padrão: %s
 item.FacadePhased.state_transparent=Transparente
 item.PipePlug.name=Plugue de Tubos
-
 itemGroup.buildcraft.blocks=Blocos do Buildcraft
 itemGroup.buildcraft.boards=Robôs do Buildcraft
 itemGroup.buildcraft.items=Itens do Buildcraft
 itemGroup.buildcraft.pipes=Tubos do Buildcraft
 itemGroup.buildcraft.facades=Fachadas do Buildcraft
-
 tile.architectBlock.name=Mesa de Arquiteto
 tile.assemblyTableBlock.name=Mesa de Montagem
 tile.assemblyWorkbenchBlock.name=Mesa de Trabalho Avançada
@@ -283,7 +267,6 @@ tile.spring.oil.name=Gerador de Óleo
 tile.spring.water.name=Gerador de Água
 tile.tankBlock.name=Tanque
 tile.zonePlan.name=Planejador de Áreas
-
 tile.architect.rotate=Girar: Sim
 tile.architect.norotate=Girar: Não
 tile.architect.allowCreative=Modo: Criativo
@@ -292,7 +275,6 @@ tile.architect.tooltip.allowCreative.1=Criativo permite todos os blocos - Apenas
 tile.architect.tooltip.allowCreative.2=Sobrevivência ignora todos so blocos não suportados
 tile.architect.excavate=Escavar: Sim
 tile.architect.noexcavate=Escavar: Não
-
 tip.gate.wires=§9§oFios Compatíveis:
 tip.gate.wires.redstone=Vermelho
 tip.gate.wires.iron=Vermelho, Azul
@@ -300,7 +282,6 @@ tip.gate.wires.gold=Vermelho, Azul, Verde
 tip.gate.wires.diamond=Vermelho, Azul, Verde, Amarelo
 tip.gate.wires.emerald=Vermelho, Azul, Verde, Amarelo
 tip.gate.expansions=§9§oExpansões Instaladas:
-
 tip.PipeFluidsCobblestone=Não se conecta com Pedra
 tip.PipeFluidsEmerald=Tubo de Extração, 40 mB/t
 tip.PipeFluidsIron=Tubo Válvula
@@ -326,10 +307,8 @@ tip.PipePowerWood=Tubo de entrada de Energia
 tip.PipePowerEmerald=Tubo de saída de Energia
 tip.PipePowerIron=Tubo Limitador Seletivo
 tip.PipeStructureCobblestone=Tubo Estrutural
-
 tip.tool.add=Adicionar
 tip.tool.remove=Remover
-
 achievement.woodenGearAchievement=Um pouco áspero ao redor das bordas
 achievement.woodenGearAchievement.desc=Crafte uma Engrenagem de Madeira
 achievement.stoneGearAchievement=Duro como uma pedra
@@ -372,7 +351,6 @@ achievement.templateAchievement=Base
 achievement.templateAchievement.desc=Crafte um Modelo
 achievement.blueprintLibraryAchievement=Ideias nunca morrem
 achievement.blueprintLibraryAchievement.desc=Crafte uma Livraria de Diagramas
-
 bc_update.new_version=§cNova versão do BuildCraft disponível: %s para Minecraft %s
 bc_update.download=§Baixe em http://www.mod-buildcraft.com/download
 bc_update.once=Essa mensagem só aparece uma vez
