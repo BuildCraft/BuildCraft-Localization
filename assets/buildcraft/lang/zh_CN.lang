@@ -19,7 +19,6 @@ buildcraft.boardRobotDelivery=配送机器人
 buildcraft.boardRobotPump=液泵机器人
 buildcraft.boardRobotStripes=条纹机器人
 buildcraft.boardRobotBreaker=破坏机器人
-
 buildcraft.boardRobotPicker.desc=拾取物品
 buildcraft.boardRobotLumberjack.desc=伐木
 buildcraft.boardRobotPlanter.desc=种植作物
@@ -39,7 +38,6 @@ buildcraft.boardRobotDelivery.desc=根据需求配送物品
 buildcraft.boardRobotPump.desc=泵出流体
 buildcraft.boardRobotStripes.desc=采掘石头
 buildcraft.boardRobotStripes.desc=采掘石头
-
 chat.gateCopier.clear=门信息已清除.
 chat.gateCopier.gateCopied=复制门信息到拷贝器中.
 chat.gateCopier.gatePasted=粘贴拷贝器信息到门中.
@@ -59,7 +57,6 @@ chat.pipe.power.iron.level.160=适量
 chat.pipe.power.iron.level.320=高
 chat.pipe.power.iron.level.640=极高
 chat.pipe.power.iron.level.1280=满容量
-
 color.black=黑色
 color.blue=蓝色
 color.brown=棕色
@@ -76,7 +73,6 @@ color.purple=紫色
 color.red=红色
 color.white=白色
 color.yellow=黄色
-
 config.general=常规
 config.general.pipes=管道
 config.blueprints=蓝图
@@ -87,19 +83,14 @@ config.display=显示
 config.worldgen=世界生成
 config.network=网络
 config.buildcraft=BuildCraft配置
-
 config.blueprints.clientDatabaseDirectory=客户端路径
 config.blueprints.excludedMods=排除模组
 config.blueprints.excludedBlocks=排除方块
-
 config.builders.dropBrokenBlocks=掉落方块
-
 config.display.colorBlindMode=色盲模式
 config.display.hideFluidValues=隐藏流体量
 config.display.hidePowerValues=隐藏能量
-
 config.experimental.kinesisPowerLossOnTravel=管道流失能量
-
 config.general.boards.blacklist=机器人黑名单
 config.general.pumpsConsumeWater=泵用水
 config.general.updateCheck=检查更新
@@ -124,14 +115,11 @@ config.general.quarry.doChunkLoading=自动区块载入
 config.general.markerRange=地标标记范围
 config.general.miningDepth=最大相对挖掘深度
 config.general.pumpDimensionControl=泵作用范围控制
-
 config.network.longUpdateFactor=客户端同步因数(ticks)
 config.network.updateFactor=包发送因数(ticks)
-
 config.power.miningUsageMultiplier=挖掘能耗倍数
 config.power.chipsetCostMultiplier=芯片能耗倍数
 config.power.gateCostMultiplier=门能耗倍数
-
 config.worldgen.enable=激活
 config.worldgen.generateWaterSprings=生成水泉
 config.worldgen.oilWellGenerationRate=油井生成率
@@ -141,14 +129,12 @@ config.worldgen.biomes.biomeOilOcean=原油海域生物群落id
 config.worldgen.biomes.excessiveOilIDs=原油极其丰富的生物群落
 config.worldgen.biomes.excludeOilIDs=无原油生物群落
 config.worldgen.biomes.increasedOilIDs=原油较丰富的生物群落
-
 direction.north=北面
 direction.west=西面
 direction.east=东面
 direction.south=南面
 direction.up=顶端
 direction.down=底端
-
 direction.center.0=西北
 direction.center.1=北面
 direction.center.2=东北
@@ -158,7 +144,6 @@ direction.center.5=东面
 direction.center.6=西南
 direction.center.7=南面
 direction.center.8=东南
-
 fillerpattern.clear=清除
 fillerpattern.fill=填充
 fillerpattern.flatten=平整
@@ -170,10 +155,8 @@ fillerpattern.cylinder=柱体
 fillerpattern.frame=框架
 fillerpattern.parameter.hollow=中空
 fillerpattern.parameter.filled=实心
-
 fluid.oil=原油
 fluid.fuel=燃油
-
 gate.action.extraction=%s提取预设
 gate.action.pipe.item.color=将物品颜色染为%s
 gate.action.machine.on=开
@@ -203,28 +186,22 @@ gate.action.station.forbid_robot=禁用机器人
 gate.action.station.force_robot=强制机器人
 gate.action.robot.filter=过滤
 gate.action.robot.filter_tool=过滤工具
-
 gate.expansion.fader=红石控制器
 gate.expansion.pulsar=专制脉冲
 gate.expansion.timer=时钟计时器
 gate.expansion.light_sensor=光敏传感器
 gate.expansion.rtc=实时钟
 gate.expansion.biological_sensor=生物感应器
-
 gate.logic.and=与
 gate.logic.or=或
-
 gate.material.iron=铁质
 gate.material.gold=金质
 gate.material.diamond=钻石
 gate.material.emerald=绿宝石
 gate.material.quartz=石英
-
 gate.name=%s%s门
 gate.name.basic=基础门
-
 gate.parameter.redstone.gateSideOnly=仅限门侧
-
 gate.trigger.engine.blue=引擎蓝色
 gate.trigger.engine.green=引擎绿色
 gate.trigger.engine.yellow=引擎黄色
@@ -269,9 +246,7 @@ gate.trigger.time.0=夜晚
 gate.trigger.time.6=早晨
 gate.trigger.time.12=下午
 gate.trigger.time.18=傍晚
-
 gui.fluidtank.empty=空
-
 gui.building.resources=建筑材料
 gui.building.fluids=流体储罐
 gui.del=删除
@@ -297,7 +272,6 @@ gui.pipes.emerald.nonblocking.tip=若过滤设置对象缺失则抽取下一个�
 gui.pipes.emzuli.title=抽取预设
 gui.pipes.emzuli.paint=染色物品 %s
 gui.pipes.emzuli.nopaint=不对物品染色
-
 item.bucketFuel.name=燃油桶
 item.bucketOil.name=原油桶
 item.woodenGearItem.name=木齿轮
@@ -386,13 +360,11 @@ item.PipePowerAdapter.name=能量接收器
 item.debugger.name=调试器
 item.debugger.warning=仅用于测试!会导致泄密.
 item.package.name=包
-
 itemGroup.buildcraft.boards=建筑|机器人
 itemGroup.buildcraft.main=建筑
 itemGroup.buildcraft.pipes=建筑|管道
 itemGroup.buildcraft.facades=建筑|伪装板
 itemGroup.buildcraft.gates=建筑|门
-
 tile.architectBlock.name=建筑工作台
 tile.assemblyTableBlock.name=装配台
 tile.assemblyWorkbenchBlock.name=高级工作台
@@ -429,7 +401,6 @@ tile.spring.water.name=水泉
 tile.stampingTableBlock.name=压印台
 tile.tankBlock.name=储罐
 tile.zonePlan.name=区域规划机
-
 tile.architect.rotate=旋转:开
 tile.architect.norotate=旋转:关
 tile.architect.allowCreative=模式:创造
@@ -438,7 +409,6 @@ tile.architect.tooltip.allowCreative.1=创造模式允许使用所有方块-仅�
 tile.architect.tooltip.allowCreative.2=生存模式将忽略所有不支持的方块
 tile.architect.excavate=挖掘:开
 tile.architect.noexcavate=挖掘:关
-
 tip.gate.wires=§9§o兼容管线:
 tip.gate.wires.redstone=红
 tip.gate.wires.iron=红,蓝
@@ -447,7 +417,6 @@ tip.gate.wires.quartz=红,蓝,绿
 tip.gate.wires.diamond=红,蓝,绿,黄
 tip.gate.wires.emerald=红,蓝,绿,黄
 tip.gate.expansions=§9§o已安装扩展:
-
 tip.PipeFluidsClay=流体嵌入传送管道
 tip.PipeFluidsCobblestone=不会连接石质或石英管道
 tip.PipeFluidsDiamond=分类流体
@@ -479,12 +448,9 @@ tip.PipePowerSandstone=只能连接其他管道
 tip.PipePowerWood=能量输入管道
 tip.PipeStructureCobblestone=支撑类管道
 tip.deprecated=不可用
-
 tip.filler.excavate.on=采掘
 tip.filler.excavate.off=不采掘
-
 tip.list.matches=匹配
-
 tip.shift.PipeFluidsDiamond=界面接受任意流体容器
 tip.shift.PipeFluidsEmerald=界面接受任意流体容器
 tip.shift.PipeItemsClay=优先选择箱子和容器 \ 随后选择管道
@@ -493,15 +459,12 @@ tip.shift.PipeItemsEmzuli=在界面中设定输出预过滤配置\n预设配置�
 tip.shift.PipeItemsLapis=潜行点击以切换颜色
 tip.shift.PipeItemsObsidian=用引擎供能\n能量越多-作用范围越远
 tip.shift.PipePowerIron=用扳手或门来切换输送限度
-
 tip.PipeItemsEmerald.whitelist=白名单
 tip.PipeItemsEmerald.blacklist=黑名单
 tip.PipeItemsEmerald.roundrobin=按序循环
-
 tip.tool.add=添加
 tip.tool.fullscreen=全屏
 tip.tool.remove=移除
-
 achievement.woodenGearAchievement=边缘略显粗糙
 achievement.woodenGearAchievement.desc=合成木齿轮
 achievement.stoneGearAchievement=坚若磐石
@@ -544,32 +507,25 @@ achievement.templateAchievement=基础
 achievement.templateAchievement.desc=合成出模板
 achievement.blueprintLibraryAchievement=创意永流传
 achievement.blueprintLibraryAchievement.desc=合成出蓝图档案馆
-
 bc_update.new_version=§c新版Buildcraft可用:版本为%s,适用于Minecraft %s
 bc_update.download=§c从 http://www.mod-buildcraft.com/download 下载
 bc_update.once=本信息默认仅显示一次
 bc_update.again=若想再次查看可输入指令 '/buildcraft version'
 bc_update.changelog=输入指令 '/buildcraft changelog' 以查看日志
-
 chat.buildcraft.quarry.tooSmall=[BuildCraft] 采石场区域超出载入区块边界或太小 %d %d (%d)
 chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] 位于 %d %d %d 的采石场将保持%d个区块载入
-
 command.buildcraft.version=BuildCraft%s,适用于Minecraft %s (最新版本为: %s).
 command.buildcraft.changelog_header=BuildCraft更新日志 %s:
-
 command.buildcraft.aliases=别名: %s
 command.buildcraft.help=输入 '%s' 查看帮助.
 command.buildcraft.list=可用命令:
 command.buildcraft.permlevel=权限等级: %s
 command.buildcraft.noperms=你没有使用该指令的权限.
-
 command.buildcraft.buildcraft.help=建筑相关指令集
 command.buildcraft.buildcraft.format=格式: /%s <子命令>
-
 command.buildcraft.buildcraft.version.desc=- %s : 版本信息
 command.buildcraft.buildcraft.version.help=显示当前及最新BC版本
 command.buildcraft.buildcraft.version.format=格式: /%s
-
 command.buildcraft.buildcraft.changelog.desc=- %s : Changelog
 command.buildcraft.buildcraft.changelog.help=显示最新BC日志.
 command.buildcraft.buildcraft.changelog.format=格式: /%s
