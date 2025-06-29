@@ -18,7 +18,6 @@ buildcraft.boardRobotCrafter=Crafter
 buildcraft.boardRobotDelivery=Delivery
 buildcraft.boardRobotPump=Pump
 buildcraft.boardRobotStripes=Stripes
-
 buildcraft.boardRobotPicker.desc=Picks up items
 buildcraft.boardRobotLumberjack.desc=Breaks logs
 buildcraft.boardRobotPlanter.desc=Plants crops
@@ -37,7 +36,6 @@ buildcraft.boardRobotCrafter.desc=Crafts items
 buildcraft.boardRobotDelivery.desc=Delivers items upon request
 buildcraft.boardRobotPump.desc=Pumps out liquids
 buildcraft.boardRobotStripes.desc=Uhh... Stripes!
-
 chat.gateCopier.clear=Gate information cleared.
 chat.gateCopier.gateCopied=Copied gate information to copier.
 chat.gateCopier.gatePasted=Pasted copied data to gate.
@@ -57,7 +55,6 @@ chat.pipe.power.iron.level.160=Medium
 chat.pipe.power.iron.level.320=High
 chat.pipe.power.iron.level.640=Very High
 chat.pipe.power.iron.level.1280=Full Capacity
-
 color.black=Black
 color.blue=Blue
 color.brown=Brown
@@ -74,7 +71,6 @@ color.purple=Purple
 color.red=Red
 color.white=White
 color.yellow=Yellow
-
 config.general=General
 config.general.pipes=Pipes
 config.blueprints=Blueprints
@@ -83,15 +79,12 @@ config.display=Display
 config.worldgen=World Generation
 config.network=Networking
 config.buildcraft=BuildCraft Configuration
-
 config.blueprints.clientDatabaseDirectory=Client directory
 config.blueprints.excludedMods=Excluded mods
 config.blueprints.excludedBlocks=Excluded blocks
-
 config.display.colorBlindMode=Colorblind mode
 config.display.hideFluidValues=Hide fluid numbers
 config.display.hidePowerValues=Hide power numbers
-
 config.general.pumpsConsumeWater=Pumps consume water
 config.general.updateCheck=Check for updates
 config.general.itemLifespan=Item lifespan (seconds)
@@ -103,13 +96,10 @@ config.general.quarry.oneTimeUse=One-time use
 config.general.quarry.doChunkLoading=Automatic chunk loading
 config.general.miningDepth=Maximum relative mining depth
 config.general.pumpDimensionControl=Pump dimension control
-
 config.network.longUpdateFactor=Client synchronization factor (ticks)
 config.network.updateFactor=Packet sending factor (ticks)
-
 config.power.miningUsageMultiplier=Mining usage multiplier
 config.power.chipsetCostMultiplier=Chipset cost multiplier
-
 config.worldgen.enable=Enable
 config.worldgen.oilWellGenerationRate=Oil well generation rate
 config.worldgen.spawnOilSprings=Spawn oil springs
@@ -121,7 +111,6 @@ direction.east=East
 direction.south=South
 direction.up=Top
 direction.down=Bottom
-
 fillerpattern.clear=Clear
 fillerpattern.fill=Fill
 fillerpattern.flatten=Flatten
@@ -131,10 +120,8 @@ fillerpattern.stairs=Stairs
 fillerpattern.box=Box
 fillerpattern.cylinder=Cylinder
 fillerpattern.frame=Frame
-
 fluid.oil=Oil
 fluid.fuel=Fuel
-
 gate.action.extraction=%s Extraction Preset
 gate.action.pipe.item.color=Paint Items %s
 gate.action.machine.on=On
@@ -164,28 +151,22 @@ gate.action.station.forbid_robot=Forbid Robot
 gate.action.station.force_robot=Force Robot
 gate.action.robot.filter=Filter
 gate.action.robot.filter_tool=Filter Tool
-
 gate.expansion.fader=Redstone Fader
 gate.expansion.pulsar=Autarchic Pulsar
 gate.expansion.timer=Clock Timer
 gate.expansion.light_sensor=Light Sensor
 gate.expansion.rtc=Real-Time Clock
 gate.expansion.biological_sensor=Biological Sensor
-
 gate.logic.and=AND
 gate.logic.or=OR
-
 gate.material.iron=Iron
 gate.material.gold=Gold
 gate.material.diamond=Diamond
 gate.material.emerald=Emerald
 gate.material.quartz=Quartz
-
 gate.name=%s %s Gate
 gate.name.basic=Basic Gate
-
 gate.parameter.redstone.gateSideOnly=Gate Side Only
-
 gate.trigger.engine.blue=Engine Blue
 gate.trigger.engine.green=Engine Green
 gate.trigger.engine.yellow=Engine Yellow
@@ -230,7 +211,6 @@ gate.trigger.time.0=Night
 gate.trigger.time.6=Morning
 gate.trigger.time.12=Afternoon
 gate.trigger.time.18=Evening
-
 gui.building.resources=Byggeressurser
 gui.building.fluids=Fluid Tanks
 gui.del=Slett
@@ -256,7 +236,6 @@ gui.pipes.emerald.nonblocking.tip=Extraction continues with the next element in 
 gui.pipes.emzuli.title=Extraction Presets
 gui.pipes.emzuli.paint=Paint Items %s
 gui.pipes.emzuli.nopaint=Don't Paint Items
-
 item.bucketFuel.name=Drivstoffspann
 item.bucketOil.name=Oljespann
 item.woodenGearItem.name=Tretannhjil
@@ -343,13 +322,11 @@ item.Filter.name=Filter
 item.debugger.name=Debugger
 item.debugger.warning=Use only for testing! Leaks secrets.
 item.package.name=Package
-
 itemGroup.buildcraft.boards=BuildCraft Robots
 itemGroup.buildcraft.main=BuildCraft
 itemGroup.buildcraft.pipes=BuildCraft Pipes
 itemGroup.buildcraft.facades=BuildCraft Facades
 itemGroup.buildcraft.gates=BuildCraft Gates
-
 tile.architectBlock.name=Arkitektbord
 tile.assemblyTableBlock.name=Samlebord
 tile.assemblyWorkbenchBlock.name=Advanced Crafting Table
@@ -386,7 +363,6 @@ tile.spring.water.name=Water Spring
 tile.stampingTableBlock.name=Stamping Table
 tile.tankBlock.name=Tank
 tile.zonePlan.name=Zone Planner
-
 tile.architect.rotate=Rotate: On
 tile.architect.norotate=Rotate: Off
 tile.architect.allowCreative=Mode: Creative
@@ -395,7 +371,6 @@ tile.architect.tooltip.allowCreative.1=Creative allows all blocks - Creative Mod
 tile.architect.tooltip.allowCreative.2=Survival ignores all unsupported blocks
 tile.architect.excavate=Excavate: On
 tile.architect.noexcavate=Excavate: Off
-
 tip.gate.wires=§9§oCompatible Wires:
 tip.gate.wires.redstone=Red
 tip.gate.wires.iron=Red, Blue
@@ -404,7 +379,6 @@ tip.gate.wires.quartz=Red, Blue, Green
 tip.gate.wires.diamond=Red, Blue, Green, Yellow
 tip.gate.wires.emerald=Red, Blue, Green, Yellow
 tip.gate.expansions=§9§oInstalled Expansions:
-
 tip.PipeFluidsCobblestone=Won't connect to Stone
 tip.PipeFluidsDiamond=Sorts fluids
 tip.PipeFluidsEmerald=Extraction pipe
@@ -433,7 +407,6 @@ tip.PipePowerIron=Selectable Limiter Pipe
 tip.PipePowerSandstone=Only connects to other pipes
 tip.PipePowerWood=Power Input Pipe
 tip.PipeStructureCobblestone=Support pipe
-
 tip.shift.PipeFluidsDiamond=GUI accepts any fluid containers
 tip.shift.PipeFluidsEmerald=GUI accepts any fluid container
 tip.shift.PipeItemsClay=Prioritizes machines and chests\nover neighbouring pipes.
@@ -442,11 +415,9 @@ tip.shift.PipeItemsEmzuli=Set extraction preset filters in GUI\nA preset can pai
 tip.shift.PipeItemsLapis=Sneak-click to change color
 tip.shift.PipeItemsObsidian=Power with an engine\nMore power - greater distance
 tip.shift.PipePowerIron=Change the limit with a wrench or gates
-
 tip.tool.add=Add
 tip.tool.fullscreen=Fullscreen
 tip.tool.remove=Remove
-
 achievement.woodenGearAchievement=A bit rough around the edges
 achievement.woodenGearAchievement.desc=Craft a wooden gear
 achievement.stoneGearAchievement=Hard as a rock
@@ -489,12 +460,10 @@ achievement.templateAchievement=Basis
 achievement.templateAchievement.desc=Craft a template
 achievement.blueprintLibraryAchievement=Ideas live on
 achievement.blueprintLibraryAchievement.desc=Craft an electronic library
-
 bc_update.new_version=§cNew version of BuildCraft available: %s for Minecraft %s
 bc_update.download=§cDownload from http://www.mod-buildcraft.com/download
 bc_update.once=This message only displays once
 bc_update.again=Type '/buildcraft version' if you want to see it again
-
 command.buildcraft.version=BuildCraft %s for Minecraft %s (Latest: %s).
 command.buildcraft.versioninfo=Version information.
 command.buildcraft.available=Available Commands:
