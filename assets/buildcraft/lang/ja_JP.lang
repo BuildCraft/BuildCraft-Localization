@@ -19,7 +19,6 @@ buildcraft.boardRobotCrafter=クラフト
 buildcraft.boardRobotDelivery=配達
 buildcraft.boardRobotPump=ポンプ
 buildcraft.boardRobotStripes=ストライプ
-
 chat.gateCopier.clear=ゲートコピー機の情報を消去しました
 chat.gateCopier.gateCopied=ゲートの情報をコピーしました
 chat.gateCopier.gatePasted=ゲートに設定を適用しました
@@ -39,7 +38,6 @@ chat.pipe.power.iron.level.160=正常
 chat.pipe.power.iron.level.320=高い
 chat.pipe.power.iron.level.640=非常に高い
 chat.pipe.power.iron.level.1280=最大
-
 color.black=黒
 color.blue=青
 color.brown=茶
@@ -56,14 +54,12 @@ color.purple=紫
 color.red=赤
 color.white=白
 color.yellow=黄
-
 direction.north=北
 direction.west=西
 direction.east=東
 direction.south=南
 direction.up=上面
 direction.down=底面
-
 fillerpattern.clear=すべて除去
 fillerpattern.fill=すべて埋める
 fillerpattern.flatten=整地
@@ -73,10 +69,8 @@ fillerpattern.stairs=階段
 fillerpattern.box=外壁のみ
 fillerpattern.cylinder=円柱
 fillerpattern.frame=外枠のみ
-
 fluid.oil=原油
 fluid.fuel=燃料
-
 gate.action.extraction=%sの搬出設定を使う
 gate.action.pipe.item.color=アイテムを%s色に色分けする
 gate.action.machine.on=作業を許可する
@@ -104,25 +98,19 @@ gate.action.robot.wakeup=ロボットを起動する
 gate.action.station.forbid_robot=右記のロボットを禁止する
 gate.action.robot.filter=フィルター
 gate.action.robot.filter_tool=フィルターツール
-
 gate.expansion.fader=レッドストーン信号の強度
 gate.expansion.pulsar=エンジン動力
 gate.expansion.timer=タイマー
-
 gate.logic.and=AND
 gate.logic.or=OR
-
 gate.material.iron=鉄
 gate.material.gold=金
 gate.material.diamond=ダイヤ
 gate.material.emerald=エメラルド
 gate.material.quartz=水晶
-
 gate.name=%sの%sゲート
 gate.name.basic=基本ゲート
-
 gate.parameter.redstone.gateSideOnly=ゲート側のみ
-
 gate.trigger.engine.blue=エンジンの色が青
 gate.trigger.engine.green=エンジンの色が緑
 gate.trigger.engine.yellow=エンジンの色が黄
@@ -155,7 +143,6 @@ gate.trigger.timer=%s秒タイマー
 gate.trigger.robot.sleep=ロボットが休止中
 gate.trigger.machine.energyStoredHigh=多くのエネルギーを保有している
 gate.trigger.machine.energyStoredLow=多くのエネルギーを保有していない
-
 gui.building.resources=建材
 gui.building.fluids=液体タンク
 gui.del=削除
@@ -181,7 +168,6 @@ gui.pipes.emerald.nonblocking.tip=フィルターは左側から埋めてださ�
 gui.pipes.emzuli.title=搬出設定
 gui.pipes.emzuli.paint=アイテムを%s色に色分けする
 gui.pipes.emzuli.nopaint=アイテムを色分けしない
-
 item.bucketFuel.name=燃料入りバケツ
 item.bucketOil.name=原油入りバケツ
 item.woodenGearItem.name=木の歯車
@@ -262,13 +248,11 @@ item.FacadePhased.state_transparent=透明
 item.PipePlug.name=パイプ栓
 item.Lens.name=カラーレンズ
 item.Filter.name=カラーフィルター
-
 itemGroup.buildcraft.blocks=Buildcraft ブロック
 itemGroup.buildcraft.boards=Buildcraft ロボット
 itemGroup.buildcraft.items=Buildcraft アイテム
 itemGroup.buildcraft.pipes=Buildcraft パイプ
 itemGroup.buildcraft.facades=Buildcraft 外装板
-
 tile.architectBlock.name=設計台
 tile.assemblyTableBlock.name=レーザー加工台
 tile.assemblyWorkbenchBlock.name=レーザー作業台
@@ -302,7 +286,6 @@ tile.spring.oil.name=原油の源
 tile.spring.water.name=湧き水の源
 tile.tankBlock.name=タンク
 tile.zonePlan.name=範囲指定機
-
 tile.architect.rotate=方向保持: Off
 tile.architect.norotate=方向保持: On
 tile.architect.allowCreative=クリエイティブ
@@ -311,7 +294,6 @@ tile.architect.tooltip.allowCreative.1=クリエイティブでは全てのブ�
 tile.architect.tooltip.allowCreative.2=サバイバルでは一部のブロックを記録できません
 tile.architect.excavate=ブロック破壊: On
 tile.architect.noexcavate=ブロック破壊: Off
-
 tip.gate.wires=§9§o使用可能なワイヤー:
 tip.gate.wires.redstone=赤
 tip.gate.wires.iron=赤, 青
@@ -319,7 +301,6 @@ tip.gate.wires.gold=赤, 青, 緑
 tip.gate.wires.diamond=赤, 青, 緑, 黄
 tip.gate.wires.emerald=赤, 青, 緑, 黄
 tip.gate.expansions=§9§o追加機能:
-
 tip.PipeFluidsCobblestone=基本パイプ\n石の防水パイプとは接続しない
 tip.PipeFluidsEmerald=搬出パイプ
 tip.PipeFluidsGold=基本パイプ
@@ -349,7 +330,6 @@ tip.PipePowerEmerald=エネルギー入力パイプ
 tip.PipePowerSandstone=伝導パイプのみと接続する
 tip.PipePowerIron=エネルギー流量調整パイプ
 tip.PipeStructureCobblestone=支持パイプ
-
 tip.shift.PipeFluidsDiamond=GUI accepts any fluid containers
 tip.shift.PipeFluidsEmerald=GUI accepts any fluid container
 tip.shift.PipeItemsClay=Prioritizes machines and chests\nover neighbouring pipes.
@@ -358,10 +338,8 @@ tip.shift.PipeItemsEmzuli=Set extraction preset filters in GUI\nA preset can pai
 tip.shift.PipeItemsLapis=Shift+クリックで色を変更できます。
 tip.shift.PipeItemsObsidian=Power with an engine\nMore power - greater distance
 tip.shift.PipePowerIron=ゲートの制限をレンチで変更できます。
-
 tip.tool.add=追加
 tip.tool.remove=削除
-
 achievement.woodenGearAchievement=粗削りの歯車
 achievement.woodenGearAchievement.desc=木の歯車を作る
 achievement.stoneGearAchievement=岩のごとき硬さ
@@ -404,12 +382,10 @@ achievement.templateAchievement=土台
 achievement.templateAchievement.desc=テンプレートを作る
 achievement.blueprintLibraryAchievement=あなたのアイデアそのままに
 achievement.blueprintLibraryAchievement.desc=青写真ライブラリを作る
-
 bc_update.new_version=§cBuildCraftの新しいバージョンがリリースされています: %s for Minecraft %s
 bc_update.download=§cダウンロードはこちら http://www.mod-buildcraft.com/download.html
 bc_update.once=このメッセージは起動時、一度だけ表示されます
 bc_update.again=このメッセージを次から表示したくない場合は'/buildcraft version'と打ち込んで下さい
-
 command.buildcraft.version=BuildCraft %s for Minecraft %s (最新: %s).
 command.buildcraft.versioninfo=バージョン情報
 command.buildcraft.available=使用可能なコマンド
