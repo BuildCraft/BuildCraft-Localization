@@ -20,7 +20,6 @@ buildcraft.boardRobotCrafter=Crafter
 buildcraft.boardRobotDelivery=Szállító
 buildcraft.boardRobotPump=Pumpáló
 buildcraft.boardRobotStripes=Csíkos
-
 buildcraft.boardRobotPicker.desc=Tárgyakat vesz fel
 buildcraft.boardRobotLumberjack.desc=Összevágja a fát
 buildcraft.boardRobotPlanter.desc=Terményeket ültet
@@ -39,7 +38,6 @@ buildcraft.boardRobotCrafter.desc=Tárgyakat gyárt le
 buildcraft.boardRobotDelivery.desc=Kérésre tárgyakat szállít
 buildcraft.boardRobotPump.desc=Folyadékot pumpál ki
 buildcraft.boardRobotStripes.desc=Uhh... Csíkos!
-
 chat.gateCopier.clear=A kapu információi törölve.
 chat.gateCopier.gateCopied=A kapu információi átmásolva a másolóba.
 chat.gateCopier.gatePasted=Másolt adat beillesztve  a kapuba.
@@ -59,7 +57,6 @@ chat.pipe.power.iron.level.160=Közepes
 chat.pipe.power.iron.level.320=Magas
 chat.pipe.power.iron.level.640=Nagyon magas
 chat.pipe.power.iron.level.1280=Teljes kapacitás
-
 color.black=Fekete
 color.blue=Kék
 color.brown=Barna
@@ -76,7 +73,6 @@ color.purple=Lila
 color.red=Piros
 color.white=Fehér
 color.yellow=Sárga
-
 config.general=Általánps
 config.general.pipes=Csövek
 config.blueprints=Tervrajzok
@@ -85,15 +81,12 @@ config.display=Képernyő
 config.worldgen=Világ-generálás
 config.network=Hálózat
 config.buildcraft=BuildCraft Beállítások
-
 config.blueprints.clientDatabaseDirectory=Kliens könyvtár
 config.blueprints.excludedMods=Kizárt modok
 config.blueprints.excludedBlocks=Kizárt blokkok
-
 config.display.colorBlindMode=Színvak mód
 config.display.hideFluidValues=Folyadék számok elrejtése
 config.display.hidePowerValues=Energia számok elrejtése
-
 config.general.pumpsConsumeWater=A pumpa vizet fogyaszt
 config.general.updateCheck=Ellenőrizd a firssítéseket
 config.general.itemLifespan=Tárgyak életideje (másodperc)
@@ -105,24 +98,19 @@ config.general.quarry.oneTimeUse=Egyszer-használatos mód
 config.general.quarry.doChunkLoading=Automatikus chunk betöltés
 config.general.miningDepth=Maximum relatív bányászási mélység
 config.general.pumpDimensionControl=Pumpa dimenziós vezérlése
-
 config.network.longUpdateFactor=Kliens szinkronizálási faktor (tick-ek)
 config.network.updateFactor=Csomagküldési faktor (tick-ek)
-
 config.power.miningUsageMultiplier=Bányászat használatának szorzója
 config.power.chipsetCostMultiplier=Chip költségének szorzója
-
 config.worldgen.enable=Engedélyezve
 config.worldgen.oilWellGenerationRate=Olaj generációs ráta
 config.worldgen.spawnOilSprings=Olajforrás idézése
-
 direction.north=Észak
 direction.west=Nyugat
 direction.east=Kelet
 direction.south=Dél
 direction.up=Felül
 direction.down=Alul
-
 fillerpattern.clear=Tisztítás
 fillerpattern.fill=Feltöltés
 fillerpattern.flatten=Lapos
@@ -132,10 +120,8 @@ fillerpattern.stairs=Lépcső
 fillerpattern.box=Doboz
 fillerpattern.cylinder=Cilinder
 fillerpattern.frame=Keret
-
 fluid.oil=Olaj
 fluid.fuel=Benzin
-
 gate.action.extraction=%s Extrakciós beállitás
 gate.action.pipe.item.color=Fess itemeket %s
 gate.action.machine.on=Bekapcsolás
@@ -165,33 +151,28 @@ gate.action.station.forbid_robot=Robot tiltása
 gate.action.station.force_robot=Robot kényszerítése
 gate.action.robot.filter=Szűrő
 gate.action.robot.filter_tool=Szűrő eszközkészlet
-
 gate.expansion.fader=Vöröskő fader
 gate.expansion.pulsar=Pulzálós bővítés
 gate.expansion.timer=Időzítős bővítés
 gate.expansion.light_sensor=Fény érzékelő
 gate.expansion.rtc=Valós-idejű óra
 gate.expansion.biological_sensor=Biológiai érzékelő
-
 gate.logic.and=ÉS
 gate.logic.or=VAGY
-
 gate.material.iron=Vas
 gate.material.gold=Arany
 gate.material.diamond=Gyémánt
 gate.material.emerald=Smaragd
 gate.material.quartz=Kvarc
-
 gate.name=%s %s Kapu
 gate.name.basic=Egyszerű kapu
-
 gate.parameter.redstone.gateSideOnly=Csak a kapu felöli oldalra
 
 
 gate.trigger.engine.blue=A motor kék
 gate.trigger.engine.green=A motor zöld
 gate.trigger.engine.yellow=A motor sárga
-gate.trigger.engine.red= A motor piros
+gate.trigger.engine.red=A motor piros
 gate.trigger.engine.overheat=A motor túlmelegedett
 gate.trigger.fluid.empty=A tartály üres
 gate.trigger.fluid.contains=Folyadék a tartályban
@@ -232,7 +213,6 @@ gate.trigger.time.0=Éjjel
 gate.trigger.time.6=Reggel
 gate.trigger.time.12=Délután
 gate.trigger.time.18=Este
-
 gui.building.resources=Építési nyersanyagok
 gui.building.fluids=Üzemanyag tartályok
 gui.del=Törlés
@@ -258,7 +238,6 @@ gui.pipes.emerald.nonblocking.tip=Extrakció folytatódik a következő elemmel 
 gui.pipes.emzuli.title=Extrakciós beállítások
 gui.pipes.emzuli.paint=Itemek színezése %s
 gui.pipes.emzuli.nopaint=Ne színezz itemeket
-
 item.bucketFuel.name=Benzines vödör
 item.bucketOil.name=Olajos vödör
 item.woodenGearItem.name=Fa fogaskerék
@@ -343,13 +322,11 @@ item.Filter.name=Szűrő
 item.debugger.name=Debugger
 item.debugger.warning=Csak tesztelésre! Titkokat szivárogtat ki.
 item.package.name=Csomag
-
 itemGroup.buildcraft.blocks=Buildcraft Blokkok
 itemGroup.buildcraft.boards=Buildcraft Robotok
 itemGroup.buildcraft.items=Buildcraft Tárgyak
 itemGroup.buildcraft.pipes=Buildcraft Csövek
 itemGroup.buildcraft.facades=Buildcraft Homlokzatok
-
 tile.architectBlock.name=Tervező asztal
 tile.assemblyTableBlock.name=Összeszerelő asztal
 tile.assemblyWorkbenchBlock.name=Fejlesztett összeszerelő asztal
@@ -363,7 +340,7 @@ tile.constructionMarkerBlock.name=Építkezési jelölő
 tile.engineCreative.name=Motor Kreatív módhoz
 tile.engineIron.name=Belsőégésű motor
 tile.engineStone.name=Hőlégmotor
-tile.engineWood.name= Vöröskő motor
+tile.engineWood.name=Vöröskő motor
 tile.fillerBlock.name=Feltöltő
 tile.filteredBufferBlock.name=Szűrt buffer
 tile.floodGateBlock.name=Folyadék kapu
@@ -386,7 +363,6 @@ tile.spring.water.name=Vízforrás
 tile.stampingTableBlock.name=Bélyegző asztal
 tile.tankBlock.name=Tartály
 tile.zonePlan.name=Zóna tervező
-
 tile.architect.rotate=Forgatás: bekapcsolva
 tile.architect.norotate=Forgatás: kikapcsolva
 tile.architect.allowCreative=Játékmód: Kreatív
@@ -395,7 +371,6 @@ tile.architect.tooltip.allowCreative.1=A Kreatív mód engedélyezi az összes b
 tile.architect.tooltip.allowCreative.2=A Túlélő mód ignorálja az összes nem támogatott blokkot
 tile.architect.excavate=Kivájás: bekapcsolva
 tile.architect.noexcavate=Kivájás: kikapcsolva
-
 tip.gate.wires=§9§oKompatibilis vezetékek:
 tip.gate.wires.redstone=Piros
 tip.gate.wires.iron=Piros, Kék
@@ -404,7 +379,6 @@ tip.gate.wires.quartz=Piros, Kék, Zöld
 tip.gate.wires.diamond=Piros, Kék, Sárga, Zöld
 tip.gate.wires.emerald=Piros, Kék, Sárga, Zöld
 tip.gate.expansions=§9§oTelepített kiegészítések:
-
 tip.PipeFluidsCobblestone=Nem csatlakozik kőhöz
 tip.PipeFluidsDiamond=Szétválogatja a folyadékokat
 tip.PipeFluidsEmerald=Extrakciós cső, 40mB/t
@@ -433,7 +407,6 @@ tip.PipePowerIron=Választhatóan limitáló cső
 tip.PipePowerSandstone=Csak más csövekhez csatlakozik
 tip.PipePowerWood=Energia bemeneti cső
 tip.PipeStructureCobblestone=Segítőcső
-
 tip.shift.PipeFluidsDiamond=A GUI bármilyen folyadék tárolót elfogad
 tip.shift.PipeFluidsEmerald=A GUI bármilyen folyadék tárolót elfogad
 tip.shift.PipeItemsClay=Gépeket és ládákat favorizál\na szomszédos csövek helyett.
@@ -442,11 +415,9 @@ tip.shift.PipeItemsEmzuli=Előzetes szűrők beállítása a kitermeléshez a GU
 tip.shift.PipeItemsLapis=Shift+klikk színváltoztatáshoz
 tip.shift.PipeItemsObsidian=Hajtsd meg egy motorral\nTöbb energia - nagyobb távolság
 tip.shift.PipePowerIron=A limit változtatható franciakulccsal vagy kapuval
-
 tip.tool.add=Hozzáadás
 tip.tool.fullscreen=Teljesképernyő
 tip.tool.remove=Eltávolítás
-
 achievement.woodenGearAchievement=A széleken még kicsit durva
 achievement.woodenGearAchievement.desc=Fa fogaskerék legyártása
 achievement.stoneGearAchievement=Kőkemény
@@ -489,12 +460,10 @@ achievement.templateAchievement=Alapok
 achievement.templateAchievement.desc=Készíts egy sablont
 achievement.blueprintLibraryAchievement=Az ötletek tovább élnek
 achievement.blueprintLibraryAchievement.desc=Készíts tervrajz könyvtárat
-
 bc_update.new_version=§cÚj verzió érhető el Builcraft-ból: %s a következő Mincraft verzióhoz %s
 bc_update.download=§cLetölthető innen: http://www.mod-buildcraft.com/download
 bc_update.once=Ez az üzenet csak egyszer jelenik meg
 bc_update.again=Írd be, hogy '/buildcraft version' ha újra látni szeretnéd
-
 command.buildcraft.version=BuildCraft %s a következő Minecraft verzióhoz %s (Latest: %s).
 command.buildcraft.versioninfo=Verzió információk.
 command.buildcraft.available=Elérhető parancsok:
