@@ -19,7 +19,6 @@ buildcraft.boardRobotDelivery=Poštár
 buildcraft.boardRobotPump=Pumpár
 buildcraft.boardRobotStripes=Pásiky
 buildcraft.boardRobotBreaker=Rozbíjač
-
 buildcraft.boardRobotPicker.desc=Zbiera predmety
 buildcraft.boardRobotLumberjack.desc=Rúbe drevo
 buildcraft.boardRobotPlanter.desc=Sadí rastliny
@@ -39,7 +38,6 @@ buildcraft.boardRobotDelivery.desc=Dodáva predmety po žiadosti
 buildcraft.boardRobotPump.desc=Pumpuje tekutiny
 buildcraft.boardRobotStripes.desc=Ehm... pásiky!
 buildcraft.boardRobotStripes.desc=Kope kameň
-
 chat.gateCopier.clear=Informácie brány vynulované.
 chat.gateCopier.gateCopied=Informácie brány skopírované.
 chat.gateCopier.gatePasted=Informácie brány prilepené.
@@ -59,7 +57,6 @@ chat.pipe.power.iron.level.160=Stredná
 chat.pipe.power.iron.level.320=Vysoká
 chat.pipe.power.iron.level.640=Veľmi vysoká
 chat.pipe.power.iron.level.1280=Plná kapacita
-
 color.black=Čierna
 color.blue=Modrá
 color.brown=Hnedá
@@ -76,7 +73,6 @@ color.purple=Fialová
 color.red=Červená
 color.white=Biela
 color.yellow=Žltá
-
 config.general=Všeobecné
 config.general.pipes=Rúry
 config.blueprints=Schémy
@@ -87,19 +83,14 @@ config.display=Zobrazenie
 config.worldgen=Generovanie sveta
 config.network=Siete
 config.buildcraft=Buildcraft konfigurácia
-
 config.blueprints.clientDatabaseDirectory=Priečinok klienta
 config.blueprints.excludedMods=Vynechané módy
 config.blueprints.excludedBlocks=Vynechané kocky
-
 config.builders.dropBrokenBlocks=Vyhadzovať rozbité kocky
-
 config.display.colorBlindMode=Mód pre farboslepých
 config.display.hideFluidValues=Skryť čísla pri tekutinách
 config.display.hidePowerValues=Skryť čísla pri energiách
-
 config.experimental.kinesisPowerLossOnTravel=Odpor kinetických rúr
-
 config.general.boards.blacklist=Čierna listina robotov
 config.general.pumpsConsumeWater=Pumpy spotrebúvajú tekutiny
 config.general.updateCheck=Kontrola aktualizácií
@@ -124,14 +115,11 @@ config.general.quarry.doChunkLoading=Automatické načítavanie chunkov
 config.general.markerRange=Dosah značiek
 config.general.miningDepth=Maximálna relatívna hĺbka kopania
 config.general.pumpDimensionControl=Dimensionálna kontrola pre pumpu
-
 config.network.longUpdateFactor=Faktor synchronizácie klienta (v tikoch)
 config.network.updateFactor=Faktor posielania balíkov (v tikoch)
-
 config.power.miningUsageMultiplier=Koeficient spotreby energie kopania
 config.power.chipsetCostMultiplier=Koeficient spotreby energie vyrábania čipov
 config.power.gateCostMultiplier=Koeficient ceny brán
-
 config.worldgen.enable=Aktivovať
 config.worldgen.generateWaterSprings=Generovanie prameňov vody
 config.worldgen.oilWellGenerationRate=Koeficient množstva generovaných prameňov ropy
@@ -141,14 +129,12 @@ config.worldgen.biomes.biomeOilOcean=ID biomu oceánskej ropy
 config.worldgen.biomes.excessiveOilIDs=ID biomov s nadbytkom ropy
 config.worldgen.biomes.excludeOilIDs=ID biomov bez ropy
 config.worldgen.biomes.increasedOilIDs=ID biomov so zvýšeným počtom ropy
-
 direction.north=Sever
 direction.west=Západ
 direction.east=Východ
 direction.south=Juh
 direction.up=Vrch
 direction.down=Spodok
-
 direction.center.0=Severozápad
 direction.center.1=Sever
 direction.center.2=Severovýchod
@@ -158,7 +144,6 @@ direction.center.5=Východ
 direction.center.6=Juhozápad
 direction.center.7=Juh
 direction.center.8=Juhovýchod
-
 fillerpattern.clear=Vyčistiť
 fillerpattern.fill=Vyplniť
 fillerpattern.flatten=Zarovnať
@@ -170,10 +155,8 @@ fillerpattern.cylinder=Valec
 fillerpattern.frame=Rám
 fillerpattern.parameter.hollow=Duté
 fillerpattern.parameter.filled=Vyplnené
-
 fluid.oil=Ropa
 fluid.fuel=Benzín
-
 gate.action.extraction=%s Predvoľba extrakcia
 gate.action.pipe.item.color=Zafarbiť predmety %s
 gate.action.machine.on=ZAP
@@ -203,28 +186,22 @@ gate.action.station.forbid_robot=Zakázať robota
 gate.action.station.force_robot=Prinútiť robota
 gate.action.robot.filter=Filter
 gate.action.robot.filter_tool=Filterový nástroj
-
 gate.expansion.fader=Ruditový prelínač
 gate.expansion.pulsar=Pulzar
 gate.expansion.timer=Spínacie hodiny
 gate.expansion.light_sensor=Senzor svetla
 gate.expansion.rtc=Hodiny s reálnym časom
 gate.expansion.biological_sensor=Biologický senzor
-
 gate.logic.and=AND
 gate.logic.or=OR
-
 gate.material.iron=Železná
 gate.material.gold=Zlatá
 gate.material.diamond=Diamantová
 gate.material.emerald=Smaragdová
 gate.material.quartz=Kremenná
-
 gate.name=%s %s Brána
 gate.name.basic=Základná brána
-
 gate.parameter.redstone.gateSideOnly=Len strana brány
-
 gate.trigger.engine.blue=Modrý motor
 gate.trigger.engine.green=Zelený motor
 gate.trigger.engine.yellow=Žltý motor
@@ -269,9 +246,7 @@ gate.trigger.time.0=Noc
 gate.trigger.time.6=Ráno
 gate.trigger.time.12=Poobedie
 gate.trigger.time.18=Večer
-
 gui.fluidtank.empty=Prázdne
-
 gui.building.resources=Zdroje na stavbu
 gui.building.fluids=Tekutiny na stavbu
 gui.del=Vymazať
@@ -297,7 +272,6 @@ gui.pipes.emerald.nonblocking.tip=Extrakcia nie je blokovaná ak jeden z prvkov 
 gui.pipes.emzuli.title=Funkcia extrakcie
 gui.pipes.emzuli.paint=Farbiť predmety %s
 gui.pipes.emzuli.nopaint=Nefarbiť predmety
-
 item.bucketFuel.name=Vedro s benzínom
 item.bucketOil.name=Vedro s ropou
 item.woodenGearItem.name=Drevené ozubené koleso
@@ -386,13 +360,11 @@ item.PipePowerAdapter.name=Energetický adaptér
 item.debugger.name=Ladič
 item.debugger.warning=Používajte iba na testovanie! Môže prezradiť tajomstvá.
 item.package.name=Balík
-
 itemGroup.buildcraft.boards=BuildCraft Roboty
 itemGroup.buildcraft.main=BuildCraft
 itemGroup.buildcraft.pipes=BuildCraft Rúry
 itemGroup.buildcraft.facades=BuildCraft Fasády
 itemGroup.buildcraft.gates=BuildCraft Brány
-
 tile.architectBlock.name=Stôl architekta
 tile.assemblyTableBlock.name=Skladací stôl
 tile.assemblyWorkbenchBlock.name=Pokročilá výrobňa
@@ -429,7 +401,6 @@ tile.spring.water.name=Vodný prúd
 tile.stampingTableBlock.name=Pečiatkovací stôl
 tile.tankBlock.name=Nádrž
 tile.zonePlan.name=Plánovač povrchu
-
 tile.architect.rotate=Otočiť: ZAP
 tile.architect.norotate=Otočiť: VYP
 tile.architect.allblocks=Kocky: Všetky
@@ -438,7 +409,6 @@ tile.architect.excavate=Vykopať: ZAP
 tile.architect.noexcavate=Vykopať: VYP
 tile.architect.supportmods=Mód: Podporný
 tile.architect.allmods=Mód: Všetky
-
 tip.gate.wires=§9§oKompatibilné Drôty:
 tip.gate.wires.redstone=Červený
 tip.gate.wires.iron=Červený, Modrý
@@ -447,7 +417,6 @@ tip.gate.wires.quartz=Červený, Modrý, Zelený
 tip.gate.wires.diamond=Červený, Modrý, Zelený, Žltý
 tip.gate.wires.emerald=Červený, Modrý, Zelený, Žltý
 tip.gate.expansions=§9§oNaištalované rozšírenia:
-
 tip.PipeFluidsClay=Vkladacia rúra
 tip.PipeFluidsCobblestone=Nenapojí sa na Skalnú rúru
 tip.PipeFluidsEmerald=Extrakčná rúra
@@ -475,16 +444,13 @@ tip.PipeItemsVoid=Ničí predmety
 tip.PipeItemsWood=Extrakčná rúra
 tip.PipePowerEmerald=Rúra pre vstup energie
 tip.PipePowerIron=Nastaviteľná rúra 
-tip.PipePowerSandstone= Napojí sa len na iné rúry
+tip.PipePowerSandstone=Napojí sa len na iné rúry
 tip.PipePowerWood=Rúra na vstup energie
 tip.PipeStructureCobblestone=Podporná rúra
 tip.deprecated=Zastaralé
-
 tip.filler.excavate.on=Vykopávať
 tip.filler.excavate.off=Nevykopávať
-
 tip.list.matches=Zhoduje sa
-
 tip.shift.PipeFluidsDiamond=GUI prijíma akékoľvej nádoby na tekutinu
 tip.shift.PipeFluidsEmerald=GUI prijíma akúkoľvej nádobu na tekutinu
 tip.shift.PipeItemsClay=Uprednostňuje nádoby a stroje\n pred inými rúrami.
@@ -493,15 +459,12 @@ tip.shift.PipeItemsEmzuli=
 tip.shift.PipeItemsLapis=Plíž sa a klikni aby si\n zmenil farbu
 tip.shift.PipeItemsObsidian=
 tip.shift.PipePowerIron=Limit sa dá zmeniť francúzskym\n kľúčom alebo bránou
-
 tip.PipeItemsEmerald.whitelist=Biela listina
 tip.PipeItemsEmerald.blacklist=Čierna listina
 tip.PipeItemsEmerald.roundrobin=Poporadí
-
 tip.tool.add=Pridať
 tip.tool.fullscreen=Celá obrazovka
 tip.tool.remove=Odstrániť
-
 achievement.woodenGearAchievement=Trošku hrboľaté
 achievement.woodenGearAchievement.desc=Vyrob si Drevené ozubené koleso
 achievement.stoneGearAchievement=Tvrdé ako kameň
@@ -544,12 +507,10 @@ achievement.templateAchievement=Základ
 achievement.templateAchievement.desc=Vyrob si Šablónu
 achievement.blueprintLibraryAchievement=Nápady žijú
 achievement.blueprintLibraryAchievement.desc=Vyrob si Knižnicu schém
-
 bc_update.new_version=§cNová verzia Buildcraftu je dostupná: %s pre Minecraft %s
 bc_update.download=§cStiahnúť z http://www.mod-buildcraft.com/download
 bc_update.once=Táto správa sa zobrazí iba raz
 bc_update.again=Napíš '/buildcraft version' ak ju chceš vidieť znovu
 bc_update.changelog=Napíš '/buildcraft changelog' ak chceš vidieť zoznam zmien
-
 command.buildcraft.version=BuildCraft %s pre Minecraft %s (Najnovšie: %s).
 command.buildcraft.changelog_header=Zoznam zmien pre BuildCraft %s:
