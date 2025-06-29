@@ -19,7 +19,6 @@ buildcraft.boardRobotDelivery=Kargocu
 buildcraft.boardRobotPump=Pompa
 buildcraft.boardRobotStripes=Stripes
 buildcraft.boardRobotBreaker=Parçalayıcı
-
 buildcraft.boardRobotPicker.desc=Itemları toplar
 buildcraft.boardRobotLumberjack.desc=Odunları keser
 buildcraft.boardRobotPlanter.desc=Toprak mahsullerini eker
@@ -39,7 +38,6 @@ buildcraft.boardRobotDelivery.desc=İstek üzerine item taşır
 buildcraft.boardRobotPump.desc=Sıvıları pompalar
 buildcraft.boardRobotStripes.desc=Uhh... Stripes!
 buildcraft.boardRobotBreaker.desc=Taş Madenler
-
 chat.gateCopier.clear=Devre bilgileri temizlendi.
 chat.gateCopier.gateCopied=Devre bilgileri kopyalandı.
 chat.gateCopier.gatePasted=Devre bilgileri aktarıldı.
@@ -59,9 +57,7 @@ chat.pipe.power.iron.level.160=Orta
 chat.pipe.power.iron.level.320=Yüksek
 chat.pipe.power.iron.level.640=Çok Yüksek
 chat.pipe.power.iron.level.1280=Tam Kapasite
-
 color.clear=Renksiz
-
 color.black=Siyah
 color.blue=Mavi
 color.brown=Kahverengi
@@ -78,7 +74,6 @@ color.purple=Mor
 color.red=Kırmızı
 color.white=Beyaz
 color.yellow=Sarı
-
 config.general=Genel
 config.general.pipes=Borular
 config.blueprints=Mavi Baskılar
@@ -89,19 +84,14 @@ config.display=Görüntü
 config.worldgen=Dünya Oluşturma
 config.network=Ağ
 config.buildcraft=BuildCraft Ayarları
-
 config.blueprints.clientDatabaseDirectory=Dosya konumu
 config.blueprints.excludedMods=Çıkartılan modlar
 config.blueprints.excludedBlocks=Çıkartılan bloklar
-
 config.builders.dropBrokenBlocks=Kırılan blokları yere bırak
-
 config.display.colorBlindMode=Renk körü modu
 config.display.hideFluidValues=Sıvı değerlerini sakla
 config.display.hidePowerValues=Güç değerlerini sakla
-
 config.experimental.kinesisPowerLossOnTravel=Uzun Kinesis Boruları güç kaybetsin
-
 config.general.boards.blacklist=Robot için kara liste
 config.general.pumpsConsumeWater=Pompa gerçekten suyu tüketsin
 config.general.updateCheck=Güncellemeleri Denetle
@@ -126,14 +116,11 @@ config.general.quarry.doChunkLoading=Otomatik chunk yükleme
 config.general.markerRange=İşaretlerin uzunluğu
 config.general.miningDepth=Maksimum madencilik derinliği
 config.general.pumpDimensionControl=Pompa boyut kontrolü
-
 config.network.longUpdateFactor=Oyun senkronizasyon süresi (ticks)
 config.network.updateFactor=Paket gönderme süresi (ticks)
-
 config.power.miningUsageMultiplier=Madencilik için kullanım çarpanı
 config.power.chipsetCostMultiplier=Yonga seti için maliyet çarpanı
 config.power.gateCostMultiplier=Devre için maliyet çarpanı
-
 config.worldgen.enable=Aktif
 config.worldgen.generateWaterSprings=Su Baharını yarat
 config.worldgen.oilWellGenerationRate=Ham petrol yaratma oranı
@@ -143,14 +130,12 @@ config.worldgen.biomes.biomeOilOcean=Ham petrol okyanus biyom id
 config.worldgen.biomes.excessiveOilIDs=Aşırı ham petrol bulunduran biyomlar
 config.worldgen.biomes.excludeOilIDs=Ham petrol bulunmayan biyomlar
 config.worldgen.biomes.increasedOilIDs=Ham petrol içeren biyomlar
-
 direction.north=Kuzey
 direction.west=Batı
 direction.east=Doğu
 direction.south=Güney
 direction.up=Üst
 direction.down=Alt
-
 direction.center.0=Kuzey-Batı
 direction.center.1=Kuzey
 direction.center.2=Kuzey-Doğu
@@ -160,7 +145,6 @@ direction.center.5=Doğu
 direction.center.6=Güney-Batı
 direction.center.7=Güney
 direction.center.8=Güney-Doğu
-
 fillerpattern.clear=Temizle
 fillerpattern.fill=Doldur
 fillerpattern.flatten=Düzleştir
@@ -172,10 +156,8 @@ fillerpattern.cylinder=Silindir
 fillerpattern.frame=Çerçeve
 fillerpattern.parameter.hollow=İçi Boş
 fillerpattern.parameter.filled=İçi Doldurulmuş
-
 fluid.oil=Ham petrol
 fluid.fuel=Benzin
-
 gate.action.extraction=%s Ekstraksiyon Ön Ayarı
 gate.action.pipe.item.color=Itemları Rengine Göre %s
 gate.action.machine.on=Açık
@@ -205,28 +187,22 @@ gate.action.station.forbid_robot=Robot Yasak
 gate.action.station.force_robot=Kuvvetli Robotlar
 gate.action.robot.filter=Filtre
 gate.action.robot.filter_tool=Filtre Aracı
-
 gate.expansion.fader=Kızıltaş Fader
 gate.expansion.pulsar=Autarchic Pulsar
 gate.expansion.timer=Saat
 gate.expansion.light_sensor=Işık Sensörü
 gate.expansion.rtc=Gerçek Dünya Saatti
 gate.expansion.biological_sensor=Biyolojik Sensör
-
 gate.logic.and=AND
 gate.logic.or=OR
-
 gate.material.iron=Demir
 gate.material.gold=Altın
 gate.material.diamond=Elmas
 gate.material.emerald=Zümrüt
 gate.material.quartz=Kuvars
-
 gate.name=%1$s %2$s Devresi
 gate.name.basic=Basit Devre
-
 gate.parameter.redstone.gateSideOnly=Sadece devre yanı
-
 gate.trigger.engine.blue=Mavi Motor
 gate.trigger.engine.green=Yeşil Motor
 gate.trigger.engine.yellow=Sarı Motor
@@ -273,9 +249,7 @@ gate.trigger.time.12=Öğle
 gate.trigger.time.18=Akşam
 gate.trigger.fuelLevelBelow=Benzin seviyesi %d%% kadar aşağı inince
 gate.trigger.coolantLevelBelow=Soğutucu seviyesi %d%% kadar aşağı inince
-
 gui.fluidtank.empty=Boş
-
 gui.building.resources=İnşaat Kaynakları
 gui.building.fluids=Sıvı Tankları
 gui.del=Sil
@@ -301,7 +275,6 @@ gui.pipes.emerald.nonblocking.tip=Her hangi filtre olmadan devam eder
 gui.pipes.emzuli.title=Ekstraksiyon İçin Ön Ayarlar
 gui.pipes.emzuli.paint=Boyanmış Itemlar %s
 gui.pipes.emzuli.nopaint=Itemları Boyama
-
 item.bucketFuel.name=Benzin Kovası
 item.bucketOil.name=Ham petrol Kovası
 item.woodenGearItem.name=Tahta Dişli
@@ -390,13 +363,11 @@ item.PipePowerAdapter.name=Güç Adaptörü
 item.debugger.name=Hata Denetliyicisi
 item.debugger.warning=Sadece test etmek için kullanın! Gizliliği bozmaz.
 item.package.name=Paket
-
 itemGroup.buildcraft.boards=BuildCraft Robotları
 itemGroup.buildcraft.main=BuildCraft
 itemGroup.buildcraft.pipes=Buildcraft Boruları
 itemGroup.buildcraft.facades=Buildcraft Cepheleri
 itemGroup.buildcraft.gates=BuildCraft Devreleri
-
 tile.architectBlock.name=Mimarlık Masası
 tile.assemblyTableBlock.name=Lazer Birleşme Masası
 tile.assemblyWorkbenchBlock.name=Gelişmiş Çalışma Masası
@@ -433,7 +404,6 @@ tile.spring.water.name=Su Baharı
 tile.stampingTableBlock.name=Stamping Masası
 tile.tankBlock.name=Tank
 tile.zonePlan.name=Alan Planlıyıcısı
-
 tile.architect.rotate=Döndür: Açık
 tile.architect.norotate=Döndür: Kapalı
 tile.architect.allowCreative=Mod: Yaratıcı
@@ -442,7 +412,6 @@ tile.architect.tooltip.allowCreative.1=Tüm bloklar için yaratıcı modu gereki
 tile.architect.tooltip.allowCreative.2=Hayatta kalma modu desteklenmeyen blokları engeller.
 tile.architect.excavate=Kazı: Açık
 tile.architect.noexcavate=Kazı: Kapalı
-
 tip.gate.wires=§9§oDesteklenen Teller:
 tip.gate.wires.redstone=Kırmızı
 tip.gate.wires.iron=Kırmızı, Mavi
@@ -451,7 +420,6 @@ tip.gate.wires.quartz=Kırmızı, Mavi, Yeşil
 tip.gate.wires.diamond=Kırmızı, Mavi, Yeşil, Sarı
 tip.gate.wires.emerald=Kırmızı, Mavi, Yeşil, Sarı
 tip.gate.expansions=§9§oEklentiler:
-
 tip.PipeFluidsClay=Tank doldurma borusu
 tip.PipeFluidsCobblestone=Taş ve Kuvars Borularına bağlanmaz
 tip.PipeFluidsDiamond=Sıvıları yönlendirir
@@ -483,16 +451,12 @@ tip.PipePowerSandstone=Sadece diğer borulara bağlanır
 tip.PipePowerWood=Güç giriş borusu
 tip.PipeStructureCobblestone=Destek borusu
 tip.deprecated=Bozulmuş
-
 tip.gate.charged=Şarjda
 tip.gate.fullcharge=Şarj Ediliyor
 tip.gate.nocharge=Şarj Yok
-
 tip.filler.excavate.on=Kaz
 tip.filler.excavate.off=Kazma
-
 tip.list.matches=Eşleşme
-
 tip.shift.PipeFluidsDiamond=Arayüzü her türlü sıvıyı kabul eder
 tip.shift.PipeFluidsEmerald=Arayüzü her türlü sıvıyı kabul eder
 tip.shift.PipeItemsClay=Sandık ve makinelerde biri\ndolunca diğerine aktarım
@@ -501,15 +465,12 @@ tip.shift.PipeItemsEmzuli=Arayüzden, çıkartılacaklar için filtreleri hazır
 tip.shift.PipeItemsLapis=Renk değiştirmek için boya fırçasıyla\nborunun üzerine sağ tık yapın
 tip.shift.PipeItemsObsidian=Dahili eneji motorlu\nFazla güçlü - fazla mesafe götürür
 tip.shift.PipePowerIron=Limit değiştirmek için devre veya ingiliz anahtarı kullanın
-
 tip.PipeItemsEmerald.whitelist=Beyaz Liste
 tip.PipeItemsEmerald.blacklist=Kara Liste
 tip.PipeItemsEmerald.roundrobin=Round Robin (Sırayla)
-
 tip.tool.add=Ekle
 tip.tool.fullscreen=Tam Ekran
 tip.tool.remove=Sil
-
 achievement.woodenGearAchievement=Her Şey Bir Yerden Başlar
 achievement.woodenGearAchievement.desc=Tahta dişli üret
 achievement.stoneGearAchievement=Kayalar Zorludur
@@ -552,40 +513,31 @@ achievement.templateAchievement=Dayanak
 achievement.templateAchievement.desc=Şablon Üret
 achievement.blueprintLibraryAchievement=Fikirler Üstündür
 achievement.blueprintLibraryAchievement.desc=Mavi Baskı Kütüphanesi Üret
-
 bc_update.new_version=§cBuildcraft için yeni sürüm mevcut: %s Minecraft %s
 bc_update.download=§cİndirmek için http://www.mod-buildcraft.com/download
 bc_update.once=Bu mesajı tekrar görmek için
 bc_update.again='/buildcraft version' komutunu kullanın
 bc_update.changelog=/buildcraft changelog' komutu ile değişiklikleri görebilirsiniz
-
 chat.buildcraft.quarry.tooSmall=[BuildCraft] Yer delici chunk yükleme sınırının dışında veya sınır aşırı küçük %d %d (%d)
 chat.buildcraft.quarry.chunkloadInfo=[BuildCraft] Yer delici %d %d %d bölgesindeki %d chunk'kı yükledi
-
 command.buildcraft.version=BuildCraft %s Minecraft %s (Güncel Sürüm: %s).
 command.buildcraft.changelog_header=BuildCraft %s sürümü için değişiklikler:
-
 command.buildcraft.aliases=Diğer kullanımı: %s
 command.buildcraft.help=Yardım için '%s' komutunu kullan.
 command.buildcraft.list=Kullanılabilen komutlar:
 command.buildcraft.permlevel=Yetki seviyesi: %s
 command.buildcraft.noperms=Bu komut için yetkiniz yoktur.
-
 command.buildcraft.buildcraft.help=BuildCraft'ın tüm komutlarını gösterir 
 command.buildcraft.buildcraft.format=Kullanımı: /%s <komut>
-
 command.buildcraft.buildcraft.version.desc=- %s : Versiyon bilgisi
 command.buildcraft.buildcraft.version.help=BC modunun en yeni sürümünü gösterir.
 command.buildcraft.buildcraft.version.format=Kullanımı: /%s
-
 command.buildcraft.buildcraft.changelog.desc=- %s : Değişiklik bilgisi
 command.buildcraft.buildcraft.changelog.help=En yeni değişiklikleri gösterir.
 command.buildcraft.buildcraft.changelog.format=Kullanımı: /%s
-
 command.buildcraft.buildcraft.op.desc=- %s : Op sahte oyuncu
 command.buildcraft.buildcraft.op.help=BC sahte oyuncusuna adminlik verir (sahte adla bunlar çalışır yer deliciler, robotlar, vb.)
 command.buildcraft.buildcraft.op.format=Kullanımı: /%s
-
 command.buildcraft.buildcraft.deop.desc=- %s : Deop sahte oyuncu
 command.buildcraft.buildcraft.deop.help=BC sahte oyuncusundaki adminliğini alır (sahte adla bunlar çalışır yer deliciler, robotlar, vb.)
 command.buildcraft.buildcraft.deop.format=Kullanımı: /%s
