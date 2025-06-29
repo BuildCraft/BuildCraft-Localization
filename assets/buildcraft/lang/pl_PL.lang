@@ -556,3 +556,4 @@ command.buildcraft.buildcraft.op.desc=- %s : Nadaj status operatora FakePlayerow
 command.buildcraft.buildcraft.op.help=Nadaje status operatora FakePlayerowi BC (działa jako gracz w imię kamieniołomów, robotów, itd.)
 command.buildcraft.buildcraft.deop.help=Odbiera status operatora FakePlayerowi BC (działa jako gracz w imię kamieniołomów, robotów, itd.)
 command.buildcraft.buildcraft.deop.desc=- %s : Odbierz status operatora FakePlayerowi
+buildcraft.boardRobotCarrier.desc=Przenosi przedmioty między kontenerami
