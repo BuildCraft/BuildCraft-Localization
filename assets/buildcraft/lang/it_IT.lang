@@ -18,7 +18,6 @@ buildcraft.boardRobotCrafter=Fabbricatrice
 buildcraft.boardRobotDelivery=Consegnatrice
 buildcraft.boardRobotPump=Pompa
 buildcraft.boardRobotStripes=Striato
-
 buildcraft.boardRobotPicker.desc=Raccoglie oggetti
 buildcraft.boardRobotLumberjack.desc=Spacca tronchi
 buildcraft.boardRobotPlanter.desc=Semina piante
@@ -37,7 +36,6 @@ buildcraft.boardRobotCrafter.desc=Fabbrica oggetti
 buildcraft.boardRobotDelivery.desc=Consegna oggetti su richiesta
 buildcraft.boardRobotPump.desc=Pompa fluidi fuori
 buildcraft.boardRobotStripes.desc=Uhm... striato!
-
 chat.gateCopier.clear=Infromazione del gate cancellate.
 chat.gateCopier.gateCopied=Copiate informazioni del gate alla copiatrice.
 chat.gateCopier.gatePasted=Incollato dati copiati sul gate.
@@ -57,7 +55,6 @@ chat.pipe.power.iron.level.160=medio
 chat.pipe.power.iron.level.320=alto
 chat.pipe.power.iron.level.640=molto alto
 chat.pipe.power.iron.level.1280=capacità massima
-
 color.black=Nero
 color.blue=Blu
 color.brown=Marrone
@@ -74,7 +71,6 @@ color.purple=Viola
 color.red=Rosso
 color.white=Bianco
 color.yellow=Giallo
-
 config.general=Generale
 config.general.pipes=Tubi
 config.blueprints=Cianotipi
@@ -83,15 +79,12 @@ config.display=Descrizione
 config.worldgen=Generazione del mondo
 config.network=Networking
 config.buildcraft=Configurazioni BuildCraft
-
 config.blueprints.clientDatabaseDirectory=Directory del client
 config.blueprints.excludedMods=Mod esclusi
 config.blueprints.excludedBlocks=Blocchi esclusi
-
 config.display.colorBlindMode=Modalità daltonico
 config.display.hideFluidValues=Nascondi i numeri dei fluidi
 config.display.hidePowerValues=Nascondi i numeri dell'energia
-
 config.general.pumpsConsumeWater=Pompa consuma acqua
 config.general.updateCheck=Controlla per aggiornamenti for updates
 config.general.itemLifespan=Durata di vita degli oggetti (secondi)
@@ -103,13 +96,10 @@ config.general.quarry.oneTimeUse=Usabile una sola volta
 config.general.quarry.doChunkLoading=Caricamento chunk automatico
 config.general.miningDepth=Profondità massima di scavo
 config.general.pumpDimensionControl=Controllo dimensione della pompa
-
 config.network.longUpdateFactor=Fattore di sincronizzazione al client (tick)
 config.network.updateFactor=Fattore di mandare pacchetti (tick)
-
 config.power.miningUsageMultiplier=Moltiplicatore di usura di scavo
 config.power.chipsetCostMultiplier=Moltiplicatore di costo di circuiti
-
 config.worldgen.enable=Attiva
 config.worldgen.oilWellGenerationRate=Proporzioni generazione di pozzi petroliferi
 config.worldgen.spawnOilSprings=Genera pozzi petroliferi
@@ -121,7 +111,6 @@ direction.east=Est
 direction.south=Sud
 direction.up=Su
 direction.down=Giù
-
 fillerpattern.clear=Sgombrare
 fillerpattern.fill=Riempire
 fillerpattern.flatten=Appiattire
@@ -131,10 +120,8 @@ fillerpattern.stairs=Scale
 fillerpattern.box=Scatola
 fillerpattern.cylinder=Cilindro
 fillerpattern.frame=Impalcatura
-
 fluid.oil=Petrolio
 fluid.fuel=Carburante
-
 gate.action.extraction=Programma per estrazione %s
 gate.action.pipe.item.color=Colora gli oggetti di %s
 gate.action.machine.on=Acceso
@@ -164,28 +151,22 @@ gate.action.station.forbid_robot=Proibito a robot
 gate.action.station.force_robot=Forza robot
 gate.action.robot.filter=Filtro
 gate.action.robot.filter_tool=Filtra attrezzo
-
 gate.expansion.fader=Fader di pietrarossa
 gate.expansion.pulsar=Pulsar autarchico
 gate.expansion.timer=Timer
 gate.expansion.light_sensor=Light Sensor
 gate.expansion.rtc=Real-Time Clock
 gate.expansion.biological_sensor=Biological Sensor
-
 gate.logic.and=AND
 gate.logic.or=OR
-
 gate.material.iron=di ferro
 gate.material.gold=d'oro
 gate.material.diamond=di diamante
 gate.material.emerald=di smeraldo
 gate.material.quartz=di quarzo
-
 gate.name=%2$s gate %1$s
 gate.name.basic=Gate base
-
 gate.parameter.redstone.gateSideOnly=Solo lato del gate
-
 gate.trigger.engine.blue=Motore blu
 gate.trigger.engine.green=Motore verde
 gate.trigger.engine.yellow=Motore giallo
@@ -230,14 +211,13 @@ gate.trigger.time.0=Notte
 gate.trigger.time.6=Mattina
 gate.trigger.time.12=Pomeriggio
 gate.trigger.time.18=Sera
-
 gui.building.resources=Materiali per costruire
 gui.building.fluids=Cisterna per fluidi
 gui.del=Canc
 gui.filling.resources=Materiali per riempire
 gui.inventory=Inventario
 gui.lock=Blocca
-gui.needed= Necessari
+gui.needed=Necessari
 gui.unlock=Sblocca
 gui.energy=Corrente
 gui.currentOutput=Output attuale
@@ -256,7 +236,6 @@ gui.pipes.emerald.nonblocking.tip=L'estrazione continua con il prossimo elemento
 gui.pipes.emzuli.title=Programma per estrazione
 gui.pipes.emzuli.paint=Colora gli oggetti di %s
 gui.pipes.emzuli.nopaint=Non colorare gli oggetti
-
 item.bucketFuel.name=Secchio di carburante
 item.bucketOil.name=Secchio di petrolio
 item.woodenGearItem.name=Ingranaggio di legno
@@ -343,13 +322,11 @@ item.Filter.name=Filtro
 item.debugger.name=Debugger
 item.debugger.warning=Usa solo per prova! Rivela segreti.
 item.package.name=Pacco
-
 itemGroup.buildcraft.boards=BuildCraft robot
 itemGroup.buildcraft.main=BuildCraft
 itemGroup.buildcraft.pipes=BuildCraft tubi
 itemGroup.buildcraft.facades=BuildCraft facciate
 itemGroup.buildcraft.gates=BuildCraft gate
-
 tile.architectBlock.name=Tavolo dell'architetto
 tile.assemblyTableBlock.name=Tavolo di assemblaggio
 tile.assemblyWorkbenchBlock.name=Banco da lavoro avanzato
@@ -386,7 +363,6 @@ tile.spring.water.name=Sorgente d'acqua
 tile.stampingTableBlock.name=Tavolo di timbratura
 tile.tankBlock.name=Serbatoio
 tile.zonePlan.name=Pianificatore per zone
-
 tile.architect.rotate=Rotazione: Si
 tile.architect.norotate=Rotazione: No
 tile.architect.allowCreative=Modalità: Creativa
@@ -395,7 +371,6 @@ tile.architect.tooltip.allowCreative.1=Creativa permette tutti i blocchi - Solo 
 tile.architect.tooltip.allowCreative.2=Sopravvivenza ignora tutti i blocchi non supportati
 tile.architect.excavate=Scavare: Si
 tile.architect.noexcavate=Scavare: No
-
 tip.gate.wires=§9§oFili compatibili:
 tip.gate.wires.redstone=Rosso
 tip.gate.wires.iron=Rosso, Blu
@@ -404,7 +379,6 @@ tip.gate.wires.quartz=Rosso, Blu, Verde
 tip.gate.wires.diamond=Rosso, Blu, Verde, Giallo
 tip.gate.wires.emerald=Rosso, Blu, Verde, Giallo
 tip.gate.expansions=§9§oEspansioni installate:
-
 tip.PipeFluidsClay=Tubo di inserimento
 tip.PipeFluidsCobblestone=Non si connette a pietra
 tip.PipeFluidsDiamond=Smista fluidi
@@ -434,7 +408,6 @@ tip.PipePowerIron=Tubo con limite selezionabile
 tip.PipePowerSandstone=Si connette solo ad altri tubi
 tip.PipePowerWood=Tubo d'entrata per corrente
 tip.PipeStructureCobblestone=Tubo per supporto
-
 tip.shift.PipeFluidsDiamond=GUI accetta qualunque contenitore di fluidi
 tip.shift.PipeFluidsEmerald=GUI accetta qualunque contenitore di fluidi
 tip.shift.PipeItemsClay=Da la priorità a macchinari e\ncasse sopra i tubi.
@@ -443,11 +416,9 @@ tip.shift.PipeItemsEmzuli=Seleziona i filtri di preset di estrazione nel GUI\nUn
 tip.shift.PipeItemsLapis=Clic-Shift per cambiare colore
 tip.shift.PipeItemsObsidian=Alimenta con un motore\npiù corrente - maggiore distanza
 tip.shift.PipePowerIron=Cambia il limite con una chiave inglese o un gate
-
 tip.tool.add=Aggiungi
 tip.tool.fullscreen=Schermo intero
 tip.tool.remove=Rimuovi
-
 achievement.woodenGearAchievement=Un po' grezzo
 achievement.woodenGearAchievement.desc=Crea un ingranaggio di legno
 achievement.stoneGearAchievement=Duro come la pietra
@@ -490,28 +461,22 @@ achievement.templateAchievement=Basi
 achievement.templateAchievement.desc=Crea un progetto
 achievement.blueprintLibraryAchievement=Le idee continuano
 achievement.blueprintLibraryAchievement.desc=Crea una libreria per progetti
-
 bc_update.new_version=§cÈ avviabile una nuova versione di BuildCraft: %s per Minecraft %s
 bc_update.download=§cScaricalo da http://www.mod-buildcraft.com/download
 bc_update.once=Questo messaggio sarà mostrato soltanto una volta
 bc_update.again=Scrivi '/buildcraft version' se lo vuoi vedere di nuovo
-
 command.buildcraft.version=BuildCraft %s per Minecraft %s (ultimo: %s).
 command.buildcraft.changelog_header=Changelog per BuildCraft %s:
-
 command.buildcraft.aliases=Pseudonimi: %s
 command.buildcraft.help=Prova '%s' per aiuto.
 command.buildcraft.list=Comandi avviabili:
 command.buildcraft.permlevel=Livello autorizzazione: %s
 command.buildcraft.noperms=Non hai l'autorizzazione di usare questo comando.
-
 command.buildcraft.buildcraft.help=Vari comandi per BuildCraft
 command.buildcraft.buildcraft.format=Formato: /%s <sub-comando>
-
 command.buildcraft.buildcraft.version.desc=- %s : Informazioni versione
 command.buildcraft.buildcraft.version.help=Mostra l'ultima versione e la versione corrente di BC.
 command.buildcraft.buildcraft.version.format=Formato: /%s
-
 command.buildcraft.buildcraft.changelog.desc=- %s : Changelog
 command.buildcraft.buildcraft.changelog.help=Mostra l'ultimo changelog di BC.
 command.buildcraft.buildcraft.changelog.format=Formato: /%s 
