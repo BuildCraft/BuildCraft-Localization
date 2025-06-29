@@ -17,7 +17,6 @@ buildcraft.boardRobotBuilder=Constructeur
 buildcraft.boardRobotCrafter=Fabriqueur
 buildcraft.boardRobotDelivery=Délivreur
 buildcraft.boardRobotPump=Pompeur
-
 chat.gateCopier.clear=Informations de porte effacées.
 chat.gateCopier.gateCopied=Informations de porte copiées au copieur.
 chat.gateCopier.gatePasted=Informations de porte collées à la porte.
@@ -37,7 +36,6 @@ chat.pipe.power.iron.level.160=moyenne
 chat.pipe.power.iron.level.320=haute
 chat.pipe.power.iron.level.640=très haute
 chat.pipe.power.iron.level.1280=à pleine capacité
-
 color.black=noir
 color.blue=bleu
 color.brown=brun
@@ -54,14 +52,12 @@ color.purple=mauve
 color.red=rouge
 color.white=blanc
 color.yellow=jaune
-
 direction.north=Nord
 direction.west=Ouest
 direction.east=Est
 direction.south=Sud
 direction.up=Haut
 direction.down=Bas
-
 fillerpattern.clear=Vider
 fillerpattern.fill=Remplir
 fillerpattern.flatten=Aplanir
@@ -71,10 +67,8 @@ fillerpattern.stairs=Escaliers
 fillerpattern.box=Boîte
 fillerpattern.cylinder=Cylindre
 fillerpattern.frame=Charpente
-
 fluid.oil=Pétrole
 fluid.fuel=Gaz
-
 gate.action.extraction=Préréglage d'extraction %s
 gate.action.pipe.item.color=Peinturer les objets en %s
 gate.action.machine.on=Démarrer la machine
@@ -101,25 +95,19 @@ gate.action.robot.work_in_area=Travailler dans la zone
 gate.action.robot.wakeup=Réveiller
 gate.action.station.forbid_robot=Robot interdit
 gate.action.robot.filter=Filtre
-
 gate.expansion.fader=Estompeur de redstone
 gate.expansion.pulsar=Autarcique à impulsions
 gate.expansion.timer=Minuteur
-
 gate.logic.and=ET
 gate.logic.or=OU
-
 gate.material.iron=fer
 gate.material.gold=or
 gate.material.diamond=diamant
 gate.material.emerald=émeraude
 gate.material.quartz=quartz
-
 gate.name=Porte %2$s en %1$s
 gate.name.basic=Porte de base
-
 gate.parameter.redstone.gateSideOnly=Du côté de la porte seulement
-
 gate.trigger.engine.blue=Moteur bleu
 gate.trigger.engine.green=Moteur vert
 gate.trigger.engine.yellow=Moteur jaune
@@ -152,7 +140,6 @@ gate.trigger.timer=À toutes les %s secondes
 gate.trigger.robot.sleep=Endormi
 gate.trigger.machine.energyStoredHigh=Beaucoup d'énergie stockée
 gate.trigger.machine.energyStoredLow=Peu d'énergie stockée
-
 gui.building.resources=Ressources de construction
 gui.building.fluids=Tanks à fluide
 gui.del=§cX
@@ -178,7 +165,6 @@ gui.pipes.emerald.nonblocking.tip=L'extraction continue avec le prochain éléme
 gui.pipes.emzuli.title=Préréglages d'extraction
 gui.pipes.emzuli.paint=Peinturer les objets en %s
 gui.pipes.emzuli.nopaint=Ne peinture pas les objets
-
 item.bucketFuel.name=Chaudière de gaz
 item.bucketOil.name=Chaudière de pétrole
 item.woodenGearItem.name=Engrenage en bois
@@ -259,13 +245,11 @@ item.FacadePhased.state_transparent=Transparente
 item.PipePlug.name=Bouchon de tuyau
 item.Lens.name=Lentille
 item.Filter.name=Filtre
-
 itemGroup.buildcraft.blocks=Blocs de Buildcraft
 itemGroup.buildcraft.boards=Robots de Buildcraft
 itemGroup.buildcraft.items=Objets de Buildcraft
 itemGroup.buildcraft.pipes=Tuyaux de Buildcraft
 itemGroup.buildcraft.facades=Façades de Buildcraft
-
 tile.architectBlock.name=Table d'architecte
 tile.assemblyTableBlock.name=Table d'assemblage
 tile.assemblyWorkbenchBlock.name=Établi avancé
@@ -299,11 +283,9 @@ tile.spring.oil.name=Source de pétrole
 tile.spring.water.name=Source d'eau
 tile.tankBlock.name=Tank
 tile.zonePlan.name=Délimiteur de zone
-
 tile.blockRedPlasma.name=Plasma rouge
 tile.buildToolBlock.name=Bloc destructeur
 tile.pipeBlock.name=Tuyau
-
 tile.architect.rotate=Tourne : Oui
 tile.architect.norotate=Tourne : Non
 tile.architect.allowCreative=Mode : Créatif
@@ -312,7 +294,6 @@ tile.architect.tooltip.allowCreative.1=Le mode Créatif permet tous les blocs en
 tile.architect.tooltip.allowCreative.2=Le mode Survie ignore tous les blocs non supportés
 tile.architect.excavate=Creuse : Oui
 tile.architect.noexcavate=Creuse : Non
-
 tip.gate.wires=§9§oCâbles compatibles :
 tip.gate.wires.redstone=Rouge
 tip.gate.wires.iron=Rouge, bleu
@@ -321,7 +302,6 @@ tip.gate.wires.quartz=Rouge, bleu, vert
 tip.gate.wires.diamond=Rouge, bleu, vert, jaune
 tip.gate.wires.emerald=Rouge, bleu, vert, jaune
 tip.gate.expansions=§9§oExtensions installées :
-
 tip.PipeFluidsClay=Tuyau d'insertion
 tip.PipeFluidsCobblestone=Ne se connecte pas à celui de pierre
 tip.PipeFluidsDiamond=Trie les fluides
@@ -351,7 +331,6 @@ tip.PipePowerIron=Tuyau limiteur sélectionnable
 tip.PipePowerSandstone=Se connecte uniquement aux autres tuyaux
 tip.PipePowerWood=Tuyau d'alimentation
 tip.PipeStructureCobblestone=Tuyau de support
-
 tip.shift.PipeFluidsDiamond=L'interface accepte n'importe\nquel conteneur de fluide
 tip.shift.PipeFluidsEmerald=L'interface accepte n'importe\nquel conteneur de fluide
 tip.shift.PipeItemsClay=Privilégie les machines et les coffres\nplutôt qu'aux tuyaux voisins
@@ -360,10 +339,8 @@ tip.shift.PipeItemsEmzuli=Définissez les filtres de préréglage\ndans l'interf
 tip.shift.PipeItemsLapis=Faites un clic droit avec une\nclé pour changer de couleur
 tip.shift.PipeItemsObsidian=Alimentez avec un moteur\nPlus il y a d'énergie fournie,\nplus grande est la distance
 tip.shift.PipePowerIron=Changez la limite avec une clé ou des portes
-
 tip.tool.add=Ajouter
 tip.tool.remove=Enlever
-
 achievement.woodenGearAchievement=Un peu dur sur les bords
 achievement.woodenGearAchievement.desc=Fabriquez un engrenage en bois.
 achievement.stoneGearAchievement=Dur comme de la roche
@@ -406,12 +383,10 @@ achievement.templateAchievement=La base
 achievement.templateAchievement.desc=Fabriquez un modèle.
 achievement.blueprintLibraryAchievement=Les idées survivent
 achievement.blueprintLibraryAchievement.desc=Fabriquez une bibliothèque de blueprints.
-
 bc_update.new_version=§cNouvelle version de BuildCraft disponible : %s pour Minecraft %s
 bc_update.download=§cTéléchargez-la à l'adresse : http://www.mod-buildcraft.com/download
 bc_update.once=Ce message ne s'affichera qu'une seule fois
 bc_update.again=Tapez '/buildcraft version' si vous voulez le revoir
-
 command.buildcraft.version=BuildCraft %s pour Minecraft %s (dernière version : %s).
 command.buildcraft.versioninfo=Informations de version.
 command.buildcraft.available=Commandes disponibles :
