@@ -17,9 +17,7 @@ The BuildCraft license applies.
 
 ## Contributing
 
-The best way to contribute to pre-7.99.x versions is to use the online [Weblate interface](https://weblate.asie.pl/projects/buildcraft/).
-
-For 7.99.x and above, use GitHub pull requests.
+The best way to contribute is to use the online [Weblate interface](https://weblate.asie.pl/projects/buildcraft/).
 
 ### en_US
 
