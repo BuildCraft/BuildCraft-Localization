@@ -1,7 +1,6 @@
 # cs_CZ language file
 
 chat.pipe.power.iron.mode=Přepnuto na limit %d RF/t
-
 color.black=Černá
 color.blue=Modrá
 color.brown=Hnědá
@@ -18,7 +17,6 @@ color.purple=Fialová
 color.red=Červená
 color.white=Bílá
 color.yellow=Žlutá
-
 fillerpattern.clear=Vyčistit
 fillerpattern.fill=Vyplnit
 fillerpattern.flatten=Zarovnat
@@ -26,10 +24,8 @@ fillerpattern.horizon=Horizontální
 fillerpattern.pyramid=Pyramida
 fillerpattern.stairs=Schody
 fillerpattern.box=Krabice
-
 fluid.oil=Olej
 fluid.fuel=Palivo
-
 gate.action.extraction=%s předvolba extrakce
 gate.action.pipe.item.color=Obarvit předměty %s
 gate.action.machine.on=Zapnuto
@@ -38,21 +34,16 @@ gate.action.machine.loop=Smyčka
 gate.action.pulsar.constant=Energetický pulzar
 gate.action.pulsar.single=Jednotný pulz energie
 gate.action.pipe.wire=%s signál trubky
-
 gate.expansion.fader=Ruditový pohasínač
 gate.expansion.pulsar=Soběstačný pulzar
 gate.expansion.timer=Časovač hodin
-
 gate.logic.and=A
 gate.logic.or=NEBO
-
 gate.material.iron=Železo
 gate.material.gold=Zlato
 gate.material.diamond=Diamant
-
 gate.name=%s %s Brána
 gate.name.basic=Běžná brána
-
 gate.trigger.engine.blue=Motor je modrý
 gate.trigger.engine.green=Motor je zelený
 gate.trigger.engine.yellow=Motor je žlutý
@@ -81,7 +72,6 @@ gate.trigger.pipe.tooMuchEnergy=Energie je přetížena
 gate.trigger.pipe.wire.active=%s signál trubky zapnut
 gate.trigger.pipe.wire.inactive=%s signál trubky vypnut
 gate.trigger.timer=%s sekundový časovač
-
 gui.building.resources=Zdroje pro stavbu
 gui.del=Smaž
 gui.filling.resources=Zdroje pro plnění
@@ -103,7 +93,6 @@ gui.pipes.emerald.nonblocking.tip=Extrakce pokračuje s dalšími elementy v pln
 gui.pipes.emzuli.title=Předvolby extrakce
 gui.pipes.emzuli.paint=Barvit věci na %s
 gui.pipes.emzuli.nopaint=Nebarvit věci
-
 item.bucketFuel.name=Kyblík paliva
 item.bucketOil.name=Kyblík oleje
 item.woodenGearItem.name=Dřevěné převodové kolo
@@ -159,10 +148,8 @@ item.PipeItemsSandstone.name=Pískovcová transportní trubka
 item.PipeFluidsSandstone.name=Pískovcová vodovodní trubka
 item.Facade.name=Fasáda
 item.PipePlug.name=Oddělovač trubek
-
 itemGroup.buildcraft.machines=Buildcraftí stroje
 itemGroup.buildcraft.facades=Buildcraftí fasády
-
 tile.architectBlock.name=Architektonický stůl
 tile.assemblyTableBlock.name=Montážní stůl
 tile.assemblyWorkbenchBlock.name=Montážní lavice
@@ -191,14 +178,12 @@ tile.refineryBlock.name=Rafinerie
 tile.spring.oil.name=Jarní olej
 tile.spring.water.name=Jarní voda
 tile.tankBlock.name=Nádrž
-
 tip.gate.wires=§9§oKompatibilní vedení:
 tip.gate.wires.redstone=Červená
 tip.gate.wires.iron=Červená, modrá
 tip.gate.wires.gold=Červená, modrá, žlutá
 tip.gate.wires.diamond=Červená, modrá, žlutá, zelená
 tip.gate.expansions=§9§oInstalovaná rozšíření:
-
 tip.PipeFluidsCobblestone=Základní trubka\nNepřipojí se ke kamenné
 tip.PipeFluidsEmerald=Extrahující trubka
 tip.PipeFluidsGold=Základní trubka
@@ -224,3 +209,47 @@ tip.PipeItemsEmzuli=Extrahuje předměty bránami
 tip.PipePowerWood=Extrahuje energii
 tip.PipePowerIron=Trubka, která může zvolit limit energie
 tip.PipeStructureCobblestone=Podpůrná trubka
+buildcraft.boardRobotBreaker=Ničitel
+buildcraft.boardRobotStripes=Proužky
+buildcraft.boardRobotPicker=Sběrač
+buildcraft.boardRobotLumberjack=Dřevorubec
+buildcraft.boardRobotPlanter=Sázeč
+buildcraft.boardRobotLeaveCutter=Střihač listí
+buildcraft.boardRobotCarrier=Nosič
+buildcraft.boardRobotClean=Čistič
+buildcraft.boardRobotFluidCarrier=Nosič kapalin
+buildcraft.boardRobotBomber=Bombardér
+buildcraft.boardRobotKnight=Rytíř
+buildcraft.boardRobotMiner=Horník
+buildcraft.boardRobotFarmer=Farmář
+buildcraft.boardRobotHarvester=Kombajn
+buildcraft.boardRobotShovelman=Lopatkář
+buildcraft.boardRobotButcher=Řezník
+buildcraft.boardRobotBuilder=Stavitel
+buildcraft.boardRobotCrafter=Vyráběč
+buildcraft.boardRobotDelivery=Doručovatel
+buildcraft.boardRobotPump=Pumpa
+buildcraft.boardRobotLumberjack.desc=Ničí stromy
+buildcraft.boardRobotPlanter.desc=Sází plodiny
+buildcraft.boardRobotLeaveCutter.desc=Stříhá listí
+buildcraft.boardRobotCarrier.desc=Přesouvá předměty mezi inventáři
+buildcraft.boardRobotBomber.desc=Bombarduje místa
+buildcraft.boardRobotKnight.desc=Bojuje se stvůrami
+buildcraft.boardRobotMiner.desc=Těží rudy
+buildcraft.boardRobotFarmer.desc=Orá hlínu
+buildcraft.boardRobotHarvester.desc=Sklízí zralé plodiny
+buildcraft.boardRobotShovelman.desc=Bagruje bloky
+buildcraft.boardRobotButcher.desc=Bojuje se zvířaty
+buildcraft.boardRobotBuilder.desc=Staví stavby
+buildcraft.boardRobotCrafter.desc=Vyrábí předměty
+buildcraft.boardRobotPump.desc=Pumpuje kapaliny
+buildcraft.boardRobotStripes.desc=Ehm... Proužky!
+buildcraft.boardRobotBreaker.desc=Těží kámen
+chat.gateCopier.clear=Informace brány vymazány.
+chat.gateCopier.gateCopied=Informace brány zkopírovány do kopírovače.
+chat.gateCopier.gatePasted=Zkopírovaná data byla vložena do brány.
+chat.gateCopier.noInformation=Nejsou uloženy žádné informace o bráně!
+buildcraft.boardRobotPicker.desc=Sbírá předměty
+buildcraft.boardRobotFluidCarrier.desc=Přesouvá kapaliny mezi nádržemi
+buildcraft.boardRobotDelivery.desc=Doručuje předměty na vyžádání
+chat.gateCopier.noGate=Na této straně nebyla nalezena žádná brána!
