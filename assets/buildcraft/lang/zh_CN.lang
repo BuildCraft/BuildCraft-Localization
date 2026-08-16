@@ -972,3 +972,4 @@ buildcraft.help.rf_engine.rf_battery.title=RF 电池
 buildcraft.help.rf_engine.rf_battery.desc=将 %s\n转换为 %s
 buildcraft.help.mj_dynamo.rf_battery.title=RF 电池
 buildcraft.help.mj_dynamo.rf_battery.desc=将 %s\n转换为 %s
+gui.builder.canExcavate=采掘模式：开启时破坏现有方块，关闭时仅放置、不破坏
