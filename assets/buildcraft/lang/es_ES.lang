@@ -4,7 +4,6 @@ chat.pipe.power.iron.mode=Cambiado a %d RF/t limite
 chat.pipe.power.energyConverter=Conversión de energía: %s
 chat.pipe.power.energyConverter.from_old_to_new=De la API antigua a la nueva API
 chat.pipe.power.energyConverter.from_new_to_old=Desde la nueva API a la antigua API
-
 color.black=Negro
 color.blue=Azul
 color.brown=Marrón
@@ -21,7 +20,6 @@ color.purple=Violeta
 color.red=Rojo
 color.white=Blanco
 color.yellow=Amarillo
-
 fillerpattern.clear=Despejar
 fillerpattern.fill=Rellenar
 fillerpattern.flatten=Aplanar
@@ -31,10 +29,8 @@ fillerpattern.stairs=Escaleras
 fillerpattern.box=Caja
 fillerpattern.cylinder=Cilindro
 fillerpattern.frame=Marco
-
 fluid.oil=Petróleo
 fluid.fuel=Combustible
-
 gate.action.extraction=Extracción de %s
 gate.action.pipe.item.color=Objetos de pintura %s
 gate.action.machine.on=Encendido
@@ -43,21 +39,16 @@ gate.action.machine.loop=Ciclo
 gate.action.pulsar.constant=Pulsar de energía
 gate.action.pulsar.single=Pulso único de la energía
 gate.action.pipe.wire=%s Tubo Señal
-
 gate.expansion.fader=Redstone Atenuador
 gate.expansion.pulsar=Pulsar autárquicas
 gate.expansion.timer=Reloj temporizador
-
 gate.logic.and=Y
 gate.logic.or=O
-
 gate.material.iron=Hierro
 gate.material.gold=Oro
 gate.material.diamond=Diamante
-
 gate.name=Compuerta %s %s 
 gate.name.basic=Compuerta Básica
-
 gate.trigger.engine.blue=Motor Azul
 gate.trigger.engine.green=Motor Verde
 gate.trigger.engine.yellow=Motor Amarillo
@@ -86,7 +77,6 @@ gate.trigger.pipe.tooMuchEnergy=Energía Sobrecargada
 gate.trigger.pipe.wire.active=%s Tubo Señal ON
 gate.trigger.pipe.wire.inactive=%s Tubo Señal OFF
 gate.trigger.timer=Temporizador seg %s
-
 gui.building.resources=Construyendo recursos
 gui.del=Elim.
 gui.filling.resources=Llenando recursos
@@ -109,7 +99,6 @@ gui.pipes.emerald.nonblocking.tip=La extracción continua con el próximo elemen
 gui.pipes.emzuli.title=Ajustes de extracción
 gui.pipes.emzuli.paint=Objetos para Pintar %s
 gui.pipes.emzuli.nopaint=No Pintar los Objetos
-
 item.bucketFuel.name=Balde de Combustible
 item.bucketOil.name=Balde de Petróleo
 item.woodenGearItem.name=Engranaje de Madera
@@ -173,12 +162,10 @@ item.PipeFluidsSandstone.name=Tubería para Líquidos de Arenisca
 item.Facade.name=Fachada
 item.FacadePhased.name=Fachada escalonada
 item.PipePlug.name=Tapón para Tubería
-
 itemGroup.buildcraft.blocks=Bloques BuildCraft
 itemGroup.buildcraft.items=Objetos BuildCraft
 itemGroup.buildcraft.pipes=Tubos BuildCraft
 itemGroup.buildcraft.facades=Fachadas BuildCraft
-
 tile.architectBlock.name=Mesa de Arquitécto
 tile.assemblyTableBlock.name=Mesa de Ensamblado
 tile.assemblyWorkbenchBlock.name=Mesa de Trabajo para Ensamblaje
@@ -210,7 +197,6 @@ tile.spring.water.name=Fuente de Agua
 tile.tankBlock.name=Tanque
 tile.energyConverter.name=Convertidor de Energía
 tile.energyConverter.tooltip=Convierte energía BC entre el viejo y nuevo API de poder|Añadido para la compatibilidad con otros mods|mientras no actualicen a la nueva API de energía. |En el futuro podría ser quitado.
-
 tile.architect.rotate=Rotar: On
 tile.architect.norotate=Rotar: Off
 tile.architect.allblocks=Bloques: Todos
@@ -219,14 +205,12 @@ tile.architect.excavate=Excavar: On
 tile.architect.noexcavate=Excavar: Off
 tile.architect.supportmods=Mods: Soportados
 tile.architect.allmods=Mods: Todos
-
 tip.gate.wires=§9§oCables Compatible:
 tip.gate.wires.redstone=Rojo
 tip.gate.wires.iron=Rojo, Azul
 tip.gate.wires.gold=Rojo, Azul, Verde
 tip.gate.wires.diamond=Rojo, Azul, Verde, Amarillo
 tip.gate.expansions=§9§oExpansiones Instaladas:
-
 tip.PipeFluidsCobblestone=Tubería Básica\nNo conecta con Piedra
 tip.PipeFluidsEmerald=Tubería para Extracción
 tip.PipeFluidsGold=Tubería Básica
@@ -252,7 +236,6 @@ tip.PipeItemsEmzuli=Tubo para extracción controlado por compuerta
 tip.PipePowerWood=Tubería para Entrada de Energía
 tip.PipePowerIron=Tubería Limitadora Configurable
 tip.PipeStructureCobblestone=Tubería para Soporte
-
 achievement.woodenGearAchievement=Un poco áspero alrededor de los bordes
 achievement.woodenGearAchievement.desc=Crea un engranaje de madera
 achievement.stoneGearAchievement=Duro como una roca
@@ -295,7 +278,6 @@ achievement.templateAchievement=Bases
 achievement.templateAchievement.desc=Hacer una plantilla
 achievement.blueprintLibraryAchievement=Ideas en vivo
 achievement.blueprintLibraryAchievement.desc=Hacer una biblioteca de planos
-
 bc_update.new_version=§cNueva versión de BuildCraft disponible: %s para Minecraft %s
 bc_update.download=§cDescargar de http://www.mod-buildcraft.com/download
 bc_update.once=Este mensaje se muestra sólo una vez
@@ -305,3 +287,5 @@ bc_update.again=Tipear '/buildcraft version' si quieres volver a verlo
 command.buildcraft.version=BuildCraft %s para Minecraft %s (Ùltima versión: %s).
 command.buildcraft.versioninfo=Información de la versión.
 command.buildcraft.available=Comandos disponibles:
+buildcraft.boardRobotPicker=Selector
+buildcraft.boardRobotLumberjack=Leñador
